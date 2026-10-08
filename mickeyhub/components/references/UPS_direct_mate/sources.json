@@ -1,0 +1,20 @@
+[
+  {
+    "file": "JST_eJQ.pdf",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eJQ.pdf?6ac33d729a7b1",
+    "sha256": "2ccf8cb5c272acb6b83a4dca946435fceef13db7792b478e7ec776d2333485d8",
+    "text_extraction_exit": 0
+  },
+  {
+    "file": "Samtec_SLW_catalog.pdf",
+    "url": "https://suddendocs.samtec.com/catalog_english/slw.pdf",
+    "sha256": "7b38e874caf62e9c02a716a60db618aab8180da3ed8385de52f9dad378bb2695",
+    "text_extraction_exit": 0
+  },
+  {
+    "file": "Samtec_SLW_drawing.pdf",
+    "url": "https://suddendocs.samtec.com/prints/slw-1xx-01-x-x-mkt.pdf",
+    "sha256": "473f8ef275e529b571da934caf65e1cfac06bb38dee37c204abd78d443ea2f83",
+    "text_extraction_exit": 0
+  }
+]

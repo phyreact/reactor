@@ -1,0 +1,27 @@
+{
+  "reference": "Seeed product top photograph matching user's HLS8L-DC3V-S-C image",
+  "PCB_geometry": "Official Eagle v1.2 outline and hole positions",
+  "old_relay_envelope_mm": [
+    21.59,
+    17.272,
+    15.8
+  ],
+  "new_visual_relay_body_mm": [
+    20.2,
+    15.6,
+    15.8
+  ],
+  "XY_source": "Approximate photographic calibration against 40x20 PCB and 20mm hole-center spacing",
+  "height_source": "Manufacturer-linked HLS8-T73 family drawing; exact HLS8L unit height remains unmeasured",
+  "PCB_thickness_mm": 1.6,
+  "PCB_thickness_measured": false,
+  "connector_details": "Grove C-shaped keyed mouth and screw-terminal openings from product photo",
+  "full_vendor_STEP": false,
+  "hardware_fit_qualified": false,
+  "silk_texture_bounds_mm": [
+    -20.2,
+    -12.2,
+    22.2,
+    12.2
+  ]
+}

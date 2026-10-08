@@ -1,0 +1,97 @@
+1
+00:00:00,000 --> 00:00:08,000
+Meet mickeyhub
+
+2
+00:00:08,000 --> 00:00:14,000
+Open the enclosure
+Graphite upper cover; Graphite bottom shell; Four enclosure screws
+
+3
+00:00:14,000 --> 00:00:19,000
+Light and listening
+Transparent light ring; ReSpeaker XVF3800
+
+4
+00:00:19,000 --> 00:00:24,000
+Sound and touch
+Dual touch displays; XFDZ-3727 speaker
+
+5
+00:00:24,000 --> 00:00:29,000
+Vision and depth
+Arducam B0310; VL53L8CX ToF carrier
+
+6
+00:00:29,000 --> 00:00:35,000
+Three radar views
+Left Rd-03E radar; Right Rd-03E radar; Rear Rd-03E radar
+
+7
+00:00:35,000 --> 00:00:40,000
+Motion and heading
+Grove LSM6DS3 IMU; QMC5883L compass
+
+8
+00:00:40,000 --> 00:00:45,000
+The main computer
+Radxa ZERO 3W
+
+9
+00:00:45,000 --> 00:00:50,000
+Two controllers
+XIAO ESP32S3 Plus; XIAO RP2350
+
+10
+00:00:50,000 --> 00:00:55,000
+Status and expansion
+SSD1306 status OLED; Servo Driver HAT (B)
+
+11
+00:00:55,000 --> 00:01:00,000
+Serial routing
+UART multiplexer A; UART multiplexer B
+
+12
+00:01:00,000 --> 00:01:07,000
+Power switching
+M1 host-power relay; M2 radar-power relay; M16 main-hold relay; M17 retained relay; M15 relay interface
+
+13
+00:01:07,000 --> 00:01:13,000
+Signal interfaces
+M20 serial interface; M21 display interface; M22 retained interface; M42 fan interface
+
+14
+00:01:13,000 --> 00:01:19,000
+Stored and external power
+UPS Module 3S + battery; DC-022B input socket; Rear power-button assembly
+
+15
+00:01:19,000 --> 00:01:23,000
+Active cooling
+5010 four-wire blower
+
+16
+00:01:23,000 --> 00:01:28,000
+Power and data
+Power and data harnesses; Custom carrier PCB
+
+17
+00:01:28,000 --> 00:01:33,000
+Two internal supports
+M01 front support; M04 rear support
+
+18
+00:01:33,000 --> 00:01:39,000
+Sensor retainers
+Display retaining strip; Left radar retainer; Right radar retainer; Rear radar retainer
+
+19
+00:01:39,000 --> 00:01:45,000
+Locks and fasteners
+Light-ring locking key; Power-switch keeper; DC socket keeper; Internal screws and spacers
+
+20
+00:01:45,000 --> 00:01:51,000
+One integrated mickeyhub

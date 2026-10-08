@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "file": "media/mickeyhub-preview.gif",
+  "sha256": "c4f075fb61b4239d248e7b410dd8937463e180546e5fed2bd28d282c5a4bbf42",
+  "width": 960,
+  "height": 540,
+  "frames": 555,
+  "duration_seconds": 55.5,
+  "playback_speed": 2,
+  "looping": true,
+  "source_movie_sha256": "7be994a3447c710cb2b0628cbb1e5c61c756b89841d7f263f4cc41cce4dc812e",
+  "source_movie_in_repository": false
+}

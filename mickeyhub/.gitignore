@@ -1,0 +1,8 @@
+build/
+__pycache__/
+*.pyc
+*.blend1
+*.blend2
+*.lck
+*.kicad_prl
+.DS_Store

@@ -1,0 +1,7 @@
+{
+  "manufacturer": "Alpha and Omega Semiconductor",
+  "mpn": "AO3400A",
+  "url": "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf",
+  "sha256": "9c60d0b6c1ddc7609a4b788a91181468d8ffe6c3e9ba425c3d8ffc5ba88c5033",
+  "purpose": "3.3V gate controlled open-drain pull-down of5V ZXC module IN; not switching the load or coil directly"
+}

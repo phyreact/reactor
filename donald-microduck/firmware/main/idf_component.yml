@@ -1,0 +1,5 @@
+## Managed components for the XIAO UAC2 + CDC bridge.
+dependencies:
+  idf: ">=5.5"
+  # Pinned to the exact version the descriptors and callbacks were written against.
+  espressif/tinyusb: "==0.19.0~3"

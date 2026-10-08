@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "quantity": 0,
+  "updated_at": "2026-10-07T21:22:30.670626+00:00",
+  "decision": "Front/top voice key and all four side function keys removed",
+  "rear_independent_power_switch_retained": true,
+  "PCB_modified": false,
+  "firmware_modified": false
+}

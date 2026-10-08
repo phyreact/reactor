@@ -1,0 +1,59 @@
+1
+00:00:00,200 --> 00:00:05,617
+Meet Duck: four microphones, a camera, and a moving body. Let us rotate and open it up.
+
+2
+00:00:06,558 --> 00:00:13,935
+The lid aligns four sound entries with the microphones. Its contact lands meet the acoustic pads; bayonet features locate and retain the cover.
+
+3
+00:00:14,892 --> 00:00:22,164
+The shell supports the lid and microphone board, while packaging the computer, optics and wiring. Its blue rim and black front band stay together.
+
+4
+00:00:23,142 --> 00:00:31,539
+Four microphones sample the sound field. The audio processor combines their signals, providing processed audio and inputs for sound direction and voice activity.
+
+5
+00:00:32,517 --> 00:00:41,175
+Radxa connects to XIAO by USB for audio and control. This firmware carries sixteen kilohertz stereo audio: two processed channels from four microphones.
+
+6
+00:00:42,142 --> 00:00:49,635
+The Radxa computer runs Linux applications. It receives audio and visual input, then coordinates interaction through the robot interface.
+
+7
+00:00:50,600 --> 00:00:58,674
+The robot interface board links the host, servos and power. Its six axis sensor measures acceleration and angular velocity for body motion awareness.
+
+8
+00:00:59,642 --> 00:01:07,045
+The lens, holder and front panel position the optical assembly. Images reach the host, where applications can combine vision with hearing.
+
+9
+00:01:08,017 --> 00:01:15,568
+The speaker turns audio signals into sound. This source model shows its installation envelope; the output circuit must match the actual wiring.
+
+10
+00:01:16,517 --> 00:01:24,149
+The beak combines upper and lower parts with soft contact pieces. Brackets and bearings support the mechanism; this open pose illustrates its structure.
+
+11
+00:01:25,100 --> 00:01:32,744
+The rear battery supplies the robot through its power circuitry. Support parts retain the pack. The model does not establish capacity or runtime.
+
+12
+00:01:33,725 --> 00:01:40,904
+Fifteen smart servos move the head, neck and legs. Bus commands set targets; each servo runs local control and returns status.
+
+13
+00:01:41,850 --> 00:01:49,935
+The frame connects the body and limbs. Bearings support joints, while feet and soft soles contact the ground. Walking requires separate control software.
+
+14
+00:01:50,892 --> 00:01:59,324
+Firmware handles USB audio and device controls. Host tools display signals and voice activity events. Application hooks support further integration.
+
+15
+00:02:00,267 --> 00:02:07,644
+The modules return while Duck keeps turning: sensing, computing and interaction, with matching model sources, firmware and host code.

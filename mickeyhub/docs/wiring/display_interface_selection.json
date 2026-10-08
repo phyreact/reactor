@@ -1,0 +1,13 @@
+{
+  "interface": "UART",
+  "mainboard_ports": [
+    "J15",
+    "J53"
+  ],
+  "USB_display_connection": false,
+  "user_confirmation": "沿用当前 UART：屏幕接 J15＋J53",
+  "date": "2026-10-07",
+  "J53_purpose": "Eye module local 3V3 reference for M21 remote domain",
+  "power_domain": "+5V_AON",
+  "supersedes": "ESP32_EYES stale USB-C1 Host metadata"
+}

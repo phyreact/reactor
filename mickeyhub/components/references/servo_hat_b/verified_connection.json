@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-03T01:11:18.444373+00:00",
+  "manufacturer": "Waveshare",
+  "model": "Servo Driver HAT (B)",
+  "SKU": "17035",
+  "urls": {
+    "product": "https://www.waveshare.com/servo-driver-hat-b.htm",
+    "wiki": "https://www.waveshare.com/wiki/Servo_Driver_HAT",
+    "schematic": "https://files.waveshare.com/upload/a/a2/Servo_Driver_HAT_Schematic_.pdf"
+  },
+  "files": {
+    "product.html": {
+      "sha256": "491788ea6facd58e267699d4e3f18ad4394a64b441b9c67a21633832442449bf",
+      "bytes": 196223
+    },
+    "wiki.html": {
+      "sha256": "35ec7153ab9c81e5b8f73162802907105b9e7c06ae71a670d90652dca55c00b1",
+      "bytes": 50186
+    },
+    "manufacturer_schematic.pdf": {
+      "sha256": "37405670065d56c0778b57286f1ee2024e33a83e3d219050b453d2160a1b3423",
+      "bytes": 311940
+    }
+  },
+  "documented_supply_modes": "5V via Pi connector OR 6-12V via VIN",
+  "selected_mode": "UPS regulated 5V through P4.2 and P4.4, factory R17 intact",
+  "P4_pins": {
+    "2": "5V through R17",
+    "4": "5V through R17",
+    "6": "GND",
+    "9": "GND",
+    "3": "P_SDA",
+    "5": "P_SCL"
+  },
+  "additional_schematic_evidence": "PDF embedded net labels: PIP402/PIP404/PIR1701; PIR1702 on NL5V. PIP403/PIP203/PIPCA1027 on NLP0SDA; PIP405/PIP204/PIPCA1026 on NLP0SCL. Grounds PIP406/PIP409 on NLGND.",
+  "not_connected": [
+    "VIN P1",
+    "P4 other contacts including 3.3V",
+    "P2 auxiliary header"
+  ],
+  "carrier_mapping": {
+    "J33.1": "P4.2",
+    "J33.2": "P4.6",
+    "J33.3": "P4.4",
+    "J33.4": "P4.9",
+    "J33.5": "P4.3 SDA",
+    "J33.6": "P4.5 SCL"
+  },
+  "full40_parallel_connection_to_ZERO": false,
+  "carrier_bare_components_added": false,
+  "remaining_qualification": [
+    "servo startup/stall and total UPS current",
+    "contact/wire current and polarity at both mating faces",
+    "shared I2C harness and pullups",
+    "physical cable bend/fit"
+  ]
+}

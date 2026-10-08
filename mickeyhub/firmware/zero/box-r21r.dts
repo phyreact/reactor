@@ -1,0 +1,73 @@
+/dts-v1/;
+/plugin/;
+
+/* ZERO 3W only. Apply to the exact target DTB with fdtoverlay and verify pinmux
+ * before installation. No fixed Linux ttyS*, pwmchip*, or i2c-* numbers assumed.
+ * Pin functions checked against Linux rk3568-pinctrl.dtsi, 2026-10-06.
+ */
+/ {
+    compatible = "radxa,zero-3w", "rockchip,rk3566";
+
+    fragment@0 {
+        target = <&uart9>;
+        __overlay__ {
+            status = "okay";
+            pinctrl-names = "default";
+            pinctrl-0 = <&uart9m1_xfer>;
+        };
+    };
+    fragment@1 {
+        target = <&uart5>;
+        __overlay__ {
+            status = "okay";
+            pinctrl-names = "default";
+            pinctrl-0 = <&uart5m1_xfer>;
+        };
+    };
+    fragment@2 {
+        target = <&i2c4>;
+        __overlay__ {
+            status = "okay";
+            pinctrl-names = "default";
+            pinctrl-0 = <&i2c4m0_xfer>;
+            clock-frequency = <400000>;
+        };
+    };
+    fragment@3 {
+        target = <&pwm14>;
+        __overlay__ {
+            status = "okay";
+            pinctrl-names = "default";
+            pinctrl-0 = <&pwm14m0_pins>;
+        };
+    };
+    fragment@4 {
+        target = <&pinctrl>;
+        __overlay__ {
+            box-r21r {
+                box_hat_i2c: hat-i2c {
+                    /* Header 3/5 = GPIO1_A0/A1, function 0. */
+                    rockchip,pins = <1 0 0 &pcfg_pull_none>,
+                                    <1 1 0 &pcfg_pull_none>;
+                };
+            };
+        };
+    };
+    fragment@5 {
+        target-path = "/";
+        __overlay__ {
+            box_hat_bus: i2c-box-hat {
+                compatible = "i2c-gpio";
+                #address-cells = <1>;
+                #size-cells = <0>;
+                /* GPIO_ACTIVE_HIGH | GPIO_OPEN_DRAIN = 6 */
+                sda-gpios = <&gpio1 0 6>;
+                scl-gpios = <&gpio1 1 6>;
+                i2c-gpio,delay-us = <5>;
+                pinctrl-names = "default";
+                pinctrl-0 = <&box_hat_i2c>;
+                status = "okay";
+            };
+        };
+    };
+};

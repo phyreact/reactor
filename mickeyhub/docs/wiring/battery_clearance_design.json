@@ -1,0 +1,17 @@
+{
+  "status": "CAD_CLEARANCE_REVIEW_NOT_PHYSICAL_FIT_RELEASE",
+  "assembly_object": "UPS with existing battery holder and cells",
+  "allowance_per_face_mm": [1.0, 1.0, 0.5],
+  "basis": "User requested slight battery size variation and bottom foam shimming space. Allowance is an engineering assumption around the existing complete UPS/holder/cell assembly.",
+  "mounting_interface": "Existing UPS mounting holes and intended mounting hardware remain fixed; allowance does not enlarge the battery holder's internal cell dimensions.",
+  "floor_top_z_mm": 10.4,
+  "foam_candidate_regions_mm": [
+    [[0.0, -22.0, 10.4], [16.0, 2.0, 12.4]],
+    [[4.0, 20.0, 10.4], [20.0, 30.0, 12.4]]
+  ],
+  "foam_note": "Optional footprints on the removable flat cradle. Reserve up to 2mm compressed thickness including adhesive; choose actual thickness after measuring and confirm contact with insulated holder. Keep clear of screws, wiring and airflow. Foam does not replace stack fasteners.",
+  "side_vents": {
+    "enabled": false,
+    "decision": "User cancelled the proposed symmetric side vents; retain front and rear openings only."
+  }
+}

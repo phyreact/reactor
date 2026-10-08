@@ -1,0 +1,460 @@
+{
+  "passed": true,
+  "model_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "model_file": "assembly.blend",
+  "removed_fragile_regions": [
+    {
+      "region": "right unsupported foil",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "region": "left unsupported foil",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "region": "speaker clearance membrane",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "region": "left unsupported front foil",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "region": "right unsupported front foil",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "region": "unused rear blade below broadened edge",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "region": "unused rear blade above broadened edge",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "side_screw_recess_rims": [
+    {
+      "side": -1,
+      "measured_mm": 1.8223599763587117,
+      "minimum_mm": 1.5,
+      "passed": true
+    },
+    {
+      "side": 1,
+      "measured_mm": 1.7498679226264358,
+      "minimum_mm": 1.5,
+      "passed": true
+    }
+  ],
+  "left_radar_keeper_inner_ligaments": [
+    {
+      "y_mm": -32.6,
+      "measured_mm": 3.8500131340697408,
+      "minimum_mm": 1.7,
+      "passed": true
+    },
+    {
+      "y_mm": -0.4,
+      "measured_mm": 3.8500133669003844,
+      "minimum_mm": 1.7,
+      "passed": true
+    }
+  ],
+  "front_bearing_grids": [
+    {
+      "centre_xy_mm": [
+        -47.15,
+        41
+      ],
+      "nine_grid_thicknesses_mm": [
+        4.399999976158142,
+        4.400000208988786,
+        4.399999743327498,
+        4.399999976158142,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.399999743327498
+      ],
+      "column_footprint_sample_radius_mm": 2.9,
+      "column_footprint_thicknesses_mm": [
+        4.399999976158142,
+        4.399999976158142,
+        4.399999976158142,
+        4.400000208988786,
+        4.399999743327498,
+        4.399999976158142,
+        4.400000208988786,
+        4.399999976158142,
+        4.400000441819429,
+        4.399999976158142,
+        4.400000208988786,
+        4.399999976158142,
+        4.399999976158142,
+        4.399999976158142,
+        4.400000208988786,
+        4.399999976158142,
+        4.400000441819429,
+        4.400000441819429,
+        4.399999976158142,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.399999976158142,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000441819429,
+        4.400000441819429,
+        4.400000208988786,
+        4.400000208988786
+      ],
+      "passed": true
+    },
+    {
+      "centre_xy_mm": [
+        44.85,
+        41
+      ],
+      "nine_grid_thicknesses_mm": [
+        4.400000441819429,
+        4.400000441819429,
+        6.199900293722749,
+        4.400000208988786,
+        4.400000208988786,
+        6.199900060892105,
+        4.399999976158142,
+        4.400000208988786,
+        6.199900060892105
+      ],
+      "column_footprint_sample_radius_mm": 2.9,
+      "column_footprint_thicknesses_mm": [
+        4.400000441819429,
+        4.400000208988786,
+        4.399999976158142,
+        4.399999976158142,
+        4.399999976158142,
+        4.399999976158142,
+        4.399999976158142,
+        4.400000208988786,
+        4.400000441819429,
+        4.400000208988786,
+        4.399999976158142,
+        4.399999976158142,
+        4.399999743327498,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.399999976158142,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.400000208988786,
+        4.399999976158142,
+        4.399999976158142,
+        4.400000208988786,
+        4.400000208988786
+      ],
+      "passed": true
+    }
+  ],
+  "local_edge_reinforcement_v2": [
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -63.5,
+        38
+      ],
+      "measured_mm": 9.850366972386837,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -63.5,
+        40
+      ],
+      "measured_mm": 3.349987557157874,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -63.5,
+        43
+      ],
+      "measured_mm": 3.349987673573196,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -63.5,
+        45
+      ],
+      "measured_mm": 3.3499877899885178,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -62.3,
+        38
+      ],
+      "measured_mm": 8.300000336021185,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -62.3,
+        40
+      ],
+      "measured_mm": 3.1999899074435234,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -62.3,
+        43
+      ],
+      "measured_mm": 3.1999899074435234,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -62.3,
+        45
+      ],
+      "measured_mm": 3.199989558197558,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -61.1,
+        38
+      ],
+      "measured_mm": 8.300000336021185,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -61.1,
+        40
+      ],
+      "measured_mm": 3.1999899074435234,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -61.1,
+        43
+      ],
+      "measured_mm": 3.1999900238588452,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "power_window_left_edge",
+      "point_mm": [
+        -11.4,
+        -61.1,
+        45
+      ],
+      "measured_mm": 3.1999897910282016,
+      "minimum_mm": 3.18,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        -20,
+        47.25,
+        14
+      ],
+      "measured_mm": 2.9999969992786646,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        -20,
+        47.75,
+        14
+      ],
+      "measured_mm": 2.9999965336173773,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        -10,
+        47.25,
+        14
+      ],
+      "measured_mm": 2.9999817488715053,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        -10,
+        47.75,
+        14
+      ],
+      "measured_mm": 2.999981865286827,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        0,
+        47.25,
+        14
+      ],
+      "measured_mm": 2.999981981702149,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        0,
+        47.75,
+        14
+      ],
+      "measured_mm": 2.9999820981174707,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        10,
+        47.25,
+        14
+      ],
+      "measured_mm": 2.9999817488715053,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        10,
+        47.75,
+        14
+      ],
+      "measured_mm": 2.9999817488715053,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        20,
+        47.25,
+        14
+      ],
+      "measured_mm": 2.9999975813552737,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        20,
+        47.75,
+        14
+      ],
+      "measured_mm": 2.999997464939952,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        25,
+        47.25,
+        14
+      ],
+      "measured_mm": 2.999997464939952,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "widened_existing_speaker_edge",
+      "point_mm": [
+        25,
+        47.75,
+        14
+      ],
+      "measured_mm": 2.9999975813552737,
+      "minimum_mm": 2.98,
+      "passed": true
+    },
+    {
+      "feature": "obsolete_blower_fence_blade_removed",
+      "remaining_volume_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "physical_fit_qualified": false,
+  "former_blade_replaced_with_broad_edge": {
+    "z_range_mm": [
+      35.5,
+      46
+    ],
+    "reason": "Former narrow slice lies inside new full-width power edge; independently measured in local_edge_reinforcement_v2"
+  },
+  "scope": "Independent-review locations: removed foil volume, side head recess edge thickness, left cap hole ligaments, minimum material in 8x8mm front bearing grids, and flat seats sampled within a 2.9mm radius around AF5 columns. Not whole-part minimum thickness, strength or acoustic qualification."
+}

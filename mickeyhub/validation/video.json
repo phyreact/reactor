@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "checks": {
+    "full_frame_sequence": true,
+    "resolution_1920_1080": true,
+    "frame_rate_24": true,
+    "all_frames_encoded": true,
+    "duration_111_seconds": true,
+    "all_chapters_encoded": true,
+    "h264_video": true
+  },
+  "movie": "${REACTOR_ROOT}/memory_backups/videos/mickeyhub/mickeyhub-animation.mp4",
+  "movie_sha256": "7be994a3447c710cb2b0628cbb1e5c61c756b89841d7f263f4cc41cce4dc812e",
+  "movie_bytes": 20174767,
+  "source_model_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+  "animation_model_sha256": "e325adfdb63517103a50cfd31d8b4b25a3e188fecd09e7bff3fb327ffb8ceae7",
+  "frames": 2664,
+  "fps": 24,
+  "duration_seconds": 111.0,
+  "English_labelled_assemblies": 46,
+  "audio": "No audio; English on-screen text",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "chapters": 20,
+  "visual_review_complete": true,
+  "encoded_video_review_seconds": [
+    3,
+    110
+  ],
+  "rendered_frame_review": [
+    1,
+    240,
+    1000,
+    2000,
+    2500
+  ],
+  "storage": "local_backup",
+  "included_in_repository": false,
+  "animation_model_in_repository": false
+}

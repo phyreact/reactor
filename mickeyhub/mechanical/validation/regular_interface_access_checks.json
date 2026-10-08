@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "object": "IMU Grove惯性传感器",
+      "sample_Z_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16,
+        30,
+        50
+      ],
+      "collisions": []
+    },
+    {
+      "object": "左 radar removable top keeper",
+      "sample_Z_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16,
+        30,
+        50
+      ],
+      "collisions": []
+    },
+    {
+      "object": "右 radar removable top keeper",
+      "sample_Z_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16,
+        30,
+        50
+      ],
+      "collisions": []
+    },
+    {
+      "object": "后 radar removable top keeper",
+      "sample_Z_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16,
+        30,
+        50
+      ],
+      "collisions": []
+    },
+    {
+      "object": "Power DC nut removable keeper",
+      "sample_Z_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16,
+        30,
+        50
+      ],
+      "collisions": []
+    },
+    {
+      "object": "LCD retainer plus fitted ToF subassembly",
+      "sample_Z_mm": [
+        0.2,
+        0.5,
+        1,
+        2,
+        4,
+        8,
+        16,
+        30,
+        50
+      ],
+      "collisions": []
+    }
+  ],
+  "model_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "physical_fit_qualified": false,
+  "scope": "Nominal upward removal samples with cover and rear service parts removed, connectors unplugged and retaining screws removed. Includes moved IMU board, radar/DC retaining bars and LCD frame with attached ToF. No full hand/tool envelope or resin deformation qualification."
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8">
+<title>Mickey Hub component catalog</title>
+<style>body{max-width:1120px;margin:48px auto;padding:0 24px;background:#f2f3f5;color:#252b31;font:16px/1.6 system-ui}h1{font-size:34px}table{border-collapse:collapse;width:100%;background:white}th,td{padding:13px 16px;text-align:left;border-bottom:1px solid #d8dce0}a{color:#365e73}</style>
+<h1>Mickey Hub component catalog</h1>
+<p>46 assembly units with English descriptions and dimensions in millimetres.
+Inspect their geometry in the <a href="../mickeyhub.blend">final integrated Blender assembly</a>.
+The <a href="catalog.json">JSON catalog</a> records source-object names and assembly centres;
+a <a href="catalog.csv">CSV version</a> is also included.
+Individual GLB exports are archived locally. Board-level surface-mount parts remain grouped with their parent assembly.</p>
+<table><thead><tr><th>Assembly unit</th><th>Purpose</th><th>Size X × Y × Z (mm)</th></tr></thead><tbody>
+<tr><td>Graphite upper cover</td><td>Protects the electronics and carries the roof interface.</td><td>136.0 × 140.0 × 62.5</td></tr>
+<tr><td>Graphite bottom shell</td><td>The separate lower enclosure and mounting foundation.</td><td>136.0 × 140.0 × 9.2</td></tr>
+<tr><td>Four enclosure screws</td><td>Secure the upper cover to the bottom shell.</td><td>121.5 × 95.9 × 14.4</td></tr>
+<tr><td>Transparent light ring</td><td>The flush optical ring sits on the widened bearing seat.</td><td>86.0 × 86.0 × 4.6</td></tr>
+<tr><td>ReSpeaker XVF3800</td><td>Roof-mounted microphone array and USB audio interface.</td><td>101.8 × 106.6 × 11.5</td></tr>
+<tr><td>Dual touch displays</td><td>The front display assembly connects through UART.</td><td>93.5 × 8.6 × 36.5</td></tr>
+<tr><td>XFDZ-3727 speaker</td><td>The front speaker reproduces audio from ReSpeaker.</td><td>50.0 × 27.4 × 9.0</td></tr>
+<tr><td>Arducam B0310</td><td>The front camera connects to the host through CSI.</td><td>25.0 × 19.1 × 26.1</td></tr>
+<tr><td>VL53L8CX ToF carrier</td><td>The front optical module is intended for depth sensing.</td><td>33.5 × 12.7 × 12.1</td></tr>
+<tr><td>Left Rd-03E radar</td><td>A separate radar module faces the left side.</td><td>5.1 × 28.0 × 29.0</td></tr>
+<tr><td>Right Rd-03E radar</td><td>A separate radar module faces the right side.</td><td>5.1 × 28.0 × 29.0</td></tr>
+<tr><td>Rear Rd-03E radar</td><td>The third radar module faces the rear.</td><td>28.0 × 5.1 × 29.0</td></tr>
+<tr><td>Grove LSM6DS3 IMU</td><td>The six-axis inertial module measures motion.</td><td>20.0 × 12.6 × 23.8</td></tr>
+<tr><td>QMC5883L compass</td><td>The horizontal compass module senses magnetic heading.</td><td>23.6 × 39.2 × 11.0</td></tr>
+<tr><td>Radxa ZERO 3W</td><td>The main Linux computer handles host applications.</td><td>31.5 × 65.0 × 18.3</td></tr>
+<tr><td>XIAO ESP32S3 Plus</td><td>A microcontroller provides peripheral coordination.</td><td>17.8 × 22.6 × 13.2</td></tr>
+<tr><td>XIAO RP2350</td><td>A microcontroller handles power and control logic.</td><td>17.8 × 23.1 × 13.2</td></tr>
+<tr><td>SSD1306 status OLED</td><td>A small internal display is available for status output.</td><td>28.0 × 27.2 × 10.3</td></tr>
+<tr><td>Servo Driver HAT (B)</td><td>The board is retained as an expansion interface.</td><td>38.6 × 65.0 × 18.7</td></tr>
+<tr><td>UART multiplexer A</td><td>Routes one group of serial connections.</td><td>20.3 × 15.2 × 11.8</td></tr>
+<tr><td>UART multiplexer B</td><td>Routes a second group of serial connections.</td><td>20.3 × 15.2 × 11.8</td></tr>
+<tr><td>M1 host-power relay</td><td>Switches the host-side power domain.</td><td>8.6 × 29.4 × 6.8</td></tr>
+<tr><td>M2 radar-power relay</td><td>Switches the radar power domain.</td><td>8.6 × 29.4 × 6.8</td></tr>
+<tr><td>M16 main-hold relay</td><td>Maintains the existing main-power holding path.</td><td>29.4 × 8.6 × 6.8</td></tr>
+<tr><td>M17 retained relay</td><td>Its previous ToF power output is currently unused.</td><td>29.4 × 8.5 × 6.8</td></tr>
+<tr><td>M15 relay interface</td><td>Interfaces the control electronics to the relay bank.</td><td>15.2 × 13.4 × 2.1</td></tr>
+<tr><td>M20 serial interface</td><td>A board-level serial isolation module.</td><td>10.1 × 21.0 × 3.5</td></tr>
+<tr><td>M21 display interface</td><td>Provides the display-side serial interface.</td><td>10.1 × 21.0 × 3.5</td></tr>
+<tr><td>M22 retained interface</td><td>The legacy serial interface is retained but unused.</td><td>10.1 × 21.0 × 3.5</td></tr>
+<tr><td>M42 fan interface</td><td>The board-level interface carries the fan control signal.</td><td>12.7 × 10.2 × 2.8</td></tr>
+<tr><td>UPS Module 3S + battery</td><td>The UPS board, holder and cells form one power assembly.</td><td>60.3 × 93.0 × 25.3</td></tr>
+<tr><td>DC-022B input socket</td><td>The rear DC socket feeds the UPS charging input.</td><td>11.3 × 18.0 × 13.0</td></tr>
+<tr><td>Rear power-button assembly</td><td>Cap, pusher and provisional switch mounting hardware.</td><td>16.5 × 16.4 × 14.5</td></tr>
+<tr><td>5010 four-wire blower</td><td>The selected 5 V blower has PWM control and FG feedback.</td><td>50.0 × 11.0 × 53.8</td></tr>
+<tr><td>Power and data harnesses</td><td>Power, UART, I2C, USB, audio and CSI connections.</td><td>120.4 × 126.0 × 55.8</td></tr>
+<tr><td>Custom carrier PCB</td><td>The board carries connectors, copper routing and interfaces.</td><td>103.7 × 93.0 × 22.2</td></tr>
+<tr><td>M01 front support</td><td>A separate printed support positions the front devices.</td><td>109.0 × 55.2 × 61.0</td></tr>
+<tr><td>M04 rear support</td><td>The rear support also carries the left and right radars.</td><td>130.6 × 76.0 × 57.0</td></tr>
+<tr><td>Display retaining strip</td><td>Holds the display assembly in its support.</td><td>101.2 × 6.0 × 11.9</td></tr>
+<tr><td>Left radar retainer</td><td>Clamps the left radar into its mounting seat.</td><td>7.8 × 38.0 × 3.6</td></tr>
+<tr><td>Right radar retainer</td><td>Clamps the right radar into its mounting seat.</td><td>7.8 × 38.0 × 3.6</td></tr>
+<tr><td>Rear radar retainer</td><td>Clamps the rear radar into its mounting seat.</td><td>38.0 × 7.8 × 3.6</td></tr>
+<tr><td>Light-ring locking key</td><td>The removable key prevents the transparent ring turning.</td><td>21.9 × 6.8 × 6.6</td></tr>
+<tr><td>Power-switch keeper</td><td>Retains the provisional rear switch assembly.</td><td>18.8 × 8.7 × 5.1</td></tr>
+<tr><td>DC socket keeper</td><td>Retains the rear socket nut within the support.</td><td>24.0 × 4.4 × 4.6</td></tr>
+<tr><td>Internal screws and spacers</td><td>Mounting screws, nuts and stand-offs secure the assembly.</td><td>126.4 × 113.8 × 57.8</td></tr>
+</tbody></table></html>

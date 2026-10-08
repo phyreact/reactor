@@ -1,0 +1,4426 @@
+{
+  "passed": true,
+  "model_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "baseline_sha256": "d7ea15fe9bc745cad872c5b77d9593b8bfa352bbf14d96daab0c17b901346969",
+  "unchanged_geometry": [
+    {
+      "name": "BASE separate open washable pan",
+      "passed": true
+    },
+    {
+      "name": "Bottom case M3x12 screw",
+      "passed": true
+    },
+    {
+      "name": "Bottom case M3x12 screw.001",
+      "passed": true
+    },
+    {
+      "name": "Bottom case M3x12 screw.002",
+      "passed": true
+    },
+    {
+      "name": "Bottom case M3x12 screw.003",
+      "passed": true
+    },
+    {
+      "name": "CAMERA_B0310",
+      "passed": true
+    },
+    {
+      "name": "CENTRED long-press button",
+      "passed": true
+    },
+    {
+      "name": "COMPASS HS-S75-L horizontal PCB 33x23",
+      "passed": true
+    },
+    {
+      "name": "COMPASS PH2.0 mating plug",
+      "passed": true
+    },
+    {
+      "name": "COMPASS QMC5883L sensor",
+      "passed": true
+    },
+    {
+      "name": "COMPASS capacitor",
+      "passed": true
+    },
+    {
+      "name": "COMPASS nylon M3 washer",
+      "passed": true
+    },
+    {
+      "name": "COMPASS nylon M3 washer.001",
+      "passed": true
+    },
+    {
+      "name": "COMPASS nylon M3x6 screw nominal envelope",
+      "passed": true
+    },
+    {
+      "name": "COMPASS nylon M3x6 screw nominal envelope.001",
+      "passed": true
+    },
+    {
+      "name": "COMPASS power LED",
+      "passed": true
+    },
+    {
+      "name": "COMPASS rear-facing PH2.0 4P socket",
+      "passed": true
+    },
+    {
+      "name": "COMPASS regulator",
+      "passed": true
+    },
+    {
+      "name": "COMPASS resistor bank",
+      "passed": true
+    },
+    {
+      "name": "COMPASS resistor bank.001",
+      "passed": true
+    },
+    {
+      "name": "COOLER",
+      "passed": true
+    },
+    {
+      "name": "DC centre contact",
+      "passed": true
+    },
+    {
+      "name": "DC nut visual envelope",
+      "passed": true
+    },
+    {
+      "name": "DC removable bonded spacer",
+      "passed": true
+    },
+    {
+      "name": "DC terminals exposed inwards",
+      "passed": true
+    },
+    {
+      "name": "DC terminals exposed inwards.001",
+      "passed": true
+    },
+    {
+      "name": "DC-022B panel jack",
+      "passed": true
+    },
+    {
+      "name": "ESP32_EYES",
+      "passed": true
+    },
+    {
+      "name": "FAN_5010",
+      "passed": true
+    },
+    {
+      "name": "FAN_DOWN_ADAPTER",
+      "passed": true
+    },
+    {
+      "name": "FASTENER_ZERO_BOTTOM_0",
+      "passed": true
+    },
+    {
+      "name": "FASTENER_ZERO_BOTTOM_1",
+      "passed": true
+    },
+    {
+      "name": "H1 base mount screw",
+      "passed": true
+    },
+    {
+      "name": "H1 base mount screw head",
+      "passed": true
+    },
+    {
+      "name": "H1 base mount washer",
+      "passed": true
+    },
+    {
+      "name": "H1 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "H1 lower base spacer - height provisional",
+      "passed": true
+    },
+    {
+      "name": "H1 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "H1 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "H3 base mount screw",
+      "passed": true
+    },
+    {
+      "name": "H3 base mount screw head",
+      "passed": true
+    },
+    {
+      "name": "H3 base mount washer",
+      "passed": true
+    },
+    {
+      "name": "H3 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "H3 lower base spacer - height provisional",
+      "passed": true
+    },
+    {
+      "name": "H3 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "H3 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "HALO M2 nut envelope",
+      "passed": true
+    },
+    {
+      "name": "HALO M2x5 screw envelope",
+      "passed": true
+    },
+    {
+      "name": "HALO removable rigid anti-rotation key",
+      "passed": true
+    },
+    {
+      "name": "HAT aligned with current J33",
+      "passed": true
+    },
+    {
+      "name": "Hidden bottom case screw head",
+      "passed": true
+    },
+    {
+      "name": "Hidden bottom case screw head.001",
+      "passed": true
+    },
+    {
+      "name": "Hidden bottom case screw head.002",
+      "passed": true
+    },
+    {
+      "name": "Hidden bottom case screw head.003",
+      "passed": true
+    },
+    {
+      "name": "IMU Grove惯性传感器",
+      "passed": true
+    },
+    {
+      "name": "INTERNAL power button keyed pusher",
+      "passed": true
+    },
+    {
+      "name": "J1 XH base",
+      "passed": true
+    },
+    {
+      "name": "J1 XH contact",
+      "passed": true
+    },
+    {
+      "name": "J1 XH contact.001",
+      "passed": true
+    },
+    {
+      "name": "J1 XH front center",
+      "passed": true
+    },
+    {
+      "name": "J1 XH front left",
+      "passed": true
+    },
+    {
+      "name": "J1 XH front right",
+      "passed": true
+    },
+    {
+      "name": "J1 XH left wall",
+      "passed": true
+    },
+    {
+      "name": "J1 XH rear wall",
+      "passed": true
+    },
+    {
+      "name": "J1 XH right wall",
+      "passed": true
+    },
+    {
+      "name": "J12 remote radar Grove J17 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J12 remote radar Grove J17 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J13 remote radar Grove J17 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J13 remote radar Grove J17 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J14 remote radar Grove J17 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J14 remote radar Grove J17 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J15 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J15 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J16 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J16 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J17 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J17 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J19 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J19 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_1",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_10",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_11",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_12",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_13",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_14",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_15",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_16",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_17",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_18",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_19",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_2",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_20",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_21",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_22",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_23",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_24",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_25",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_26",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_27",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_28",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_29",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_3",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_30",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_31",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_32",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_33",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_34",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_35",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_36",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_37",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_38",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_39",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_4",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_40",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_41",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_42",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_43",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_44",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_45",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_46",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_47",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_48",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_49",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_5",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_50",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_51",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_52",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_53",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_54",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_55",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_56",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_57",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_58",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_59",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_6",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_60",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_61",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_62",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_63",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_64",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_65",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_66",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_67",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_68",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_69",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_7",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_70",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_71",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_72",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_73",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_74",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_75",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_76",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_77",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_78",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_79",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_8",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_80",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_81",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_82",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_83",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_84",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_85",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_86",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_87",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_88",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_89",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_9",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_90",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_91",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_92",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_93",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_94",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_95",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_96",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_97",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_98",
+      "passed": true
+    },
+    {
+      "name": "J2 keyed four-pin fan SHAPE_99",
+      "passed": true
+    },
+    {
+      "name": "J3 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J3 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J33 40 actual mating posts and solder tails",
+      "passed": true
+    },
+    {
+      "name": "J33 Harwin M20-9982046 full 2x20 male housing",
+      "passed": true
+    },
+    {
+      "name": "J34 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J34 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J35 socket contact housing 1",
+      "passed": true
+    },
+    {
+      "name": "J35 socket contact housing 2",
+      "passed": true
+    },
+    {
+      "name": "J35 socket contact housing 3",
+      "passed": true
+    },
+    {
+      "name": "J35 socket contact housing 4",
+      "passed": true
+    },
+    {
+      "name": "J35 socket end wall",
+      "passed": true
+    },
+    {
+      "name": "J35 socket end wall.001",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.001",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.002",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.003",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.004",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.005",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.006",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.007",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.008",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.009",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.010",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.011",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.012",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.013",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.014",
+      "passed": true
+    },
+    {
+      "name": "J35 socket entry rim.015",
+      "passed": true
+    },
+    {
+      "name": "J35 solder tail 1",
+      "passed": true
+    },
+    {
+      "name": "J35 solder tail 2",
+      "passed": true
+    },
+    {
+      "name": "J35 solder tail 3",
+      "passed": true
+    },
+    {
+      "name": "J35 solder tail 4",
+      "passed": true
+    },
+    {
+      "name": "J36 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J36 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J37 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J37 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J38 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J38 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J39 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J39 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J40 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J40 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J41 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J41 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J42 XH base",
+      "passed": true
+    },
+    {
+      "name": "J42 XH contact",
+      "passed": true
+    },
+    {
+      "name": "J42 XH contact.001",
+      "passed": true
+    },
+    {
+      "name": "J42 XH front center",
+      "passed": true
+    },
+    {
+      "name": "J42 XH front left",
+      "passed": true
+    },
+    {
+      "name": "J42 XH front right",
+      "passed": true
+    },
+    {
+      "name": "J42 XH left wall",
+      "passed": true
+    },
+    {
+      "name": "J42 XH rear wall",
+      "passed": true
+    },
+    {
+      "name": "J42 XH right wall",
+      "passed": true
+    },
+    {
+      "name": "J44 XH base",
+      "passed": true
+    },
+    {
+      "name": "J44 XH contact",
+      "passed": true
+    },
+    {
+      "name": "J44 XH contact.001",
+      "passed": true
+    },
+    {
+      "name": "J44 XH front center",
+      "passed": true
+    },
+    {
+      "name": "J44 XH front left",
+      "passed": true
+    },
+    {
+      "name": "J44 XH front right",
+      "passed": true
+    },
+    {
+      "name": "J44 XH left wall",
+      "passed": true
+    },
+    {
+      "name": "J44 XH rear wall",
+      "passed": true
+    },
+    {
+      "name": "J44 XH right wall",
+      "passed": true
+    },
+    {
+      "name": "J46 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J46 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J47 contacts and3mm solder tails",
+      "passed": true
+    },
+    {
+      "name": "J47 keyed Grove receptacle",
+      "passed": true
+    },
+    {
+      "name": "J50 Harwin 24P housing",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.001",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.002",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.003",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.004",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.005",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.006",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.007",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.008",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.009",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.010",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.011",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.012",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.013",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.014",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.015",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.016",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.017",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.018",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.019",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.020",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.021",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.022",
+      "passed": true
+    },
+    {
+      "name": "J50 SMT termination.023",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.001",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.002",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.003",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.004",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.005",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.006",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.007",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.008",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.009",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.010",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.011",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.012",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.013",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.014",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.015",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.016",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.017",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.018",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.019",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.020",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.021",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.022",
+      "passed": true
+    },
+    {
+      "name": "J50 mating contact.023",
+      "passed": true
+    },
+    {
+      "name": "J51 XH base",
+      "passed": true
+    },
+    {
+      "name": "J51 XH contact",
+      "passed": true
+    },
+    {
+      "name": "J51 XH contact.001",
+      "passed": true
+    },
+    {
+      "name": "J51 XH front center",
+      "passed": true
+    },
+    {
+      "name": "J51 XH front left",
+      "passed": true
+    },
+    {
+      "name": "J51 XH front right",
+      "passed": true
+    },
+    {
+      "name": "J51 XH left wall",
+      "passed": true
+    },
+    {
+      "name": "J51 XH rear wall",
+      "passed": true
+    },
+    {
+      "name": "J51 XH right wall",
+      "passed": true
+    },
+    {
+      "name": "J52 Harwin 24P housing",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.001",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.002",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.003",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.004",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.005",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.006",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.007",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.008",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.009",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.010",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.011",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.012",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.013",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.014",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.015",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.016",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.017",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.018",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.019",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.020",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.021",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.022",
+      "passed": true
+    },
+    {
+      "name": "J52 SMT termination.023",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.001",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.002",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.003",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.004",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.005",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.006",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.007",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.008",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.009",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.010",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.011",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.012",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.013",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.014",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.015",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.016",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.017",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.018",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.019",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.020",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.021",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.022",
+      "passed": true
+    },
+    {
+      "name": "J52 mating contact.023",
+      "passed": true
+    },
+    {
+      "name": "J53 eyes reference housing",
+      "passed": true
+    },
+    {
+      "name": "J53 reference contact",
+      "passed": true
+    },
+    {
+      "name": "J53 reference contact.001",
+      "passed": true
+    },
+    {
+      "name": "JP1 RP shunt",
+      "passed": true
+    },
+    {
+      "name": "JP1 S3 shunt",
+      "passed": true
+    },
+    {
+      "name": "JP1 connector envelope",
+      "passed": true
+    },
+    {
+      "name": "JP1 header pins",
+      "passed": true
+    },
+    {
+      "name": "LCD left M2x6 reference clearance span",
+      "passed": true
+    },
+    {
+      "name": "LCD left M2x6 reference head",
+      "passed": true
+    },
+    {
+      "name": "LCD left M2x6 reference pilot engagement",
+      "passed": true
+    },
+    {
+      "name": "LCD narrow retaining strip",
+      "passed": true
+    },
+    {
+      "name": "LCD right M2x6 reference clearance span",
+      "passed": true
+    },
+    {
+      "name": "LCD right M2x6 reference head",
+      "passed": true
+    },
+    {
+      "name": "LCD right M2x6 reference pilot engagement",
+      "passed": true
+    },
+    {
+      "name": "M01 M3x6 internal screw",
+      "passed": true
+    },
+    {
+      "name": "M01 M3x6 internal screw.001",
+      "passed": true
+    },
+    {
+      "name": "M01 accessible low screw head",
+      "passed": true
+    },
+    {
+      "name": "M01 accessible low screw head.001",
+      "passed": true
+    },
+    {
+      "name": "M01 independent front integrated support",
+      "passed": true
+    },
+    {
+      "name": "M01 internally accessible M3 nut",
+      "passed": true
+    },
+    {
+      "name": "M01 internally accessible M3 nut.001",
+      "passed": true
+    },
+    {
+      "name": "M04 M3x6 internal screw",
+      "passed": true
+    },
+    {
+      "name": "M04 M3x6 internal screw.001",
+      "passed": true
+    },
+    {
+      "name": "M04 M3x6 internal screw.002",
+      "passed": true
+    },
+    {
+      "name": "M04 M3x6 internal screw.003",
+      "passed": true
+    },
+    {
+      "name": "M04 accessible low screw head",
+      "passed": true
+    },
+    {
+      "name": "M04 accessible low screw head.001",
+      "passed": true
+    },
+    {
+      "name": "M04 accessible low screw head.002",
+      "passed": true
+    },
+    {
+      "name": "M04 accessible low screw head.003",
+      "passed": true
+    },
+    {
+      "name": "M04 internally accessible M3 nut",
+      "passed": true
+    },
+    {
+      "name": "M04 internally accessible M3 nut.001",
+      "passed": true
+    },
+    {
+      "name": "M04 internally accessible M3 nut.002",
+      "passed": true
+    },
+    {
+      "name": "M04 internally accessible M3 nut.003",
+      "passed": true
+    },
+    {
+      "name": "M04 rear support with integrated left and right radar frames",
+      "passed": true
+    },
+    {
+      "name": "M1 PCB nominal outline",
+      "passed": true
+    },
+    {
+      "name": "M1 drive circuit illustration",
+      "passed": true
+    },
+    {
+      "name": "M1 drive circuit illustration.001",
+      "passed": true
+    },
+    {
+      "name": "M1 drive circuit illustration.002",
+      "passed": true
+    },
+    {
+      "name": "M1 module terminal land",
+      "passed": true
+    },
+    {
+      "name": "M1 module terminal land.001",
+      "passed": true
+    },
+    {
+      "name": "M1 module terminal land.002",
+      "passed": true
+    },
+    {
+      "name": "M1 module terminal land.003",
+      "passed": true
+    },
+    {
+      "name": "M1 module terminal land.004",
+      "passed": true
+    },
+    {
+      "name": "M1 module terminal land.005",
+      "passed": true
+    },
+    {
+      "name": "M1 relay case illustrative",
+      "passed": true
+    },
+    {
+      "name": "M15 assembled channel illustration",
+      "passed": true
+    },
+    {
+      "name": "M15 assembled channel illustration.001",
+      "passed": true
+    },
+    {
+      "name": "M15 assembled channel illustration.002",
+      "passed": true
+    },
+    {
+      "name": "M15 assembled channel illustration.003",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.001",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.002",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.003",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.004",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.005",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.006",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.007",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.008",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.009",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.010",
+      "passed": true
+    },
+    {
+      "name": "M15 module terminal land.011",
+      "passed": true
+    },
+    {
+      "name": "M15 nominal board outline",
+      "passed": true
+    },
+    {
+      "name": "M16 PCB nominal outline",
+      "passed": true
+    },
+    {
+      "name": "M16 drive circuit illustration",
+      "passed": true
+    },
+    {
+      "name": "M16 drive circuit illustration.001",
+      "passed": true
+    },
+    {
+      "name": "M16 drive circuit illustration.002",
+      "passed": true
+    },
+    {
+      "name": "M16 module terminal land",
+      "passed": true
+    },
+    {
+      "name": "M16 module terminal land.001",
+      "passed": true
+    },
+    {
+      "name": "M16 module terminal land.002",
+      "passed": true
+    },
+    {
+      "name": "M16 module terminal land.003",
+      "passed": true
+    },
+    {
+      "name": "M16 module terminal land.004",
+      "passed": true
+    },
+    {
+      "name": "M16 module terminal land.005",
+      "passed": true
+    },
+    {
+      "name": "M16 relay case illustrative",
+      "passed": true
+    },
+    {
+      "name": "M17 PCB nominal outline",
+      "passed": true
+    },
+    {
+      "name": "M17 drive circuit illustration",
+      "passed": true
+    },
+    {
+      "name": "M17 drive circuit illustration.001",
+      "passed": true
+    },
+    {
+      "name": "M17 drive circuit illustration.002",
+      "passed": true
+    },
+    {
+      "name": "M17 module terminal land",
+      "passed": true
+    },
+    {
+      "name": "M17 module terminal land.001",
+      "passed": true
+    },
+    {
+      "name": "M17 module terminal land.002",
+      "passed": true
+    },
+    {
+      "name": "M17 module terminal land.003",
+      "passed": true
+    },
+    {
+      "name": "M17 module terminal land.004",
+      "passed": true
+    },
+    {
+      "name": "M17 module terminal land.005",
+      "passed": true
+    },
+    {
+      "name": "M17 relay case illustrative",
+      "passed": true
+    },
+    {
+      "name": "M2 PCB nominal outline",
+      "passed": true
+    },
+    {
+      "name": "M2 drive circuit illustration",
+      "passed": true
+    },
+    {
+      "name": "M2 drive circuit illustration.001",
+      "passed": true
+    },
+    {
+      "name": "M2 drive circuit illustration.002",
+      "passed": true
+    },
+    {
+      "name": "M2 module terminal land",
+      "passed": true
+    },
+    {
+      "name": "M2 module terminal land.001",
+      "passed": true
+    },
+    {
+      "name": "M2 module terminal land.002",
+      "passed": true
+    },
+    {
+      "name": "M2 module terminal land.003",
+      "passed": true
+    },
+    {
+      "name": "M2 module terminal land.004",
+      "passed": true
+    },
+    {
+      "name": "M2 module terminal land.005",
+      "passed": true
+    },
+    {
+      "name": "M2 relay case illustrative",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead.001",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead.002",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead.003",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead.004",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead.005",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead.006",
+      "passed": true
+    },
+    {
+      "name": "M20 IC lead.007",
+      "passed": true
+    },
+    {
+      "name": "M20 SOIC8",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land.001",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land.002",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land.003",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land.004",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land.005",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land.006",
+      "passed": true
+    },
+    {
+      "name": "M20 carrier land.007",
+      "passed": true
+    },
+    {
+      "name": "M20 complete module PCB",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact.001",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact.002",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact.003",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact.004",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact.005",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact.006",
+      "passed": true
+    },
+    {
+      "name": "M20 short solder contact.007",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead.001",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead.002",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead.003",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead.004",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead.005",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead.006",
+      "passed": true
+    },
+    {
+      "name": "M21 IC lead.007",
+      "passed": true
+    },
+    {
+      "name": "M21 SOIC8",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land.001",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land.002",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land.003",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land.004",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land.005",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land.006",
+      "passed": true
+    },
+    {
+      "name": "M21 carrier land.007",
+      "passed": true
+    },
+    {
+      "name": "M21 complete module PCB",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact.001",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact.002",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact.003",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact.004",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact.005",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact.006",
+      "passed": true
+    },
+    {
+      "name": "M21 short solder contact.007",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead.001",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead.002",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead.003",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead.004",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead.005",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead.006",
+      "passed": true
+    },
+    {
+      "name": "M22 IC lead.007",
+      "passed": true
+    },
+    {
+      "name": "M22 SOIC8",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land.001",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land.002",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land.003",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land.004",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land.005",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land.006",
+      "passed": true
+    },
+    {
+      "name": "M22 carrier land.007",
+      "passed": true
+    },
+    {
+      "name": "M22 complete module PCB",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact.001",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact.002",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact.003",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact.004",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact.005",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact.006",
+      "passed": true
+    },
+    {
+      "name": "M22 short solder contact.007",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.001",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.002",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.003",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.004",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.005",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.006",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.007",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.008",
+      "passed": true
+    },
+    {
+      "name": "M42 carrier land.009",
+      "passed": true
+    },
+    {
+      "name": "M42 complete module PCB",
+      "passed": true
+    },
+    {
+      "name": "M42 driver envelope",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.001",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.002",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.003",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.004",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.005",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.006",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.007",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.008",
+      "passed": true
+    },
+    {
+      "name": "M42 short solder contact.009",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS1 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS1 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS1 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS2 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS2 coaxial upper stud",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS2 lower base spacer - height provisional",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS2 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS2 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS3 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS3 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS3 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS4 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS4 coaxial upper stud",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS4 lower base spacer - height provisional",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS4 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "MH_UPS4 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_ZERO:1 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_ZERO:1 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "MH_ZERO:1 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_ZERO:2 bottom exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MH_ZERO:2 plated hole wall",
+      "passed": true
+    },
+    {
+      "name": "MH_ZERO:2 top exposed copper",
+      "passed": true
+    },
+    {
+      "name": "MIC_SCREW_1",
+      "passed": true
+    },
+    {
+      "name": "MIC_SCREW_2",
+      "passed": true
+    },
+    {
+      "name": "MIC_SCREW_3",
+      "passed": true
+    },
+    {
+      "name": "MIC_SEAL_1",
+      "passed": true
+    },
+    {
+      "name": "MIC_SEAL_2",
+      "passed": true
+    },
+    {
+      "name": "MIC_SEAL_3",
+      "passed": true
+    },
+    {
+      "name": "MIC_SEAL_4",
+      "passed": true
+    },
+    {
+      "name": "Module assembly - routing copper not shown",
+      "passed": true
+    },
+    {
+      "name": "OLED illustrative male contact 1",
+      "passed": true
+    },
+    {
+      "name": "OLED illustrative male contact 2",
+      "passed": true
+    },
+    {
+      "name": "OLED illustrative male contact 3",
+      "passed": true
+    },
+    {
+      "name": "OLED illustrative male contact 4",
+      "passed": true
+    },
+    {
+      "name": "OLED male header insulator 1",
+      "passed": true
+    },
+    {
+      "name": "OLED male header insulator 2",
+      "passed": true
+    },
+    {
+      "name": "OLED male header insulator 3",
+      "passed": true
+    },
+    {
+      "name": "OLED male header insulator 4",
+      "passed": true
+    },
+    {
+      "name": "OLED nominal PCB 27.178 x 27.94",
+      "passed": true
+    },
+    {
+      "name": "OLED nominal screen glass",
+      "passed": true
+    },
+    {
+      "name": "PLUG_RESPEAKER",
+      "passed": true
+    },
+    {
+      "name": "PLUG_RESPEAKER_SPK",
+      "passed": true
+    },
+    {
+      "name": "POST_ZERO_UNDERSIDE_0",
+      "passed": true
+    },
+    {
+      "name": "POST_ZERO_UNDERSIDE_1",
+      "passed": true
+    },
+    {
+      "name": "Power DC keeper M2 head",
+      "passed": true
+    },
+    {
+      "name": "Power DC keeper M2 head.001",
+      "passed": true
+    },
+    {
+      "name": "Power DC nut removable keeper",
+      "passed": true
+    },
+    {
+      "name": "Power cap removable M3x8 bolt",
+      "passed": true
+    },
+    {
+      "name": "Power pusher bonded M3 insert envelope",
+      "passed": true
+    },
+    {
+      "name": "Power switch keeper M2 head",
+      "passed": true
+    },
+    {
+      "name": "Power switch keeper M2 head.001",
+      "passed": true
+    },
+    {
+      "name": "Power switch removable keeper",
+      "passed": true
+    },
+    {
+      "name": "Purchased long-press PCB",
+      "passed": true
+    },
+    {
+      "name": "RADXA_H1",
+      "passed": true
+    },
+    {
+      "name": "RESPEAKER",
+      "passed": true
+    },
+    {
+      "name": "SOCKET_UART_MUX_A",
+      "passed": true
+    },
+    {
+      "name": "SOCKET_UART_MUX_B",
+      "passed": true
+    },
+    {
+      "name": "SOCKET_XIAO_PLUS",
+      "passed": true
+    },
+    {
+      "name": "SOCKET_XIAO_RP2350",
+      "passed": true
+    },
+    {
+      "name": "SPEAKER_3727",
+      "passed": true
+    },
+    {
+      "name": "SSW-120-01-G-D contacts and solder tails",
+      "passed": true
+    },
+    {
+      "name": "SSW-120-01-G-D dimensioned socket body",
+      "passed": true
+    },
+    {
+      "name": "Switch back electronics allowance",
+      "passed": true
+    },
+    {
+      "name": "Tactile actuator",
+      "passed": true
+    },
+    {
+      "name": "Tactile switch envelope",
+      "passed": true
+    },
+    {
+      "name": "UART_MUX_A",
+      "passed": true
+    },
+    {
+      "name": "UART_MUX_B",
+      "passed": true
+    },
+    {
+      "name": "UPS with existing battery holder and cells",
+      "passed": true
+    },
+    {
+      "name": "UPS1 6mm brass spacer",
+      "passed": true
+    },
+    {
+      "name": "UPS1 lower M2.5 head",
+      "passed": true
+    },
+    {
+      "name": "UPS1 lower insulating washer",
+      "passed": true
+    },
+    {
+      "name": "UPS1 lower screw",
+      "passed": true
+    },
+    {
+      "name": "UPS1 motherboard washer",
+      "passed": true
+    },
+    {
+      "name": "UPS1 upper M2.5 head",
+      "passed": true
+    },
+    {
+      "name": "UPS1 upper screw",
+      "passed": true
+    },
+    {
+      "name": "UPS2 6mm brass spacer",
+      "passed": true
+    },
+    {
+      "name": "UPS2 lower insulating washer",
+      "passed": true
+    },
+    {
+      "name": "UPS2 motherboard washer",
+      "passed": true
+    },
+    {
+      "name": "UPS2 upper M2.5 head",
+      "passed": true
+    },
+    {
+      "name": "UPS2 upper screw",
+      "passed": true
+    },
+    {
+      "name": "UPS3 6mm brass spacer",
+      "passed": true
+    },
+    {
+      "name": "UPS3 lower M2.5 head",
+      "passed": true
+    },
+    {
+      "name": "UPS3 lower insulating washer",
+      "passed": true
+    },
+    {
+      "name": "UPS3 lower screw",
+      "passed": true
+    },
+    {
+      "name": "UPS3 motherboard washer",
+      "passed": true
+    },
+    {
+      "name": "UPS3 upper M2.5 head",
+      "passed": true
+    },
+    {
+      "name": "UPS3 upper screw",
+      "passed": true
+    },
+    {
+      "name": "UPS4 6mm brass spacer",
+      "passed": true
+    },
+    {
+      "name": "UPS4 lower insulating washer",
+      "passed": true
+    },
+    {
+      "name": "UPS4 motherboard washer",
+      "passed": true
+    },
+    {
+      "name": "UPS4 upper M2.5 head",
+      "passed": true
+    },
+    {
+      "name": "UPS4 upper screw",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX emitter receiver",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX emitter receiver.001",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX front M2 ear screw head",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX front M2 ear screw head.001",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.001",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.002",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.003",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.004",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.005",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.006",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.007",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX plated signal pad.008",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX rear component envelope",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX rear component envelope.001",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX rear component envelope.002",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX red carrier with two fixing ears",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX sensor 6.4x3x1.75",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.001",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.002",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.003",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.004",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.005",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.006",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.007",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX straight header pin.008",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX supplied optical cap",
+      "passed": true
+    },
+    {
+      "name": "VL53L8CX supplied straight header insulator",
+      "passed": true
+    },
+    {
+      "name": "XIAO_PLUS",
+      "passed": true
+    },
+    {
+      "name": "XIAO_RP2350",
+      "passed": true
+    },
+    {
+      "name": "ZERO M2 support fastener",
+      "passed": true
+    },
+    {
+      "name": "ZERO M2 support fastener.001",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header insulating body",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header solder leg",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header solder leg.001",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header solder leg.002",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header solder leg.003",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header solder leg.004",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header vertical leg",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header vertical leg.001",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header vertical leg.002",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header vertical leg.003",
+      "passed": true
+    },
+    {
+      "name": "右 optional Bent header vertical leg.004",
+      "passed": true
+    },
+    {
+      "name": "右 original Rd-03E wired radar",
+      "passed": true
+    },
+    {
+      "name": "右 radar removable top keeper",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header insulating body",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header solder leg",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header solder leg.001",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header solder leg.002",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header solder leg.003",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header solder leg.004",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header vertical leg",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header vertical leg.001",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header vertical leg.002",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header vertical leg.003",
+      "passed": true
+    },
+    {
+      "name": "后 optional Bent header vertical leg.004",
+      "passed": true
+    },
+    {
+      "name": "后 original Rd-03E wired radar",
+      "passed": true
+    },
+    {
+      "name": "后 radar removable top keeper",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header insulating body",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header solder leg",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header solder leg.001",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header solder leg.002",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header solder leg.003",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header solder leg.004",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header vertical leg",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header vertical leg.001",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header vertical leg.002",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header vertical leg.003",
+      "passed": true
+    },
+    {
+      "name": "左 optional Bent header vertical leg.004",
+      "passed": true
+    },
+    {
+      "name": "左 original Rd-03E wired radar",
+      "passed": true
+    },
+    {
+      "name": "左 radar removable top keeper",
+      "passed": true
+    }
+  ],
+  "added_material": [
+    {
+      "name": "COVER one large cap with roof ReSpeaker screw mounts",
+      "topology": {
+        "nonmanifold_edges": 0,
+        "connected_components": 444,
+        "volume_mm3": 1658.675989234922
+      },
+      "bounds_mm": [
+        [
+          -66.46946716308594,
+          -68.46945190429688,
+          67.1989974975586
+        ],
+        [
+          66.46946716308594,
+          68.46945190429688,
+          70.5
+        ]
+      ]
+    },
+    {
+      "name": "HALO printable translucent ring",
+      "topology": {
+        "nonmanifold_edges": 0,
+        "connected_components": 51,
+        "volume_mm3": 412.7662446556007
+      },
+      "bounds_mm": [
+        [
+          -43.0,
+          -43.0,
+          67.1989974975586
+        ],
+        [
+          43.0,
+          43.0,
+          70.5
+        ]
+      ]
+    }
+  ],
+  "static_collisions": [],
+  "lid_motion": [
+    {
+      "index": 0,
+      "forward_y_mm": 0.0,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 1,
+      "forward_y_mm": 0.1,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 2,
+      "forward_y_mm": 0.2,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 3,
+      "forward_y_mm": 0.3,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 4,
+      "forward_y_mm": 0.4,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 5,
+      "forward_y_mm": 0.5,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 6,
+      "forward_y_mm": 0.6,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 7,
+      "forward_y_mm": 0.7,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 8,
+      "forward_y_mm": 0.8,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 9,
+      "forward_y_mm": 0.9,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 10,
+      "forward_y_mm": 1.0,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 11,
+      "forward_y_mm": 1.1,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 12,
+      "forward_y_mm": 1.2,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 13,
+      "forward_y_mm": 1.3,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 14,
+      "forward_y_mm": 1.4,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 15,
+      "forward_y_mm": 1.5,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 16,
+      "forward_y_mm": 1.6,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 17,
+      "forward_y_mm": 1.7,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 18,
+      "forward_y_mm": 1.8,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 19,
+      "forward_y_mm": 1.9,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 20,
+      "forward_y_mm": 2.0,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 21,
+      "forward_y_mm": 2.1,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 22,
+      "forward_y_mm": 2.2,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 23,
+      "forward_y_mm": 2.3,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 24,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "index": 25,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 0.1,
+      "collisions": []
+    },
+    {
+      "index": 26,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 0.2,
+      "collisions": []
+    },
+    {
+      "index": 27,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 0.4,
+      "collisions": []
+    },
+    {
+      "index": 28,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 0.6,
+      "collisions": []
+    },
+    {
+      "index": 29,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 0.8,
+      "collisions": []
+    },
+    {
+      "index": 30,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 1.0,
+      "collisions": []
+    },
+    {
+      "index": 31,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 1.2,
+      "collisions": []
+    },
+    {
+      "index": 32,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 1.4,
+      "collisions": []
+    },
+    {
+      "index": 33,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 1.6,
+      "collisions": []
+    },
+    {
+      "index": 34,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 1.8,
+      "collisions": []
+    },
+    {
+      "index": 35,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 2.0,
+      "collisions": []
+    },
+    {
+      "index": 36,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 3.0,
+      "collisions": []
+    },
+    {
+      "index": 37,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 4.0,
+      "collisions": []
+    },
+    {
+      "index": 38,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 5.0,
+      "collisions": []
+    },
+    {
+      "index": 39,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 6.0,
+      "collisions": []
+    },
+    {
+      "index": 40,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 7.0,
+      "collisions": []
+    },
+    {
+      "index": 41,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 8.0,
+      "collisions": []
+    },
+    {
+      "index": 42,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 9.0,
+      "collisions": []
+    },
+    {
+      "index": 43,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 10.0,
+      "collisions": []
+    },
+    {
+      "index": 44,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 11.0,
+      "collisions": []
+    },
+    {
+      "index": 45,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 12.0,
+      "collisions": []
+    },
+    {
+      "index": 46,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 13.0,
+      "collisions": []
+    },
+    {
+      "index": 47,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 14.0,
+      "collisions": []
+    },
+    {
+      "index": 48,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 15.0,
+      "collisions": []
+    },
+    {
+      "index": 49,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 16.0,
+      "collisions": []
+    },
+    {
+      "index": 50,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 17.0,
+      "collisions": []
+    },
+    {
+      "index": 51,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 18.0,
+      "collisions": []
+    },
+    {
+      "index": 52,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 19.0,
+      "collisions": []
+    },
+    {
+      "index": 53,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 20.0,
+      "collisions": []
+    },
+    {
+      "index": 54,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 21.0,
+      "collisions": []
+    },
+    {
+      "index": 55,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 22.0,
+      "collisions": []
+    },
+    {
+      "index": 56,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 23.0,
+      "collisions": []
+    },
+    {
+      "index": 57,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 24.0,
+      "collisions": []
+    },
+    {
+      "index": 58,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 25.0,
+      "collisions": []
+    },
+    {
+      "index": 59,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 26.0,
+      "collisions": []
+    },
+    {
+      "index": 60,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 27.0,
+      "collisions": []
+    },
+    {
+      "index": 61,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 28.0,
+      "collisions": []
+    },
+    {
+      "index": 62,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 29.0,
+      "collisions": []
+    },
+    {
+      "index": 63,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 30.0,
+      "collisions": []
+    },
+    {
+      "index": 64,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 31.0,
+      "collisions": []
+    },
+    {
+      "index": 65,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 32.0,
+      "collisions": []
+    },
+    {
+      "index": 66,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 33.0,
+      "collisions": []
+    },
+    {
+      "index": 67,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 34.0,
+      "collisions": []
+    },
+    {
+      "index": 68,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 35.0,
+      "collisions": []
+    },
+    {
+      "index": 69,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 36.0,
+      "collisions": []
+    },
+    {
+      "index": 70,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 37.0,
+      "collisions": []
+    },
+    {
+      "index": 71,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 38.0,
+      "collisions": []
+    },
+    {
+      "index": 72,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 39.0,
+      "collisions": []
+    },
+    {
+      "index": 73,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 40.0,
+      "collisions": []
+    },
+    {
+      "index": 74,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 41.0,
+      "collisions": []
+    },
+    {
+      "index": 75,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 42.0,
+      "collisions": []
+    },
+    {
+      "index": 76,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 43.0,
+      "collisions": []
+    },
+    {
+      "index": 77,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 44.0,
+      "collisions": []
+    },
+    {
+      "index": 78,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 45.0,
+      "collisions": []
+    },
+    {
+      "index": 79,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 46.0,
+      "collisions": []
+    },
+    {
+      "index": 80,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 47.0,
+      "collisions": []
+    },
+    {
+      "index": 81,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 48.0,
+      "collisions": []
+    },
+    {
+      "index": 82,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 49.0,
+      "collisions": []
+    },
+    {
+      "index": 83,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 50.0,
+      "collisions": []
+    },
+    {
+      "index": 84,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 51.0,
+      "collisions": []
+    },
+    {
+      "index": 85,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 52.0,
+      "collisions": []
+    },
+    {
+      "index": 86,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 53.0,
+      "collisions": []
+    },
+    {
+      "index": 87,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 54.0,
+      "collisions": []
+    },
+    {
+      "index": 88,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 55.0,
+      "collisions": []
+    },
+    {
+      "index": 89,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 56.0,
+      "collisions": []
+    },
+    {
+      "index": 90,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 57.0,
+      "collisions": []
+    },
+    {
+      "index": 91,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 58.0,
+      "collisions": []
+    },
+    {
+      "index": 92,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 59.0,
+      "collisions": []
+    },
+    {
+      "index": 93,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 60.0,
+      "collisions": []
+    },
+    {
+      "index": 94,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 61.0,
+      "collisions": []
+    },
+    {
+      "index": 95,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 62.0,
+      "collisions": []
+    },
+    {
+      "index": 96,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 63.0,
+      "collisions": []
+    },
+    {
+      "index": 97,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 64.0,
+      "collisions": []
+    },
+    {
+      "index": 98,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 65.0,
+      "collisions": []
+    },
+    {
+      "index": 99,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 66.0,
+      "collisions": []
+    },
+    {
+      "index": 100,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 67.0,
+      "collisions": []
+    },
+    {
+      "index": 101,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 68.0,
+      "collisions": []
+    },
+    {
+      "index": 102,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 69.0,
+      "collisions": []
+    },
+    {
+      "index": 103,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 70.0,
+      "collisions": []
+    },
+    {
+      "index": 104,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 71.0,
+      "collisions": []
+    },
+    {
+      "index": 105,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 72.0,
+      "collisions": []
+    },
+    {
+      "index": 106,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 73.0,
+      "collisions": []
+    },
+    {
+      "index": 107,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 74.0,
+      "collisions": []
+    },
+    {
+      "index": 108,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 75.0,
+      "collisions": []
+    },
+    {
+      "index": 109,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 76.0,
+      "collisions": []
+    },
+    {
+      "index": 110,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 77.0,
+      "collisions": []
+    },
+    {
+      "index": 111,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 78.0,
+      "collisions": []
+    },
+    {
+      "index": 112,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 79.0,
+      "collisions": []
+    },
+    {
+      "index": 113,
+      "forward_y_mm": 2.4,
+      "lift_z_mm": 80.0,
+      "collisions": []
+    }
+  ],
+  "checks": {
+    "visible_mesh_names_identical": {
+      "passed": true
+    },
+    "all_other_geometry_and_poses_identical": {
+      "passed": true,
+      "count": 710
+    },
+    "closed_single_solid_COVER one large cap with roof ReSpeaker screw mounts": {
+      "passed": true
+    },
+    "added_material_is_closed_COVER one large cap with roof ReSpeaker screw mounts": {
+      "passed": true
+    },
+    "new_material_above_existing_connectors_COVER one large cap with roof ReSpeaker screw mounts": {
+      "passed": true,
+      "roof_slab_plane_mm": 67.199,
+      "float_coordinate_allowance_mm": 1e-05
+    },
+    "closed_single_solid_HALO printable translucent ring": {
+      "passed": true
+    },
+    "added_material_is_closed_HALO printable translucent ring": {
+      "passed": true
+    },
+    "new_material_above_existing_connectors_HALO printable translucent ring": {
+      "passed": true,
+      "roof_slab_plane_mm": 67.199,
+      "float_coordinate_allowance_mm": 1e-05
+    },
+    "added_material_has_no_new_static_interference": {
+      "passed": true,
+      "threshold_mm3": 0.001
+    },
+    "co_moving_parts_have_no_new_static_interference": {
+      "passed": true,
+      "threshold_mm3": 0.08
+    },
+    "four_case_screws_removed_before_lid_motion": {
+      "passed": true,
+      "full_screws": [
+        "Bottom case M3x12 screw",
+        "Bottom case M3x12 screw.001",
+        "Bottom case M3x12 screw.002",
+        "Bottom case M3x12 screw.003"
+      ],
+      "extra_legacy_head_meshes": [
+        "Hidden bottom case screw head",
+        "Hidden bottom case screw head.001",
+        "Hidden bottom case screw head.002",
+        "Hidden bottom case screw head.003"
+      ]
+    },
+    "complete_new_cover_and_halo_clear_114_lid_poses": {
+      "passed": true,
+      "threshold_mm3": 0.08,
+      "fixed_targets": 682
+    },
+    "roof_and_ring_flush_at_70p5": {
+      "passed": true,
+      "top_z_mm": [
+        70.50000131130219,
+        70.50000131130219
+      ]
+    },
+    "native_and_baseline_not_saved": {
+      "passed": true
+    }
+  },
+  "topology": {
+    "COVER one large cap with roof ReSpeaker screw mounts": {
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 95122.06337084666
+    },
+    "HALO printable translucent ring": {
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 3237.542270425693
+    }
+  },
+  "lower_surface_comparison": [
+    {
+      "object": "COVER one large cap with roof ReSpeaker screw mounts",
+      "sampled_native_surface_points": 49718,
+      "max_distance_mm": 0.0555692968191579,
+      "max_projection_from_mesh_record_to_own_surface_mm": 0.06874672544654459,
+      "disposition": "Informational: complete new bodies are rechecked; no unchanged-lower-surface claim."
+    },
+    {
+      "object": "HALO printable translucent ring",
+      "sampled_native_surface_points": 614,
+      "max_distance_mm": 8.535712581192456e-06,
+      "max_projection_from_mesh_record_to_own_surface_mm": 8.535712581192456e-06,
+      "disposition": "Informational: complete new bodies are rechecked; no unchanged-lower-surface claim."
+    }
+  ],
+  "co_moving_static": [
+    {
+      "source": "COVER one large cap with roof ReSpeaker screw mounts",
+      "target": "MIC_SCREW_3",
+      "baseline_mm3": 1.9932010503181001,
+      "current_mm3": 1.9931986082434798,
+      "increase_mm3": -2.4420746203013266e-06
+    },
+    {
+      "source": "COVER one large cap with roof ReSpeaker screw mounts",
+      "target": "MIC_SCREW_2",
+      "baseline_mm3": 1.9931920116265005,
+      "current_mm3": 1.9931816165294083,
+      "increase_mm3": -1.039509709221953e-05
+    },
+    {
+      "source": "COVER one large cap with roof ReSpeaker screw mounts",
+      "target": "MIC_SCREW_1",
+      "baseline_mm3": 1.9931884340649944,
+      "current_mm3": 1.993188359477761,
+      "increase_mm3": -7.458723327857797e-08
+    }
+  ],
+  "case_screws_removed_before_lid_motion": [
+    "Hidden bottom case screw head",
+    "Bottom case M3x12 screw",
+    "Hidden bottom case screw head.001",
+    "Bottom case M3x12 screw.001",
+    "Hidden bottom case screw head.002",
+    "Bottom case M3x12 screw.002",
+    "Hidden bottom case screw head.003",
+    "Bottom case M3x12 screw.003"
+  ],
+  "lid_fixed_targets": [
+    "M01 M3x6 internal screw",
+    "M01 accessible low screw head",
+    "M01 internally accessible M3 nut",
+    "M01 M3x6 internal screw.001",
+    "M01 accessible low screw head.001",
+    "M01 internally accessible M3 nut.001",
+    "M04 M3x6 internal screw",
+    "M04 accessible low screw head",
+    "M04 internally accessible M3 nut",
+    "M04 M3x6 internal screw.001",
+    "M04 accessible low screw head.001",
+    "M04 internally accessible M3 nut.001",
+    "M04 M3x6 internal screw.002",
+    "M04 accessible low screw head.002",
+    "M04 internally accessible M3 nut.002",
+    "M04 M3x6 internal screw.003",
+    "M04 accessible low screw head.003",
+    "M04 internally accessible M3 nut.003",
+    "LCD left M2x6 reference head",
+    "LCD left M2x6 reference clearance span",
+    "LCD left M2x6 reference pilot engagement",
+    "LCD right M2x6 reference head",
+    "LCD right M2x6 reference clearance span",
+    "LCD right M2x6 reference pilot engagement",
+    "ZERO M2 support fastener.001",
+    "ZERO M2 support fastener",
+    "XIAO_RP2350",
+    "XIAO_PLUS",
+    "UPS4 upper screw",
+    "UPS4 upper M2.5 head",
+    "UPS4 motherboard washer",
+    "UPS4 lower insulating washer",
+    "UPS4 6mm brass spacer",
+    "UPS3 upper screw",
+    "UPS3 upper M2.5 head",
+    "UPS3 motherboard washer",
+    "UPS3 lower screw",
+    "UPS3 lower M2.5 head",
+    "UPS3 lower insulating washer",
+    "UPS3 6mm brass spacer",
+    "UPS2 upper screw",
+    "UPS2 upper M2.5 head",
+    "UPS2 motherboard washer",
+    "UPS2 lower insulating washer",
+    "UPS2 6mm brass spacer",
+    "UPS1 upper screw",
+    "UPS1 upper M2.5 head",
+    "UPS1 motherboard washer",
+    "UPS1 lower screw",
+    "UPS1 lower M2.5 head",
+    "UPS1 lower insulating washer",
+    "UPS1 6mm brass spacer",
+    "UART_MUX_B",
+    "UART_MUX_A",
+    "SSW-120-01-G-D dimensioned socket body",
+    "SSW-120-01-G-D contacts and solder tails",
+    "SOCKET_XIAO_RP2350",
+    "SOCKET_XIAO_PLUS",
+    "SOCKET_UART_MUX_B",
+    "SOCKET_UART_MUX_A",
+    "RADXA_H1",
+    "POST_ZERO_UNDERSIDE_1",
+    "POST_ZERO_UNDERSIDE_0",
+    "OLED nominal screen glass",
+    "OLED nominal PCB 27.178 x 27.94",
+    "OLED male header insulator 4",
+    "OLED male header insulator 3",
+    "OLED male header insulator 2",
+    "OLED male header insulator 1",
+    "OLED illustrative male contact 4",
+    "OLED illustrative male contact 3",
+    "OLED illustrative male contact 2",
+    "OLED illustrative male contact 1",
+    "Module assembly - routing copper not shown",
+    "MH_ZERO:2 top exposed copper",
+    "MH_ZERO:2 plated hole wall",
+    "MH_ZERO:2 bottom exposed copper",
+    "MH_ZERO:1 top exposed copper",
+    "MH_ZERO:1 plated hole wall",
+    "MH_ZERO:1 bottom exposed copper",
+    "MH_UPS4 top exposed copper",
+    "MH_UPS4 plated hole wall",
+    "MH_UPS4 coaxial upper stud",
+    "MH_UPS4 bottom exposed copper",
+    "MH_UPS3 top exposed copper",
+    "MH_UPS3 plated hole wall",
+    "MH_UPS3 bottom exposed copper",
+    "MH_UPS2 top exposed copper",
+    "MH_UPS2 plated hole wall",
+    "MH_UPS2 coaxial upper stud",
+    "MH_UPS2 bottom exposed copper",
+    "MH_UPS1 top exposed copper",
+    "MH_UPS1 plated hole wall",
+    "MH_UPS1 bottom exposed copper",
+    "M42 short solder contact.009",
+    "M42 short solder contact.008",
+    "M42 short solder contact.007",
+    "M42 short solder contact.006",
+    "M42 short solder contact.005",
+    "M42 short solder contact.004",
+    "M42 short solder contact.003",
+    "M42 short solder contact.002",
+    "M42 short solder contact.001",
+    "M42 short solder contact",
+    "M42 driver envelope",
+    "M42 complete module PCB",
+    "M42 carrier land.009",
+    "M42 carrier land.008",
+    "M42 carrier land.007",
+    "M42 carrier land.006",
+    "M42 carrier land.005",
+    "M42 carrier land.004",
+    "M42 carrier land.003",
+    "M42 carrier land.002",
+    "M42 carrier land.001",
+    "M42 carrier land",
+    "M22 SOIC8",
+    "M22 short solder contact.007",
+    "M22 short solder contact.006",
+    "M22 short solder contact.005",
+    "M22 short solder contact.004",
+    "M22 short solder contact.003",
+    "M22 short solder contact.002",
+    "M22 short solder contact.001",
+    "M22 short solder contact",
+    "M22 IC lead.007",
+    "M22 IC lead.006",
+    "M22 IC lead.005",
+    "M22 IC lead.004",
+    "M22 IC lead.003",
+    "M22 IC lead.002",
+    "M22 IC lead.001",
+    "M22 IC lead",
+    "M22 complete module PCB",
+    "M22 carrier land.007",
+    "M22 carrier land.006",
+    "M22 carrier land.005",
+    "M22 carrier land.004",
+    "M22 carrier land.003",
+    "M22 carrier land.002",
+    "M22 carrier land.001",
+    "M22 carrier land",
+    "M21 SOIC8",
+    "M21 short solder contact.007",
+    "M21 short solder contact.006",
+    "M21 short solder contact.005",
+    "M21 short solder contact.004",
+    "M21 short solder contact.003",
+    "M21 short solder contact.002",
+    "M21 short solder contact.001",
+    "M21 short solder contact",
+    "M21 IC lead.007",
+    "M21 IC lead.006",
+    "M21 IC lead.005",
+    "M21 IC lead.004",
+    "M21 IC lead.003",
+    "M21 IC lead.002",
+    "M21 IC lead.001",
+    "M21 IC lead",
+    "M21 complete module PCB",
+    "M21 carrier land.007",
+    "M21 carrier land.006",
+    "M21 carrier land.005",
+    "M21 carrier land.004",
+    "M21 carrier land.003",
+    "M21 carrier land.002",
+    "M21 carrier land.001",
+    "M21 carrier land",
+    "M20 SOIC8",
+    "M20 short solder contact.007",
+    "M20 short solder contact.006",
+    "M20 short solder contact.005",
+    "M20 short solder contact.004",
+    "M20 short solder contact.003",
+    "M20 short solder contact.002",
+    "M20 short solder contact.001",
+    "M20 short solder contact",
+    "M20 IC lead.007",
+    "M20 IC lead.006",
+    "M20 IC lead.005",
+    "M20 IC lead.004",
+    "M20 IC lead.003",
+    "M20 IC lead.002",
+    "M20 IC lead.001",
+    "M20 IC lead",
+    "M20 complete module PCB",
+    "M20 carrier land.007",
+    "M20 carrier land.006",
+    "M20 carrier land.005",
+    "M20 carrier land.004",
+    "M20 carrier land.003",
+    "M20 carrier land.002",
+    "M20 carrier land.001",
+    "M20 carrier land",
+    "M2 relay case illustrative",
+    "M2 PCB nominal outline",
+    "M2 module terminal land.005",
+    "M2 module terminal land.004",
+    "M2 module terminal land.003",
+    "M2 module terminal land.002",
+    "M2 module terminal land.001",
+    "M2 module terminal land",
+    "M2 drive circuit illustration.002",
+    "M2 drive circuit illustration.001",
+    "M2 drive circuit illustration",
+    "M17 relay case illustrative",
+    "M17 PCB nominal outline",
+    "M17 module terminal land.005",
+    "M17 module terminal land.004",
+    "M17 module terminal land.003",
+    "M17 module terminal land.002",
+    "M17 module terminal land.001",
+    "M17 module terminal land",
+    "M17 drive circuit illustration.002",
+    "M17 drive circuit illustration.001",
+    "M17 drive circuit illustration",
+    "M16 relay case illustrative",
+    "M16 PCB nominal outline",
+    "M16 module terminal land.005",
+    "M16 module terminal land.004",
+    "M16 module terminal land.003",
+    "M16 module terminal land.002",
+    "M16 module terminal land.001",
+    "M16 module terminal land",
+    "M16 drive circuit illustration.002",
+    "M16 drive circuit illustration.001",
+    "M16 drive circuit illustration",
+    "M15 nominal board outline",
+    "M15 module terminal land.011",
+    "M15 module terminal land.010",
+    "M15 module terminal land.009",
+    "M15 module terminal land.008",
+    "M15 module terminal land.007",
+    "M15 module terminal land.006",
+    "M15 module terminal land.005",
+    "M15 module terminal land.004",
+    "M15 module terminal land.003",
+    "M15 module terminal land.002",
+    "M15 module terminal land.001",
+    "M15 module terminal land",
+    "M15 assembled channel illustration.003",
+    "M15 assembled channel illustration.002",
+    "M15 assembled channel illustration.001",
+    "M15 assembled channel illustration",
+    "M1 relay case illustrative",
+    "M1 PCB nominal outline",
+    "M1 module terminal land.005",
+    "M1 module terminal land.004",
+    "M1 module terminal land.003",
+    "M1 module terminal land.002",
+    "M1 module terminal land.001",
+    "M1 module terminal land",
+    "M1 drive circuit illustration.002",
+    "M1 drive circuit illustration.001",
+    "M1 drive circuit illustration",
+    "JP1 S3 shunt",
+    "JP1 RP shunt",
+    "JP1 header pins",
+    "JP1 connector envelope",
+    "J53 reference contact.001",
+    "J53 reference contact",
+    "J53 eyes reference housing",
+    "J52 SMT termination.023",
+    "J52 SMT termination.022",
+    "J52 SMT termination.021",
+    "J52 SMT termination.020",
+    "J52 SMT termination.019",
+    "J52 SMT termination.018",
+    "J52 SMT termination.017",
+    "J52 SMT termination.016",
+    "J52 SMT termination.015",
+    "J52 SMT termination.014",
+    "J52 SMT termination.013",
+    "J52 SMT termination.012",
+    "J52 SMT termination.011",
+    "J52 SMT termination.010",
+    "J52 SMT termination.009",
+    "J52 SMT termination.008",
+    "J52 SMT termination.007",
+    "J52 SMT termination.006",
+    "J52 SMT termination.005",
+    "J52 SMT termination.004",
+    "J52 SMT termination.003",
+    "J52 SMT termination.002",
+    "J52 SMT termination.001",
+    "J52 SMT termination",
+    "J52 mating contact.023",
+    "J52 mating contact.022",
+    "J52 mating contact.021",
+    "J52 mating contact.020",
+    "J52 mating contact.019",
+    "J52 mating contact.018",
+    "J52 mating contact.017",
+    "J52 mating contact.016",
+    "J52 mating contact.015",
+    "J52 mating contact.014",
+    "J52 mating contact.013",
+    "J52 mating contact.012",
+    "J52 mating contact.011",
+    "J52 mating contact.010",
+    "J52 mating contact.009",
+    "J52 mating contact.008",
+    "J52 mating contact.007",
+    "J52 mating contact.006",
+    "J52 mating contact.005",
+    "J52 mating contact.004",
+    "J52 mating contact.003",
+    "J52 mating contact.002",
+    "J52 mating contact.001",
+    "J52 mating contact",
+    "J52 Harwin 24P housing",
+    "J51 XH right wall",
+    "J51 XH rear wall",
+    "J51 XH left wall",
+    "J51 XH front right",
+    "J51 XH front left",
+    "J51 XH front center",
+    "J51 XH contact.001",
+    "J51 XH contact",
+    "J51 XH base",
+    "J50 SMT termination.023",
+    "J50 SMT termination.022",
+    "J50 SMT termination.021",
+    "J50 SMT termination.020",
+    "J50 SMT termination.019",
+    "J50 SMT termination.018",
+    "J50 SMT termination.017",
+    "J50 SMT termination.016",
+    "J50 SMT termination.015",
+    "J50 SMT termination.014",
+    "J50 SMT termination.013",
+    "J50 SMT termination.012",
+    "J50 SMT termination.011",
+    "J50 SMT termination.010",
+    "J50 SMT termination.009",
+    "J50 SMT termination.008",
+    "J50 SMT termination.007",
+    "J50 SMT termination.006",
+    "J50 SMT termination.005",
+    "J50 SMT termination.004",
+    "J50 SMT termination.003",
+    "J50 SMT termination.002",
+    "J50 SMT termination.001",
+    "J50 SMT termination",
+    "J50 mating contact.023",
+    "J50 mating contact.022",
+    "J50 mating contact.021",
+    "J50 mating contact.020",
+    "J50 mating contact.019",
+    "J50 mating contact.018",
+    "J50 mating contact.017",
+    "J50 mating contact.016",
+    "J50 mating contact.015",
+    "J50 mating contact.014",
+    "J50 mating contact.013",
+    "J50 mating contact.012",
+    "J50 mating contact.011",
+    "J50 mating contact.010",
+    "J50 mating contact.009",
+    "J50 mating contact.008",
+    "J50 mating contact.007",
+    "J50 mating contact.006",
+    "J50 mating contact.005",
+    "J50 mating contact.004",
+    "J50 mating contact.003",
+    "J50 mating contact.002",
+    "J50 mating contact.001",
+    "J50 mating contact",
+    "J50 Harwin 24P housing",
+    "J47 keyed Grove receptacle",
+    "J47 contacts and3mm solder tails",
+    "J46 keyed Grove receptacle",
+    "J46 contacts and3mm solder tails",
+    "J44 XH right wall",
+    "J44 XH rear wall",
+    "J44 XH left wall",
+    "J44 XH front right",
+    "J44 XH front left",
+    "J44 XH front center",
+    "J44 XH contact.001",
+    "J44 XH contact",
+    "J44 XH base",
+    "J42 XH right wall",
+    "J42 XH rear wall",
+    "J42 XH left wall",
+    "J42 XH front right",
+    "J42 XH front left",
+    "J42 XH front center",
+    "J42 XH contact.001",
+    "J42 XH contact",
+    "J42 XH base",
+    "J41 keyed Grove receptacle",
+    "J41 contacts and3mm solder tails",
+    "J40 keyed Grove receptacle",
+    "J40 contacts and3mm solder tails",
+    "J39 keyed Grove receptacle",
+    "J39 contacts and3mm solder tails",
+    "J38 keyed Grove receptacle",
+    "J38 contacts and3mm solder tails",
+    "J37 keyed Grove receptacle",
+    "J37 contacts and3mm solder tails",
+    "J36 keyed Grove receptacle",
+    "J36 contacts and3mm solder tails",
+    "J35 solder tail 4",
+    "J35 solder tail 3",
+    "J35 solder tail 2",
+    "J35 solder tail 1",
+    "J35 socket entry rim.015",
+    "J35 socket entry rim.014",
+    "J35 socket entry rim.013",
+    "J35 socket entry rim.012",
+    "J35 socket entry rim.011",
+    "J35 socket entry rim.010",
+    "J35 socket entry rim.009",
+    "J35 socket entry rim.008",
+    "J35 socket entry rim.007",
+    "J35 socket entry rim.006",
+    "J35 socket entry rim.005",
+    "J35 socket entry rim.004",
+    "J35 socket entry rim.003",
+    "J35 socket entry rim.002",
+    "J35 socket entry rim.001",
+    "J35 socket entry rim",
+    "J35 socket end wall.001",
+    "J35 socket end wall",
+    "J35 socket contact housing 4",
+    "J35 socket contact housing 3",
+    "J35 socket contact housing 2",
+    "J35 socket contact housing 1",
+    "J34 keyed Grove receptacle",
+    "J34 contacts and3mm solder tails",
+    "J33 Harwin M20-9982046 full 2x20 male housing",
+    "J33 40 actual mating posts and solder tails",
+    "J3 keyed Grove receptacle",
+    "J3 contacts and3mm solder tails",
+    "J2 keyed four-pin fan SHAPE_99",
+    "J2 keyed four-pin fan SHAPE_98",
+    "J2 keyed four-pin fan SHAPE_97",
+    "J2 keyed four-pin fan SHAPE_96",
+    "J2 keyed four-pin fan SHAPE_95",
+    "J2 keyed four-pin fan SHAPE_94",
+    "J2 keyed four-pin fan SHAPE_93",
+    "J2 keyed four-pin fan SHAPE_92",
+    "J2 keyed four-pin fan SHAPE_91",
+    "J2 keyed four-pin fan SHAPE_90",
+    "J2 keyed four-pin fan SHAPE_9",
+    "J2 keyed four-pin fan SHAPE_89",
+    "J2 keyed four-pin fan SHAPE_88",
+    "J2 keyed four-pin fan SHAPE_87",
+    "J2 keyed four-pin fan SHAPE_86",
+    "J2 keyed four-pin fan SHAPE_85",
+    "J2 keyed four-pin fan SHAPE_84",
+    "J2 keyed four-pin fan SHAPE_83",
+    "J2 keyed four-pin fan SHAPE_82",
+    "J2 keyed four-pin fan SHAPE_81",
+    "J2 keyed four-pin fan SHAPE_80",
+    "J2 keyed four-pin fan SHAPE_8",
+    "J2 keyed four-pin fan SHAPE_79",
+    "J2 keyed four-pin fan SHAPE_78",
+    "J2 keyed four-pin fan SHAPE_77",
+    "J2 keyed four-pin fan SHAPE_76",
+    "J2 keyed four-pin fan SHAPE_75",
+    "J2 keyed four-pin fan SHAPE_74",
+    "J2 keyed four-pin fan SHAPE_73",
+    "J2 keyed four-pin fan SHAPE_72",
+    "J2 keyed four-pin fan SHAPE_71",
+    "J2 keyed four-pin fan SHAPE_70",
+    "J2 keyed four-pin fan SHAPE_7",
+    "J2 keyed four-pin fan SHAPE_69",
+    "J2 keyed four-pin fan SHAPE_68",
+    "J2 keyed four-pin fan SHAPE_67",
+    "J2 keyed four-pin fan SHAPE_66",
+    "J2 keyed four-pin fan SHAPE_65",
+    "J2 keyed four-pin fan SHAPE_64",
+    "J2 keyed four-pin fan SHAPE_63",
+    "J2 keyed four-pin fan SHAPE_62",
+    "J2 keyed four-pin fan SHAPE_61",
+    "J2 keyed four-pin fan SHAPE_60",
+    "J2 keyed four-pin fan SHAPE_6",
+    "J2 keyed four-pin fan SHAPE_59",
+    "J2 keyed four-pin fan SHAPE_58",
+    "J2 keyed four-pin fan SHAPE_57",
+    "J2 keyed four-pin fan SHAPE_56",
+    "J2 keyed four-pin fan SHAPE_55",
+    "J2 keyed four-pin fan SHAPE_54",
+    "J2 keyed four-pin fan SHAPE_53",
+    "J2 keyed four-pin fan SHAPE_52",
+    "J2 keyed four-pin fan SHAPE_51",
+    "J2 keyed four-pin fan SHAPE_50",
+    "J2 keyed four-pin fan SHAPE_5",
+    "J2 keyed four-pin fan SHAPE_49",
+    "J2 keyed four-pin fan SHAPE_48",
+    "J2 keyed four-pin fan SHAPE_47",
+    "J2 keyed four-pin fan SHAPE_46",
+    "J2 keyed four-pin fan SHAPE_45",
+    "J2 keyed four-pin fan SHAPE_44",
+    "J2 keyed four-pin fan SHAPE_43",
+    "J2 keyed four-pin fan SHAPE_42",
+    "J2 keyed four-pin fan SHAPE_41",
+    "J2 keyed four-pin fan SHAPE_40",
+    "J2 keyed four-pin fan SHAPE_4",
+    "J2 keyed four-pin fan SHAPE_39",
+    "J2 keyed four-pin fan SHAPE_38",
+    "J2 keyed four-pin fan SHAPE_37",
+    "J2 keyed four-pin fan SHAPE_36",
+    "J2 keyed four-pin fan SHAPE_35",
+    "J2 keyed four-pin fan SHAPE_34",
+    "J2 keyed four-pin fan SHAPE_33",
+    "J2 keyed four-pin fan SHAPE_32",
+    "J2 keyed four-pin fan SHAPE_31",
+    "J2 keyed four-pin fan SHAPE_30",
+    "J2 keyed four-pin fan SHAPE_3",
+    "J2 keyed four-pin fan SHAPE_29",
+    "J2 keyed four-pin fan SHAPE_28",
+    "J2 keyed four-pin fan SHAPE_27",
+    "J2 keyed four-pin fan SHAPE_26",
+    "J2 keyed four-pin fan SHAPE_25",
+    "J2 keyed four-pin fan SHAPE_24",
+    "J2 keyed four-pin fan SHAPE_23",
+    "J2 keyed four-pin fan SHAPE_22",
+    "J2 keyed four-pin fan SHAPE_21",
+    "J2 keyed four-pin fan SHAPE_20",
+    "J2 keyed four-pin fan SHAPE_2",
+    "J2 keyed four-pin fan SHAPE_19",
+    "J2 keyed four-pin fan SHAPE_18",
+    "J2 keyed four-pin fan SHAPE_17",
+    "J2 keyed four-pin fan SHAPE_16",
+    "J2 keyed four-pin fan SHAPE_15",
+    "J2 keyed four-pin fan SHAPE_14",
+    "J2 keyed four-pin fan SHAPE_13",
+    "J2 keyed four-pin fan SHAPE_12",
+    "J2 keyed four-pin fan SHAPE_11",
+    "J2 keyed four-pin fan SHAPE_10",
+    "J2 keyed four-pin fan SHAPE_1",
+    "J19 keyed Grove receptacle",
+    "J19 contacts and3mm solder tails",
+    "J17 keyed Grove receptacle",
+    "J17 contacts and3mm solder tails",
+    "J16 keyed Grove receptacle",
+    "J16 contacts and3mm solder tails",
+    "J15 keyed Grove receptacle",
+    "J15 contacts and3mm solder tails",
+    "J14 remote radar Grove J17 keyed Grove receptacle",
+    "J14 remote radar Grove J17 contacts and3mm solder tails",
+    "J13 remote radar Grove J17 keyed Grove receptacle",
+    "J13 remote radar Grove J17 contacts and3mm solder tails",
+    "J12 remote radar Grove J17 keyed Grove receptacle",
+    "J12 remote radar Grove J17 contacts and3mm solder tails",
+    "J1 XH right wall",
+    "J1 XH rear wall",
+    "J1 XH left wall",
+    "J1 XH front right",
+    "J1 XH front left",
+    "J1 XH front center",
+    "J1 XH contact.001",
+    "J1 XH contact",
+    "J1 XH base",
+    "HAT aligned with current J33",
+    "H3 top exposed copper",
+    "H3 plated hole wall",
+    "H3 bottom exposed copper",
+    "H3 base mount washer",
+    "H3 base mount screw head",
+    "H3 base mount screw",
+    "H1 top exposed copper",
+    "H1 plated hole wall",
+    "H1 bottom exposed copper",
+    "H1 base mount washer",
+    "H1 base mount screw head",
+    "H1 base mount screw",
+    "FASTENER_ZERO_BOTTOM_1",
+    "FASTENER_ZERO_BOTTOM_0",
+    "COOLER",
+    "UPS with existing battery holder and cells",
+    "MH_UPS4 lower base spacer - height provisional",
+    "MH_UPS2 lower base spacer - height provisional",
+    "H3 lower base spacer - height provisional",
+    "H1 lower base spacer - height provisional",
+    "LCD narrow retaining strip",
+    "IMU Grove惯性传感器",
+    "ESP32_EYES",
+    "CAMERA_B0310",
+    "SPEAKER_3727",
+    "FAN_DOWN_ADAPTER",
+    "FAN_5010",
+    "左 original Rd-03E wired radar",
+    "左 optional Bent header solder leg",
+    "左 optional Bent header vertical leg",
+    "左 optional Bent header solder leg.001",
+    "左 optional Bent header vertical leg.001",
+    "左 optional Bent header solder leg.002",
+    "左 optional Bent header vertical leg.002",
+    "左 optional Bent header solder leg.003",
+    "左 optional Bent header vertical leg.003",
+    "左 optional Bent header solder leg.004",
+    "左 optional Bent header vertical leg.004",
+    "左 optional Bent header insulating body",
+    "右 original Rd-03E wired radar",
+    "右 optional Bent header solder leg",
+    "右 optional Bent header vertical leg",
+    "右 optional Bent header solder leg.001",
+    "右 optional Bent header vertical leg.001",
+    "右 optional Bent header solder leg.002",
+    "右 optional Bent header vertical leg.002",
+    "右 optional Bent header solder leg.003",
+    "右 optional Bent header vertical leg.003",
+    "右 optional Bent header solder leg.004",
+    "右 optional Bent header vertical leg.004",
+    "右 optional Bent header insulating body",
+    "后 original Rd-03E wired radar",
+    "后 optional Bent header solder leg",
+    "后 optional Bent header vertical leg",
+    "后 optional Bent header solder leg.001",
+    "后 optional Bent header vertical leg.001",
+    "后 optional Bent header solder leg.002",
+    "后 optional Bent header vertical leg.002",
+    "后 optional Bent header solder leg.003",
+    "后 optional Bent header vertical leg.003",
+    "后 optional Bent header solder leg.004",
+    "后 optional Bent header vertical leg.004",
+    "后 optional Bent header insulating body",
+    "左 radar removable top keeper",
+    "右 radar removable top keeper",
+    "后 radar removable top keeper",
+    "VL53L8CX red carrier with two fixing ears",
+    "VL53L8CX plated signal pad",
+    "VL53L8CX plated signal pad.001",
+    "VL53L8CX plated signal pad.002",
+    "VL53L8CX plated signal pad.003",
+    "VL53L8CX plated signal pad.004",
+    "VL53L8CX plated signal pad.005",
+    "VL53L8CX plated signal pad.006",
+    "VL53L8CX plated signal pad.007",
+    "VL53L8CX plated signal pad.008",
+    "VL53L8CX sensor 6.4x3x1.75",
+    "VL53L8CX emitter receiver",
+    "VL53L8CX emitter receiver.001",
+    "VL53L8CX supplied optical cap",
+    "VL53L8CX rear component envelope",
+    "VL53L8CX rear component envelope.001",
+    "VL53L8CX rear component envelope.002",
+    "VL53L8CX supplied straight header insulator",
+    "VL53L8CX straight header pin",
+    "VL53L8CX straight header pin.001",
+    "VL53L8CX straight header pin.002",
+    "VL53L8CX straight header pin.003",
+    "VL53L8CX straight header pin.004",
+    "VL53L8CX straight header pin.005",
+    "VL53L8CX straight header pin.006",
+    "VL53L8CX straight header pin.007",
+    "VL53L8CX straight header pin.008",
+    "VL53L8CX front M2 ear screw head",
+    "VL53L8CX front M2 ear screw head.001",
+    "BASE separate open washable pan",
+    "DC nut visual envelope",
+    "Purchased long-press PCB",
+    "Tactile switch envelope",
+    "Tactile actuator",
+    "Switch back electronics allowance",
+    "INTERNAL power button keyed pusher",
+    "Power pusher bonded M3 insert envelope",
+    "Power switch removable keeper",
+    "Power DC nut removable keeper",
+    "Power switch keeper M2 head",
+    "Power switch keeper M2 head.001",
+    "Power DC keeper M2 head",
+    "Power DC keeper M2 head.001",
+    "COMPASS HS-S75-L horizontal PCB 33x23",
+    "COMPASS QMC5883L sensor",
+    "COMPASS regulator",
+    "COMPASS capacitor",
+    "COMPASS power LED",
+    "COMPASS resistor bank",
+    "COMPASS resistor bank.001",
+    "COMPASS rear-facing PH2.0 4P socket",
+    "COMPASS PH2.0 mating plug",
+    "COMPASS nylon M3 washer",
+    "COMPASS nylon M3x6 screw nominal envelope",
+    "COMPASS nylon M3 washer.001",
+    "COMPASS nylon M3x6 screw nominal envelope.001",
+    "M01 independent front integrated support",
+    "M04 rear support with integrated left and right radar frames"
+  ],
+  "lid_scope": {
+    "method": "Complete new cover and halo checked at all114 poses by separate read-only workers.",
+    "full_new_cover_sweep_performed": true,
+    "report": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/full_lid_sweep_checks.json"
+  },
+  "inherited_evidence": {
+    "report": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/no_voice_compact_2026-10-07/flush_halo_v6/final_candidate_qa_v6.json",
+    "sha256": "b782088901731a545ebcb95f8dd477b101aaee9bba65ba4571c99da95bc41a51",
+    "scope": "Only exact unchanged meshes and poses; new cover and ring checked independently above.",
+    "critical_plug_directional_clearances": [
+      {
+        "moving": "PLUG_RESPEAKER_SPK",
+        "fixed": "RADXA_H1",
+        "remaining_world_minus_z_travel_mm": [
+          0.30498504638671875,
+          0.30498695373535156
+        ],
+        "surface_overlap_pairs": 0,
+        "required_nominal_travel_at_least_mm": 0.3,
+        "passed": true,
+        "meaning": "Directional surface-contact travel, not Euclidean minimum separation or a manufacturing tolerance allowance."
+      },
+      {
+        "moving": "PLUG_RESPEAKER",
+        "fixed": "M04 rear support with integrated left and right radar frames",
+        "remaining_world_minus_z_travel_mm": [
+          0.4349231719970703,
+          0.4349250793457031
+        ],
+        "surface_overlap_pairs": 0,
+        "required_nominal_travel_at_least_mm": 0.43,
+        "passed": true,
+        "meaning": "Directional surface-contact travel, not Euclidean minimum separation or a manufacturing tolerance allowance."
+      }
+    ]
+  }
+}

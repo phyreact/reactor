@@ -1,0 +1,34 @@
+{
+  "pcb_sha256": "35d0ce801373a280cee60b6f78e124b6a61a5eb69f79a4c740522e4e95e8cf3c",
+  "board_marking": "MicheyHub V0.0",
+  "main_wordmark_uuid": "46db882e-2c61-5d3f-a9e8-d3c179a27782",
+  "logo": {
+    "source": "electronics/branding/mickeyhub-mark.svg",
+    "source_sha256": "f2b7ba80e7bf3275c6ac2cd29f5f26b6e2d68877af5d7ff236a5d8ad1bf611c3",
+    "reference": "media/mickeyhub-preview.png",
+    "reference_sha256": "34ef48e40098c0dbf31bd67f374db4dabed8c6279bfa36ed019a4755f2e8ec89",
+    "description": "Monochrome trace of the actual enclosure: top ring, two displays, ToF slot and camera.",
+    "layer": "F.SilkS",
+    "center_mm": [
+      72.9,
+      105.5
+    ],
+    "rotation_degrees": 90,
+    "svg_canvas_width_mm": 7,
+    "smallest_drawn_white_stroke_mm": 0.195349,
+    "graphic_uuids": [
+      "c3ed476d-6f91-5af3-8324-afbfe72f69fb",
+      "fbe8ecd7-2d73-52c1-ac9d-a89250a18161",
+      "14a7acaa-dde3-5756-b6d0-af5e9a2cc399",
+      "55839537-239c-5ea2-8cfa-755f44df8c61",
+      "c7f7934d-0deb-5df1-9ac9-72030f398616",
+      "74a4849c-d493-530b-98ec-5bfc71733123",
+      "1b53b1b8-5b12-54c3-a84c-f84ffce8b6ce"
+    ],
+    "native_polygon_count": 7,
+    "previous_waveform_removed": true
+  },
+  "non_branding_KiCad_blocks_unchanged": true,
+  "evidence": "../../electronics/branding.json",
+  "hardware_qualified": false
+}

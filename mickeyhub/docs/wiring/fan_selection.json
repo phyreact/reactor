@@ -1,0 +1,51 @@
+{
+  "item_id": "852827738499",
+  "sku_id": "5651202152814",
+  "voltage_V": 5,
+  "wire_count": 4,
+  "seller_connector_label": "B3",
+  "control": "PWM",
+  "form": "5010 metal-bottom centrifugal blower",
+  "user_confirmed": true,
+  "evidence": "evidence/fan_selected_5V_4wire_B3_PWM_chat.jpg",
+  "rejected_authorities": [
+    "Delta BFB0505LA 0.09A photo",
+    "SUNVN 12V 0.2A two-wire listing image"
+  ],
+  "unconfirmed": [
+    "current and startup current",
+    "PWM input voltage and frequency range",
+    "FG output circuit and pulses per revolution"
+  ],
+  "pinout_confirmation": {
+    "source": "User supplied seller pin table and explicitly confirmed actual fan is 5V in takeover thread",
+    "thread": "01a11a21-1b4c-73b2-ad89-6fbccbf0790f",
+    "table_voltage_text": "12V",
+    "actual_order_voltage_V": 5,
+    "generic_table_voltage_overridden_by_user_confirmation": true,
+    "independently_measured": false,
+    "pin_numbering_view": "seller diagram; connector mating view still must match"
+  },
+  "pins": [
+    {
+      "pin": 1,
+      "function": "GND",
+      "wire_color": "black"
+    },
+    {
+      "pin": 2,
+      "function": "+5V",
+      "wire_color": "yellow"
+    },
+    {
+      "pin": 3,
+      "function": "FG",
+      "wire_color": "green"
+    },
+    {
+      "pin": 4,
+      "function": "PWM",
+      "wire_color": "blue"
+    }
+  ]
+}

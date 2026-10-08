@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "pcb_sha256": "35d0ce801373a280cee60b6f78e124b6a61a5eb69f79a4c740522e4e95e8cf3c",
+  "board_marking": "MicheyHub V0.0",
+  "native_DRC_and_ERC_passed": true,
+  "source_unchanged_during_export": true,
+  "gerber_layers": 9,
+  "separate_plated_and_nonplated_drills": true,
+  "scope": "Current native CAD checks, export completion and integrity; no powered hardware qualification.",
+  "hardware_qualified": false
+}

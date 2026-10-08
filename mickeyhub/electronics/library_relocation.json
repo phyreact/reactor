@@ -1,0 +1,18 @@
+{
+  "only_3D_model_paths_changed": true,
+  "source_pcb_sha256": "1eb601e37996cc4124cee0e0ae231d309f32925c0ef0d9bac2a062498357b958",
+  "changes": [
+    {
+      "file": "electronics/kicad/box_carrier_modules_r2.kicad_pcb",
+      "source_sha256": "1eb601e37996cc4124cee0e0ae231d309f32925c0ef0d9bac2a062498357b958",
+      "output_sha256": "993757a60e8f75bfd26fcaf73489bbd240172ba6b6f03f62132d715b2d466839",
+      "replacement_count": 1
+    },
+    {
+      "file": "electronics/kicad/Connector_JST.pretty/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.kicad_mod",
+      "source_sha256": "df60f8fa740004c3154507204600dd242452a51b6eab945550751b967b7d098d",
+      "output_sha256": "4150d3e20eb10e07f85899307da89359f6f36eae7741353d70b2c1ca0304c814",
+      "replacement_count": 1
+    }
+  ]
+}

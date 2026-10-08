@@ -1,0 +1,166 @@
+{
+  "S3": {
+    "source": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/s3plus_v11_kicad/202004052_XIAO ESP32S3 Plus V1.1_SCH&PCB_260115/XIAO ESP32S3 Plus_V1.1_250724.kicad_pcb",
+    "origin": "official U2 14-header center",
+    "relief_margin_per_side_mm": 0.2,
+    "holes": [
+      {
+        "existing_module_pad": "plastic locating post",
+        "standard_xy_mm": [
+          2.9027,
+          -5.9144
+        ],
+        "existing_module_drill_xy_mm": [
+          0.6,
+          0.6
+        ],
+        "adapter_relief_xy_mm": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "existing_module_pad": "plastic locating post",
+        "standard_xy_mm": [
+          -2.8773,
+          -5.9144
+        ],
+        "existing_module_drill_xy_mm": [
+          0.6,
+          0.6
+        ],
+        "adapter_relief_xy_mm": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "existing_module_pad": "S1",
+        "standard_xy_mm": [
+          4.3307,
+          -9.5769
+        ],
+        "existing_module_drill_xy_mm": [
+          0.508,
+          1.4
+        ],
+        "adapter_relief_xy_mm": [
+          0.908,
+          1.8
+        ]
+      },
+      {
+        "existing_module_pad": "S2",
+        "standard_xy_mm": [
+          -4.3053,
+          -9.5769
+        ],
+        "existing_module_drill_xy_mm": [
+          0.508,
+          1.4
+        ],
+        "adapter_relief_xy_mm": [
+          0.908,
+          1.8
+        ]
+      },
+      {
+        "existing_module_pad": "S3",
+        "standard_xy_mm": [
+          4.3307,
+          -5.3859
+        ],
+        "existing_module_drill_xy_mm": [
+          0.508,
+          1.3
+        ],
+        "adapter_relief_xy_mm": [
+          0.908,
+          1.7
+        ]
+      },
+      {
+        "existing_module_pad": "S4",
+        "standard_xy_mm": [
+          -4.3053,
+          -5.3859
+        ],
+        "existing_module_drill_xy_mm": [
+          0.508,
+          1.3
+        ],
+        "adapter_relief_xy_mm": [
+          0.908,
+          1.7
+        ]
+      }
+    ]
+  },
+  "RP": {
+    "source": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/rp2350_v10_cad/XIAO RP2350 v1.0_SCH&PCB_240626/XIAO RP2350.kicad_pcb",
+    "origin": "official U2 14-header center",
+    "relief_margin_per_side_mm": 0.2,
+    "holes": [
+      {
+        "existing_module_pad": "plastic locating post",
+        "standard_xy_mm": [
+          2.894,
+          -6.3023
+        ],
+        "existing_module_drill_xy_mm": [
+          0.65,
+          0.65
+        ],
+        "adapter_relief_xy_mm": [
+          1.05,
+          1.05
+        ]
+      },
+      {
+        "existing_module_pad": "plastic locating post",
+        "standard_xy_mm": [
+          -2.886,
+          -6.3023
+        ],
+        "existing_module_drill_xy_mm": [
+          0.65,
+          0.65
+        ],
+        "adapter_relief_xy_mm": [
+          1.05,
+          1.05
+        ]
+      },
+      {
+        "existing_module_pad": "S1",
+        "standard_xy_mm": [
+          4.324,
+          -9.8023
+        ],
+        "existing_module_drill_xy_mm": [
+          0.6,
+          1.5
+        ],
+        "adapter_relief_xy_mm": [
+          1.0,
+          1.9
+        ]
+      },
+      {
+        "existing_module_pad": "S2",
+        "standard_xy_mm": [
+          -4.316,
+          -9.8023
+        ],
+        "existing_module_drill_xy_mm": [
+          0.6,
+          1.5
+        ],
+        "adapter_relief_xy_mm": [
+          1.0,
+          1.9
+        ]
+      }
+    ]
+  }
+}

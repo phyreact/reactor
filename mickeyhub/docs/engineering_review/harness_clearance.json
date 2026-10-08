@@ -1,0 +1,673 @@
+{
+  "model_sha256": "1e88bb50e90058b8189003a471e47f85acd838d766193f6278281e934546199e",
+  "manifest_sha256": "e1fb4e902370fb36d766d9d2974306bd8bd0835cf116f46318b16efa6d0a4c28",
+  "analysis_end_caps": [
+    {
+      "wire": "H01-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H01-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H02-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H02-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H02-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H03-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H03-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H04-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H04-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H05-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H05-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H05-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H05-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H06-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H06-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H06-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H06-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H07-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H07-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H08-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H08-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H08-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H08-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H09-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H09-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H09-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H09-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H10-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H10-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H10-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H10-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H11-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H11-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H11-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H11-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H12-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H12-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H12-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H12-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H13A-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H13A-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H13B-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H13B-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H14-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H14-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H14-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H14-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H15-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H15-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H15-03",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H15-04",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H16-01",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H16-02",
+      "original_boundary_edges": 40,
+      "coincident_vertices_welded": 20,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    },
+    {
+      "wire": "H17-01",
+      "original_boundary_edges": 0,
+      "coincident_vertices_welded": 0,
+      "weld_tolerance_mm": 1e-06,
+      "faces_unchanged": true,
+      "analysis_copy_closed": true,
+      "route_and_radius_unchanged": true
+    }
+  ],
+  "H05_terminal_inclusive": [
+    {
+      "wire": "H05-01",
+      "whole_lead_checked": true,
+      "printed_intersections": [
+        {
+          "printed_object": "M04 rear support with integrated left and right radar frames",
+          "intersection_mm3": 2.4480945666909695
+        }
+      ]
+    },
+    {
+      "wire": "H05-02",
+      "whole_lead_checked": true,
+      "printed_intersections": [
+        {
+          "printed_object": "M04 rear support with integrated left and right radar frames",
+          "intersection_mm3": 1.5494956132795297
+        }
+      ]
+    },
+    {
+      "wire": "H05-03",
+      "whole_lead_checked": true,
+      "printed_intersections": [
+        {
+          "printed_object": "Power switch removable keeper",
+          "intersection_mm3": 1.2500163140456209
+        },
+        {
+          "printed_object": "M04 rear support with integrated left and right radar frames",
+          "intersection_mm3": 0.3995076234360941
+        }
+      ]
+    },
+    {
+      "wire": "H05-04",
+      "whole_lead_checked": true,
+      "printed_intersections": [
+        {
+          "printed_object": "Power switch removable keeper",
+          "intersection_mm3": 1.2500161289464755
+        },
+        {
+          "printed_object": "M04 rear support with integrated left and right radar frames",
+          "intersection_mm3": 0.39330762330282043
+        }
+      ]
+    }
+  ],
+  "driver_wire_intersections": [
+    {
+      "tool": "DC_right",
+      "axis_xy_mm": [
+        8.8,
+        -62.7
+      ],
+      "shaft_diameter_mm": 4.0,
+      "z_range_mm": [
+        63.8,
+        113.8
+      ],
+      "wire_intersections": [
+        {
+          "wire": "H15-01",
+          "intersection_mm3": 0.6479805776288546
+        },
+        {
+          "wire": "H15-02",
+          "intersection_mm3": 1.295854793067491
+        },
+        {
+          "wire": "H15-03",
+          "intersection_mm3": 1.4428851769152569
+        },
+        {
+          "wire": "H15-04",
+          "intersection_mm3": 1.1533862095930547
+        }
+      ]
+    },
+    {
+      "tool": "DC_left",
+      "axis_xy_mm": [
+        -8.8,
+        -62.7
+      ],
+      "shaft_diameter_mm": 4.0,
+      "z_range_mm": [
+        63.8,
+        113.8
+      ],
+      "wire_intersections": []
+    },
+    {
+      "tool": "rear_radar_left",
+      "axis_xy_mm": [
+        15.9,
+        -58.85
+      ],
+      "shaft_diameter_mm": 4.0,
+      "z_range_mm": [
+        41.9,
+        91.9
+      ],
+      "wire_intersections": [
+        {
+          "wire": "H15-01",
+          "intersection_mm3": 1.879276675111101
+        },
+        {
+          "wire": "H15-02",
+          "intersection_mm3": 2.3019883523466933
+        },
+        {
+          "wire": "H15-03",
+          "intersection_mm3": 2.290610905794124
+        },
+        {
+          "wire": "H15-04",
+          "intersection_mm3": 1.756059640885977
+        }
+      ]
+    },
+    {
+      "tool": "rear_radar_right",
+      "axis_xy_mm": [
+        48.1,
+        -58.85
+      ],
+      "shaft_diameter_mm": 4.0,
+      "z_range_mm": [
+        41.9,
+        91.9
+      ],
+      "wire_intersections": []
+    },
+    {
+      "tool": "LCD_left",
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "shaft_diameter_mm": 3.0,
+      "z_range_mm": [
+        61.05,
+        111.05
+      ],
+      "wire_intersections": []
+    },
+    {
+      "tool": "LCD_right",
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "shaft_diameter_mm": 3.0,
+      "z_range_mm": [
+        61.05,
+        111.05
+      ],
+      "wire_intersections": []
+    }
+  ],
+  "H16_curve_lengths": [
+    {
+      "wire": "H16-01",
+      "drawn_curve_length_mm": 140.07925192210078,
+      "remaining_from_145mm_reference_mm": 4.920748077899219,
+      "service_length_qualified": false
+    },
+    {
+      "wire": "H16-02",
+      "drawn_curve_length_mm": 139.71687322416946,
+      "remaining_from_145mm_reference_mm": 5.283126775830539,
+      "service_length_qualified": false
+    }
+  ],
+  "physical_routing_qualified": false,
+  "H15_complete_cable_envelope_qualified": false,
+  "scope": "Actual evaluated lead meshes versus print solids, with no terminal exclusion for H05; nominal axial tool cylinders versus visible wire meshes. Tool collisions require wires to be unplugged and moved first. Not hand clearance, plug, cable jacket or bend-radius qualification."
+}

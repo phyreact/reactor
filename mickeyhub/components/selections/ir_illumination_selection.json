@@ -1,0 +1,171 @@
+{
+  "selection_revision": "user_selected_taobao_ir8_2026-10-03",
+  "selected": false,
+  "quantity": 0,
+  "user_variant_name": "红外8灯",
+  "description": "User-selected rectangular preassembled infrared illumination board; eight LEDs",
+  "supplier": "Taobao listing supplied by user",
+  "manufacturer": null,
+  "manufacturer_part_number": null,
+  "product_id": "666772629721",
+  "sku_id_from_user_url": "4804115736107",
+  "product_url": "https://item.taobao.com/item.htm?id=666772629721&skuId=4804115736107",
+  "selection_source": "User explicitly selected this item and supplied two annotated product images on 2026-10-03",
+  "listing_access": "Browser site-safety policy blocked navigation; no product-page specifications retrieved",
+  "evidence": [
+    {
+      "source": "user_supplied_front_dimension_image",
+      "confirmed": [
+        "Variant label: 红外8灯",
+        "Eight LEDs arranged as two groups of four",
+        "One edge, vertical in the supplied image, is dimensioned 32 mm"
+      ]
+    },
+    {
+      "source": "user_supplied_connector_diagram",
+      "confirmed": [
+        "接口1 DC 12V输入 (正极负极)",
+        "接IR-CUT 插口2",
+        "Illustrated red/black 2-pin harness is labeled 8 cm"
+      ]
+    }
+  ],
+  "mechanical": {
+    "dimensioned_edge_mm": 32.0,
+    "dimensioned_edge_in_source_image": "vertical",
+    "other_edge_mm": null,
+    "center_aperture_diameter_mm": null,
+    "aperture_center_location_mm": null,
+    "pcb_thickness_mm": null,
+    "total_depth_including_leds_and_connectors_mm": null,
+    "mounting_hole_diameter_and_centers_mm": null,
+    "missing_dimensions_availability": "User confirmed on 2026-10-03 that the product information does not list the other dimensions",
+    "dimension_completion_method": "Use photo-proportional estimates for prelayout now, as requested by user; refine from sample or dimensioned drawing before final machining.",
+    "current_camera_model": "CAMERA_B0310",
+    "current_lens_barrel_outer_diameter_mm_approx": 17.0,
+    "current_camera_measurement": "analysis/camera_lens_diameter.json",
+    "conditional_height_review": "analysis/ir8_camera_review/HEIGHT_FIT.json",
+    "conditional_height_finding": "If the 32 mm edge is vertical and its midpoint coincides with the current lens axis at Z14 mm, the board bottom would be Z-2 mm, 1.4 mm below the complete shell's lowest point. Aperture-center offset is unknown; this is not a complete fit or collision assessment.",
+    "installed_in_main_model": false,
+    "mechanical_fit_qualified": false,
+    "note": "Do not copy dimensions from earlier 53 mm six-LED or 63x33 mm eight-LED alternatives. Do not infer a 32x32 mm board or reuse the former 22 mm aperture.",
+    "photo_estimate": "analysis/ir8_photo_estimate/PHOTO_ESTIMATE.json",
+    "nominal_pre_layout": {
+      "width_mm": 37,
+      "height_mm": 32,
+      "circular_aperture_mm": 19,
+      "mounting_hole_diameter_mm": 2.5,
+      "mounting_hole_centers_about_optical_axis_xz_mm": [
+        [
+          8,
+          14.75
+        ],
+        [
+          -8,
+          -14.75
+        ]
+      ],
+      "led_centers_x_mm": [
+        -13.5,
+        13.5
+      ],
+      "led_centers_z_mm": [
+        -10.8,
+        -3.6,
+        3.6,
+        10.8
+      ],
+      "led_diameter_mm": 6
+    },
+    "assumed_total_depth_reservation_mm": 12,
+    "pre_layout_allowed_by_user": false,
+    "estimate_study_model": "mechanical/ir8_photo_estimate.blend",
+    "estimated_dimensions_preview": "previews/ir8_estimated_dimensions.png",
+    "estimate_study_status": "CANCELLED_FEATURE_HISTORICAL_ONLY"
+  },
+  "electrical": {
+    "interface_1": {
+      "seller_label": "DC 12V输入 (正极负极)",
+      "nominal_supply_V": 12,
+      "functions": [
+        "+12V",
+        "GND"
+      ],
+      "connector_family_pitch_and_numbered_pin_order": null,
+      "maximum_supply_current_A": null,
+      "input_voltage_range_V": null
+    },
+    "interface_2": {
+      "seller_label": "接IR-CUT 插口2",
+      "intended_connection": "Matching camera IR-CUT interface, per supplied diagram",
+      "electrical_pinout": null,
+      "signal_or_coil_drive_characteristics": null,
+      "direct_MCU_GPIO_connection_approved": false,
+      "connected": false
+    },
+    "illustrated_power_harness": {
+      "contacts": 2,
+      "colors": [
+        "red",
+        "black"
+      ],
+      "length_mm": 80,
+      "included_in_selected_sku_verified": false,
+      "current_rating_and_mating_verified": false
+    },
+    "wavelength_nm": null,
+    "power_W": null,
+    "supply_architecture": "Not required; infrared illumination feature cancelled by user",
+    "power_constraints": [
+      "The UPS battery output is not a regulated 12V rail",
+      "The rear DC charger-input net is not a qualified battery-backed illumination supply",
+      "Do not parallel an assumed camera power output or connect interface 2 to a GPIO without electrical specifications"
+    ],
+    "carrier_connector_assigned": null,
+    "included_in_current_schematic": false,
+    "routed_on_current_carrier": false,
+    "functional_qualification_complete": false,
+    "integration_required": false
+  },
+  "supersedes_candidates": [
+    {
+      "product_id": "3256805382162693",
+      "description": "Witrue round six-LED board, 53 mm outer diameter / 22 mm aperture",
+      "selected": false
+    },
+    {
+      "product_id": "2251832640059234",
+      "description": "AliExpress alternative eight-LED board previously considered",
+      "selected": false
+    }
+  ],
+  "pending": [],
+  "fabrication_release": false,
+  "selection_status": "feature_cancelled_by_user",
+  "user_rejection": {
+    "date": "2026-10-03",
+    "reason": "中孔太紧",
+    "camera_constraint": "我的摄像头镜头是广角的"
+  },
+  "no_automatic_reversion_to_previous_candidates": true,
+  "unresolved_specs_at_rejection": [
+    "Other board edge, aperture diameter and center, depth, and mounting dimensions",
+    "Input voltage range, current/power, wavelength and connector pin order",
+    "Final camera and IR-CUT compatibility",
+    "Regulated supply, control method, physical mating, schematic and PCB implementation",
+    "Enclosure fit, thermal behavior, optical obstruction and prototype validation"
+  ],
+  "future_selection_constraints": [
+    "Allow greater mechanical clearance around the approximately17mm lens barrel",
+    "Check the full wide-angle optical field, not only barrel outside diameter",
+    "Check board, LEDs and enclosure aperture against their axial positions; actual FOV and optical geometry remain to be verified"
+  ],
+  "feature_required": false,
+  "feature_status": "cancelled_by_user",
+  "future_candidate_search_required": false,
+  "feature_cancellation": {
+    "date": "2026-10-03",
+    "user_instruction": "那就不加红外了",
+    "scope": "All infrared illumination candidates, supply/control, mounting and enclosure opening work; retain existing camera unmodified"
+  }
+}

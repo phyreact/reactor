@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-10-03T00:35:14.422822+00:00",
+  "selected_by_user": true,
+  "mpn": "103020005",
+  "manufacturer": "Seeed Studio",
+  "product": "Grove Relay v1.2",
+  "sources": [
+    {
+      "url": "https://www.seeedstudio.com/Grove-Relay.html",
+      "local": "product.html",
+      "sha256": "b930b49cc06286a58ae14f4fdd37055858a3f4927f05da89d167844cc233d794"
+    },
+    {
+      "url": "https://wiki.seeedstudio.com/Grove-Relay/",
+      "local": "wiki.html",
+      "sha256": "7801ca0f7d468f9a65152db7d7ab293f2e45f6a806e1d7a8f4634a93180c8bc2"
+    },
+    {
+      "url": "https://files.seeedstudio.com/wiki/Grove-Relay/res/Grove-Relay_Eagle_Files.zip",
+      "local": "eagle.zip",
+      "sha256": "ac8f751e0fa296047825aba5ccc2c2bea1b3c6bd47e2a4b3b2ccfe5520f5f549"
+    },
+    {
+      "url": "https://files.seeedstudio.com/wiki/Grove-Relay/res/Relay_Datasheet.pdf",
+      "local": "relay_datasheet.pdf",
+      "sha256": "908a3c633bd8a0058aaf5da04c61155e10e08d87ebc2895debaeab37c7ba0756"
+    }
+  ],
+  "official_eagle_connector_nets": {
+    "J2.4": "GND",
+    "J2.3": "VCC",
+    "J1.2": "COM",
+    "J1.1": "ON",
+    "J2.1": "D1"
+  },
+  "J2_2": "NC; no signal contactref in official board",
+  "max_switching_current_A": 5,
+  "max_switching_voltage_DC": 30,
+  "control_supply_V": [
+    3.3,
+    5
+  ],
+  "control_supply_current_mA_official": 100,
+  "control_gpio_carries_coil_current": false,
+  "active_high_SIG": true,
+  "onboard_driver": [
+    "Q1 S8050TL",
+    "D1 1N4148",
+    "U9 XC6206P302MR",
+    "R1 4.7k",
+    "R3 47k"
+  ],
+  "nominal_board_body_mm": [
+    40,
+    20
+  ],
+  "mount_holes_local_mm": [
+    [
+      -10,
+      -10,
+      2.2
+    ],
+    [
+      -10,
+      10,
+      2.2
+    ],
+    [
+      20,
+      0,
+      2.2
+    ]
+  ],
+  "geometry_note": "Rendering uses conservative Eagle silk relay XY bounds and linked HLS8-T73 height15.8mm. Complete product3D not supplied; populated connector dimensions and PCB thickness nominal.",
+  "system_continuous_or_inrush_qualified": false,
+  "trust_summary": {
+    "high": "official v1.2 connector net mapping and published control ratings",
+    "medium": "selected nominal module geometry based on manufacturer 2D and relay family drawing",
+    "open": [
+      "system load/inrush",
+      "finished harness and terminal ratings",
+      "actual module fit and cable access"
+    ]
+  }
+}

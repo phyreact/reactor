@@ -1,0 +1,318 @@
+{
+  "title": "Duck / Rotating module explainer",
+  "palette": "A / Classic Sailor Blue",
+  "fps": 24,
+  "rotation_period_seconds": 48,
+  "chapters": [
+    {
+      "id": "overview",
+      "title": "Hear the world",
+      "english": "DUCK / SYSTEM OVERVIEW",
+      "group": "all",
+      "bullets": [
+        "Four microphones + vision",
+        "A host links sensing and motion",
+        "Rotate, inspect, reassemble"
+      ],
+      "flow": [
+        "Sensing",
+        "Processing",
+        "Interaction"
+      ],
+      "sentences": [
+        "Meet Duck: four microphones, a camera, and a moving body. Let us rotate and open it up."
+      ]
+    },
+    {
+      "id": "lid",
+      "title": "Lid & acoustic interface",
+      "english": "01 / LID & ACOUSTIC INTERFACE",
+      "group": "lid",
+      "bullets": [
+        "Four aligned sound entries",
+        "Acoustic pads and contact lands",
+        "Bayonet location and retention"
+      ],
+      "flow": [
+        "Sound",
+        "Lid openings",
+        "Microphones"
+      ],
+      "sentences": [
+        "The lid aligns four sound entries with the microphones. Its contact lands meet the acoustic pads; bayonet features locate and retain the cover."
+      ]
+    },
+    {
+      "id": "shell",
+      "title": "Head enclosure",
+      "english": "02 / HEAD ENCLOSURE",
+      "group": "shell",
+      "bullets": [
+        "Lid and microphone board support",
+        "Space for host, optics and wiring",
+        "Blue rim with a black front band"
+      ],
+      "flow": [
+        "Outer shell",
+        "Part location",
+        "Assembly"
+      ],
+      "sentences": [
+        "The shell supports the lid and microphone board, while packaging the computer, optics and wiring. Its blue rim and black front band stay together."
+      ]
+    },
+    {
+      "id": "microphones",
+      "title": "Four microphone array",
+      "english": "03 / ReSpeaker XVF3800",
+      "group": "microphones",
+      "bullets": [
+        "Four microphone positions",
+        "XVF3800 audio processing",
+        "Direction and voice activity"
+      ],
+      "flow": [
+        "4 × MIC",
+        "XVF3800 DSP",
+        "Processed audio"
+      ],
+      "sentences": [
+        "Four microphones sample the sound field. The audio processor combines their signals, providing processed audio and inputs for sound direction and voice activity."
+      ]
+    },
+    {
+      "id": "bridge",
+      "title": "XIAO audio bridge",
+      "english": "04 / USB AUDIO + CDC",
+      "group": "bridge",
+      "bullets": [
+        "USB host to XIAO USB",
+        "16 kHz / stereo / signed 16 bit",
+        "I2S audio + I2C control"
+      ],
+      "flow": [
+        "Radxa USB",
+        "XIAO",
+        "XVF3800"
+      ],
+      "sentences": [
+        "Radxa connects to XIAO by USB for audio and control. This firmware carries sixteen kilohertz stereo audio: two processed channels from four microphones."
+      ],
+      "note": "XIAO is on the circular board. Cable geometry is a packaging reference."
+    },
+    {
+      "id": "computer",
+      "title": "Main computer",
+      "english": "05 / RADXA ZERO 3W",
+      "group": "computer",
+      "bullets": [
+        "Radxa Zero 3W / RK3566",
+        "Linux applications and interfaces",
+        "Coordinates sensing and output"
+      ],
+      "flow": [
+        "Sensor input",
+        "Linux apps",
+        "Commands"
+      ],
+      "sentences": [
+        "The Radxa computer runs Linux applications. It receives audio and visual input, then coordinates interaction through the robot interface."
+      ]
+    },
+    {
+      "id": "hat",
+      "title": "Robot interface board",
+      "english": "06 / ROBOT HAT + IMU",
+      "group": "hat",
+      "bullets": [
+        "Host-to-servo interface",
+        "BMI088: accelerometer + gyro",
+        "Power and peripheral connections"
+      ],
+      "flow": [
+        "Host",
+        "Robot HAT",
+        "Joints / IMU"
+      ],
+      "sentences": [
+        "The robot interface board links the host, servos and power. Its six axis sensor measures acceleration and angular velocity for body motion awareness."
+      ],
+      "note": "The IMU belongs to this board; individual IC geometry is not modelled."
+    },
+    {
+      "id": "camera",
+      "title": "Camera & optics",
+      "english": "07 / CAMERA OPTICS",
+      "group": "camera",
+      "bullets": [
+        "Lens + holder + front panel",
+        "Forward visual input",
+        "Images processed by host apps"
+      ],
+      "flow": [
+        "Light",
+        "Camera optics",
+        "Vision app"
+      ],
+      "sentences": [
+        "The lens, holder and front panel position the optical assembly. Images reach the host, where applications can combine vision with hearing."
+      ],
+      "note": "Source optical assembly; no unconfirmed image sensor model is implied."
+    },
+    {
+      "id": "speaker",
+      "title": "Speaker",
+      "english": "08 / SPEAKER",
+      "group": "speaker",
+      "bullets": [
+        "Audio signals become sound",
+        "Prompts and spoken interaction",
+        "Routing follows actual wiring"
+      ],
+      "flow": [
+        "Audio",
+        "Output circuit",
+        "Speaker"
+      ],
+      "sentences": [
+        "The speaker turns audio signals into sound. This source model shows its installation envelope; the output circuit must match the actual wiring."
+      ],
+      "note": "The grey block is the original speaker envelope, not a detailed speaker model."
+    },
+    {
+      "id": "jaw",
+      "title": "Beak & head mechanism",
+      "english": "09 / BEAK & HEAD MECHANISM",
+      "group": "jaw",
+      "bullets": [
+        "Upper + lower beak + soft inserts",
+        "Brackets and bearings",
+        "Open pose; original mesh"
+      ],
+      "flow": [
+        "Brackets",
+        "Beak mechanism",
+        "Expression"
+      ],
+      "sentences": [
+        "The beak combines upper and lower parts with soft contact pieces. Brackets and bearings support the mechanism; this open pose illustrates its structure."
+      ],
+      "note": "Display articulation; actuation and collision clearance are not validated."
+    },
+    {
+      "id": "power",
+      "title": "Battery & power",
+      "english": "10 / BATTERY & POWER",
+      "group": "power",
+      "bullets": [
+        "Removable battery",
+        "Pack support and retention",
+        "Supply to host and actuators"
+      ],
+      "flow": [
+        "Battery",
+        "Power circuit",
+        "Host / servos"
+      ],
+      "sentences": [
+        "The rear battery supplies the robot through its power circuitry. Support parts retain the pack. The model does not establish capacity or runtime."
+      ],
+      "note": "NP-F battery envelope; capacity and runtime are not inferred."
+    },
+    {
+      "id": "motors",
+      "title": "Fifteen smart servos",
+      "english": "11 / DYNAMIXEL XL330",
+      "group": "motors",
+      "bullets": [
+        "15 XL330 servos",
+        "Bus commands + returned status",
+        "Local joint control"
+      ],
+      "flow": [
+        "Target",
+        "Servo control",
+        "Feedback"
+      ],
+      "sentences": [
+        "Fifteen smart servos move the head, neck and legs. Bus commands set targets; each servo runs local control and returns status."
+      ]
+    },
+    {
+      "id": "structure",
+      "title": "Frame, legs & feet",
+      "english": "12 / FRAME & FEET",
+      "group": "structure",
+      "bullets": [
+        "Torso, neck and both legs",
+        "Rigid parts and bearing supports",
+        "Feet with soft ground contacts"
+      ],
+      "flow": [
+        "Torso",
+        "Joint linkages",
+        "Feet"
+      ],
+      "sentences": [
+        "The frame connects the body and limbs. Bearings support joints, while feet and soft soles contact the ground. Walking requires separate control software."
+      ]
+    },
+    {
+      "id": "software",
+      "title": "Firmware & host tools",
+      "english": "13 / FIRMWARE & HOST TOOLS",
+      "group": "computer",
+      "bullets": [
+        "USB audio + device control",
+        "Signal view + activity events",
+        "Hooks for your application"
+      ],
+      "flow": [
+        "Firmware",
+        "Host tools",
+        "Your app"
+      ],
+      "sentences": [
+        "Firmware handles USB audio and device controls. Host tools display signals and voice activity events. Application hooks support further integration."
+      ],
+      "note": "Voice activity is not keyword recognition. Assistant services are separate."
+    },
+    {
+      "id": "reassembly",
+      "title": "Back to one robot",
+      "english": "DUCK / REASSEMBLY",
+      "group": "all",
+      "bullets": [
+        "Auditory + visual + body inputs",
+        "Computing + sound + motion",
+        "Model, firmware and host code"
+      ],
+      "flow": [
+        "Sense",
+        "Compute",
+        "Interact"
+      ],
+      "sentences": [
+        "The modules return while Duck keeps turning: sensing, computing and interaction, with matching model sources, firmware and host code."
+      ]
+    }
+  ],
+  "notes": [
+    "Rigid exploded illustration, not a validated physical removal sequence.",
+    "Current firmware requires Radxa USB HOST to XIAO USB; the imported cable mesh is only an older packaging reference.",
+    "Board-level geometry is retained as supplied. Unmodelled individual ICs are described without invented geometry.",
+    "Speaker routing, physical assembly, acoustics and robot control require hardware verification.",
+    "English narration is synthesized locally, not a real microphone recording."
+  ],
+  "evidence": [
+    "../mechanical/source/parameters.json",
+    "../mechanical/mjcf/robot_walk.xml",
+    "../firmware/main/main.c",
+    "../firmware/main/usb_descriptors.c",
+    "../firmware/README.md",
+    "../software/README.md",
+    "Upstream Pollen Robotics elec_RPI_Robot_HAT schematic and BOM",
+    "Manufacturer Radxa Zero 3W and ReSpeaker XVF3800 documentation"
+  ],
+  "language": "en-US"
+}

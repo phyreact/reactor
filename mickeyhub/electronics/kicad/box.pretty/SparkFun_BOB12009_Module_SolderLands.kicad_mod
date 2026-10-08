@@ -1,0 +1,168 @@
+(footprint "SparkFun_BOB12009_Module_SolderLands"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SparkFun BOB-12009 complete module; hole centers from official Eagle PCB. CC BY-SA 3.0 SparkFun. Custom solder lands require assembly qualification; not castellated.")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d15a54a2-cd12-4c42-9a12-c72f766693a6")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Value" "SparkFun_BOB12009_Module_SolderLands"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "17b7a365-1d11-4d14-afaf-e7f98063adcc")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a54e35e7-6406-409c-930a-f11d59c2a689")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fea20eb-dc56-4769-bb46-17c3f62c7c3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -7.87 -6.93)
+		(end 7.87 6.93)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b4809556-d576-4f0c-a174-04a5ced219b1")
+	)
+	(fp_rect
+		(start -7.62 -6.35)
+		(end 7.62 6.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "683f7f9f-b388-4d56-9391-b55611110afc")
+	)
+	(fp_text user "HV:5V"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "50fb06ba-9bb3-4baa-892b-e9b8f812eda0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "LV:3V3"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "4c77cbfb-c60e-451c-ab61-3ca392fd63be")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "GND_H" smd rect
+		(at 1.27 -5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5c28c3d8-ea7d-4b94-87f0-0e473d51284d")
+	)
+	(pad "GND_L" smd rect
+		(at 1.27 5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5ac46c7f-a55a-47ad-829f-212fece53de1")
+	)
+	(pad "HV" smd rect
+		(at -1.27 -5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1b50d9f2-abc9-47b3-95fc-74d763afc8ef")
+	)
+	(pad "HV1" smd rect
+		(at -6.35 -5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6d78d307-38b5-4b19-b959-30dab7592635")
+	)
+	(pad "HV2" smd rect
+		(at -3.81 -5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3211cb3f-d664-439c-ab12-8e026107e5ef")
+	)
+	(pad "HV3" smd rect
+		(at 3.81 -5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5f89e330-26d5-46a8-9dae-03d83f2e90b7")
+	)
+	(pad "HV4" smd rect
+		(at 6.35 -5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3c82371e-f739-4ef4-a7e7-a59af86050df")
+	)
+	(pad "LV" smd rect
+		(at -1.27 5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f1acafc9-e4aa-4781-93e1-91b7043f814c")
+	)
+	(pad "LV1" smd rect
+		(at -6.35 5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "afe30f63-57f3-4355-8e2d-0e531b6bfe59")
+	)
+	(pad "LV2" smd rect
+		(at -3.81 5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6c4dfddc-e545-4564-ba09-bc503f000b38")
+	)
+	(pad "LV3" smd rect
+		(at 3.81 5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b87ca649-36c5-4fe8-bcad-f87448af094b")
+	)
+	(pad "LV4" smd rect
+		(at 6.35 5.08)
+		(size 1.7 3.2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "54551fab-3734-4081-897c-e94763518610")
+	)
+	(embedded_fonts no)
+)

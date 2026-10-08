@@ -1,0 +1,176 @@
+(footprint "ZXC0073_28p08x8p55_FLUSH_SMD_PENDING"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Complete module, flush board-to-board solder lands. No header or intentional standoff. Pad centres remain provisional; actual module fit and solder sample required.")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "a67ec6fc-f394-4bd1-967f-3189542e99b5")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Value" "ZXC0073_28p08x8p55_FLUSH_SMD_PENDING"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "4c710cfb-e107-4402-bfcd-d103c7d5bd1a")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e5890cf-237e-4940-b036-96e146bc1612")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "089fa603-50a6-45f5-a349-15939f030853")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -14.95 -4.525)
+		(end 14.95 4.525)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6628d261-e7ea-4da1-a1f6-e9f03ba7cf96")
+	)
+	(fp_rect
+		(start -14.04 -4.275)
+		(end 14.04 4.275)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2e535c48-1c03-4fd0-91e8-d08ca1155294")
+	)
+	(fp_text user "V+"
+		(at -8.3 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "0c63e829-9208-45f0-9788-42979ff22b45")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at -8.3 0 0)
+		(layer "F.SilkS")
+		(uuid "687e303e-0e40-41c3-865b-ff6a622bf4c8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "V-"
+		(at -8.3 2.8 0)
+		(layer "F.SilkS")
+		(uuid "bcf88ce0-f052-4f6f-9b11-429e2484fb4b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "NO"
+		(at 8.3 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "5a3eb0a1-cfeb-4768-a26f-172b4642c1fe")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "COM"
+		(at 8.3 0 0)
+		(layer "F.SilkS")
+		(uuid "f92a255a-2065-4fb9-a365-71daf3eaeddf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "NC"
+		(at 8.3 2.8 0)
+		(layer "F.SilkS")
+		(uuid "7ba347a0-8bbf-4c99-886e-ef82f01b9921")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "COM" smd rect
+		(at 12.3 0)
+		(size 4.8 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "31e2fe8e-1854-44e1-9d8a-39a0ef23b12d")
+	)
+	(pad "IN-" smd rect
+		(at -12.3 0)
+		(size 4.8 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d6019325-aa29-4a9c-829d-ced2af70a3a8")
+	)
+	(pad "NC" smd rect
+		(at 12.3 2.8)
+		(size 4.8 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1b6a9f16-a10b-4c3e-ac00-45f89569d8ce")
+	)
+	(pad "NO" smd rect
+		(at 12.3 -2.8)
+		(size 4.8 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bc1a730a-6844-4524-a457-c63c84164356")
+	)
+	(pad "V+" smd rect
+		(at -12.3 -2.8)
+		(size 4.8 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "c63991b8-d082-4d9f-870e-7eedfe7deaa5")
+	)
+	(pad "V-" smd rect
+		(at -12.3 2.8)
+		(size 4.8 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "93e26b6a-fca4-454d-8788-079619941cea")
+	)
+	(embedded_fonts no)
+)

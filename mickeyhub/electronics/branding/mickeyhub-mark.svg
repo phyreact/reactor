@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7mm" height="5.23mm" viewBox="155 180 1290 964">
+  <title>Mickey Hub enclosure — monochrome PCB mark</title>
+  <desc>Traced from the final enclosure preview: rounded body, top light ring,
+  two displays, central distance sensor and camera.
+  Black is silkscreen ink; white areas are unprinted.</desc>
+  <path id="enclosure" fill="#000" d="M183 434
+    C182 393 207 369 248 355 L812 216
+    C870 201 917 207 959 231 L1366 465
+    C1401 485 1418 501 1418 543 L1418 870
+    C1418 913 1397 943 1358 954 L773 1098
+    C716 1111 673 1102 633 1081 L229 869
+    C197 853 183 829 183 796 Z"/>
+  <ellipse id="halo" cx="800" cy="422" rx="283" ry="105"
+    fill="none" stroke="#fff" stroke-width="50"/>
+  <path id="lid-seam" d="M240 455 Q240 478 267 489
+    L635 638 Q680 661 732 647 L1325 532 Q1345 530 1354 521"
+    fill="none" stroke="#fff" stroke-width="36" stroke-linecap="round"/>
+  <g fill="#fff">
+    <ellipse id="left-display" cx="909" cy="835" rx="86" ry="114"
+      transform="rotate(23 909 835)"/>
+    <ellipse id="right-display" cx="1245" cy="751" rx="88" ry="114"
+      transform="rotate(23 1245 751)"/>
+    <ellipse id="camera" cx="1067" cy="899" rx="43" ry="57"
+      transform="rotate(23 1067 899)"/>
+  </g>
+  <path id="distance-sensor" d="M1062 701 L1090 694"
+    fill="none" stroke="#fff" stroke-width="40" stroke-linecap="round"/>
+</svg>

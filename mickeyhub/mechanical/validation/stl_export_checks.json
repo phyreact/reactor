@@ -1,0 +1,261 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "DRAFT_DC_socket_spacer_mm.stl",
+      "sha256": "7b7146c7cc452b16c4ba05e3a2b780560d45dde397bfaa3c5e6e2aa7e649783a",
+      "triangles": 768,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 104.68126669008132,
+      "dimensions_mm": [
+        10.800000190734863,
+        10.800002098083496,
+        2.6999893188476562
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_M01_support_mm.stl",
+      "sha256": "bd2f09c6cfe00af6685d70eeb743ef45ad21973cde4795500866bd2cfbc89703",
+      "triangles": 3942,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 43762.070278438034,
+      "dimensions_mm": [
+        109.00004577636719,
+        55.20000076293945,
+        61.0
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_M04_support_mm.stl",
+      "sha256": "20695efbf22d8c733f80b1b37f073e96ed9f891227d175f7d23bfbda49e59ccf",
+      "triangles": 10854,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 59233.32030175803,
+      "dimensions_mm": [
+        130.60000610351562,
+        76.00007820129395,
+        57.0
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_black_power_button_cap_mm.stl",
+      "sha256": "b1ab74f6eb79c553aabf76651a11879f100f52985c65fc9ea3668a3128b21aba",
+      "triangles": 404,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 143.29859286673897,
+      "dimensions_mm": [
+        8.0,
+        7.9999964237213135,
+        4.0
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_halo_retainer_1_mm.stl",
+      "sha256": "1a6734ea7b0c04b28e704a1fa1fefb20fe216dbba2a3a0b940be924bcc5396a9",
+      "triangles": 308,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 225.1268252313774,
+      "dimensions_mm": [
+        21.89999771118164,
+        6.800002098083496,
+        4.899997711181641
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_internal_power_pusher_mm.stl",
+      "sha256": "a2e0b979e8d867dcc0c9b900c723d48cd5c81994ab275e9d4c283039a682bcdf",
+      "triangles": 1036,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 252.1587982174665,
+      "dimensions_mm": [
+        9.000001907348633,
+        8.999994277954102,
+        4.099994659423828
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_large_cover_mm.stl",
+      "sha256": "b58272cdc19cc2189225c236db30da6c57d8272dced9e7116332ce916c033476",
+      "triangles": 37872,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 95122.07508240004,
+      "dimensions_mm": [
+        136.0,
+        140.0,
+        62.5
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_retaining_strip_1_mm.stl",
+      "sha256": "e39ed8ef700d01e149b8c8b60c3320143f6f1767f29c0b043504d9c914fd4e1b",
+      "triangles": 1544,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 1557.5141563609893,
+      "dimensions_mm": [
+        101.19999694824219,
+        6.0,
+        11.899967193603516
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_retaining_strip_2_mm.stl",
+      "sha256": "c6f5814eba1a40f1d257bf175775e83ab74ca2f46ecd9858e93907a633e359f2",
+      "triangles": 592,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 815.7717728524032,
+      "dimensions_mm": [
+        7.8000030517578125,
+        38.00001239776611,
+        3.5999908447265625
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_retaining_strip_3_mm.stl",
+      "sha256": "737c3edcfa6d20dec693148ed61c0620b3d69f42dddf315ac7c82087ce8619a1",
+      "triangles": 592,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 815.7717646791366,
+      "dimensions_mm": [
+        7.8000030517578125,
+        38.000012159347534,
+        3.5999908447265625
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_retaining_strip_4_mm.stl",
+      "sha256": "6c5b70bf45a039183cb57860be9e3378f213ff6ebe2add8a6ad194ba6ce01b5d",
+      "triangles": 600,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 815.7718283589926,
+      "dimensions_mm": [
+        38.0000114440918,
+        7.800006866455078,
+        3.5999908447265625
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_retaining_strip_5_mm.stl",
+      "sha256": "2b3c89268747e2a3871eaa87e031d981dff67f29f67a10d7f6566f72d4185182",
+      "triangles": 722,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 335.58573848392365,
+      "dimensions_mm": [
+        18.799999237060547,
+        7.200004577636719,
+        5.149997711181641
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_retaining_strip_6_mm.stl",
+      "sha256": "30b0e99d84b53e0990b5c8c379eb47c9d5159034b6a8d18d9bd1aa5243683a68",
+      "triangles": 564,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 264.9913572367738,
+      "dimensions_mm": [
+        24.0,
+        4.400005340576172,
+        3.1999855041503906
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_separate_base_mm.stl",
+      "sha256": "12ae7f0c630627823a95267a68abb15b887791124d589f51377d3085a8b9a084",
+      "triangles": 67996,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 44538.9842927459,
+      "dimensions_mm": [
+        136.0,
+        140.0,
+        9.199999809265137
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "DRAFT_transparent_halo_mm.stl",
+      "sha256": "7df7a32503a1ca59f2411eed26ac53d3b5437218fe831d49d8d1d5d50d4aca32",
+      "triangles": 3506,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 3237.5464194173946,
+      "dimensions_mm": [
+        86.0,
+        86.0,
+        4.5999908447265625
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    }
+  ],
+  "scope": "Binary STL size, finite coordinates, shared edges, connectedness, positive signed volume and dimensions; no physical printing claim."
+}

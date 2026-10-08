@@ -1,0 +1,11 @@
+{
+  "status": "REJECTED_DO_NOT_CONNECT",
+  "candidate": "TL2230OAF140 directly across J51",
+  "reason": "UPS P2 is series main battery-current path (M2 source to VBAT), not a low-current control input. TL2230 is rated only 0.1A at30VDC.",
+  "evidence": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/electrical_closure/sources/ups3s_schematic.pdf",
+  "evidence_sha256": "ea654047e0c8ae1b8128ecf878ae69e976646ea504c1e6619432751eb452a3b2",
+  "local_detail": "ups_P2_main_current_chat.jpg",
+  "native_pcb_modified": false,
+  "target_flashed": false,
+  "replacement_status": "Rated DC contact or MOS power-stage candidate required; no replacement is electrically released."
+}

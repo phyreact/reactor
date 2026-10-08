@@ -1,0 +1,70 @@
+{
+  "selected": true,
+  "quantity": 1,
+  "selected_at": "2026-10-06",
+  "source": "User explicitly restored previous side-outlet speaker; original manufacturer drawing in project",
+  "manufacturer": "鑫丰电子 / XINFENG Electronics",
+  "mpn": "XFDZ-3727-4Ω3W",
+  "description": "XINFENG XFDZ-3727 side-outlet enclosed speaker, 4 ohm 3 W, 37.4x27.4x9mm body",
+  "replaces": "SPEAKER_2828; the proposed two-speaker layout was cancelled",
+  "dimensioned_mm": {
+    "body_length": 37.4,
+    "body_width": 27.4,
+    "body_thickness": 9.0,
+    "overall_length_with_ears": 50.0,
+    "mounting_hole_spacing": 44.0,
+    "mounting_hole_diameter": 3.2,
+    "general_drawing_tolerance": 0.2,
+    "wire_length": 145.0,
+    "wire_length_tolerance": 5.0,
+    "connector_pitch": 1.25,
+    "connector_pins": 2
+  },
+  "photo_estimated_mm": {
+    "body_corner_radius": 3.0,
+    "ear_width": 7.0,
+    "ear_thickness": 1.5,
+    "ear_corner_radius": 1.4,
+    "outlet_length": 29.5,
+    "outlet_width": 4.6,
+    "outlet_recess": 2.4,
+    "wire_outer_diameter": 0.65
+  },
+  "electrical": {
+    "impedance_ohm": 4,
+    "rated_power_w": 3,
+    "connection": "ReSpeaker amplified speaker output, two wires",
+    "motherboard_signal_or_GPIO_change": false,
+    "official_reference": "https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/",
+    "official_reference_observation": "Official guide calls the onboard JST speaker interface a 5 W amplified speaker output; AUX is for headphones or active speakers.",
+    "exact_amplifier_load_rating_verified": false,
+    "speaker_connector_family_verified": false,
+    "speaker_connector_polarity_verified": false,
+    "qualification": "Nominal4ohm3W unchanged. Latest user drawing specifies1.25mm2P instead of earlier2mm. Connector family/polarity and output limiting still require verification."
+  },
+  "mechanical": {
+    "position": "Original horizontal front lower cavity",
+    "bounds_mm": [
+      [
+        -25.000001907348633,
+        36.69999694824219,
+        2.799999952316284
+      ],
+      [
+        24.999998092651367,
+        64.0999984741211,
+        11.80000114440918
+      ]
+    ],
+    "support": "Horizontal ear seats in hollow lower front base; original mounting hole spacing",
+    "assembly_qualified": false,
+    "acoustics_tested": false,
+    "active_model": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/base_large_cover/assembly.blend"
+  },
+  "model_revision": "horizontal_3727_hidden_lower_front_cavity",
+  "pending": [
+    "Sample-fit speaker ears and screws, connector polarity and cable route",
+    "Final shell acoustic seal and sound measurements"
+  ],
+  "updated_at": "2026-10-07T06:32:45.583268+00:00"
+}

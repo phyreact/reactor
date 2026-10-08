@@ -1,0 +1,27 @@
+{
+  "palette": {
+    "name": "Classic Sailor Blue",
+    "lid_hex": "#176ED1",
+    "rim_hex": "#176ED1",
+    "band_hex": "#24282D",
+    "shell_hex": "#ECEAE4",
+    "bill_hex": "#F4B92D",
+    "feet_hex": "#F4B92D",
+    "face_hex": "#24282D",
+    "motor_hex": "#24282D",
+    "roughness": 0.46,
+    "specular": 0.24,
+    "rationale": "Sailor blue unifies the lid and rim. A black front band, warm white body and golden beak and feet keep the silhouette clear. Matte surfaces reduce washed-out highlights."
+  },
+  "geometry_modified": false,
+  "assembly_positions_modified": false,
+  "lossless_container_recompression": {
+    "codec": "Zstandard",
+    "compression_level": 19,
+    "previous_file_sha256": "cf67b1eb493a8b2d9442ac397b126e450339d799372cc707720b5180ce66230f",
+    "file_sha256": "31e4d53a8b55a77033a2de7ed334fcb539afa72cc7797f535c8f3f10b68013d2",
+    "decompressed_sha256": "82464c532fcc6a4322f3722a58ef0d1dabe4cc1320facb09c9212860e7a61f56",
+    "decompressed_bytes_identical": true,
+    "geometry_materials_and_assembly_unchanged": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "adapter": "rp",
+      "check": "drc",
+      "violations": 0,
+      "source_file": "electronics/daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_pcb",
+      "source_sha256": "ee74354b0cb2d18261e5b6138eb9c27900bae1845741ec2dca1d59cf0ffc34df"
+    },
+    {
+      "adapter": "rp",
+      "check": "erc",
+      "violations": 0,
+      "source_file": "electronics/daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_sch",
+      "source_sha256": "c2956df56f2f9140b0c4bc1a0c445ee763f349c75d51da866f739fc54ccba998"
+    },
+    {
+      "adapter": "s3",
+      "check": "drc",
+      "violations": 0,
+      "source_file": "electronics/daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_pcb",
+      "source_sha256": "63336ff7ab6c0d4d2ce0602761a1e195e9ea300d2cd972852e74065ed5d34023"
+    },
+    {
+      "adapter": "s3",
+      "check": "erc",
+      "violations": 0,
+      "source_file": "electronics/daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_sch",
+      "source_sha256": "6ec387707cfd68c9ec38aa1b217fd02d5ec530c9a893b9302c0fc3d4adf919bd"
+    }
+  ],
+  "scope": "Native CAD rules and library consistency only; no hardware qualification."
+}

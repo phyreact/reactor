@@ -1,0 +1,12 @@
+* Inhibit contact DC model; pulldown range is a sensitivity scenario, not measured module values.
+Vsup vcc 0 5
+Rnc vcc en 1000000000000.0
+Rpd1 en 0 10000
+Rpd2 en 0 10000
+Ileak vcc en 2u
+.control
+op
+wrdata v5_10000_0.txt v(en)
+quit
+.endc
+.end

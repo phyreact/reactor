@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/STMicroelectronics/x-cube-tof1",
+  "commit": "c12709c3ac802d91dd2a215178f53cb94c024709",
+  "files": [
+    {
+      "path": "vendor/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/x-cube-tof1/c12709c3ac802d91dd2a215178f53cb94c024709/Drivers/BSP/Components/vl53l8cx/LICENSE.md",
+      "sha256": "7707229c030f124b07fd08594488db57e38e3d86888a0f574f404dae63b2845e",
+      "bytes": 1512
+    },
+    {
+      "path": "vendor/vl53l8cx_api.c",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/x-cube-tof1/c12709c3ac802d91dd2a215178f53cb94c024709/Drivers/BSP/Components/vl53l8cx/modules/vl53l8cx_api.c",
+      "sha256": "7e370b8018b2d4bf1354e7bde3b85d4030707e73676f2825837cb8958ccb6cc1",
+      "bytes": 40191
+    },
+    {
+      "path": "vendor/vl53l8cx_api.h",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/x-cube-tof1/c12709c3ac802d91dd2a215178f53cb94c024709/Drivers/BSP/Components/vl53l8cx/modules/vl53l8cx_api.h",
+      "sha256": "c7fc8b7aea8bf7f1e74953339990ad4ec08e7da5c2d77b1cb55438279a32e492",
+      "bytes": 27401
+    },
+    {
+      "path": "vendor/vl53l8cx_buffers.h",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/x-cube-tof1/c12709c3ac802d91dd2a215178f53cb94c024709/Drivers/BSP/Components/vl53l8cx/modules/vl53l8cx_buffers.h",
+      "sha256": "3b834927e23e24eb0fe540132b4413b8df815f347abcfbe5f9a0dde4cbc84109",
+      "bytes": 549953
+    },
+    {
+      "path": "vendor/platform.h",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/x-cube-tof1/c12709c3ac802d91dd2a215178f53cb94c024709/Drivers/BSP/Components/vl53l8cx/porting/platform.h",
+      "sha256": "4e42774487c58babe9eafd7ec6d7170128854dee7525a6a88afbc89c22bcf91a",
+      "bytes": 5083
+    },
+    {
+      "path": "vendor/platform.c",
+      "url": "https://raw.githubusercontent.com/STMicroelectronics/x-cube-tof1/c12709c3ac802d91dd2a215178f53cb94c024709/Drivers/BSP/Components/vl53l8cx/porting/platform.c",
+      "sha256": "f396db2e8ebd061a70868dcb16a3c9a546a8bd8eb2a93982bd8e94060285090b",
+      "bytes": 1717
+    }
+  ]
+}

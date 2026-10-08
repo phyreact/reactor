@@ -1,0 +1,104 @@
+{
+  "brand": "MicheyHub",
+  "date": "2026-10-08",
+  "scope": "Enclosure silhouette, product/version silkscreen and schematic title metadata only.",
+  "unchanged": "All other raw top-level KiCad blocks match, including nets, tracks, vias, zones, footprints, pads, board outline and setup.",
+  "main_wordmark_uuid": "46db882e-2c61-5d3f-a9e8-d3c179a27782",
+  "files": [
+    {
+      "file": "electronics/kicad/box_carrier_modules_r2.kicad_pcb",
+      "input_sha256": "993757a60e8f75bfd26fcaf73489bbd240172ba6b6f03f62132d715b2d466839",
+      "output_sha256": "35d0ce801373a280cee60b6f78e124b6a61a5eb69f79a4c740522e4e95e8cf3c",
+      "unchanged_blocks_sha256": "38b5224ff85edfc64846221068b715d40c75ad32cdee1017f4abac45d501cef7",
+      "excluded_graphic_uuids": [
+        "13e34f76-37b3-483f-a038-20c495b1fd62",
+        "14a7acaa-dde3-5756-b6d0-af5e9a2cc399",
+        "181fdfee-46ea-4958-a59e-91ac6f04504f",
+        "1b53b1b8-5b12-54c3-a84c-f84ffce8b6ce",
+        "312d9a75-1a1e-47d0-8783-fb36fbb73950",
+        "361fef8e-6a0a-465a-a7e0-54e9c6670a0f",
+        "41268a5c-6727-45b4-aa9d-a85de613f784",
+        "46db882e-2c61-5d3f-a9e8-d3c179a27782",
+        "55839537-239c-5ea2-8cfa-755f44df8c61",
+        "611217c5-445b-4966-8e69-1b4f2b47572e",
+        "64ec303c-d4ae-42b3-91da-d3c53f4bff3a",
+        "74a4849c-d493-530b-98ec-5bfc71733123",
+        "9705d976-61c0-4fd7-a3a7-6b1c8ebd6b6f",
+        "b4f16b81-6194-46f2-88aa-c97f456c460a",
+        "c3ed476d-6f91-5af3-8324-afbfe72f69fb",
+        "c7f7934d-0deb-5df1-9ac9-72030f398616",
+        "eb04cbef-46f6-4025-a899-afe735ed5d09",
+        "fbe8ecd7-2d73-52c1-ac9d-a89250a18161"
+      ],
+      "excluded_metadata_blocks": []
+    },
+    {
+      "file": "electronics/daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_pcb",
+      "input_sha256": "9c962023ffe5240ba9f39bbdcfd6bd7c2053673a8fd92720efce68a08ba83fdc",
+      "output_sha256": "ee74354b0cb2d18261e5b6138eb9c27900bae1845741ec2dca1d59cf0ffc34df",
+      "unchanged_blocks_sha256": "cc04b77353c570306352da34c918102767c3a81a2a4ff77f3a79d7919ccc7259",
+      "excluded_graphic_uuids": [
+        "f5391f63-bc5a-4653-8bd6-b5b1a391b0de"
+      ],
+      "excluded_metadata_blocks": []
+    },
+    {
+      "file": "electronics/daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_pcb",
+      "input_sha256": "14971546a2b4ab6a5a2d1191aeb248fa92308b0f3fefee5429ac89effaf56b82",
+      "output_sha256": "63336ff7ab6c0d4d2ce0602761a1e195e9ea300d2cd972852e74065ed5d34023",
+      "unchanged_blocks_sha256": "17d531ca9ebc3832a09f65d3c48c2a631748ce3ce346789e7d3a87e5669e1c7f",
+      "excluded_graphic_uuids": [
+        "52f866ce-42d4-4a9f-8b7f-dee88a466272"
+      ],
+      "excluded_metadata_blocks": []
+    },
+    {
+      "file": "electronics/daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_sch",
+      "input_sha256": "0dd41d9065039414583121b1b4423070190487391d7236e16bd9185479b27628",
+      "output_sha256": "c2956df56f2f9140b0c4bc1a0c445ee763f349c75d51da866f739fc54ccba998",
+      "unchanged_blocks_sha256": "30bc7b97532c129145b968f689399f4b217e45b951874d112b847054059d319f",
+      "excluded_graphic_uuids": [],
+      "excluded_metadata_blocks": [
+        "title_block"
+      ]
+    },
+    {
+      "file": "electronics/daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_sch",
+      "input_sha256": "ac661d8f32832d25372a3e2166a38460dbf92dc4ef0a44fccea31c2140de7343",
+      "output_sha256": "6ec387707cfd68c9ec38aa1b217fd02d5ec530c9a893b9302c0fc3d4adf919bd",
+      "unchanged_blocks_sha256": "85ad675924fd59add2f56d4f6caf0c3ad18abe26062a81a5d82080cfa27cb976",
+      "excluded_graphic_uuids": [],
+      "excluded_metadata_blocks": [
+        "title_block"
+      ]
+    }
+  ],
+  "hardware_qualified": false,
+  "board_marking": "MicheyHub V0.0",
+  "logo": {
+    "source": "electronics/branding/mickeyhub-mark.svg",
+    "source_sha256": "f2b7ba80e7bf3275c6ac2cd29f5f26b6e2d68877af5d7ff236a5d8ad1bf611c3",
+    "reference": "media/mickeyhub-preview.png",
+    "reference_sha256": "34ef48e40098c0dbf31bd67f374db4dabed8c6279bfa36ed019a4755f2e8ec89",
+    "description": "Monochrome trace of the actual enclosure: top ring, two displays, ToF slot and camera.",
+    "layer": "F.SilkS",
+    "center_mm": [
+      72.9,
+      105.5
+    ],
+    "rotation_degrees": 90,
+    "svg_canvas_width_mm": 7,
+    "smallest_drawn_white_stroke_mm": 0.195349,
+    "graphic_uuids": [
+      "c3ed476d-6f91-5af3-8324-afbfe72f69fb",
+      "fbe8ecd7-2d73-52c1-ac9d-a89250a18161",
+      "14a7acaa-dde3-5756-b6d0-af5e9a2cc399",
+      "55839537-239c-5ea2-8cfa-755f44df8c61",
+      "c7f7934d-0deb-5df1-9ac9-72030f398616",
+      "74a4849c-d493-530b-98ec-5bfc71733123",
+      "1b53b1b8-5b12-54c3-a84c-f84ffce8b6ce"
+    ],
+    "native_polygon_count": 7,
+    "previous_waveform_removed": true
+  }
+}

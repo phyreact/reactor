@@ -1,0 +1,17 @@
+# systemd --user unit for the XIAO bridge daemon (owner of the CDC port, wake events).
+# Install on the ZERO as user radxa:
+#   mkdir -p ~/.config/systemd/user && cp ~/xiao-tools/xiao-bridge.service ~/.config/systemd/user/
+#   systemctl --user daemon-reload && systemctl --user enable --now xiao-bridge
+#   sudo loginctl enable-linger radxa      # once, so it also starts at boot without a login
+[Unit]
+Description=XIAO ReSpeaker bridge: CDC port owner, voice wake events
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -u %h/xiao-tools/xiao_bridge_daemon.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target

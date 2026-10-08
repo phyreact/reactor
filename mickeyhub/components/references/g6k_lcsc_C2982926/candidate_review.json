@@ -1,0 +1,74 @@
+{
+  "status": "core_component_reference_only_not_a_replacement_for_complete_modules",
+  "lcsc": "C2982926",
+  "manufacturer": "Omron Electronics",
+  "mpn": "G6K-2F-Y-5V",
+  "component_type": "bare DPDT non-latching signal relay; not the ZXC0073 assembled control board",
+  "listing": "https://www.lcsc.com/product-detail/C2982926.html",
+  "primary_sources": [
+    "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf",
+    "https://www.fa.omron.co.jp/products/family/284/specification.html",
+    "https://components.omron.com/us-en/faq/relays/FAQE10012"
+  ],
+  "manufacturer_datasheet_sha256": "25d2046127b3ffa7e7a2047b7467c67587559e8e05111347260d5a892c0bec57",
+  "coil": {
+    "nominal_voltage_V": 5,
+    "nominal_current_mA": 21.1,
+    "nominal_resistance_ohm": 237,
+    "nominal_power_mW": 100,
+    "current_resistance_tolerance_percent": 10,
+    "transistor_drive_required_from_GPIO": true,
+    "flyback_suppression_required": true
+  },
+  "contacts": {
+    "configuration": "DPDT /2FormC",
+    "resistive_rated_load": [
+      {
+        "current_A": 1,
+        "voltage_VDC": 30
+      },
+      {
+        "current_A": 0.3,
+        "voltage_VAC": 125
+      }
+    ],
+    "maximum_switching_current_A": 1,
+    "rated_carry_current_A": 2,
+    "carry_current_is_not_switching_rating": true,
+    "parallel_contacts_not_accepted_as_arithmetic_current_rating_increase": true,
+    "certification_test_conditions": {
+      "source": "manufacturer PDF page9, UL/CSA table",
+      "contact_current_A": 2,
+      "contact_voltage_VDC": 30,
+      "ambient_C": 40,
+      "test_operations": 6000,
+      "scope": "G6K(U)-2G(F/P)-Y family3V to24V coils",
+      "not_a_general_4A_switching_rating": true
+    },
+    "standard_specification_context": {
+      "source": "manufacturer PDF page3",
+      "maximum_switching_current_A": 1,
+      "electrical_endurance_operations_at_rated_load": 100000
+    }
+  },
+  "body_nominal_mm": [
+    10,
+    6.5,
+    5.2
+  ],
+  "mounting": "8-pin SMT",
+  "three_volt_sibling": {
+    "G6K_DC3_nominal_coil_current_mA": 33,
+    "not_selected": true,
+    "whole_ZXC_control_board_3p3V_supply_qualification": "not provided by this bare-relay datasheet"
+  },
+  "project_assessment": {
+    "M1": "Actual switched load is5V. Do not reject solely from the1A standard-spec table: page9 also documents2A/30VDC at40C for6000 certification operations. Compare actual HOST+LCD+HAT continuous current, startup peaks, temperature and switching-life requirement. Module4A remains unqualified.",
+    "M2": "Actual switched load is5V for three radars. Check measured/calculated current and startup peaks against the applicable relay qualification conditions; retain complete module candidate.",
+    "driver": "For a bare relay, a3.3V GPIO may control a suitable low-side transistor while the coil uses5V; selecting3V coil does not eliminate the coil driver.",
+    "selection_changed": false,
+    "active_PCB_or_schematic_changed_for_this_link": false,
+    "user_scope": "Keep complete miniature relay boards; do not replace them with a bare relay footprint",
+    "earlier_statement_correction": "Earlier description omitted the page9 conditional2A switching certification and was incomplete.1A is the standard-spec switching value, not the only tested switching condition."
+  }
+}

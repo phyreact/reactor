@@ -1,0 +1,3 @@
+# Keep ModemManager off the XIAO bridge's CDC-ACM control port on the ZERO.
+# Install: sudo cp donald-microduck/software/99-xiao-cdc.rules /etc/udev/rules.d/ && sudo udevadm control --reload
+ATTRS{idVendor}=="303a", ATTRS{idProduct}=="8001", ENV{ID_MM_DEVICE_IGNORE}="1"

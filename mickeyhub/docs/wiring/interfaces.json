@@ -1,0 +1,2688 @@
+[
+  {
+    "ref": "J1",
+    "name": "UPS REGULATED 5V",
+    "use": "H01 UPS稳压5V；XH2.50mm",
+    "pins": [
+      {
+        "ref": "J1",
+        "pin": "1",
+        "function": "UPS_5V",
+        "net": "+5V_AON",
+        "use": "H01 UPS稳压5V；XH2.50mm",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      },
+      {
+        "ref": "J1",
+        "pin": "2",
+        "function": "GND",
+        "net": "GND",
+        "use": "H01 UPS稳压5V；XH2.50mm",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      }
+    ],
+    "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+    "pcb": [
+      115.799984,
+      139.425,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J2",
+    "name": "ZERO FAN / NOCTUA 5V PWM / 4P",
+    "use": "H14 5010 5V四线B3 PWM转换线；按功能核对端序。原生符号名中的NOCTUA为历史接口标签，不是当前选购风扇。",
+    "pins": [
+      {
+        "ref": "J2",
+        "pin": "1",
+        "function": "GND",
+        "net": "GND",
+        "use": "H14 5010 5V四线B3 PWM转换线；按功能核对端序。原生符号名中的NOCTUA为历史接口标签，不是当前选购风扇。",
+        "footprint": "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+      },
+      {
+        "ref": "J2",
+        "pin": "2",
+        "function": "5V",
+        "net": "+5V_HOST",
+        "use": "H14 5010 5V四线B3 PWM转换线；按功能核对端序。原生符号名中的NOCTUA为历史接口标签，不是当前选购风扇。",
+        "footprint": "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+      },
+      {
+        "ref": "J2",
+        "pin": "3",
+        "function": "TACH",
+        "net": "Z_GPIO3_A1",
+        "use": "H14 5010 5V四线B3 PWM转换线；按功能核对端序。原生符号名中的NOCTUA为历史接口标签，不是当前选购风扇。",
+        "footprint": "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+      },
+      {
+        "ref": "J2",
+        "pin": "4",
+        "function": "BUFFERED FAN PWM",
+        "net": "FAN_PWM_5V",
+        "use": "H14 5010 5V四线B3 PWM转换线；按功能核对端序。原生符号名中的NOCTUA为历史接口标签，不是当前选购风扇。",
+        "footprint": "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:FanPinHeader_1x04_P2.54mm_Vertical",
+    "pcb": [
+      54.5,
+      124.689999,
+      -90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J3",
+    "name": "UPS I2C STATUS",
+    "use": "H02 UPS状态；3脚不接",
+    "pins": [
+      {
+        "ref": "J3",
+        "pin": "1",
+        "function": "SCL",
+        "net": "S3_D5",
+        "use": "H02 UPS状态；3脚不接",
+        "footprint": "box:NS-Tech_Grove_1x04_P2mm_Vertical_J3_SilkClearance"
+      },
+      {
+        "ref": "J3",
+        "pin": "2",
+        "function": "SDA",
+        "net": "S3_D4",
+        "use": "H02 UPS状态；3脚不接",
+        "footprint": "box:NS-Tech_Grove_1x04_P2mm_Vertical_J3_SilkClearance"
+      },
+      {
+        "ref": "J3",
+        "pin": "3",
+        "function": "NC",
+        "net": "NC",
+        "use": "H02 UPS状态；3脚不接",
+        "footprint": "box:NS-Tech_Grove_1x04_P2mm_Vertical_J3_SilkClearance"
+      },
+      {
+        "ref": "J3",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H02 UPS状态；3脚不接",
+        "footprint": "box:NS-Tech_Grove_1x04_P2mm_Vertical_J3_SilkClearance"
+      }
+    ],
+    "footprint": "box:NS-Tech_Grove_1x04_P2mm_Vertical_J3_SilkClearance",
+    "pcb": [
+      149.399995,
+      67.7,
+      180.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J5",
+    "name": "Radxa ZERO 3W SOCKET",
+    "use": "ZERO直接插接",
+    "pins": [
+      {
+        "ref": "J5",
+        "pin": "1",
+        "function": "P1",
+        "net": "+3V3_ZERO",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "2",
+        "function": "P2",
+        "net": "+5V_HOST",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "3",
+        "function": "P3",
+        "net": "Z_GPIO1_A0",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "4",
+        "function": "P4",
+        "net": "+5V_HOST",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "5",
+        "function": "P5",
+        "net": "Z_GPIO1_A1",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "6",
+        "function": "P6",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "7",
+        "function": "P7",
+        "net": "Z_GPIO3_C4",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "8",
+        "function": "P8",
+        "net": "Z_GPIO0_D1",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "9",
+        "function": "P9",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "10",
+        "function": "P10",
+        "net": "Z_GPIO0_D0",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "11",
+        "function": "P11",
+        "net": "Z_GPIO3_A1",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "12",
+        "function": "P12",
+        "net": "Z_GPIO3_A3",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "13",
+        "function": "P13",
+        "net": "Z_GPIO3_A2",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "14",
+        "function": "P14",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "15",
+        "function": "P15",
+        "net": "Z_GPIO3_B0",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "16",
+        "function": "P16",
+        "net": "Z_GPIO3_B1",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "17",
+        "function": "P17",
+        "net": "+3V3_ZERO",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "18",
+        "function": "P18",
+        "net": "Z_GPIO3_B2",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "19",
+        "function": "P19",
+        "net": "Z_GPIO4_C3",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "20",
+        "function": "P20",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "21",
+        "function": "P21",
+        "net": "Z_GPIO4_C5",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "22",
+        "function": "P22",
+        "net": "Z_GPIO3_C1",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "23",
+        "function": "P23",
+        "net": "Z_GPIO4_C2",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "24",
+        "function": "P24",
+        "net": "Z_GPIO4_C6",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "25",
+        "function": "P25",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "26",
+        "function": "P26",
+        "net": "Z_PHYSICAL26_NC_COPY",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "27",
+        "function": "P27",
+        "net": "Z_GPIO4_B2",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "28",
+        "function": "P28",
+        "net": "Z_GPIO4_B3",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "29",
+        "function": "P29",
+        "net": "Z_GPIO3_B3",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "30",
+        "function": "P30",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "31",
+        "function": "P31",
+        "net": "Z_GPIO3_B4",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "32",
+        "function": "P32",
+        "net": "Z_GPIO3_C2",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "33",
+        "function": "P33",
+        "net": "Z_GPIO3_C3",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "34",
+        "function": "P34",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "35",
+        "function": "P35",
+        "net": "Z_GPIO3_A4",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "36",
+        "function": "P36",
+        "net": "Z_GPIO3_A7",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "37",
+        "function": "P37",
+        "net": "Z_GPIO1_A4",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "38",
+        "function": "P38",
+        "net": "Z_GPIO3_A6",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "39",
+        "function": "P39",
+        "net": "GND",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      },
+      {
+        "ref": "J5",
+        "pin": "40",
+        "function": "P40",
+        "net": "Z_GPIO3_A5",
+        "use": "ZERO直接插接",
+        "footprint": "box:Zero_socket40_PROVISIONAL"
+      }
+    ],
+    "footprint": "box:Zero_socket40_PROVISIONAL",
+    "pcb": [
+      61.05,
+      94.044083,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J7",
+    "name": "S3 / Seeed XIAO SOCKET14",
+    "use": "XIAO S3直接插接",
+    "pins": [
+      {
+        "ref": "J7",
+        "pin": "1",
+        "function": "D0",
+        "net": "S3_D0",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "2",
+        "function": "D1",
+        "net": "S3_D1",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "3",
+        "function": "D2",
+        "net": "S3_D2",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "4",
+        "function": "D3",
+        "net": "S3_D3",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "5",
+        "function": "D4",
+        "net": "S3_D4",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "6",
+        "function": "D5",
+        "net": "S3_D5",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "7",
+        "function": "D6",
+        "net": "S3_D6",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "8",
+        "function": "D7",
+        "net": "S3_D7",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "9",
+        "function": "D8",
+        "net": "S3_D8",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "10",
+        "function": "D9",
+        "net": "S3_D9",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "11",
+        "function": "D10",
+        "net": "S3_D10",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "12",
+        "function": "3V3",
+        "net": "+3V3_S3",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "13",
+        "function": "GND",
+        "net": "GND",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J7",
+        "pin": "14",
+        "function": "VBUS",
+        "net": "+5V_LOGIC",
+        "use": "XIAO S3直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      }
+    ],
+    "footprint": "box:Seeed_XIAO_14pin_Socket",
+    "pcb": [
+      111.4,
+      101.1,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J10",
+    "name": "RP / Seeed XIAO SOCKET14",
+    "use": "XIAO RP直接插接",
+    "pins": [
+      {
+        "ref": "J10",
+        "pin": "1",
+        "function": "D0",
+        "net": "RP_D0",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "2",
+        "function": "D1",
+        "net": "RP_D1",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "3",
+        "function": "D2",
+        "net": "RP_D2",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "4",
+        "function": "D3",
+        "net": "RP_D3",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "5",
+        "function": "D4",
+        "net": "S3_D4",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "6",
+        "function": "D5",
+        "net": "S3_D5",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "7",
+        "function": "D6",
+        "net": "RP_UART0_TX",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "8",
+        "function": "D7",
+        "net": "RP_UART0_RX",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "9",
+        "function": "D8",
+        "net": "RP_D8",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "10",
+        "function": "D9",
+        "net": "RP_D9",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "11",
+        "function": "D10",
+        "net": "RP_D10",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "12",
+        "function": "3V3",
+        "net": "+3V3_RP",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "13",
+        "function": "GND",
+        "net": "GND",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      },
+      {
+        "ref": "J10",
+        "pin": "14",
+        "function": "VBUS",
+        "net": "+5V_LOGIC",
+        "use": "XIAO RP直接插接",
+        "footprint": "box:Seeed_XIAO_14pin_Socket"
+      }
+    ],
+    "footprint": "box:Seeed_XIAO_14pin_Socket",
+    "pcb": [
+      135.65,
+      101.1,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J12",
+    "name": "LD2450 / FRONT LEFT",
+    "use": "H08 左Rd03E；4转5芯序",
+    "pins": [
+      {
+        "ref": "J12",
+        "pin": "1",
+        "function": "RADAR TX TO MCU RX",
+        "net": "S3_D3",
+        "use": "H08 左Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J12",
+        "pin": "2",
+        "function": "GATED MCU TX TO RADAR RX",
+        "net": "RADAR_FL_RX",
+        "use": "H08 左Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J12",
+        "pin": "3",
+        "function": "RADAR_5V",
+        "net": "+V_RADAR_SW",
+        "use": "H08 左Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J12",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H08 左Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      54.6,
+      63.000002,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J13",
+    "name": "LD2450 / FRONT RIGHT",
+    "use": "H09 右Rd03E；4转5芯序",
+    "pins": [
+      {
+        "ref": "J13",
+        "pin": "1",
+        "function": "RADAR TX TO MCU RX",
+        "net": "S3_D9",
+        "use": "H09 右Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J13",
+        "pin": "2",
+        "function": "GATED MCU TX TO RADAR RX",
+        "net": "RADAR_FR_RX",
+        "use": "H09 右Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J13",
+        "pin": "3",
+        "function": "RADAR_5V",
+        "net": "+V_RADAR_SW",
+        "use": "H09 右Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J13",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H09 右Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      149.399998,
+      80.700002,
+      180.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J14",
+    "name": "LD2450 / REAR LEFT",
+    "use": "H10 后Rd03E；4转5芯序",
+    "pins": [
+      {
+        "ref": "J14",
+        "pin": "1",
+        "function": "RADAR TX TO MCU RX",
+        "net": "S3_D10",
+        "use": "H10 后Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J14",
+        "pin": "2",
+        "function": "GATED MCU TX TO RADAR RX",
+        "net": "RADAR_RL_RX",
+        "use": "H10 后Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J14",
+        "pin": "3",
+        "function": "RADAR_5V",
+        "net": "+V_RADAR_SW",
+        "use": "H10 后Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J14",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H10 后Rd03E；4转5芯序",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      54.599992,
+      112.999998,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J15",
+    "name": "EYES",
+    "use": "H06 双眼LCD1 P2，另有H07参考",
+    "pins": [
+      {
+        "ref": "J15",
+        "pin": "1",
+        "function": "EYES_TX->ZERO_RX",
+        "net": "EYES_TX",
+        "use": "H06 双眼LCD1 P2，另有H07参考",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J15",
+        "pin": "2",
+        "function": "ZERO_TX->EYES_RX",
+        "net": "EYES_RX",
+        "use": "H06 双眼LCD1 P2，另有H07参考",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J15",
+        "pin": "3",
+        "function": "SYS_5V",
+        "net": "+5V_AON",
+        "use": "H06 双眼LCD1 P2，另有H07参考",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J15",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H06 双眼LCD1 P2，另有H07参考",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      104.599997,
+      61.700002,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J16",
+    "name": "SEN0628 / UART4",
+    "use": "新ToF不接此口，四脚空置",
+    "pins": [
+      {
+        "ref": "J16",
+        "pin": "1",
+        "function": "SIG1",
+        "net": "TOF_TX",
+        "use": "新ToF不接此口，四脚空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J16",
+        "pin": "2",
+        "function": "SIG2",
+        "net": "TOF_RX",
+        "use": "新ToF不接此口，四脚空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J16",
+        "pin": "3",
+        "function": "VCC",
+        "net": "+3V3_TOF_SW",
+        "use": "新ToF不接此口，四脚空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J16",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "新ToF不接此口，四脚空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      104.600001,
+      73.000001,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J17",
+    "name": "IMU",
+    "use": "H11 六轴Grove 1:1",
+    "pins": [
+      {
+        "ref": "J17",
+        "pin": "1",
+        "function": "SCL",
+        "net": "S3_D5",
+        "use": "H11 六轴Grove 1:1",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J17",
+        "pin": "2",
+        "function": "SDA",
+        "net": "S3_D4",
+        "use": "H11 六轴Grove 1:1",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J17",
+        "pin": "3",
+        "function": "S3_3V3",
+        "net": "+3V3_S3",
+        "use": "H11 六轴Grove 1:1",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J17",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H11 六轴Grove 1:1",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      124.499976,
+      55.6,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J19",
+    "name": "FRONT BUTTON",
+    "use": "1/4为隔离后电源感知候选，未接；2/3空置；前/侧功能键取消",
+    "pins": [
+      {
+        "ref": "J19",
+        "pin": "1",
+        "function": "SIG1",
+        "net": "RP_D0",
+        "use": "1/4为隔离后电源感知候选，未接；2/3空置；前/侧功能键取消",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J19",
+        "pin": "2",
+        "function": "SIG2",
+        "net": "NC",
+        "use": "1/4为隔离后电源感知候选，未接；2/3空置；前/侧功能键取消",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J19",
+        "pin": "3",
+        "function": "VCC",
+        "net": "+3V3_RP",
+        "use": "1/4为隔离后电源感知候选，未接；2/3空置；前/侧功能键取消",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J19",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "1/4为隔离后电源感知候选，未接；2/3空置；前/侧功能键取消",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      113.199976,
+      55.599997,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J28",
+    "name": "MUX / FRONT PAIR TX GATE",
+    "use": "MUX A直接插接",
+    "pins": [
+      {
+        "ref": "J28",
+        "pin": "1",
+        "function": "TX0",
+        "net": "RADAR_FL_RX",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "2",
+        "function": "VCC",
+        "net": "+5V_AON",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "3",
+        "function": "TX1",
+        "net": "NC",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "4",
+        "function": "TXD",
+        "net": "S3_D2",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "5",
+        "function": "TX2",
+        "net": "NC",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "6",
+        "function": "RXD",
+        "net": "S3_D8",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "7",
+        "function": "TX3",
+        "net": "NC",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "8",
+        "function": "A",
+        "net": "GND",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "9",
+        "function": "RX0",
+        "net": "RADAR_FR_RX",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "10",
+        "function": "B",
+        "net": "GND",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "11",
+        "function": "RX1",
+        "net": "NC",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "12",
+        "function": "EN",
+        "net": "RADAR_MUX_INHIBIT",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "13",
+        "function": "RX2",
+        "net": "NC",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "14",
+        "function": "GND",
+        "net": "GND",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "15",
+        "function": "RX3",
+        "net": "NC",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J28",
+        "pin": "16",
+        "function": "GND",
+        "net": "GND",
+        "use": "MUX A直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      }
+    ],
+    "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT",
+    "pcb": [
+      111.4,
+      120.5,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J29",
+    "name": "MUX / REAR PAIR TX GATE",
+    "use": "MUX B直接插接",
+    "pins": [
+      {
+        "ref": "J29",
+        "pin": "1",
+        "function": "TX0",
+        "net": "RADAR_RL_RX",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "2",
+        "function": "VCC",
+        "net": "+5V_AON",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "3",
+        "function": "TX1",
+        "net": "NC",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "4",
+        "function": "TXD",
+        "net": "S3_D0",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "5",
+        "function": "TX2",
+        "net": "NC",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "6",
+        "function": "RXD",
+        "net": "RP_D9",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "7",
+        "function": "TX3",
+        "net": "NC",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "8",
+        "function": "A",
+        "net": "GND",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "9",
+        "function": "RX0",
+        "net": "RADAR_RR_RX",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "10",
+        "function": "B",
+        "net": "GND",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "11",
+        "function": "RX1",
+        "net": "NC",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "12",
+        "function": "EN",
+        "net": "RADAR_MUX_INHIBIT",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "13",
+        "function": "RX2",
+        "net": "NC",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "14",
+        "function": "GND",
+        "net": "GND",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "15",
+        "function": "RX3",
+        "net": "NC",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      },
+      {
+        "ref": "J29",
+        "pin": "16",
+        "function": "GND",
+        "net": "GND",
+        "use": "MUX B直接插接",
+        "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT"
+      }
+    ],
+    "footprint": "box:UART_MUX_SOCKET_16_USER_PINOUT",
+    "pcb": [
+      135.65,
+      120.5,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J33",
+    "name": "ZERO GPIO COPY / FULL40 1:1",
+    "use": "HAT直接插接，全40同号；26非GPIO",
+    "pins": [
+      {
+        "ref": "J33",
+        "pin": "1",
+        "function": "ZERO_P1",
+        "net": "+3V3_ZERO",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "2",
+        "function": "ZERO_P2",
+        "net": "+5V_HOST",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "3",
+        "function": "ZERO_P3",
+        "net": "Z_GPIO1_A0",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "4",
+        "function": "ZERO_P4",
+        "net": "+5V_HOST",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "5",
+        "function": "ZERO_P5",
+        "net": "Z_GPIO1_A1",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "6",
+        "function": "ZERO_P6",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "7",
+        "function": "ZERO_P7",
+        "net": "Z_GPIO3_C4",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "8",
+        "function": "ZERO_P8",
+        "net": "Z_GPIO0_D1",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "9",
+        "function": "ZERO_P9",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "10",
+        "function": "ZERO_P10",
+        "net": "Z_GPIO0_D0",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "11",
+        "function": "ZERO_P11",
+        "net": "Z_GPIO3_A1",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "12",
+        "function": "ZERO_P12",
+        "net": "Z_GPIO3_A3",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "13",
+        "function": "ZERO_P13",
+        "net": "Z_GPIO3_A2",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "14",
+        "function": "ZERO_P14",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "15",
+        "function": "ZERO_P15",
+        "net": "Z_GPIO3_B0",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "16",
+        "function": "ZERO_P16",
+        "net": "Z_GPIO3_B1",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "17",
+        "function": "ZERO_P17",
+        "net": "+3V3_ZERO",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "18",
+        "function": "ZERO_P18",
+        "net": "Z_GPIO3_B2",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "19",
+        "function": "ZERO_P19",
+        "net": "Z_GPIO4_C3",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "20",
+        "function": "ZERO_P20",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "21",
+        "function": "ZERO_P21",
+        "net": "Z_GPIO4_C5",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "22",
+        "function": "ZERO_P22",
+        "net": "Z_GPIO3_C1",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "23",
+        "function": "ZERO_P23",
+        "net": "Z_GPIO4_C2",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "24",
+        "function": "ZERO_P24",
+        "net": "Z_GPIO4_C6",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "25",
+        "function": "ZERO_P25",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "26",
+        "function": "ZERO_P26",
+        "net": "Z_PHYSICAL26_NC_COPY",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "27",
+        "function": "ZERO_P27",
+        "net": "Z_GPIO4_B2",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "28",
+        "function": "ZERO_P28",
+        "net": "Z_GPIO4_B3",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "29",
+        "function": "ZERO_P29",
+        "net": "Z_GPIO3_B3",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "30",
+        "function": "ZERO_P30",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "31",
+        "function": "ZERO_P31",
+        "net": "Z_GPIO3_B4",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "32",
+        "function": "ZERO_P32",
+        "net": "Z_GPIO3_C2",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "33",
+        "function": "ZERO_P33",
+        "net": "Z_GPIO3_C3",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "34",
+        "function": "ZERO_P34",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "35",
+        "function": "ZERO_P35",
+        "net": "Z_GPIO3_A4",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "36",
+        "function": "ZERO_P36",
+        "net": "Z_GPIO3_A7",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "37",
+        "function": "ZERO_P37",
+        "net": "Z_GPIO1_A4",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "38",
+        "function": "ZERO_P38",
+        "net": "Z_GPIO3_A6",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "39",
+        "function": "ZERO_P39",
+        "net": "GND",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      },
+      {
+        "ref": "J33",
+        "pin": "40",
+        "function": "ZERO_P40",
+        "net": "Z_GPIO3_A5",
+        "use": "HAT直接插接，全40同号；26非GPIO",
+        "footprint": "box:HAT_P4_M20_9982046_2x20"
+      }
+    ],
+    "footprint": "box:HAT_P4_M20_9982046_2x20",
+    "pcb": [
+      86.17,
+      94.044083,
+      180.0,
+      "B"
+    ]
+  },
+  {
+    "ref": "J34",
+    "name": "S3 I2C",
+    "use": "H12 罗盘反序转换线",
+    "pins": [
+      {
+        "ref": "J34",
+        "pin": "1",
+        "function": "SCL",
+        "net": "S3_D5",
+        "use": "H12 罗盘反序转换线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J34",
+        "pin": "2",
+        "function": "SDA",
+        "net": "S3_D4",
+        "use": "H12 罗盘反序转换线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J34",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_S3",
+        "use": "H12 罗盘反序转换线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J34",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H12 罗盘反序转换线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      54.600005,
+      100.5,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J35",
+    "name": "OLED / PARALLEL / SCREEN UP",
+    "use": "OLED直接4针；V/G/CLK/DATA",
+    "pins": [
+      {
+        "ref": "J35",
+        "pin": "1",
+        "function": "VCC",
+        "net": "+3V3_S3",
+        "use": "OLED直接4针；V/G/CLK/DATA",
+        "footprint": "box:SSW_104_01_G_S_OLED_Parallel"
+      },
+      {
+        "ref": "J35",
+        "pin": "2",
+        "function": "GND",
+        "net": "GND",
+        "use": "OLED直接4针；V/G/CLK/DATA",
+        "footprint": "box:SSW_104_01_G_S_OLED_Parallel"
+      },
+      {
+        "ref": "J35",
+        "pin": "3",
+        "function": "SCL",
+        "net": "S3_D5",
+        "use": "OLED直接4针；V/G/CLK/DATA",
+        "footprint": "box:SSW_104_01_G_S_OLED_Parallel"
+      },
+      {
+        "ref": "J35",
+        "pin": "4",
+        "function": "SDA",
+        "net": "S3_D4",
+        "use": "OLED直接4针；V/G/CLK/DATA",
+        "footprint": "box:SSW_104_01_G_S_OLED_Parallel"
+      }
+    ],
+    "footprint": "box:SSW_104_01_G_S_OLED_Parallel",
+    "pcb": [
+      111.78,
+      74.0,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J36",
+    "name": "LD2450 / REAR RIGHT",
+    "use": "第四雷达空置",
+    "pins": [
+      {
+        "ref": "J36",
+        "pin": "1",
+        "function": "RADAR TX TO MCU RX",
+        "net": "RP_D3",
+        "use": "第四雷达空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J36",
+        "pin": "2",
+        "function": "GATED MCU TX TO RADAR RX",
+        "net": "RADAR_RR_RX",
+        "use": "第四雷达空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J36",
+        "pin": "3",
+        "function": "RADAR_5V",
+        "net": "+V_RADAR_SW",
+        "use": "第四雷达空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J36",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "第四雷达空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      149.399992,
+      132.699999,
+      180.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J37",
+    "name": "ZERO I2C4",
+    "use": "H13 ToF I2C4和同源3V3候选；载板电平待核，驱动已实现",
+    "pins": [
+      {
+        "ref": "J37",
+        "pin": "1",
+        "function": "SCL",
+        "net": "Z_GPIO4_B3",
+        "use": "H13 ToF I2C4和同源3V3候选；载板电平待核，驱动已实现",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J37",
+        "pin": "2",
+        "function": "SDA",
+        "net": "Z_GPIO4_B2",
+        "use": "H13 ToF I2C4和同源3V3候选；载板电平待核，驱动已实现",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J37",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_ZERO",
+        "use": "H13 ToF I2C4和同源3V3候选；载板电平待核，驱动已实现",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J37",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "H13 ToF I2C4和同源3V3候选；载板电平待核，驱动已实现",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      54.599999,
+      75.5,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J38",
+    "name": "ZERO RP UART9",
+    "use": "ZERO UART9已被RP占用；不接第二设备",
+    "pins": [
+      {
+        "ref": "J38",
+        "pin": "1",
+        "function": "MCU RX",
+        "net": "Z_GPIO4_C6",
+        "use": "ZERO UART9已被RP占用；不接第二设备",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J38",
+        "pin": "2",
+        "function": "MCU TX",
+        "net": "Z_GPIO4_C5",
+        "use": "ZERO UART9已被RP占用；不接第二设备",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J38",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_ZERO",
+        "use": "ZERO UART9已被RP占用；不接第二设备",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J38",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "ZERO UART9已被RP占用；不接第二设备",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      54.600006,
+      88.000002,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J39",
+    "name": "RP I2C SHARED",
+    "use": "S3共享I2C备用，非独立RP总线",
+    "pins": [
+      {
+        "ref": "J39",
+        "pin": "1",
+        "function": "SCL",
+        "net": "S3_D5",
+        "use": "S3共享I2C备用，非独立RP总线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J39",
+        "pin": "2",
+        "function": "SDA",
+        "net": "S3_D4",
+        "use": "S3共享I2C备用，非独立RP总线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J39",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_S3",
+        "use": "S3共享I2C备用，非独立RP总线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J39",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "S3共享I2C备用，非独立RP总线",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      132.699996,
+      132.1,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J40",
+    "name": "S3 UART A",
+    "use": "与右雷达S3_D8/D9共用，空置",
+    "pins": [
+      {
+        "ref": "J40",
+        "pin": "1",
+        "function": "MCU RX",
+        "net": "S3_D9",
+        "use": "与右雷达S3_D8/D9共用，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J40",
+        "pin": "2",
+        "function": "MCU TX",
+        "net": "S3_D8",
+        "use": "与右雷达S3_D8/D9共用，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J40",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_S3",
+        "use": "与右雷达S3_D8/D9共用，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J40",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "与右雷达S3_D8/D9共用，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      149.399998,
+      93.699999,
+      180.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J41",
+    "name": "RP UART1",
+    "use": "RP UART1与原第四雷达共用；当前空置",
+    "pins": [
+      {
+        "ref": "J41",
+        "pin": "1",
+        "function": "MCU RX",
+        "net": "RP_D3",
+        "use": "RP UART1与原第四雷达共用；当前空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J41",
+        "pin": "2",
+        "function": "MCU TX",
+        "net": "RP_D9",
+        "use": "RP UART1与原第四雷达共用；当前空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J41",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_RP",
+        "use": "RP UART1与原第四雷达共用；当前空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J41",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "RP UART1与原第四雷达共用；当前空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      149.4,
+      106.7,
+      180.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J42",
+    "name": "UPS BAT OUT",
+    "use": "电池电压备用输出；无负载，线束可省",
+    "pins": [
+      {
+        "ref": "J42",
+        "pin": "1",
+        "function": "BAT_3S",
+        "net": "+VBAT_UPS_SW",
+        "use": "电池电压备用输出；无负载，线束可省",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      },
+      {
+        "ref": "J42",
+        "pin": "2",
+        "function": "GND",
+        "net": "GND",
+        "use": "电池电压备用输出；无负载，线束可省",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      }
+    ],
+    "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+    "pcb": [
+      125.399978,
+      139.424997,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J44",
+    "name": "UPS SWITCH LOOP",
+    "use": "H03 UPS开关回路；两脚均非地",
+    "pins": [
+      {
+        "ref": "J44",
+        "pin": "1",
+        "function": "SW_A",
+        "net": "+UPS_SW_A",
+        "use": "H03 UPS开关回路；两脚均非地",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      },
+      {
+        "ref": "J44",
+        "pin": "2",
+        "function": "SW_B",
+        "net": "+VBAT_UPS_SW",
+        "use": "H03 UPS开关回路；两脚均非地",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      }
+    ],
+    "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+    "pcb": [
+      134.999978,
+      139.424996,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J46",
+    "name": "S3 D2 D3 / FRONT LEFT UART",
+    "use": "与左雷达TX/RX共用；1TX/2RX，空置",
+    "pins": [
+      {
+        "ref": "J46",
+        "pin": "1",
+        "function": "D2",
+        "net": "S3_D2",
+        "use": "与左雷达TX/RX共用；1TX/2RX，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J46",
+        "pin": "2",
+        "function": "D3",
+        "net": "S3_D3",
+        "use": "与左雷达TX/RX共用；1TX/2RX，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J46",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_S3",
+        "use": "与左雷达TX/RX共用；1TX/2RX，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J46",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "与左雷达TX/RX共用；1TX/2RX，空置",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      118.279996,
+      132.100006,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J47",
+    "name": "RP D1 / ZERO RELAY",
+    "use": "1脚M1控制已占用；2脚RP_D10备用",
+    "pins": [
+      {
+        "ref": "J47",
+        "pin": "1",
+        "function": "D1",
+        "net": "RP_D1",
+        "use": "1脚M1控制已占用；2脚RP_D10备用",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J47",
+        "pin": "2",
+        "function": "D10",
+        "net": "RP_D10",
+        "use": "1脚M1控制已占用；2脚RP_D10备用",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J47",
+        "pin": "3",
+        "function": "3V3",
+        "net": "+3V3_RP",
+        "use": "1脚M1控制已占用；2脚RP_D10备用",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      },
+      {
+        "ref": "J47",
+        "pin": "4",
+        "function": "GND",
+        "net": "GND",
+        "use": "1脚M1控制已占用；2脚RP_D10备用",
+        "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+      }
+    ],
+    "footprint": "Connector:NS-Tech_Grove_1x04_P2mm_Vertical",
+    "pcb": [
+      149.400006,
+      119.700004,
+      180.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J50",
+    "name": "S3 EDGE GPIO D0-D10 / AUX NC",
+    "use": "S3并联GPIO；12–20 NC",
+    "pins": [
+      {
+        "ref": "J50",
+        "pin": "1",
+        "function": "D0",
+        "net": "S3_D0",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "2",
+        "function": "D1",
+        "net": "S3_D1",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "3",
+        "function": "D2",
+        "net": "S3_D2",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "4",
+        "function": "D3",
+        "net": "S3_D3",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "5",
+        "function": "D4",
+        "net": "S3_D4",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "6",
+        "function": "D5",
+        "net": "S3_D5",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "7",
+        "function": "D6",
+        "net": "S3_D6",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "8",
+        "function": "D7",
+        "net": "S3_D7",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "9",
+        "function": "D8",
+        "net": "S3_D8",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "10",
+        "function": "D9",
+        "net": "S3_D9",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "11",
+        "function": "D10",
+        "net": "S3_D10",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "12",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "13",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "14",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "15",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "16",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "17",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "18",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "19",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "20",
+        "function": "NC",
+        "net": "NC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "21",
+        "function": "S3_3V3",
+        "net": "+3V3_S3",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "22",
+        "function": "GND",
+        "net": "GND",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "23",
+        "function": "S3_5V",
+        "net": "+5V_LOGIC",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J50",
+        "pin": "24",
+        "function": "GND",
+        "net": "GND",
+        "use": "S3并联GPIO；12–20 NC",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      }
+    ],
+    "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED",
+    "pcb": [
+      91.119997,
+      132.450001,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J51",
+    "name": "PANEL START / MOMENTARY NO",
+    "use": "后DPDT A组常开触点；两脚均非地，不接VI±/VO±电子板",
+    "pins": [
+      {
+        "ref": "J51",
+        "pin": "1",
+        "function": "SW_A",
+        "net": "+UPS_SW_A",
+        "use": "后DPDT A组常开触点；两脚均非地，不接VI±/VO±电子板",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      },
+      {
+        "ref": "J51",
+        "pin": "2",
+        "function": "SW_B",
+        "net": "+VBAT_UPS_SW",
+        "use": "后DPDT A组常开触点；两脚均非地，不接VI±/VO±电子板",
+        "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+      }
+    ],
+    "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+    "pcb": [
+      106.199981,
+      139.424997,
+      0.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J52",
+    "name": "RP EDGE GPIO D0-D10 / AUX NC",
+    "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+    "pins": [
+      {
+        "ref": "J52",
+        "pin": "1",
+        "function": "D0",
+        "net": "RP_D0",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "2",
+        "function": "D1",
+        "net": "RP_D1",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "3",
+        "function": "D2",
+        "net": "RP_D2",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "4",
+        "function": "D3",
+        "net": "RP_D3",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "5",
+        "function": "D4",
+        "net": "S3_D4",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "6",
+        "function": "D5",
+        "net": "S3_D5",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "7",
+        "function": "D6",
+        "net": "RP_UART0_TX",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "8",
+        "function": "D7",
+        "net": "RP_UART0_RX",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "9",
+        "function": "D8",
+        "net": "RP_D8",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "10",
+        "function": "D9",
+        "net": "RP_D9",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "11",
+        "function": "D10",
+        "net": "RP_D10",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "12",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "13",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "14",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "15",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "16",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "17",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "18",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "19",
+        "function": "NC",
+        "net": "NC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "20",
+        "function": "GND",
+        "net": "GND",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "21",
+        "function": "RP_3V3",
+        "net": "+3V3_RP",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "22",
+        "function": "GND",
+        "net": "GND",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "23",
+        "function": "RP_5V",
+        "net": "+5V_LOGIC",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      },
+      {
+        "ref": "J52",
+        "pin": "24",
+        "function": "GND",
+        "net": "GND",
+        "use": "RP并联GPIO；12–19 NC、20GND，不能照搬J50",
+        "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED"
+      }
+    ],
+    "footprint": "box:Harwin_M50-3601242_2x12_P1.27_SMT_CENTERED",
+    "pcb": [
+      107.46,
+      132.45,
+      90.0,
+      "F"
+    ]
+  },
+  {
+    "ref": "J53",
+    "name": "EYES 3V3 REFERENCE INPUT",
+    "use": "H07 EYES自身3V3参考",
+    "pins": [
+      {
+        "ref": "J53",
+        "pin": "1",
+        "function": "EYES P2.5 3V3",
+        "net": "+3V3_EYES",
+        "use": "H07 EYES自身3V3参考",
+        "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+      },
+      {
+        "ref": "J53",
+        "pin": "2",
+        "function": "EYES P2.6 GND",
+        "net": "GND",
+        "use": "H07 EYES自身3V3参考",
+        "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+      }
+    ],
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "pcb": [
+      93.5,
+      60.8,
+      0,
+      "F"
+    ]
+  },
+  {
+    "ref": "JP1",
+    "name": "COMMON CTRL 5V LINK / TWO SHUNTS",
+    "use": "两个跳帽1-2和3-4，同一LOGIC5V；不是两路独立隔离",
+    "pins": [
+      {
+        "ref": "JP1",
+        "pin": "1",
+        "function": "AON_S3",
+        "net": "+5V_AON",
+        "use": "两个跳帽1-2和3-4，同一LOGIC5V；不是两路独立隔离",
+        "footprint": "box:Dual_Power_Shunt_2x02"
+      },
+      {
+        "ref": "JP1",
+        "pin": "2",
+        "function": "S3_5V",
+        "net": "+5V_LOGIC",
+        "use": "两个跳帽1-2和3-4，同一LOGIC5V；不是两路独立隔离",
+        "footprint": "box:Dual_Power_Shunt_2x02"
+      },
+      {
+        "ref": "JP1",
+        "pin": "3",
+        "function": "AON_RP",
+        "net": "+5V_AON",
+        "use": "两个跳帽1-2和3-4，同一LOGIC5V；不是两路独立隔离",
+        "footprint": "box:Dual_Power_Shunt_2x02"
+      },
+      {
+        "ref": "JP1",
+        "pin": "4",
+        "function": "RP_5V",
+        "net": "+5V_LOGIC",
+        "use": "两个跳帽1-2和3-4，同一LOGIC5V；不是两路独立隔离",
+        "footprint": "box:Dual_Power_Shunt_2x02"
+      }
+    ],
+    "footprint": "box:Dual_Power_Shunt_2x02",
+    "pcb": [
+      64.000001,
+      132.0,
+      0.0,
+      "F"
+    ]
+  }
+]
