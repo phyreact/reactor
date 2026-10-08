@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2520" viewBox="0 0 1500 1260" role="img" aria-labelledby="title desc"><title id="title">Donald Microduck hardware at a glance</title><desc id="desc">Four ReSpeaker microphones feed an XVF3800 DSP and XIAO ESP32-S3 bridge. USB audio and CDC connect the bridge to a Radxa ZERO 3W. A camera, Robot HAT with BMI088 motion sensing, fifteen XL330 servos, speaker, mechanical assembly and removable NP-F battery complete the functional overview. Dashed paths need physical or application integration. The supplied audio firmware carries two processed channels at 16 kHz.</desc><defs>
+<marker id="176ED1" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8z" fill="#176ED1"/></marker>
+<marker id="0C817D" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8z" fill="#0C817D"/></marker>
+<marker id="A76B16" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8z" fill="#A76B16"/></marker>
+<marker id="526579" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8z" fill="#526579"/></marker>
+</defs><g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="1500" height="1260" rx="0" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="40" y="47" font-size="17" fill="#176ED1" font-weight="700" text-anchor="start">REACTOR  /  HARDWARE OVERVIEW</text>
+<text x="40" y="116" font-size="53" fill="#16283E" font-weight="700" text-anchor="start">Donald Microduck</text>
+<text x="40" y="164" font-size="25" fill="#526579" font-weight="400" text-anchor="start">Give listening a body.</text>
+<text x="630" y="115" font-size="27" fill="#526579" font-weight="400" text-anchor="start">Hear. See. Move. Respond.</text>
+<rect x="1175" y="77" width="285" height="46" rx="23" fill="#E5EDF7" stroke="#E5EDF7" stroke-width="0"/>
+<text x="1317.5" y="107" font-size="20" fill="#176ED1" font-weight="700" text-anchor="middle">4 MICS · 15 SERVOS</text>
+<text x="40" y="215" font-size="18" fill="#176ED1" font-weight="700" text-anchor="start">SENSING + AUDIO</text>
+<text x="545" y="215" font-size="18" fill="#176ED1" font-weight="700" text-anchor="start">LINUX + CONTROL</text>
+<text x="1080" y="215" font-size="18" fill="#176ED1" font-weight="700" text-anchor="start">SOUND + MOTION</text>
+<path d="M230 410V490" fill="none" stroke="#176ED1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#176ED1)" marker-start="url(#176ED1)"/>
+<rect x="116.0" y="436" width="228.0" height="29" rx="7" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="230" y="457" font-size="20" fill="#176ED1" font-weight="700" text-anchor="middle">I²S audio + I²C control</text>
+<path d="M420 550H545" fill="none" stroke="#176ED1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#176ED1)" marker-start="url(#176ED1)"/>
+<rect x="454.0" y="509" width="56.0" height="29" rx="7" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="482" y="530" font-size="18" fill="#176ED1" font-weight="700" text-anchor="middle">USB</text>
+<path d="M420 846H470V568H545" fill="none" stroke="#0C817D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#0C817D)"/>
+<rect x="422.0" y="689" width="106.0" height="29" rx="7" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="475" y="710" font-size="17" fill="#0C817D" font-weight="700" text-anchor="middle">Image path</text>
+<path d="M955 328H1080" fill="none" stroke="#176ED1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#176ED1)"/>
+<rect x="972.5" y="284" width="89.0" height="29" rx="7" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="1017" y="305" font-size="17" fill="#176ED1" font-weight="700" text-anchor="middle">Playback</text>
+<path d="M750 585V760" fill="none" stroke="#0C817D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#0C817D)" marker-start="url(#0C817D)"/>
+<rect x="663.0" y="660" width="174.0" height="29" rx="7" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="750" y="681" font-size="21" fill="#0C817D" font-weight="700" text-anchor="middle">Robot interface</text>
+<path d="M955 846H1016V575H1080" fill="none" stroke="#0C817D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#0C817D)" marker-start="url(#0C817D)"/>
+<rect x="967.0" y="689" width="98.0" height="29" rx="7" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="1016" y="710" font-size="17" fill="#0C817D" font-weight="700" text-anchor="middle">Servo bus</text>
+<path d="M1270 660V760" fill="none" stroke="#526579" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#526579)"/>
+<rect x="1268.0" y="693" width="110.0" height="29" rx="7" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="1323" y="714" font-size="18" fill="#526579" font-weight="700" text-anchor="middle">Mechanics</text>
+<rect x="40" y="240" width="380" height="170" rx="16" fill="white" stroke="#DBE2EB" stroke-width="1"/>
+<rect x="40" y="256" width="4" height="138" rx="2" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(60,258)" fill="none" stroke="#0C817D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="12" y="1" width="16" height="26" rx="8"/><path d="M5 19v3a15 15 0 0 0 30 0v-3M20 37v6M11 43h18"/>
+</g>
+<text x="116" y="283" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">4-microphone array</text>
+<text x="64" y="331" font-size="22" fill="#526579" font-weight="400" text-anchor="start">ReSpeaker XVF3800</text>
+<text x="64" y="360" font-size="22" fill="#526579" font-weight="400" text-anchor="start">DSP + processed audio</text>
+<text x="64" y="389" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Four acoustic lid openings</text>
+<rect x="40" y="490" width="380" height="170" rx="16" fill="white" stroke="#DBE2EB" stroke-width="1"/>
+<rect x="40" y="506" width="4" height="138" rx="2" fill="#176ED1" stroke="#176ED1" stroke-width="0"/>
+<g transform="translate(60,508)" fill="none" stroke="#176ED1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="7" y="7" width="28" height="28" rx="4"/><path d="M13 1v6M13 35v6M1 13h6M35 13h6"/><path d="M21 1v6M21 35v6M1 21h6M35 21h6"/><path d="M29 1v6M29 35v6M1 29h6M35 29h6"/>
+</g>
+<text x="116" y="533" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">XIAO ESP32-S3</text>
+<text x="64" y="581" font-size="22" fill="#526579" font-weight="400" text-anchor="start">USB audio + CDC bridge</text>
+<text x="64" y="610" font-size="22" fill="#526579" font-weight="400" text-anchor="start">I²S audio · I²C control</text>
+<text x="64" y="639" font-size="22" fill="#526579" font-weight="400" text-anchor="start">16 kHz · stereo · 16-bit</text>
+<rect x="40" y="760" width="380" height="175" rx="16" fill="white" stroke="#DBE2EB" stroke-width="1"/>
+<rect x="40" y="776" width="4" height="143" rx="2" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(60,778)" fill="none" stroke="#0C817D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="1" y="9" width="40" height="29" rx="5"/><circle cx="21" cy="23" r="9"/><path d="M9 9l4-7h17l4 7"/>
+</g>
+<text x="116" y="803" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">Camera + optics</text>
+<text x="64" y="851" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Lens, holder + front panel</text>
+<text x="64" y="880" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Forward visual input</text>
+<text x="64" y="909" font-size="22" fill="#526579" font-weight="400" text-anchor="start">V4L2 tools on the host</text>
+<rect x="545" y="240" width="410" height="345" rx="19" fill="#162E4D" stroke="#162E4D" stroke-width="0"/>
+<g transform="translate(892,262)" fill="none" stroke="#9BC7FF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="7" y="7" width="28" height="28" rx="4"/><path d="M13 1v6M13 35v6M1 13h6M35 13h6"/><path d="M21 1v6M21 35v6M1 21h6M35 21h6"/><path d="M29 1v6M29 35v6M1 29h6M35 29h6"/>
+</g>
+<text x="570" y="302" font-size="31" fill="#FFFFFF" font-weight="700" text-anchor="start">Radxa ZERO 3W</text>
+<text x="570" y="347" font-size="17" fill="#9BC7FF" font-weight="700" text-anchor="start">MAIN LINUX COMPUTER</text>
+<text x="570" y="394" font-size="25" fill="#FFFFFF" font-weight="400" text-anchor="start">Audio + device control</text>
+<text x="570" y="430" font-size="24" fill="#FFFFFF" font-weight="400" text-anchor="start">Camera tools + app hooks</text>
+<text x="570" y="466" font-size="24" fill="#FFFFFF" font-weight="400" text-anchor="start">Voice-activity events</text>
+<path d="M570 502H930" fill="none" stroke="#9BC7FF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="570" y="546" font-size="23" fill="#BCD7FC" font-weight="400" text-anchor="start">USB audio + CDC control</text>
+<rect x="545" y="760" width="410" height="175" rx="16" fill="white" stroke="#DBE2EB" stroke-width="1"/>
+<rect x="545" y="776" width="4" height="143" rx="2" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(565,778)" fill="none" stroke="#0C817D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="7" y="7" width="28" height="28" rx="4"/><path d="M13 1v6M13 35v6M1 13h6M35 13h6"/><path d="M21 1v6M21 35v6M1 21h6M35 21h6"/><path d="M29 1v6M29 35v6M1 29h6M35 29h6"/>
+</g>
+<text x="621" y="803" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">Robot HAT + BMI088</text>
+<text x="569" y="851" font-size="22" fill="#526579" font-weight="400" text-anchor="start">BMI088 · 6-axis IMU</text>
+<text x="569" y="880" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Accelerometer + gyroscope</text>
+<text x="569" y="909" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Servo + power interface</text>
+<rect x="1080" y="240" width="380" height="170" rx="16" fill="white" stroke="#DBE2EB" stroke-width="1"/>
+<rect x="1080" y="256" width="4" height="138" rx="2" fill="#176ED1" stroke="#176ED1" stroke-width="0"/>
+<g transform="translate(1100,258)" fill="none" stroke="#176ED1" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M2 16h9L24 6v32L11 28H2zM31 13q10 9 0 18M36 5q17 17 0 34"/>
+</g>
+<text x="1156" y="283" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">Speaker + output</text>
+<text x="1104" y="331" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Prompts + spoken responses</text>
+<text x="1104" y="360" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Output stage + loudspeaker</text>
+<text x="1104" y="389" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Final routing to be verified</text>
+<rect x="1080" y="490" width="380" height="170" rx="16" fill="white" stroke="#DBE2EB" stroke-width="1"/>
+<rect x="1080" y="506" width="4" height="138" rx="2" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(1100,508)" fill="none" stroke="#0C817D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="13" width="36" height="27" rx="5"/><circle cx="21" cy="13" r="10"/><circle cx="21" cy="13" r="3"/><path d="M10 33h22M39 23h5v10"/>
+</g>
+<text x="1156" y="533" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">15 × XL330 servos</text>
+<text x="1104" y="581" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Head, neck + leg motion</text>
+<text x="1104" y="610" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Bus commands + status</text>
+<text x="1104" y="639" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Local joint control</text>
+<rect x="1080" y="760" width="380" height="175" rx="16" fill="white" stroke="#DBE2EB" stroke-width="1"/>
+<rect x="1080" y="776" width="4" height="143" rx="2" fill="#526579" stroke="#526579" stroke-width="0"/>
+<g transform="translate(1100,778)" fill="none" stroke="#526579" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="10" cy="8" r="5"/><circle cx="30" cy="21" r="5"/><circle cx="13" cy="36" r="5"/><path d="M14 11l12 7M26 24L17 33M5 42h18"/>
+</g>
+<text x="1156" y="803" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">Beak + frame</text>
+<text x="1104" y="851" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Open-beak presentation pose</text>
+<text x="1104" y="880" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Brackets, bearings + feet</text>
+<text x="1104" y="909" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Mechanical source assembly</text>
+<text x="40" y="977" font-size="18" fill="#A76B16" font-weight="700" text-anchor="start">BATTERY + POWER</text>
+<rect x="40" y="997" width="1420" height="145" rx="18" fill="#FCF5E9" stroke="#E7D8BF" stroke-width="1"/>
+<path d="M750 997V941" fill="none" stroke="#A76B16" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" marker-end="url(#A76B16)"/>
+<text x="66" y="1046" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">Removable NP-F battery</text>
+<text x="66" y="1095" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Rear pack + support + retention</text>
+<path d="M460 1073H535" fill="none" stroke="#A76B16" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#A76B16)"/>
+<text x="560" y="1046" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">Power distribution</text>
+<text x="560" y="1095" font-size="22" fill="#526579" font-weight="400" text-anchor="start">System supply + routing</text>
+<path d="M914 1073H1010" fill="none" stroke="#A76B16" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#A76B16)"/>
+<text x="1034" y="1046" font-size="25" fill="#16283E" font-weight="700" text-anchor="start">Computing + motion</text>
+<text x="1034" y="1095" font-size="22" fill="#526579" font-weight="400" text-anchor="start">Host, audio, HAT + actuators</text>
+<path d="M40 1186H99" fill="none" stroke="#176ED1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="113" y="1192" font-size="18" fill="#526579" font-weight="400" text-anchor="start">Supplied audio interfaces</text>
+<path d="M575 1186H634" fill="none" stroke="#0C817D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/>
+<text x="648" y="1192" font-size="18" fill="#526579" font-weight="400" text-anchor="start">Physical / application integration</text>
+<text x="40" y="1236" font-size="18" fill="#526579" font-weight="400" text-anchor="start">Audio: 4 microphones → 2 processed channels. Speech assistants and walking policies are separate integrations.</text>
+</g></svg>

@@ -26,18 +26,31 @@ The GIFs, captions and narration are included in [Media](media/).
 | Radxa ZERO 3W + XIAO ESP32-S3 | Linux host, USB audio bridge and device control. |
 | Camera + motion sensing | Visual input and orientation information. |
 | Speaker | Audio feedback and voice output. |
-| 15 smart servos | Head, beak and body movement for expressive interaction. |
+| 15 smart servos | Head, neck and leg movement for expressive interaction. |
 | Custom enclosure | A head and lid around the robot's audio and electronics assembly. |
 
 The current firmware exposes **16 kHz stereo processed audio** from the
 four-microphone hardware. Independent raw channels, sound-source localization
 and autonomous behavior remain development work.
 
+## Hardware at a glance
+
+[![Donald Microduck hardware functional diagram](docs/images/hardware-overview.png)](docs/images/hardware-overview.png)
+
+The ReSpeaker array feeds the XIAO audio bridge, which connects to the Radxa
+Linux host over USB. The figure also maps the camera, Robot HAT and motion
+sensor, smart servos, speaker, mechanical assembly and battery.
+
+[Open the large figure](docs/images/hardware-overview.png) ·
+[Editable SVG](docs/images/hardware-overview.svg) ·
+[Hardware map and source notes](docs/HARDWARE_OVERVIEW.md)
+
 ## Open the design
 
 | I want to… | Start here |
 | --- | --- |
 | Inspect the complete robot | [Assembled Blender model](mechanical/duck.blend) |
+| Understand the hardware functions | [Hardware overview](docs/HARDWARE_OVERVIEW.md) — complete system block diagram |
 | Inspect the head and lid | Separate objects in the final assembled Blender model |
 | Print and assemble the parts | [Mechanical guide](mechanical/) — 37 printable STL parts |
 | Build the USB audio firmware | [Firmware guide](firmware/) |
