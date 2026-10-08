@@ -1,6 +1,28 @@
 # Simulation and analysis scope
 
-`mux_dc_sensitivity/` contains 18 ngspice input decks (`.cir`) and their saved logs/data. They sweep three supply values (4.75, 5.0 and 5.25 V), three load values (1 kΩ, 10 kΩ and 100 kΩ), and two switch states. These are limited DC sensitivity cases for the MUX circuit.
+`mux_dc_sensitivity/` contains 18 ngspice input decks (`.cir`) and their saved
+numerical results (`.txt`). They sweep three supply voltages (4.75, 5 and
+5.25 V), three pulldown resistance values (1, 10 and 100 kΩ), and two contact
+states. These are limited DC sensitivity cases for the MUX circuit.
+
+## Case names
+
+Names describe the simulation conditions, not design or software versions:
+
+`4.75V_100kOhm_contact-open.cir`
+
+| Part | Meaning |
+| --- | --- |
+| `4.75V` | Supply voltage |
+| `100kOhm` | Value of each of the two identical pulldown resistors |
+| `contact-open` / `contact-closed` | Contact state in the DC model |
+| `.cir` / `.txt` | Editable input deck / saved numerical result |
+
+The 18 cases cover all 3 × 3 × 2 parameter combinations. Each input writes to
+the `.txt` file with the same name. Execution logs are retained in the local
+archive.
+
+## Scope and reproduction
 
 The earlier automatic SPICE extractor executed **zero cases**. Its empty
 finding list does not establish a whole-system pass. Those automatic review

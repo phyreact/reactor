@@ -6,7 +6,7 @@ Rpd2 en 0 1000
 Ileak vcc en 2u
 .control
 op
-wrdata v4.75_1000_0.txt v(en)
+wrdata 4.75V_1kOhm_contact-open.txt v(en)
 quit
 .endc
 .end

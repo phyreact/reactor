@@ -1,12 +1,12 @@
 * Inhibit contact DC model; pulldown range is a sensitivity scenario, not measured module values.
 Vsup vcc 0 5.25
-Rnc vcc en 1000000000000.0
-Rpd1 en 0 100000
-Rpd2 en 0 100000
+Rnc vcc en 0.1
+Rpd1 en 0 1000
+Rpd2 en 0 1000
 Ileak vcc en 2u
 .control
 op
-wrdata v5.25_100000_0.txt v(en)
+wrdata 5.25V_1kOhm_contact-closed.txt v(en)
 quit
 .endc
 .end

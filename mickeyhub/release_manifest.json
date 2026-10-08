@@ -6,7 +6,7 @@
   "electrical_revision": "BOX R2.1R",
   "appearance": "Uniform dark graphite enclosure except unchanged LED ring",
   "file_count": 373,
-  "total_bytes": 119619737,
+  "total_bytes": 119620585,
   "files": [
     {
       "path": ".gitignore",
@@ -1645,188 +1645,188 @@
     },
     {
       "path": "simulation/README.md",
-      "bytes": 1092,
-      "sha256": "266e4f10cd6e86b53db41640e3e21bce1bba6cdc12541a57446b7e4ba229b57c"
+      "bytes": 1706,
+      "sha256": "43ea3002f10f8d8bc44f564470a6aaf07f6db9b4d05e976311e85af6e4d97758"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_100000_0.cir",
-      "bytes": 251,
-      "sha256": "33b40a9a62ca569ef73a192fd8d440bea614a27d52763d1d6c1d95d9ab11318e"
+      "path": "simulation/mux_dc_sensitivity/4.75V_100kOhm_contact-closed.cir",
+      "bytes": 253,
+      "sha256": "e85cb6e4e16ddf414f9f3bb5de0678579f6bc5d2a7d202f092b648809e8c83e2"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_100000_0.txt",
-      "bytes": 33,
-      "sha256": "460dae6a82b079de3fd1296ebf67c0e44aa32dd1bf9cd2b564a7756e31afe928"
-    },
-    {
-      "path": "simulation/mux_dc_sensitivity/v4.75_100000_1.cir",
-      "bytes": 239,
-      "sha256": "f41dbc2f3fc7b10054e011a2b3875f15577a83d5b064ee7ef17044dcec28c496"
-    },
-    {
-      "path": "simulation/mux_dc_sensitivity/v4.75_100000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/4.75V_100kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "7732c8bff1031b9f04c92460cd467aa72422f6c1943056daa2f6c8d5e5781631"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_10000_0.cir",
-      "bytes": 248,
-      "sha256": "b128f6a9b38fef6c58cdf817769211d037983c43bc810395d78f1fe0fe2e66ab"
+      "path": "simulation/mux_dc_sensitivity/4.75V_100kOhm_contact-open.cir",
+      "bytes": 263,
+      "sha256": "a46f95cebd4fa69caec583bda8ce5322dfd3cc6056e3798ce08f5a3f09cf190a"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_10000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/4.75V_100kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "5805e87e16df3a2bb6c1c83b3049bc06cbf32108bdd7ccb87a56799ecd3bd9cd"
+      "sha256": "460dae6a82b079de3fd1296ebf67c0e44aa32dd1bf9cd2b564a7756e31afe928"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_10000_1.cir",
-      "bytes": 236,
-      "sha256": "91e6be7bce5f7ef0969c10089882bee29e8a8f3434e5d2d60bee6aeea7d91002"
+      "path": "simulation/mux_dc_sensitivity/4.75V_10kOhm_contact-closed.cir",
+      "bytes": 250,
+      "sha256": "538871bfed09a1c0d9fb612bb52a977b53abef2d58e69cd8521ef1eee1569681"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_10000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/4.75V_10kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "71ebbce68de79c07b6b622b0b79699ac1bd4521cd6654377d0d668a72afd03f1"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_1000_0.cir",
-      "bytes": 245,
-      "sha256": "4219a1cab50d177d612229b71bb4dc55d3e4251d1948a44c006dc7e7948ded6d"
+      "path": "simulation/mux_dc_sensitivity/4.75V_10kOhm_contact-open.cir",
+      "bytes": 260,
+      "sha256": "5994bf892bba2538d38ff41b45d83012f46d4f59d8af01b08f8f9ef56d2a5e3a"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_1000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/4.75V_10kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "6cf5c6239efa79091d278cf3cd5fb3d726592d483422018f74355d7f94014de4"
+      "sha256": "5805e87e16df3a2bb6c1c83b3049bc06cbf32108bdd7ccb87a56799ecd3bd9cd"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_1000_1.cir",
-      "bytes": 233,
-      "sha256": "119d680b6500f3ce0b0b15f2827bf7a9b7ec80c8f030c92659e3461d85e40e0e"
+      "path": "simulation/mux_dc_sensitivity/4.75V_1kOhm_contact-closed.cir",
+      "bytes": 247,
+      "sha256": "62338cee91615b7a22249c79631e05065615f60a83279a29f0479a117f0c2f3e"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v4.75_1000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/4.75V_1kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "575a72eecbc12b357d8a19d808ded78749bb4372f05ceaefaf8782ab6966e430"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_100000_0.cir",
-      "bytes": 251,
-      "sha256": "64723bc26bfe2757c7076bafc7371b08ef38c6766c7ca636ff4ea221bdfb0ea7"
+      "path": "simulation/mux_dc_sensitivity/4.75V_1kOhm_contact-open.cir",
+      "bytes": 257,
+      "sha256": "e164b16112ef187d8f7bf02a88f454d2e98f3c47e07c74a3baa5f609002e3a3e"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_100000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/4.75V_1kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "74469549b10a7a97f6434dd5f9ba3a0a3e734e88a56e9509639aa1d6d4e91817"
+      "sha256": "6cf5c6239efa79091d278cf3cd5fb3d726592d483422018f74355d7f94014de4"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_100000_1.cir",
-      "bytes": 239,
-      "sha256": "eeaceafe4a3c333fb2b737be8ba8627880b58dc72c8c6b117b3aa64861b37452"
+      "path": "simulation/mux_dc_sensitivity/5.25V_100kOhm_contact-closed.cir",
+      "bytes": 253,
+      "sha256": "d1bed77404b103d75376fcef0287754065929ddbe35951dc1718e38be29d8ed1"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_100000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/5.25V_100kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "78b780d88fdfa79e1e36398a2cdba23d156b731e55a31ebc78380ab23f7b76f5"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_10000_0.cir",
-      "bytes": 248,
-      "sha256": "7945e7a1cfb744f902933eb35a2ca4a42bb6786466b5d6c6ae863841328b6628"
+      "path": "simulation/mux_dc_sensitivity/5.25V_100kOhm_contact-open.cir",
+      "bytes": 263,
+      "sha256": "d8c031ddeb7cf53ddcf8f1e8c094aec1cb4ee4b4d960fe0ad6a8ddfc79b15868"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_10000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/5.25V_100kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "3810a1bb5d31b02d066855204e28521da381ca76009d6d934df837072aeb5eef"
+      "sha256": "74469549b10a7a97f6434dd5f9ba3a0a3e734e88a56e9509639aa1d6d4e91817"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_10000_1.cir",
-      "bytes": 236,
-      "sha256": "6ce302d762b16c46e025c4932b1c1f91870a63315f5474189740bb7fd09c2da4"
+      "path": "simulation/mux_dc_sensitivity/5.25V_10kOhm_contact-closed.cir",
+      "bytes": 250,
+      "sha256": "4347e2fb791fc3eed8e7e3e0ebb4a17006d791b720c598f6ab6fa8cfd69c08e5"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_10000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/5.25V_10kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "8098e2531ce95d399bcbd6d54dab64623cf4d6a602057d9e98382e7d9330cb13"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_1000_0.cir",
-      "bytes": 245,
-      "sha256": "7ade3ac8e0f5ad2cfb3f56701a4296532fd51eb191bf3e3a05ad2ae6dfe90d4b"
+      "path": "simulation/mux_dc_sensitivity/5.25V_10kOhm_contact-open.cir",
+      "bytes": 260,
+      "sha256": "5ad23c320b8f0c816bcb67a9441c59f55a8f61917699fddca2c144c7a35d2bef"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_1000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/5.25V_10kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "426a00336b2ae8d85bb97c7c335032c729726273b27bf87cc45c3ff05aa78f35"
+      "sha256": "3810a1bb5d31b02d066855204e28521da381ca76009d6d934df837072aeb5eef"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_1000_1.cir",
-      "bytes": 233,
-      "sha256": "f5bba6990f5ecb67f54f3efc9942d5fc1ed8666abf5b6d81e63d6975f655dd0b"
+      "path": "simulation/mux_dc_sensitivity/5.25V_1kOhm_contact-closed.cir",
+      "bytes": 247,
+      "sha256": "23b9088630e83024e7e308d665c95447c881c14d198986f9cb3bff2e2087c428"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5.25_1000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/5.25V_1kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "ab9e13e2432b166a3886dc23a6848917139fa69f06366ce51f9f7036be90798f"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_100000_0.cir",
-      "bytes": 245,
-      "sha256": "65c8d326524bd020ba0baa3e9d5b7b09e7a802e9b5b7bee5ba3b3af34ea0d743"
+      "path": "simulation/mux_dc_sensitivity/5.25V_1kOhm_contact-open.cir",
+      "bytes": 257,
+      "sha256": "f88a627beaf1282d8059948d878d977d638ff9182bdb42475551c06e54bb326b"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_100000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/5.25V_1kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "c85cabb7ed25540d2dca12f504bb40338916a04a2a3eb63f34d91c3742337d82"
+      "sha256": "426a00336b2ae8d85bb97c7c335032c729726273b27bf87cc45c3ff05aa78f35"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_100000_1.cir",
-      "bytes": 233,
-      "sha256": "f255a7dbbc315235decfaf9498fe4bea997374a95e37b94d2a886525c1d473ee"
+      "path": "simulation/mux_dc_sensitivity/5V_100kOhm_contact-closed.cir",
+      "bytes": 247,
+      "sha256": "6df1b97c6c67df0d5e4a3d76af91d218d4b7e429f49ee81166542f83b13dd19f"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_100000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/5V_100kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "040c47fecced096bd620a7ac1c58147540e5299faf89a8778a042295a0ad29a8"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_10000_0.cir",
-      "bytes": 242,
-      "sha256": "297359ca189be5613a37fc26481c5a731435f5dfa6463150755d6f0b6d423fa7"
+      "path": "simulation/mux_dc_sensitivity/5V_100kOhm_contact-open.cir",
+      "bytes": 257,
+      "sha256": "d7180a4425c6bcb5ae98a05298e9a9f4c627718c5915019d527d046a4351a2cc"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_10000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/5V_100kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "02eff7a8524005ecbdad7841f26fd733b3d2b88a32c1acdc218131f4e9465d39"
+      "sha256": "c85cabb7ed25540d2dca12f504bb40338916a04a2a3eb63f34d91c3742337d82"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_10000_1.cir",
-      "bytes": 230,
-      "sha256": "0532246ddda3b90aae6d8eb349f565fe5bf43c83335e5aeabe80bce0b6aa6c7c"
+      "path": "simulation/mux_dc_sensitivity/5V_10kOhm_contact-closed.cir",
+      "bytes": 244,
+      "sha256": "0e2e9996ba90e06095aa396425a9cda25ab5d3cf5b9133db8da7525257d74561"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_10000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/5V_10kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "11a0cc7fa83eb5a81fc4e6d8f9cbb33d1366f04f4e3eccbb14b5403a7c9127a2"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_1000_0.cir",
-      "bytes": 239,
-      "sha256": "663f23b4ba11a0eea3fae2fa5362a7399e410a5a0c57c8d800a07b6d9338f325"
+      "path": "simulation/mux_dc_sensitivity/5V_10kOhm_contact-open.cir",
+      "bytes": 254,
+      "sha256": "45278e132ac3960caec195bbf1cd2d817df7b490e37be4378a9b6069f215c995"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_1000_0.txt",
+      "path": "simulation/mux_dc_sensitivity/5V_10kOhm_contact-open.txt",
       "bytes": 33,
-      "sha256": "f7453df4f7ab93021c348024f7711defbbb96d6210621c98e6c2ae9853b3b3b1"
+      "sha256": "02eff7a8524005ecbdad7841f26fd733b3d2b88a32c1acdc218131f4e9465d39"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_1000_1.cir",
-      "bytes": 227,
-      "sha256": "e90f049c8d19be9fa59f76743c9983c9980cb8d15cb527d7c7f5542d91ecb7a4"
+      "path": "simulation/mux_dc_sensitivity/5V_1kOhm_contact-closed.cir",
+      "bytes": 241,
+      "sha256": "f3c81768bb542067e6b8f89264dd19495e05104bfad1b06139358c625f18c420"
     },
     {
-      "path": "simulation/mux_dc_sensitivity/v5_1000_1.txt",
+      "path": "simulation/mux_dc_sensitivity/5V_1kOhm_contact-closed.txt",
       "bytes": 33,
       "sha256": "5b244a0fea225c3d05f54f93f513603ea9ca2de87bde083093410ea3e5eb297f"
+    },
+    {
+      "path": "simulation/mux_dc_sensitivity/5V_1kOhm_contact-open.cir",
+      "bytes": 251,
+      "sha256": "9ddb1b642f68c8ea78127f63874cdd90ca15c90fa3b2a9258c45e480192d2cdf"
+    },
+    {
+      "path": "simulation/mux_dc_sensitivity/5V_1kOhm_contact-open.txt",
+      "bytes": 33,
+      "sha256": "f7453df4f7ab93021c348024f7711defbbb96d6210621c98e6c2ae9853b3b3b1"
     },
     {
       "path": "tools/export_manufacturing.py",
