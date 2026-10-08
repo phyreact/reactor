@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "mesh_objects": 715,
+  "comparison": "World vertices rounded to 1e-8 m, vertex and face counts, object names",
+  "differences": [],
+  "blender_version": "5.1.2",
+  "structural_source_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "print_exports_identical": 15,
+  "fit_sample_exports_passed": 4,
+  "hardware_qualified": false,
+  "scope": "Portable reconstruction and export checks; original reports with workstation paths are retained in the local archive.",
+  "construction_scripts_sha256": {
+    "boolean_ops.py": "b59388cba1bdb5a467aeb9f5ea574bd7cf786346370a7d295735626f3e4f7909",
+    "case_seam_registration_v6.py": "626cda1dc82c80035c873f6d74ff924e4e0d8fb9b6234bba91ae9c33195d0e05",
+    "check_exported_stls.py": "f560093008511907829efa787e06a3ae7d5a02a3f45d128e704bb94bbffe2432",
+    "clean_stl_numeric_seams.py": "0002f040c9851918ced0323e1800dc0b390735b8578e1f019686542b9e2aad64",
+    "export_prints.py": "8269ba37f2574ada1f0f3e4364bdc3ffb3b0dbfab018ded7af637aa46134a058",
+    "export_seam_fit_samples_v6.py": "7e791a02209173f4a26c162f3192b708c5c3f25401540bf6fb3d9e9b3173bbf8",
+    "geometry.py": "e446dea7602720ed35313cf36ae3281aa2a13fe518500e49066454d46e826fb0",
+    "rebuild.py": "ae3d692f645ccbe2376ae0238811b6d8dc42442fe96e889f9121829533eb2d5a",
+    "widen_halo_bearing_v7.py": "3cedcf359ef0f0990bc216c2753aef94b8f051a04097da3acb39f2daf6dcdf27"
+  }
+}

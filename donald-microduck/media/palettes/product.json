@@ -1,0 +1,14 @@
+{
+  "name": "Harbor Blue",
+  "lid_hex": "#205A80",
+  "rim_hex": "#205A80",
+  "band_hex": "#171C20",
+  "shell_hex": "#F2F0E9",
+  "bill_hex": "#EFB53B",
+  "feet_hex": "#E3A72D",
+  "face_hex": "#242B30",
+  "motor_hex": "#3B454D",
+  "roughness": 0.62,
+  "specular": 0.22,
+  "rationale": "A unified blue lid and rim, graphite front panel and warm white shell give the robot a restrained product finish. Honey-yellow accents distinguish the beak and feet."
+}

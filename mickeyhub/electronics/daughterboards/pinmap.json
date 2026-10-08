@@ -1,0 +1,3877 @@
+{
+  "review_date": "2026-10-03",
+  "scope": "Primary-source pin inventory plus two routed solder-on adapters; motherboard and main CAD are read-only.",
+  "coordinate_convention": "standard_module frame: USB toward -Y, D0 on left at(-7.62,-7.62). Convert official SMD footprint(u,v) to(x=v,y=-u). Board transform: X=cx+x cos(theta)+y sin(theta), Y=cy-x sin(theta)+y cos(theta). Mating pairs viewed through common assembly frame use same coordinates; do not renumber by a mirrored underside picture.",
+  "sources": [
+    {
+      "path": "hardware/box_carrier_modules_r2/box_carrier_modules_r2.kicad_pcb",
+      "sha256": "219423dd02061efd4ef50eace77249800bdd691787cd3c1b99f0d51fea685208"
+    },
+    {
+      "path": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/s3plus_v11_kicad/202004052_XIAO ESP32S3 Plus V1.1_SCH&PCB_260115/XIAO ESP32S3 Plus_V1.1_250724.kicad_pcb",
+      "sha256": "8dbb121f13eef95779ef6717b0cf16e4be7b45eefc3934caef13136b9093a930"
+    },
+    {
+      "path": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/rp2350_v10_cad/XIAO RP2350 v1.0_SCH&PCB_240626/XIAO RP2350.kicad_pcb",
+      "sha256": "f74481ce0381f8b160e49450b7bb138aa79b1182cfd1c794c790c034279de909"
+    },
+    {
+      "path": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/official_xiao_symbols/XIAO_Series_SCH_Symbols/Seeed_Studio_XIAO_Series.kicad_sym",
+      "sha256": "bb93d63f7e33e5ffa5666b076d09e784c2a5c63fe5f4ae36a16f12736c38e3cc"
+    },
+    {
+      "path": "hardware/box_carrier_modules_r2/references/seeed_xiao_plus_base/XIAO Plus Base V1.0/XIAO Plus Base V1.0.kicad_pcb",
+      "sha256": "7c2b1cd8002e4f2cbd9ba60fb04e7f00994aaeb74091772797e8a43b83e9ccac"
+    },
+    {
+      "path": "hardware/box_carrier_modules_r2/references/seeed_s3plus_v11_schematic.pdf",
+      "sha256": "5d0213b6258b2658e5edae4d4ee166f6f852e1d0c304bddff5006f6ec6a7d9b9"
+    }
+  ],
+  "primary_download_manifest": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/fetch_log.json",
+  "modules": [
+    {
+      "id": "S3_PLUS",
+      "model": "Seeed Studio XIAO ESP32-S3 Plus",
+      "manufacturer_native_revision": "V1.1 2026-01-15",
+      "motherboard_reference": "J7",
+      "manufacturer_native_PCB": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/s3plus_v11_kicad/202004052_XIAO ESP32S3 Plus V1.1_SCH&PCB_260115/XIAO ESP32S3 Plus_V1.1_250724.kicad_pcb",
+      "manufacturer_native_PCB_sha256": "8dbb121f13eef95779ef6717b0cf16e4be7b45eefc3934caef13136b9093a930",
+      "footprint": "XIAO-ESP32-S3-Plus-SMD",
+      "module_socket_origin_native_mm": [
+        112.9,
+        92.3
+      ],
+      "module_socket_angle_deg": 90.0,
+      "gpio_count_D_named": 20,
+      "D_named_GPIO_assigned": 9,
+      "D_named_GPIO_unassigned": 11,
+      "additional_smd_GPIO": 9,
+      "contacts": [
+        {
+          "land_number": "1",
+          "contact_label": "D0",
+          "smd_landing_xy_mm": [
+            7.62,
+            -8.255
+          ],
+          "standard_module_xy_mm": [
+            -8.255,
+            -7.62
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 1,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D0",
+          "motherboard_peers": [
+            {
+              "ref": "J29",
+              "pad": "4",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J7",
+              "pad": "1",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D0",
+          "class": "edge_header_gpio",
+          "current_usage": "Rear radar host TX into MUX B J29.4",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "2",
+          "contact_label": "D1",
+          "smd_landing_xy_mm": [
+            5.08,
+            -8.255
+          ],
+          "standard_module_xy_mm": [
+            -8.255,
+            -5.08
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 2,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D1",
+          "motherboard_peers": [
+            {
+              "ref": "J25",
+              "pad": "5",
+              "value": "GROVE MOSFET HARNESS"
+            },
+            {
+              "ref": "J7",
+              "pad": "2",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D1",
+          "class": "edge_header_gpio",
+          "current_usage": "Radar power MOSFET control J25.5",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "3",
+          "contact_label": "D2",
+          "smd_landing_xy_mm": [
+            2.54,
+            -8.255
+          ],
+          "standard_module_xy_mm": [
+            -8.255,
+            -2.54
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 3,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "unconnected-(J7-D2-Pad3)",
+          "motherboard_peers": [
+            {
+              "ref": "J7",
+              "pad": "3",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D2",
+          "class": "edge_header_gpio",
+          "current_usage": "Unassigned; expose at motherboard edge GPIO",
+          "count_as_additional_gpio": false,
+          "note": "GPIO3 strap for JTAG source: preserve boot/reset strap voltage.",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "4",
+          "contact_label": "D3",
+          "smd_landing_xy_mm": [
+            0.0,
+            -8.255
+          ],
+          "standard_module_xy_mm": [
+            -8.255,
+            -0.0
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 4,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "unconnected-(J7-D3-Pad4)",
+          "motherboard_peers": [
+            {
+              "ref": "J7",
+              "pad": "4",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D3",
+          "class": "edge_header_gpio",
+          "current_usage": "Unassigned; expose at motherboard edge GPIO",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "5",
+          "contact_label": "D4",
+          "smd_landing_xy_mm": [
+            -2.54,
+            -8.255
+          ],
+          "standard_module_xy_mm": [
+            -8.255,
+            2.54
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 5,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D4",
+          "motherboard_peers": [
+            {
+              "ref": "J35",
+              "pad": "2",
+              "value": "OLED / I2C"
+            },
+            {
+              "ref": "J17",
+              "pad": "2",
+              "value": "IMU"
+            },
+            {
+              "ref": "J10",
+              "pad": "5",
+              "value": "RP / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J7",
+              "pad": "5",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J34",
+              "pad": "2",
+              "value": "I2C SPARE / 3V3"
+            },
+            {
+              "ref": "J3",
+              "pad": "2",
+              "value": "UPS STATUS / B SIDE"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D4",
+          "class": "edge_header_gpio",
+          "current_usage": "Shared I2C SDA (RP2350, UPS, IMU, OLED, spare)",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "6",
+          "contact_label": "D5",
+          "smd_landing_xy_mm": [
+            -5.08,
+            -8.255
+          ],
+          "standard_module_xy_mm": [
+            -8.255,
+            5.08
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 6,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D5",
+          "motherboard_peers": [
+            {
+              "ref": "J35",
+              "pad": "1",
+              "value": "OLED / I2C"
+            },
+            {
+              "ref": "J17",
+              "pad": "1",
+              "value": "IMU"
+            },
+            {
+              "ref": "J10",
+              "pad": "6",
+              "value": "RP / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J7",
+              "pad": "6",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J34",
+              "pad": "1",
+              "value": "I2C SPARE / 3V3"
+            },
+            {
+              "ref": "J3",
+              "pad": "1",
+              "value": "UPS STATUS / B SIDE"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D5",
+          "class": "edge_header_gpio",
+          "current_usage": "Shared I2C SCL (RP2350, UPS, IMU, OLED, spare)",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "7",
+          "contact_label": "D6",
+          "smd_landing_xy_mm": [
+            -7.62,
+            -8.255
+          ],
+          "standard_module_xy_mm": [
+            -8.255,
+            7.62
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 43,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D6",
+          "motherboard_peers": [
+            {
+              "ref": "J7",
+              "pad": "7",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J12",
+              "pad": "4",
+              "value": "RAD-L / DIRECT DIP5"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D6",
+          "class": "edge_header_gpio",
+          "current_usage": "Left radar host TX J12.4",
+          "count_as_additional_gpio": false,
+          "note": "V1.1 R6=499 ohm between GPIO43 and D6.",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "8",
+          "contact_label": "D7",
+          "smd_landing_xy_mm": [
+            -7.62,
+            8.255
+          ],
+          "standard_module_xy_mm": [
+            8.255,
+            7.62
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 44,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D7",
+          "motherboard_peers": [
+            {
+              "ref": "J7",
+              "pad": "8",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J12",
+              "pad": "3",
+              "value": "RAD-L / DIRECT DIP5"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D7",
+          "class": "edge_header_gpio",
+          "current_usage": "Left radar host RX J12.3",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "9",
+          "contact_label": "D8",
+          "smd_landing_xy_mm": [
+            -5.08,
+            8.255
+          ],
+          "standard_module_xy_mm": [
+            8.255,
+            5.08
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 7,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D8",
+          "motherboard_peers": [
+            {
+              "ref": "J28",
+              "pad": "4",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J7",
+              "pad": "9",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D8",
+          "class": "edge_header_gpio",
+          "current_usage": "Right radar host TX MUX A J28.4",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "10",
+          "contact_label": "D9",
+          "smd_landing_xy_mm": [
+            -2.54,
+            8.255
+          ],
+          "standard_module_xy_mm": [
+            8.255,
+            2.54
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 8,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D9",
+          "motherboard_peers": [
+            {
+              "ref": "J28",
+              "pad": "6",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J7",
+              "pad": "10",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D9",
+          "class": "edge_header_gpio",
+          "current_usage": "Right radar host RX MUX A J28.6",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "11",
+          "contact_label": "D10",
+          "smd_landing_xy_mm": [
+            0.0,
+            8.255
+          ],
+          "standard_module_xy_mm": [
+            8.255,
+            -0.0
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 9,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D10",
+          "motherboard_peers": [
+            {
+              "ref": "J29",
+              "pad": "6",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J7",
+              "pad": "11",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D10",
+          "class": "edge_header_gpio",
+          "current_usage": "Rear radar host RX MUX B J29.6",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "12",
+          "contact_label": "3V3_OUT",
+          "smd_landing_xy_mm": [
+            2.54,
+            8.255
+          ],
+          "standard_module_xy_mm": [
+            8.255,
+            -2.54
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "+3V3_S3",
+          "motherboard_peers": [
+            {
+              "ref": "J35",
+              "pad": "3",
+              "value": "OLED / I2C"
+            },
+            {
+              "ref": "TP6",
+              "pad": "1",
+              "value": "S3V3"
+            },
+            {
+              "ref": "J37",
+              "pad": "3",
+              "value": "MUX A CH2"
+            },
+            {
+              "ref": "J29",
+              "pad": "2",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J17",
+              "pad": "3",
+              "value": "IMU"
+            },
+            {
+              "ref": "J36",
+              "pad": "3",
+              "value": "MUX A CH1"
+            },
+            {
+              "ref": "J28",
+              "pad": "2",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J41",
+              "pad": "3",
+              "value": "MUX B CH3"
+            },
+            {
+              "ref": "J40",
+              "pad": "3",
+              "value": "MUX B CH2"
+            },
+            {
+              "ref": "J7",
+              "pad": "12",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J39",
+              "pad": "3",
+              "value": "MUX B CH1"
+            },
+            {
+              "ref": "J38",
+              "pad": "3",
+              "value": "MUX A CH3"
+            },
+            {
+              "ref": "J34",
+              "pad": "3",
+              "value": "I2C SPARE / 3V3"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Existing power rail",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "13",
+          "contact_label": "GND",
+          "smd_landing_xy_mm": [
+            5.08,
+            8.255
+          ],
+          "standard_module_xy_mm": [
+            8.255,
+            -5.08
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "GND",
+          "motherboard_peers": [
+            {
+              "ref": "J25",
+              "pad": "2",
+              "value": "GROVE MOSFET HARNESS"
+            },
+            {
+              "ref": "J25",
+              "pad": "4",
+              "value": "GROVE MOSFET HARNESS"
+            },
+            {
+              "ref": "J25",
+              "pad": "6",
+              "value": "GROVE MOSFET HARNESS"
+            },
+            {
+              "ref": "J35",
+              "pad": "4",
+              "value": "OLED / I2C"
+            },
+            {
+              "ref": "J2",
+              "pad": "2",
+              "value": "5V FAN / CARRIER HARNESS"
+            },
+            {
+              "ref": "H3",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "MH_ZERO",
+              "pad": "1",
+              "value": "ZERO socket support / UNQUALIFIED"
+            },
+            {
+              "ref": "MH_ZERO",
+              "pad": "2",
+              "value": "ZERO socket support / UNQUALIFIED"
+            },
+            {
+              "ref": "J37",
+              "pad": "4",
+              "value": "MUX A CH2"
+            },
+            {
+              "ref": "H2",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "J15",
+              "pad": "4",
+              "value": "EYES"
+            },
+            {
+              "ref": "J29",
+              "pad": "14",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J29",
+              "pad": "16",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J17",
+              "pad": "4",
+              "value": "IMU"
+            },
+            {
+              "ref": "J36",
+              "pad": "4",
+              "value": "MUX A CH1"
+            },
+            {
+              "ref": "TP1",
+              "pad": "1",
+              "value": "GND"
+            },
+            {
+              "ref": "J18",
+              "pad": "4",
+              "value": "GROVE RELAY / M1"
+            },
+            {
+              "ref": "J28",
+              "pad": "14",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J28",
+              "pad": "16",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J41",
+              "pad": "4",
+              "value": "MUX B CH3"
+            },
+            {
+              "ref": "J40",
+              "pad": "4",
+              "value": "MUX B CH2"
+            },
+            {
+              "ref": "H4",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "J5",
+              "pad": "6",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "9",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "14",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "20",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "25",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "30",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "34",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "39",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J19",
+              "pad": "4",
+              "value": "FRONT BUTTON"
+            },
+            {
+              "ref": "J10",
+              "pad": "13",
+              "value": "RP / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J7",
+              "pad": "13",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J39",
+              "pad": "4",
+              "value": "MUX B CH1"
+            },
+            {
+              "ref": "J16",
+              "pad": "4",
+              "value": "SEN0628 / UART4"
+            },
+            {
+              "ref": "J38",
+              "pad": "4",
+              "value": "MUX A CH3"
+            },
+            {
+              "ref": "TP10",
+              "pad": "1",
+              "value": "GND"
+            },
+            {
+              "ref": "H1",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "J34",
+              "pad": "4",
+              "value": "I2C SPARE / 3V3"
+            },
+            {
+              "ref": "J43",
+              "pad": "2",
+              "value": "UPS CHARGE INPUT"
+            },
+            {
+              "ref": "J13",
+              "pad": "2",
+              "value": "RAD-R / DIRECT DIP5"
+            },
+            {
+              "ref": "J12",
+              "pad": "2",
+              "value": "RAD-L / DIRECT DIP5"
+            },
+            {
+              "ref": "J1",
+              "pad": "2",
+              "value": "UPS REGULATED 5V"
+            },
+            {
+              "ref": "J33",
+              "pad": "6",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "9",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "14",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "20",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "25",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "30",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "34",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "39",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J3",
+              "pad": "4",
+              "value": "UPS STATUS / B SIDE"
+            },
+            {
+              "ref": "J42",
+              "pad": "2",
+              "value": "UPS BAT OUT"
+            },
+            {
+              "ref": "J14",
+              "pad": "2",
+              "value": "RAD-B / DIRECT DIP5"
+            },
+            {
+              "ref": "J45",
+              "pad": "3",
+              "value": "DC 5521 / USER THREE-TAB JACK"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Existing power rail",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "14",
+          "contact_label": "VBUS",
+          "smd_landing_xy_mm": [
+            7.62,
+            8.255
+          ],
+          "standard_module_xy_mm": [
+            8.255,
+            -7.62
+          ],
+          "landing_size_mm": [
+            2.032,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "+5V_S3",
+          "motherboard_peers": [
+            {
+              "ref": "JP1",
+              "pad": "2",
+              "value": "S3 + RP POWER / TWO INDEPENDENT SHUNTS"
+            },
+            {
+              "ref": "J7",
+              "pad": "14",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Existing power rail",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "15",
+          "contact_label": "D11",
+          "smd_landing_xy_mm": [
+            6.35,
+            -8.655
+          ],
+          "standard_module_xy_mm": [
+            -8.655,
+            -6.35
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 38,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D11",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "note": "GPIO38 digital only; do not copy erroneous ADC annotation from wiki.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 1,
+            "motherboard_reference": "J48",
+            "net": "S3_D11"
+          }
+        },
+        {
+          "land_number": "16",
+          "contact_label": "D12",
+          "smd_landing_xy_mm": [
+            3.81,
+            -8.655
+          ],
+          "standard_module_xy_mm": [
+            -8.655,
+            -3.81
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 39,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D12",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "note": "GPIO39 digital/JTAG MTCK, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 2,
+            "motherboard_reference": "J48",
+            "net": "S3_D12"
+          }
+        },
+        {
+          "land_number": "17",
+          "contact_label": "D13",
+          "smd_landing_xy_mm": [
+            1.27,
+            -8.655
+          ],
+          "standard_module_xy_mm": [
+            -8.655,
+            -1.27
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 40,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D13",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "note": "GPIO40 digital/JTAG MTDO, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 3,
+            "motherboard_reference": "J48",
+            "net": "S3_D13"
+          }
+        },
+        {
+          "land_number": "18",
+          "contact_label": "D14",
+          "smd_landing_xy_mm": [
+            -1.27,
+            -8.655
+          ],
+          "standard_module_xy_mm": [
+            -8.655,
+            1.27
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 41,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D14",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "note": "GPIO41 digital/JTAG MTDI, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 4,
+            "motherboard_reference": "J48",
+            "net": "S3_D14"
+          }
+        },
+        {
+          "land_number": "19",
+          "contact_label": "D15",
+          "smd_landing_xy_mm": [
+            -3.81,
+            -8.655
+          ],
+          "standard_module_xy_mm": [
+            -8.655,
+            3.81
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 42,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D15",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "note": "GPIO42 digital/JTAG MTMS, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 5,
+            "motherboard_reference": "J48",
+            "net": "S3_D15"
+          }
+        },
+        {
+          "land_number": "20",
+          "contact_label": "D16",
+          "smd_landing_xy_mm": [
+            -6.35,
+            -8.655
+          ],
+          "standard_module_xy_mm": [
+            -8.655,
+            6.35
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 10,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D16",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "note": "ADC_BAT is only a NET NAME here. V1.1 connects U1.15/U2.20/J3.6, with no battery divider or SD socket on base PCB. Reusable GPIO10; do not tie VBAT to it.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 6,
+            "motherboard_reference": "J48",
+            "net": "S3_D16"
+          }
+        },
+        {
+          "land_number": "21",
+          "contact_label": "D19",
+          "smd_landing_xy_mm": [
+            -6.35,
+            8.655
+          ],
+          "standard_module_xy_mm": [
+            8.655,
+            6.35
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 11,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D19",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 9,
+            "motherboard_reference": "J48",
+            "net": "S3_D19"
+          }
+        },
+        {
+          "land_number": "22",
+          "contact_label": "D18",
+          "smd_landing_xy_mm": [
+            -3.81,
+            8.655
+          ],
+          "standard_module_xy_mm": [
+            8.655,
+            3.81
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 12,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D18",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 8,
+            "motherboard_reference": "J48",
+            "net": "S3_D18"
+          }
+        },
+        {
+          "land_number": "23",
+          "contact_label": "D17",
+          "smd_landing_xy_mm": [
+            -1.27,
+            8.655
+          ],
+          "standard_module_xy_mm": [
+            8.655,
+            1.27
+          ],
+          "landing_size_mm": [
+            1.232,
+            0.95
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 13,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D17",
+          "class": "interleaved_edge_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 7,
+            "motherboard_reference": "J48",
+            "net": "S3_D17"
+          }
+        },
+        {
+          "land_number": "24",
+          "contact_label": "D14/MTDI",
+          "smd_landing_xy_mm": [
+            8.636,
+            -1.27
+          ],
+          "standard_module_xy_mm": [
+            -1.27,
+            -8.636
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 41,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D14",
+          "class": "duplicate_gpio_service_pad",
+          "current_usage": "Duplicate of D14",
+          "count_as_additional_gpio": false,
+          "note": "GPIO41 digital/JTAG MTDI, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 4,
+            "motherboard_reference": "J48",
+            "net": "S3_D14"
+          }
+        },
+        {
+          "land_number": "25",
+          "contact_label": "D13/MTDO",
+          "smd_landing_xy_mm": [
+            8.636,
+            1.27
+          ],
+          "standard_module_xy_mm": [
+            1.27,
+            -8.636
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 40,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D13",
+          "class": "duplicate_gpio_service_pad",
+          "current_usage": "Duplicate of D13",
+          "count_as_additional_gpio": false,
+          "note": "GPIO40 digital/JTAG MTDO, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 3,
+            "motherboard_reference": "J48",
+            "net": "S3_D13"
+          }
+        },
+        {
+          "land_number": "26",
+          "contact_label": "EN",
+          "smd_landing_xy_mm": [
+            6.096,
+            -1.27
+          ],
+          "standard_module_xy_mm": [
+            -1.27,
+            -6.096
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "dedicated_service",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "27",
+          "contact_label": "GND",
+          "smd_landing_xy_mm": [
+            6.096,
+            1.27
+          ],
+          "standard_module_xy_mm": [
+            1.27,
+            -6.096
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "28",
+          "contact_label": "D15/MTMS",
+          "smd_landing_xy_mm": [
+            3.556,
+            -1.27
+          ],
+          "standard_module_xy_mm": [
+            -1.27,
+            -3.556
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 42,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D15",
+          "class": "duplicate_gpio_service_pad",
+          "current_usage": "Duplicate of D15",
+          "count_as_additional_gpio": false,
+          "note": "GPIO42 digital/JTAG MTMS, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 5,
+            "motherboard_reference": "J48",
+            "net": "S3_D15"
+          }
+        },
+        {
+          "land_number": "29",
+          "contact_label": "D12/MTCK",
+          "smd_landing_xy_mm": [
+            3.556,
+            1.27
+          ],
+          "standard_module_xy_mm": [
+            1.27,
+            -3.556
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 39,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D12",
+          "class": "duplicate_gpio_service_pad",
+          "current_usage": "Duplicate of D12",
+          "count_as_additional_gpio": false,
+          "note": "GPIO39 digital/JTAG MTCK, no ADC.",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 2,
+            "motherboard_reference": "J48",
+            "net": "S3_D12"
+          }
+        },
+        {
+          "land_number": "30",
+          "contact_label": "USB_DN",
+          "smd_landing_xy_mm": [
+            1.016,
+            -1.27
+          ],
+          "standard_module_xy_mm": [
+            -1.27,
+            -1.016
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 19,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "dedicated_service",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "note": "Native USB is already wired to on-module USB-C through 22 ohm resistors. These pads are MCU side; not free GPIO and not an independent USB port.",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "31",
+          "contact_label": "USB_DP",
+          "smd_landing_xy_mm": [
+            1.016,
+            1.27
+          ],
+          "standard_module_xy_mm": [
+            1.27,
+            -1.016
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 20,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "dedicated_service",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "note": "Native USB is already wired to on-module USB-C through 22 ohm resistors. These pads are MCU side; not free GPIO and not an independent USB port.",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "32",
+          "contact_label": "VBAT",
+          "smd_landing_xy_mm": [
+            -5.517823,
+            -0.993988
+          ],
+          "standard_module_xy_mm": [
+            -0.993988,
+            5.517823
+          ],
+          "landing_size_mm": [
+            2.5,
+            1.1
+          ],
+          "landing_rotation_deg": 180.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "33",
+          "contact_label": "GND",
+          "smd_landing_xy_mm": [
+            -5.517823,
+            1.006012
+          ],
+          "standard_module_xy_mm": [
+            1.006012,
+            5.517823
+          ],
+          "landing_size_mm": [
+            2.5,
+            1.1
+          ],
+          "landing_rotation_deg": 180.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "34",
+          "contact_label": "PAD",
+          "smd_landing_xy_mm": [
+            -1.875,
+            1.125
+          ],
+          "standard_module_xy_mm": [
+            1.125,
+            1.875
+          ],
+          "landing_size_mm": [
+            2.8,
+            2.5
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "thermal_land",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "note": "Official library calls this PAD, not a GPIO. Confirm thermal land potential separately before assigning a net.",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        }
+      ],
+      "internal_or_non_breakout_nets": [
+        {
+          "silicon_gpio": 0,
+          "label": "BOOT button",
+          "usage": "Boot strapping/button, no dedicated bottom GPIO pad",
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": null,
+          "label": "Flash/PSRAM internal signals",
+          "usage": "On-module memory; raw IC NCs and memory buses are not adapter contacts",
+          "count_as_unused_gpio": false
+        }
+      ],
+      "top_J3": {
+        "module_reference": "J3",
+        "MPN": "LBF11-G30P-BOR",
+        "manufacturer": "LianXingWang",
+        "pitch_mm": 0.4,
+        "signal_contacts": 30,
+        "anchor_contacts": 4,
+        "native_position_mm": [
+          150.6601,
+          113.8417
+        ],
+        "unique_extra_free_GPIO": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          47,
+          48
+        ],
+        "shared_LED_GPIO": 21,
+        "mating_female_MPN_verified": false,
+        "contacts": [
+          {
+            "contact": "1",
+            "native_net": "unconnected-(J3-Pad1)",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              -2.8,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "2",
+            "native_net": "/D2/A2",
+            "silicon_gpio": 3,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -2.4,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "3",
+            "native_net": "/D8/A8/SCK",
+            "silicon_gpio": 7,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -2.0,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "4",
+            "native_net": "/D9/A9/MISO",
+            "silicon_gpio": 8,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -1.6,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "5",
+            "native_net": "/D10/A10/MOSI",
+            "silicon_gpio": 9,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -1.2,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "6",
+            "native_net": "/IO10/XMCLK/ADC_BAT",
+            "silicon_gpio": 10,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -0.8,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "7",
+            "native_net": "/IO11/DVP_Y8/SPI_MOSI1",
+            "silicon_gpio": 11,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -0.4,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "8",
+            "native_net": "/IO12/DVP_Y7/SPI_MISO1",
+            "silicon_gpio": 12,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              0.0,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "9",
+            "native_net": "/IO13/DVP_PCLK/SPI_SCK1",
+            "silicon_gpio": 13,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              0.4,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "10",
+            "native_net": "/IO14/DVP_Y6",
+            "silicon_gpio": 14,
+            "class": "additional_gpio",
+            "header_pad_local_xy_mm": [
+              0.8,
+              1.15
+            ],
+            "unused": true
+          },
+          {
+            "contact": "11",
+            "native_net": "/IO15/DVP_Y2",
+            "silicon_gpio": 15,
+            "class": "additional_gpio",
+            "header_pad_local_xy_mm": [
+              1.2,
+              1.15
+            ],
+            "unused": true
+          },
+          {
+            "contact": "12",
+            "native_net": "/IO16/DVP_Y5",
+            "silicon_gpio": 16,
+            "class": "additional_gpio",
+            "header_pad_local_xy_mm": [
+              1.6,
+              1.15
+            ],
+            "unused": true
+          },
+          {
+            "contact": "13",
+            "native_net": "/IO17/DVP_Y3",
+            "silicon_gpio": 17,
+            "class": "additional_gpio",
+            "header_pad_local_xy_mm": [
+              2.0,
+              1.15
+            ],
+            "unused": true
+          },
+          {
+            "contact": "14",
+            "native_net": "/IO18/DVP_Y4",
+            "silicon_gpio": 18,
+            "class": "additional_gpio",
+            "header_pad_local_xy_mm": [
+              2.4,
+              1.15
+            ],
+            "unused": true
+          },
+          {
+            "contact": "15",
+            "native_net": "/VIN",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              2.8,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "16",
+            "native_net": "/IO21/USER_LED",
+            "silicon_gpio": 21,
+            "class": "onboard_LED_shared_gpio",
+            "header_pad_local_xy_mm": [
+              2.8,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "17",
+            "native_net": "GND_POWER",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              2.4,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "18",
+            "native_net": "/VCC_3V3",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              2.0,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "19",
+            "native_net": "/VCC_3V3",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              1.6,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "20",
+            "native_net": "unconnected-(J3-Pad20)",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              1.2,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "21",
+            "native_net": "/IO48/DVP_Y9",
+            "silicon_gpio": 48,
+            "class": "additional_gpio",
+            "header_pad_local_xy_mm": [
+              0.8,
+              -1.15
+            ],
+            "unused": true
+          },
+          {
+            "contact": "22",
+            "native_net": "/IO47/DVP_HREF",
+            "silicon_gpio": 47,
+            "class": "additional_gpio",
+            "header_pad_local_xy_mm": [
+              0.4,
+              -1.15
+            ],
+            "unused": true
+          },
+          {
+            "contact": "23",
+            "native_net": "/IO38/DVP_VSYNC/I2S_SD",
+            "silicon_gpio": 38,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              0.0,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "24",
+            "native_net": "/MTCK/IO39/CAM_SCL/I2S_SCK",
+            "silicon_gpio": 39,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -0.4,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "25",
+            "native_net": "/MTDO/IO40/CAM_SDA/I2S_WS",
+            "silicon_gpio": 40,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -0.8,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "26",
+            "native_net": "/MTDI/IO41/PDM_DATA/RX1",
+            "silicon_gpio": 41,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -1.2,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "27",
+            "native_net": "/MTMS/IO42/PDM_CLK/TX1",
+            "silicon_gpio": 42,
+            "class": "duplicate_perimeter_gpio",
+            "header_pad_local_xy_mm": [
+              -1.6,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "28",
+            "native_net": "GND_POWER",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              -2.0,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "29",
+            "native_net": "GND_POWER",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              -2.4,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "30",
+            "native_net": "/VIN",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              -2.8,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "31",
+            "native_net": "GND_POWER",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              -3.275,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "32",
+            "native_net": "unconnected-(J3-Pad32)",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              3.275,
+              1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "33",
+            "native_net": "GND_POWER",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              3.275,
+              -1.15
+            ],
+            "unused": false
+          },
+          {
+            "contact": "34",
+            "native_net": "GND_POWER",
+            "silicon_gpio": null,
+            "class": "power_or_no_connect",
+            "header_pad_local_xy_mm": [
+              -3.275,
+              -1.15
+            ],
+            "unused": false
+          }
+        ],
+        "current_adapter_policy": "Separate top breakout deferred by user. Extra7 not claimed on J48/J50. GPIO21 reserved as onboard USER_LED."
+      },
+      "count_all_formal_GPIO_contacts_excluding_USB_BOOT": {
+        "unique_gpio": 28,
+        "allocated_motherboard": 9,
+        "unallocated_base_GPIO": 18,
+        "shared_onboard_LED": 1,
+        "scope": "20 edge GPIO plus7 J3-only camera GPIO plus1 J3 USER_LED; duplicate service pads not double-counted"
+      },
+      "adapter": {
+        "directory": "adapter_s3",
+        "motherboard_mating_reference": "J48",
+        "motherboard_mating_pins": [
+          {
+            "pin": 1,
+            "net": "S3_D11",
+            "gpio": 38,
+            "motherboard_solder_pad_center_mm": [
+              110.36,
+              93.9129
+            ]
+          },
+          {
+            "pin": 2,
+            "net": "S3_D12",
+            "gpio": 39,
+            "motherboard_solder_pad_center_mm": [
+              110.36,
+              90.6871
+            ]
+          },
+          {
+            "pin": 3,
+            "net": "S3_D13",
+            "gpio": 40,
+            "motherboard_solder_pad_center_mm": [
+              111.63,
+              93.9129
+            ]
+          },
+          {
+            "pin": 4,
+            "net": "S3_D14",
+            "gpio": 41,
+            "motherboard_solder_pad_center_mm": [
+              111.63,
+              90.6871
+            ]
+          },
+          {
+            "pin": 5,
+            "net": "S3_D15",
+            "gpio": 42,
+            "motherboard_solder_pad_center_mm": [
+              112.9,
+              93.9129
+            ]
+          },
+          {
+            "pin": 6,
+            "net": "S3_D16",
+            "gpio": 10,
+            "motherboard_solder_pad_center_mm": [
+              112.9,
+              90.6871
+            ]
+          },
+          {
+            "pin": 7,
+            "net": "S3_D17",
+            "gpio": 13,
+            "motherboard_solder_pad_center_mm": [
+              114.17,
+              93.9129
+            ]
+          },
+          {
+            "pin": 8,
+            "net": "S3_D18",
+            "gpio": 12,
+            "motherboard_solder_pad_center_mm": [
+              114.17,
+              90.6871
+            ]
+          },
+          {
+            "pin": 9,
+            "net": "S3_D19",
+            "gpio": 11,
+            "motherboard_solder_pad_center_mm": [
+              115.44,
+              93.9129
+            ]
+          },
+          {
+            "pin": 10,
+            "net": "GND",
+            "gpio": null,
+            "motherboard_solder_pad_center_mm": [
+              115.44,
+              90.6871
+            ]
+          }
+        ],
+        "outline_envelope_mm": [
+          19.4,
+          21.4
+        ],
+        "thickness_mm": 0.8,
+        "extra_signal_count": 9,
+        "top_J3_not_connected_to_this_adapter": true,
+        "original14_contact_coordinates_preserved": true
+      }
+    },
+    {
+      "id": "RP2350",
+      "model": "Seeed Studio XIAO RP2350",
+      "manufacturer_native_revision": "V1.0 2024-06-26",
+      "motherboard_reference": "J10",
+      "manufacturer_native_PCB": "hardware/box_carrier_modules_r2/references/xiao_gpio_expansion/rp2350_v10_cad/XIAO RP2350 v1.0_SCH&PCB_240626/XIAO RP2350.kicad_pcb",
+      "manufacturer_native_PCB_sha256": "f74481ce0381f8b160e49450b7bb138aa79b1182cfd1c794c790c034279de909",
+      "footprint": "XIAO-RP2350-SMD",
+      "module_socket_origin_native_mm": [
+        134.7,
+        92.3
+      ],
+      "module_socket_angle_deg": -90.0,
+      "gpio_count_D_named": 19,
+      "D_named_GPIO_assigned": 9,
+      "D_named_GPIO_unassigned": 10,
+      "additional_smd_GPIO": 8,
+      "contacts": [
+        {
+          "land_number": "1",
+          "contact_label": "D0",
+          "smd_landing_xy_mm": [
+            7.62,
+            -8.0825
+          ],
+          "standard_module_xy_mm": [
+            -8.0825,
+            -7.62
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 26,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "RP_D0",
+          "motherboard_peers": [
+            {
+              "ref": "J28",
+              "pad": "8",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J10",
+              "pad": "1",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D0",
+          "class": "edge_header_gpio",
+          "current_usage": "MUX A select A J28.8",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "2",
+          "contact_label": "D1",
+          "smd_landing_xy_mm": [
+            5.08,
+            -8.0825
+          ],
+          "standard_module_xy_mm": [
+            -8.0825,
+            -5.08
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 27,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "RP_D1",
+          "motherboard_peers": [
+            {
+              "ref": "J28",
+              "pad": "10",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J10",
+              "pad": "2",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D1",
+          "class": "edge_header_gpio",
+          "current_usage": "MUX A select B J28.10",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "3",
+          "contact_label": "D2",
+          "smd_landing_xy_mm": [
+            2.54,
+            -8.0825
+          ],
+          "standard_module_xy_mm": [
+            -8.0825,
+            -2.54
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 28,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "RP_D2",
+          "motherboard_peers": [
+            {
+              "ref": "J28",
+              "pad": "12",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J10",
+              "pad": "3",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D2",
+          "class": "edge_header_gpio",
+          "current_usage": "MUX A enable J28.12",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "4",
+          "contact_label": "D3",
+          "smd_landing_xy_mm": [
+            0.0,
+            -8.0825
+          ],
+          "standard_module_xy_mm": [
+            -8.0825,
+            -0.0
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 5,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "RP_D3",
+          "motherboard_peers": [
+            {
+              "ref": "J29",
+              "pad": "8",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J10",
+              "pad": "4",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D3",
+          "class": "edge_header_gpio",
+          "current_usage": "MUX B select A J29.8",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "5",
+          "contact_label": "D4",
+          "smd_landing_xy_mm": [
+            -2.54,
+            -8.0825
+          ],
+          "standard_module_xy_mm": [
+            -8.0825,
+            2.54
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 6,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D4",
+          "motherboard_peers": [
+            {
+              "ref": "J35",
+              "pad": "2",
+              "value": "OLED / I2C"
+            },
+            {
+              "ref": "J17",
+              "pad": "2",
+              "value": "IMU"
+            },
+            {
+              "ref": "J10",
+              "pad": "5",
+              "value": "RP / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J7",
+              "pad": "5",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J34",
+              "pad": "2",
+              "value": "I2C SPARE / 3V3"
+            },
+            {
+              "ref": "J3",
+              "pad": "2",
+              "value": "UPS STATUS / B SIDE"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D4",
+          "class": "edge_header_gpio",
+          "current_usage": "Shared S3 I2C SDA helper/slave",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "6",
+          "contact_label": "D5",
+          "smd_landing_xy_mm": [
+            -5.08,
+            -8.0825
+          ],
+          "standard_module_xy_mm": [
+            -8.0825,
+            5.08
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 7,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "S3_D5",
+          "motherboard_peers": [
+            {
+              "ref": "J35",
+              "pad": "1",
+              "value": "OLED / I2C"
+            },
+            {
+              "ref": "J17",
+              "pad": "1",
+              "value": "IMU"
+            },
+            {
+              "ref": "J10",
+              "pad": "6",
+              "value": "RP / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J7",
+              "pad": "6",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J34",
+              "pad": "1",
+              "value": "I2C SPARE / 3V3"
+            },
+            {
+              "ref": "J3",
+              "pad": "1",
+              "value": "UPS STATUS / B SIDE"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D5",
+          "class": "edge_header_gpio",
+          "current_usage": "Shared S3 I2C SCL helper/slave",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "7",
+          "contact_label": "D6",
+          "smd_landing_xy_mm": [
+            -7.62,
+            -8.0825
+          ],
+          "standard_module_xy_mm": [
+            -8.0825,
+            7.62
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 0,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "RP_D6",
+          "motherboard_peers": [
+            {
+              "ref": "J19",
+              "pad": "1",
+              "value": "FRONT BUTTON"
+            },
+            {
+              "ref": "J10",
+              "pad": "7",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D6",
+          "class": "edge_header_gpio",
+          "current_usage": "Front button J19.1",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "8",
+          "contact_label": "D7",
+          "smd_landing_xy_mm": [
+            -7.62,
+            8.0825
+          ],
+          "standard_module_xy_mm": [
+            8.0825,
+            7.62
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 1,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "unconnected-(J10-D7-Pad8)",
+          "motherboard_peers": [
+            {
+              "ref": "J10",
+              "pad": "8",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D7",
+          "class": "edge_header_gpio",
+          "current_usage": "Unassigned; expose at motherboard edge GPIO",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "9",
+          "contact_label": "D8",
+          "smd_landing_xy_mm": [
+            -5.08,
+            8.0825
+          ],
+          "standard_module_xy_mm": [
+            8.0825,
+            5.08
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 2,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "RP_D8",
+          "motherboard_peers": [
+            {
+              "ref": "J29",
+              "pad": "10",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J10",
+              "pad": "9",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D8",
+          "class": "edge_header_gpio",
+          "current_usage": "MUX B select B J29.10",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "10",
+          "contact_label": "D9",
+          "smd_landing_xy_mm": [
+            -2.54,
+            8.0825
+          ],
+          "standard_module_xy_mm": [
+            8.0825,
+            2.54
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 4,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "RP_D9",
+          "motherboard_peers": [
+            {
+              "ref": "J29",
+              "pad": "12",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J10",
+              "pad": "10",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D9",
+          "class": "edge_header_gpio",
+          "current_usage": "MUX B enable J29.12",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "11",
+          "contact_label": "D10",
+          "smd_landing_xy_mm": [
+            0.0,
+            8.0825
+          ],
+          "standard_module_xy_mm": [
+            8.0825,
+            -0.0
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": 3,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "unconnected-(J10-D10-Pad11)",
+          "motherboard_peers": [
+            {
+              "ref": "J10",
+              "pad": "11",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D10",
+          "class": "edge_header_gpio",
+          "current_usage": "Unassigned; expose at motherboard edge GPIO",
+          "count_as_additional_gpio": false,
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "12",
+          "contact_label": "3V3_OUT",
+          "smd_landing_xy_mm": [
+            2.54,
+            8.0825
+          ],
+          "standard_module_xy_mm": [
+            8.0825,
+            -2.54
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "+3V3_RP",
+          "motherboard_peers": [
+            {
+              "ref": "TP5",
+              "pad": "1",
+              "value": "RP3V3"
+            },
+            {
+              "ref": "J19",
+              "pad": "3",
+              "value": "FRONT BUTTON"
+            },
+            {
+              "ref": "J10",
+              "pad": "12",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Existing power rail",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "13",
+          "contact_label": "GND",
+          "smd_landing_xy_mm": [
+            5.08,
+            8.0825
+          ],
+          "standard_module_xy_mm": [
+            8.0825,
+            -5.08
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "GND",
+          "motherboard_peers": [
+            {
+              "ref": "J25",
+              "pad": "2",
+              "value": "GROVE MOSFET HARNESS"
+            },
+            {
+              "ref": "J25",
+              "pad": "4",
+              "value": "GROVE MOSFET HARNESS"
+            },
+            {
+              "ref": "J25",
+              "pad": "6",
+              "value": "GROVE MOSFET HARNESS"
+            },
+            {
+              "ref": "J35",
+              "pad": "4",
+              "value": "OLED / I2C"
+            },
+            {
+              "ref": "J2",
+              "pad": "2",
+              "value": "5V FAN / CARRIER HARNESS"
+            },
+            {
+              "ref": "H3",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "MH_ZERO",
+              "pad": "1",
+              "value": "ZERO socket support / UNQUALIFIED"
+            },
+            {
+              "ref": "MH_ZERO",
+              "pad": "2",
+              "value": "ZERO socket support / UNQUALIFIED"
+            },
+            {
+              "ref": "J37",
+              "pad": "4",
+              "value": "MUX A CH2"
+            },
+            {
+              "ref": "H2",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "J15",
+              "pad": "4",
+              "value": "EYES"
+            },
+            {
+              "ref": "J29",
+              "pad": "14",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J29",
+              "pad": "16",
+              "value": "MUX B / REAR RADAR"
+            },
+            {
+              "ref": "J17",
+              "pad": "4",
+              "value": "IMU"
+            },
+            {
+              "ref": "J36",
+              "pad": "4",
+              "value": "MUX A CH1"
+            },
+            {
+              "ref": "TP1",
+              "pad": "1",
+              "value": "GND"
+            },
+            {
+              "ref": "J18",
+              "pad": "4",
+              "value": "GROVE RELAY / M1"
+            },
+            {
+              "ref": "J28",
+              "pad": "14",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J28",
+              "pad": "16",
+              "value": "MUX A / RIGHT RADAR"
+            },
+            {
+              "ref": "J41",
+              "pad": "4",
+              "value": "MUX B CH3"
+            },
+            {
+              "ref": "J40",
+              "pad": "4",
+              "value": "MUX B CH2"
+            },
+            {
+              "ref": "H4",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "J5",
+              "pad": "6",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "9",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "14",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "20",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "25",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "30",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "34",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J5",
+              "pad": "39",
+              "value": "Radxa ZERO 3W SOCKET"
+            },
+            {
+              "ref": "J19",
+              "pad": "4",
+              "value": "FRONT BUTTON"
+            },
+            {
+              "ref": "J10",
+              "pad": "13",
+              "value": "RP / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J7",
+              "pad": "13",
+              "value": "S3 / Seeed XIAO SOCKET14"
+            },
+            {
+              "ref": "J39",
+              "pad": "4",
+              "value": "MUX B CH1"
+            },
+            {
+              "ref": "J16",
+              "pad": "4",
+              "value": "SEN0628 / UART4"
+            },
+            {
+              "ref": "J38",
+              "pad": "4",
+              "value": "MUX A CH3"
+            },
+            {
+              "ref": "TP10",
+              "pad": "1",
+              "value": "GND"
+            },
+            {
+              "ref": "H1",
+              "pad": "1",
+              "value": "MountingHole_2.7mm_M2.5_Pad"
+            },
+            {
+              "ref": "J34",
+              "pad": "4",
+              "value": "I2C SPARE / 3V3"
+            },
+            {
+              "ref": "J43",
+              "pad": "2",
+              "value": "UPS CHARGE INPUT"
+            },
+            {
+              "ref": "J13",
+              "pad": "2",
+              "value": "RAD-R / DIRECT DIP5"
+            },
+            {
+              "ref": "J12",
+              "pad": "2",
+              "value": "RAD-L / DIRECT DIP5"
+            },
+            {
+              "ref": "J1",
+              "pad": "2",
+              "value": "UPS REGULATED 5V"
+            },
+            {
+              "ref": "J33",
+              "pad": "6",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "9",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "14",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "20",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "25",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "30",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "34",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J33",
+              "pad": "39",
+              "value": "ZERO GPIO COPY / FULL40 1:1"
+            },
+            {
+              "ref": "J3",
+              "pad": "4",
+              "value": "UPS STATUS / B SIDE"
+            },
+            {
+              "ref": "J42",
+              "pad": "2",
+              "value": "UPS BAT OUT"
+            },
+            {
+              "ref": "J14",
+              "pad": "2",
+              "value": "RAD-B / DIRECT DIP5"
+            },
+            {
+              "ref": "J45",
+              "pad": "3",
+              "value": "DC 5521 / USER THREE-TAB JACK"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Existing power rail",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "14",
+          "contact_label": "VBUS",
+          "smd_landing_xy_mm": [
+            7.62,
+            8.0825
+          ],
+          "standard_module_xy_mm": [
+            8.0825,
+            -7.62
+          ],
+          "landing_size_mm": [
+            2.75,
+            2.0
+          ],
+          "landing_rotation_deg": 270.0,
+          "landing_type": "smd",
+          "physical_module_hole": true,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": "+5V_RP",
+          "motherboard_peers": [
+            {
+              "ref": "JP1",
+              "pad": "4",
+              "value": "S3 + RP POWER / TWO INDEPENDENT SHUNTS"
+            },
+            {
+              "ref": "J10",
+              "pad": "14",
+              "value": "RP / Seeed XIAO SOCKET14"
+            }
+          ],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Existing power rail",
+          "adapter_capture": "Original14 SMD land plus same-net plated original14 hole"
+        },
+        {
+          "land_number": "15",
+          "contact_label": "D11",
+          "smd_landing_xy_mm": [
+            3.81,
+            5.000994
+          ],
+          "standard_module_xy_mm": [
+            5.000994,
+            -3.81
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 21,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D11",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 1,
+            "motherboard_reference": "J49",
+            "net": "RP_D11"
+          }
+        },
+        {
+          "land_number": "16",
+          "contact_label": "D12",
+          "smd_landing_xy_mm": [
+            1.27,
+            5.000994
+          ],
+          "standard_module_xy_mm": [
+            5.000994,
+            -1.27
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 20,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D12",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 2,
+            "motherboard_reference": "J49",
+            "net": "RP_D12"
+          }
+        },
+        {
+          "land_number": "17",
+          "contact_label": "D13",
+          "smd_landing_xy_mm": [
+            -1.27,
+            5.000994
+          ],
+          "standard_module_xy_mm": [
+            5.000994,
+            1.27
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 17,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D13",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 3,
+            "motherboard_reference": "J49",
+            "net": "RP_D13"
+          }
+        },
+        {
+          "land_number": "18",
+          "contact_label": "D14",
+          "smd_landing_xy_mm": [
+            -3.81,
+            5.000994
+          ],
+          "standard_module_xy_mm": [
+            5.000994,
+            3.81
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 16,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D14",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 4,
+            "motherboard_reference": "J49",
+            "net": "RP_D14"
+          }
+        },
+        {
+          "land_number": "19",
+          "contact_label": "D15",
+          "smd_landing_xy_mm": [
+            -3.81,
+            -5.159006
+          ],
+          "standard_module_xy_mm": [
+            -5.159006,
+            3.81
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 11,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D15",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 5,
+            "motherboard_reference": "J49",
+            "net": "RP_D15"
+          }
+        },
+        {
+          "land_number": "20",
+          "contact_label": "D16",
+          "smd_landing_xy_mm": [
+            -1.27,
+            -5.159006
+          ],
+          "standard_module_xy_mm": [
+            -5.159006,
+            1.27
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 12,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D16",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 6,
+            "motherboard_reference": "J49",
+            "net": "RP_D16"
+          }
+        },
+        {
+          "land_number": "21",
+          "contact_label": "D17",
+          "smd_landing_xy_mm": [
+            1.27,
+            -5.159006
+          ],
+          "standard_module_xy_mm": [
+            -5.159006,
+            -1.27
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 10,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D17",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 7,
+            "motherboard_reference": "J49",
+            "net": "RP_D17"
+          }
+        },
+        {
+          "land_number": "22",
+          "contact_label": "D18",
+          "smd_landing_xy_mm": [
+            3.81,
+            -5.159006
+          ],
+          "standard_module_xy_mm": [
+            -5.159006,
+            -3.81
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": 9,
+          "unique_extra_gpio": true,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "digital_name": "D18",
+          "class": "underside_smd_gpio",
+          "count_as_additional_gpio": true,
+          "current_usage": "Unassigned; not present in current 14-pin motherboard socket",
+          "adapter_extra_output": {
+            "adapter_reference": "J1",
+            "pin": 8,
+            "motherboard_reference": "J49",
+            "net": "RP_D18"
+          }
+        },
+        {
+          "land_number": "23",
+          "contact_label": "SWDIO",
+          "smd_landing_xy_mm": [
+            8.65,
+            -1.27
+          ],
+          "standard_module_xy_mm": [
+            -1.27,
+            -8.65
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "dedicated_service",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "24",
+          "contact_label": "SWDCLK",
+          "smd_landing_xy_mm": [
+            8.65,
+            1.27
+          ],
+          "standard_module_xy_mm": [
+            1.27,
+            -8.65
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "dedicated_service",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "25",
+          "contact_label": "EN",
+          "smd_landing_xy_mm": [
+            6.11,
+            -1.27
+          ],
+          "standard_module_xy_mm": [
+            -1.27,
+            -6.11
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "dedicated_service",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "26",
+          "contact_label": "GND",
+          "smd_landing_xy_mm": [
+            6.11,
+            1.27
+          ],
+          "standard_module_xy_mm": [
+            1.27,
+            -6.11
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "27",
+          "contact_label": "BOOT",
+          "smd_landing_xy_mm": [
+            3.57,
+            -1.27
+          ],
+          "standard_module_xy_mm": [
+            -1.27,
+            -3.57
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "dedicated_service",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "note": "QSPI_SS/flash chip select net, not a generic digital GPIO; use only boot/service role.",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "28",
+          "contact_label": "3V3_OUT",
+          "smd_landing_xy_mm": [
+            3.57,
+            1.27
+          ],
+          "standard_module_xy_mm": [
+            1.27,
+            -3.57
+          ],
+          "landing_size_mm": [
+            1.7,
+            1.7
+          ],
+          "landing_rotation_deg": 90.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "29",
+          "contact_label": "VBAT",
+          "smd_landing_xy_mm": [
+            -4.974811,
+            -1.0
+          ],
+          "standard_module_xy_mm": [
+            -1.0,
+            4.974811
+          ],
+          "landing_size_mm": [
+            2.5,
+            1.1
+          ],
+          "landing_rotation_deg": 180.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        },
+        {
+          "land_number": "30",
+          "contact_label": "GND",
+          "smd_landing_xy_mm": [
+            -4.974811,
+            1.0
+          ],
+          "standard_module_xy_mm": [
+            1.0,
+            4.974811
+          ],
+          "landing_size_mm": [
+            2.5,
+            1.1
+          ],
+          "landing_rotation_deg": 180.0,
+          "landing_type": "smd",
+          "physical_module_hole": false,
+          "silicon_gpio": null,
+          "unique_extra_gpio": false,
+          "motherboard_net_at_snapshot": null,
+          "motherboard_peers": [],
+          "confidence": "high_primary_native_CAD_and_library",
+          "class": "power",
+          "current_usage": "Not an unused general-purpose GPIO",
+          "adapter_capture": "Not connected by this GPIO adapter; no fictitious module through-hole"
+        }
+      ],
+      "internal_or_non_breakout_nets": [
+        {
+          "silicon_gpio": 25,
+          "label": "D19/USER_LED",
+          "usage": "Yellow LED",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 22,
+          "label": "D20/NEOPIX",
+          "usage": "RGB data into U8 level buffer",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 23,
+          "label": "D21/NEO_PWR",
+          "usage": "RGB power-switch enable U7 and buffer control",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 19,
+          "label": "D22/BAT_ADC_EN",
+          "usage": "Battery sense gate U6",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 29,
+          "label": "ADC_BAT",
+          "usage": "Battery divider ADC input",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 8,
+          "usage": "Raw MCU pad is NC in board CAD, no module breakout contact",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 13,
+          "usage": "Raw MCU pad is NC in board CAD, no module breakout contact",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 14,
+          "usage": "Raw MCU pad is NC in board CAD, no module breakout contact",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 15,
+          "usage": "Raw MCU pad is NC in board CAD, no module breakout contact",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 18,
+          "usage": "Raw MCU pad is NC in board CAD, no module breakout contact",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        },
+        {
+          "silicon_gpio": 24,
+          "usage": "Raw MCU pad is NC in board CAD, no module breakout contact",
+          "dedicated_breakout_contact": false,
+          "count_as_unused_gpio": false
+        }
+      ],
+      "adapter": {
+        "directory": "adapter_rp",
+        "motherboard_mating_reference": "J49",
+        "motherboard_mating_pins": [
+          {
+            "pin": 1,
+            "net": "RP_D11",
+            "gpio": 21,
+            "motherboard_solder_pad_center_mm": [
+              137.24,
+              90.6871
+            ]
+          },
+          {
+            "pin": 2,
+            "net": "RP_D12",
+            "gpio": 20,
+            "motherboard_solder_pad_center_mm": [
+              137.24,
+              93.9129
+            ]
+          },
+          {
+            "pin": 3,
+            "net": "RP_D13",
+            "gpio": 17,
+            "motherboard_solder_pad_center_mm": [
+              135.97,
+              90.6871
+            ]
+          },
+          {
+            "pin": 4,
+            "net": "RP_D14",
+            "gpio": 16,
+            "motherboard_solder_pad_center_mm": [
+              135.97,
+              93.9129
+            ]
+          },
+          {
+            "pin": 5,
+            "net": "RP_D15",
+            "gpio": 11,
+            "motherboard_solder_pad_center_mm": [
+              134.7,
+              90.6871
+            ]
+          },
+          {
+            "pin": 6,
+            "net": "RP_D16",
+            "gpio": 12,
+            "motherboard_solder_pad_center_mm": [
+              134.7,
+              93.9129
+            ]
+          },
+          {
+            "pin": 7,
+            "net": "RP_D17",
+            "gpio": 10,
+            "motherboard_solder_pad_center_mm": [
+              133.43,
+              90.6871
+            ]
+          },
+          {
+            "pin": 8,
+            "net": "RP_D18",
+            "gpio": 9,
+            "motherboard_solder_pad_center_mm": [
+              133.43,
+              93.9129
+            ]
+          },
+          {
+            "pin": 9,
+            "net": "+3V3_RP",
+            "gpio": null,
+            "motherboard_solder_pad_center_mm": [
+              132.16,
+              90.6871
+            ]
+          },
+          {
+            "pin": 10,
+            "net": "GND",
+            "gpio": null,
+            "motherboard_solder_pad_center_mm": [
+              132.16,
+              93.9129
+            ]
+          }
+        ],
+        "outline_envelope_mm": [
+          19.4,
+          21.4
+        ],
+        "thickness_mm": 0.8,
+        "extra_signal_count": 8,
+        "top_J3_not_connected_to_this_adapter": false,
+        "original14_contact_coordinates_preserved": true
+      }
+    }
+  ],
+  "mechanical_proposals": [
+    {
+      "module": "S3_PLUS",
+      "scheme": "retain_original14_plus_center_2x5_SMT",
+      "adapter_envelope_mm": [
+        19.4,
+        21.4,
+        0.8
+      ],
+      "motherboard_reference": "J48",
+      "center_mm": [
+        112.9,
+        92.3
+      ],
+      "angle_deg": 90,
+      "side": "F.Cu",
+      "motherboard_mpn": "CLP-105-02-L-D",
+      "adapter_mpn": "FW-05-05-L-D-315-105",
+      "connector_contract": "connector_contract.json",
+      "stack_qualified": false,
+      "underbody_reliefs": "module_underbody_clearances.json"
+    },
+    {
+      "module": "RP2350",
+      "scheme": "retain_original14_plus_center_2x5_SMT",
+      "adapter_envelope_mm": [
+        19.4,
+        21.4,
+        0.8
+      ],
+      "motherboard_reference": "J49",
+      "center_mm": [
+        134.7,
+        92.3
+      ],
+      "angle_deg": 270,
+      "side": "F.Cu",
+      "motherboard_mpn": "CLP-105-02-L-D",
+      "adapter_mpn": "FW-05-05-L-D-315-105",
+      "connector_contract": "connector_contract.json",
+      "stack_qualified": false,
+      "underbody_reliefs": "module_underbody_clearances.json"
+    }
+  ],
+  "release": "Routed engineering prototype, not fabrication qualification; see validation.json and connector_contract.json.",
+  "planar_neighbor_screen": {
+    "algorithm": "Axis-aligned F.CrtYd extents against proposed adapter board outline; not full 3D clearance. Only available native courtyards included.",
+    "results": [
+      {
+        "module": "S3_PLUS",
+        "adapter_bbox": [
+          102.2,
+          82.6,
+          123.60000000000001,
+          102.0
+        ],
+        "nearby_front_courtyards": [
+          {
+            "ref": "J15",
+            "bbox": [
+              115.05,
+              70.35,
+              121.2,
+              81.7
+            ],
+            "rectangle_gap_mm": 0.9,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J29",
+            "bbox": [
+              123.97000000000001,
+              104.13,
+              144.75,
+              119.87
+            ],
+            "rectangle_gap_mm": 2.1619,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J17",
+            "bbox": [
+              121.89999999999999,
+              70.35,
+              128.04999999999998,
+              81.7
+            ],
+            "rectangle_gap_mm": 0.9,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J28",
+            "bbox": [
+              101.16,
+              104.13,
+              121.94,
+              119.87
+            ],
+            "rectangle_gap_mm": 2.13,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J19",
+            "bbox": [
+              108.2,
+              70.35,
+              114.35000000000001,
+              81.7
+            ],
+            "rectangle_gap_mm": 0.9,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J16",
+            "bbox": [
+              101.35,
+              70.35,
+              107.5,
+              81.7
+            ],
+            "rectangle_gap_mm": 0.9,
+            "bbox_overlap": false
+          }
+        ]
+      },
+      {
+        "module": "RP2350",
+        "adapter_bbox": [
+          123.99999999999999,
+          82.6,
+          145.39999999999998,
+          102.0
+        ],
+        "nearby_front_courtyards": [
+          {
+            "ref": "J35",
+            "bbox": [
+              135.60000000000002,
+              70.35,
+              141.75,
+              81.7
+            ],
+            "rectangle_gap_mm": 0.9,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J15",
+            "bbox": [
+              115.05,
+              70.35,
+              121.2,
+              81.7
+            ],
+            "rectangle_gap_mm": 2.94109,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J29",
+            "bbox": [
+              123.97000000000001,
+              104.13,
+              144.75,
+              119.87
+            ],
+            "rectangle_gap_mm": 2.13,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J17",
+            "bbox": [
+              121.89999999999999,
+              70.35,
+              128.04999999999998,
+              81.7
+            ],
+            "rectangle_gap_mm": 0.9,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J28",
+            "bbox": [
+              101.16,
+              104.13,
+              121.94,
+              119.87
+            ],
+            "rectangle_gap_mm": 2.96319,
+            "bbox_overlap": false
+          },
+          {
+            "ref": "J34",
+            "bbox": [
+              128.75,
+              70.35,
+              134.89999999999998,
+              81.7
+            ],
+            "rectangle_gap_mm": 0.9,
+            "bbox_overlap": false
+          }
+        ]
+      }
+    ],
+    "adapter_to_adapter_gap_mm": 0.4,
+    "minimum_land_to_adapter_edge_mm_RP": 0.2425,
+    "minimum_land_to_adapter_edge_mm_S3": 0.429
+  },
+  "motherboard_usage_snapshot_note": "Allocated/free counts refer to the source hash recorded in sources, not the concurrently edited main PCB."
+}

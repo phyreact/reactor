@@ -1,0 +1,6 @@
+(footprint "Flag" (version 20241229) (generator "pcbnew") (layer "F.Cu")
+(descr "")
+(attr smd)
+(property "Reference" "REF**" (at 0 -3) (layer "F.SilkS") (effects (font (size 1.0 1.0))))
+(property "Value" "Flag" (at 0 3) (layer "F.Fab") (effects (font (size 1.0 1.0))))
+)

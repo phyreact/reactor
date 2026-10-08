@@ -1,0 +1,2927 @@
+{
+  "scope": "Current component metadata plus prior electrical review; geometry verification is not physical sample qualification.",
+  "components": [
+    {
+      "reference": "J1",
+      "value": "UPS REGULATED 5V",
+      "MPN": "B2B-XH-A(LF)(SN)",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "UPS_5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M1",
+      "value": "M1 / 5V RELAY / ZERO + HAT",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": false,
+      "raw_pin_map": [
+        {
+          "number": "V+",
+          "name": "V+ 5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "V-",
+          "name": "V-",
+          "net": "GND"
+        },
+        {
+          "number": "IN-",
+          "name": "LOW TO ENERGIZE",
+          "net": "ZERO_RELAY_IN_N"
+        },
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "NO",
+          "name": "NO",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "NC",
+          "name": "NC UNUSED",
+          "net": null
+        }
+      ]
+    },
+    {
+      "reference": "JP1",
+      "value": "COMMON CTRL 5V LINK / TWO SHUNTS",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "AON_S3",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "2",
+          "name": "S3_5V",
+          "net": "+5V_LOGIC"
+        },
+        {
+          "number": "3",
+          "name": "AON_RP",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "4",
+          "name": "RP_5V",
+          "net": "+5V_LOGIC"
+        }
+      ]
+    },
+    {
+      "reference": "#FLG1",
+      "value": "PWR_FLAG / SHUNT FITTED",
+      "MPN": "",
+      "on_carrier": false,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "PWR",
+          "net": "+5V_LOGIC"
+        }
+      ]
+    },
+    {
+      "reference": "J2",
+      "value": "ZERO FAN / NOCTUA 5V PWM / 4P",
+      "MPN": "47053-1000",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://cdn.noctua.at/media/Noctua_PWM_specifications_white_paper.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "name": "5V",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "3",
+          "name": "TACH",
+          "net": "Z_GPIO3_A1"
+        },
+        {
+          "number": "4",
+          "name": "BUFFERED FAN PWM",
+          "net": "FAN_PWM_5V"
+        }
+      ]
+    },
+    {
+      "reference": "M2",
+      "value": "M2 / 5V RELAY / FOUR LD2450",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": false,
+      "raw_pin_map": [
+        {
+          "number": "V+",
+          "name": "V+ 5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "V-",
+          "name": "V-",
+          "net": "GND"
+        },
+        {
+          "number": "IN-",
+          "name": "LOW TO ENERGIZE",
+          "net": "RADAR_RELAY_IN_N"
+        },
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "NO",
+          "name": "NO",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "NC",
+          "name": "MUX INHIBIT WHEN OFF",
+          "net": "RADAR_MUX_INHIBIT"
+        }
+      ]
+    },
+    {
+      "reference": "J5",
+      "value": "Radxa ZERO 3W SOCKET",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "P1",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "3",
+          "name": "P3",
+          "net": "Z_GPIO1_A0"
+        },
+        {
+          "number": "4",
+          "name": "P4",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "5",
+          "name": "P5",
+          "net": "Z_GPIO1_A1"
+        },
+        {
+          "number": "6",
+          "name": "P6",
+          "net": "GND"
+        },
+        {
+          "number": "7",
+          "name": "P7",
+          "net": "Z_GPIO3_C4"
+        },
+        {
+          "number": "8",
+          "name": "P8",
+          "net": "Z_GPIO0_D1"
+        },
+        {
+          "number": "9",
+          "name": "P9",
+          "net": "GND"
+        },
+        {
+          "number": "10",
+          "name": "P10",
+          "net": "Z_GPIO0_D0"
+        },
+        {
+          "number": "11",
+          "name": "P11",
+          "net": "Z_GPIO3_A1"
+        },
+        {
+          "number": "12",
+          "name": "P12",
+          "net": "Z_GPIO3_A3"
+        },
+        {
+          "number": "13",
+          "name": "P13",
+          "net": "Z_GPIO3_A2"
+        },
+        {
+          "number": "14",
+          "name": "P14",
+          "net": "GND"
+        },
+        {
+          "number": "15",
+          "name": "P15",
+          "net": "Z_GPIO3_B0"
+        },
+        {
+          "number": "16",
+          "name": "P16",
+          "net": "Z_GPIO3_B1"
+        },
+        {
+          "number": "17",
+          "name": "P17",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "18",
+          "name": "P18",
+          "net": "Z_GPIO3_B2"
+        },
+        {
+          "number": "19",
+          "name": "P19",
+          "net": "Z_GPIO4_C3"
+        },
+        {
+          "number": "20",
+          "name": "P20",
+          "net": "GND"
+        },
+        {
+          "number": "21",
+          "name": "P21",
+          "net": "Z_GPIO4_C5"
+        },
+        {
+          "number": "22",
+          "name": "P22",
+          "net": "Z_GPIO3_C1"
+        },
+        {
+          "number": "23",
+          "name": "P23",
+          "net": "Z_GPIO4_C2"
+        },
+        {
+          "number": "24",
+          "name": "P24",
+          "net": "Z_GPIO4_C6"
+        },
+        {
+          "number": "25",
+          "name": "P25",
+          "net": "GND"
+        },
+        {
+          "number": "26",
+          "name": "P26",
+          "net": "Z_PHYSICAL26_NC_COPY"
+        },
+        {
+          "number": "27",
+          "name": "P27",
+          "net": "Z_GPIO4_B2"
+        },
+        {
+          "number": "28",
+          "name": "P28",
+          "net": "Z_GPIO4_B3"
+        },
+        {
+          "number": "29",
+          "name": "P29",
+          "net": "Z_GPIO3_B3"
+        },
+        {
+          "number": "30",
+          "name": "P30",
+          "net": "GND"
+        },
+        {
+          "number": "31",
+          "name": "P31",
+          "net": "Z_GPIO3_B4"
+        },
+        {
+          "number": "32",
+          "name": "P32",
+          "net": "Z_GPIO3_C2"
+        },
+        {
+          "number": "33",
+          "name": "P33",
+          "net": "Z_GPIO3_C3"
+        },
+        {
+          "number": "34",
+          "name": "P34",
+          "net": "GND"
+        },
+        {
+          "number": "35",
+          "name": "P35",
+          "net": "Z_GPIO3_A4"
+        },
+        {
+          "number": "36",
+          "name": "P36",
+          "net": "Z_GPIO3_A7"
+        },
+        {
+          "number": "37",
+          "name": "P37",
+          "net": "Z_GPIO1_A4"
+        },
+        {
+          "number": "38",
+          "name": "P38",
+          "net": "Z_GPIO3_A6"
+        },
+        {
+          "number": "39",
+          "name": "P39",
+          "net": "GND"
+        },
+        {
+          "number": "40",
+          "name": "P40",
+          "net": "Z_GPIO3_A5"
+        }
+      ]
+    },
+    {
+      "reference": "J7",
+      "value": "S3 / Seeed XIAO SOCKET14",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "D0",
+          "net": "S3_D0"
+        },
+        {
+          "number": "2",
+          "name": "D1",
+          "net": "S3_D1"
+        },
+        {
+          "number": "3",
+          "name": "D2",
+          "net": "S3_D2"
+        },
+        {
+          "number": "4",
+          "name": "D3",
+          "net": "S3_D3"
+        },
+        {
+          "number": "5",
+          "name": "D4",
+          "net": "S3_D4"
+        },
+        {
+          "number": "6",
+          "name": "D5",
+          "net": "S3_D5"
+        },
+        {
+          "number": "7",
+          "name": "D6",
+          "net": "S3_D6"
+        },
+        {
+          "number": "8",
+          "name": "D7",
+          "net": "S3_D7"
+        },
+        {
+          "number": "9",
+          "name": "D8",
+          "net": "S3_D8"
+        },
+        {
+          "number": "10",
+          "name": "D9",
+          "net": "S3_D9"
+        },
+        {
+          "number": "11",
+          "name": "D10",
+          "net": "S3_D10"
+        },
+        {
+          "number": "12",
+          "name": "3V3",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "13",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "14",
+          "name": "VBUS",
+          "net": "+5V_LOGIC"
+        }
+      ]
+    },
+    {
+      "reference": "J10",
+      "value": "RP / Seeed XIAO SOCKET14",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "D0",
+          "net": "RP_D0"
+        },
+        {
+          "number": "2",
+          "name": "D1",
+          "net": "RP_D1"
+        },
+        {
+          "number": "3",
+          "name": "D2",
+          "net": "RP_D2"
+        },
+        {
+          "number": "4",
+          "name": "D3",
+          "net": "RP_D3"
+        },
+        {
+          "number": "5",
+          "name": "D4",
+          "net": "S3_D4"
+        },
+        {
+          "number": "6",
+          "name": "D5",
+          "net": "S3_D5"
+        },
+        {
+          "number": "7",
+          "name": "D6",
+          "net": "RP_UART0_TX"
+        },
+        {
+          "number": "8",
+          "name": "D7",
+          "net": "RP_UART0_RX"
+        },
+        {
+          "number": "9",
+          "name": "D8",
+          "net": "RP_D8"
+        },
+        {
+          "number": "10",
+          "name": "D9",
+          "net": "RP_D9"
+        },
+        {
+          "number": "11",
+          "name": "D10",
+          "net": "RP_D10"
+        },
+        {
+          "number": "12",
+          "name": "3V3",
+          "net": "+3V3_RP"
+        },
+        {
+          "number": "13",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "14",
+          "name": "VBUS",
+          "net": "+5V_LOGIC"
+        }
+      ]
+    },
+    {
+      "reference": "J28",
+      "value": "MUX / FRONT PAIR TX GATE",
+      "MPN": "Taobao-1011201977739",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "TX0",
+          "net": "RADAR_FL_RX"
+        },
+        {
+          "number": "2",
+          "name": "VCC",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "3",
+          "name": "TX1",
+          "net": null
+        },
+        {
+          "number": "4",
+          "name": "TXD",
+          "net": "S3_D2"
+        },
+        {
+          "number": "5",
+          "name": "TX2",
+          "net": null
+        },
+        {
+          "number": "6",
+          "name": "RXD",
+          "net": "S3_D8"
+        },
+        {
+          "number": "7",
+          "name": "TX3",
+          "net": null
+        },
+        {
+          "number": "8",
+          "name": "A",
+          "net": "GND"
+        },
+        {
+          "number": "9",
+          "name": "RX0",
+          "net": "RADAR_FR_RX"
+        },
+        {
+          "number": "10",
+          "name": "B",
+          "net": "GND"
+        },
+        {
+          "number": "11",
+          "name": "RX1",
+          "net": null
+        },
+        {
+          "number": "12",
+          "name": "EN",
+          "net": "RADAR_MUX_INHIBIT"
+        },
+        {
+          "number": "13",
+          "name": "RX2",
+          "net": null
+        },
+        {
+          "number": "14",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "15",
+          "name": "RX3",
+          "net": null
+        },
+        {
+          "number": "16",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J29",
+      "value": "MUX / REAR PAIR TX GATE",
+      "MPN": "Taobao-1011201977739",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "TX0",
+          "net": "RADAR_RL_RX"
+        },
+        {
+          "number": "2",
+          "name": "VCC",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "3",
+          "name": "TX1",
+          "net": null
+        },
+        {
+          "number": "4",
+          "name": "TXD",
+          "net": "S3_D0"
+        },
+        {
+          "number": "5",
+          "name": "TX2",
+          "net": null
+        },
+        {
+          "number": "6",
+          "name": "RXD",
+          "net": "RP_D9"
+        },
+        {
+          "number": "7",
+          "name": "TX3",
+          "net": null
+        },
+        {
+          "number": "8",
+          "name": "A",
+          "net": "GND"
+        },
+        {
+          "number": "9",
+          "name": "RX0",
+          "net": "RADAR_RR_RX"
+        },
+        {
+          "number": "10",
+          "name": "B",
+          "net": "GND"
+        },
+        {
+          "number": "11",
+          "name": "RX1",
+          "net": null
+        },
+        {
+          "number": "12",
+          "name": "EN",
+          "net": "RADAR_MUX_INHIBIT"
+        },
+        {
+          "number": "13",
+          "name": "RX2",
+          "net": null
+        },
+        {
+          "number": "14",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "15",
+          "name": "RX3",
+          "net": null
+        },
+        {
+          "number": "16",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J15",
+      "value": "EYES",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "EYES_TX->ZERO_RX",
+          "net": "EYES_TX"
+        },
+        {
+          "number": "2",
+          "name": "ZERO_TX->EYES_RX",
+          "net": "EYES_RX"
+        },
+        {
+          "number": "3",
+          "name": "SYS_5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J16",
+      "value": "SEN0628 / UART4",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SIG1",
+          "net": "TOF_TX"
+        },
+        {
+          "number": "2",
+          "name": "SIG2",
+          "net": "TOF_RX"
+        },
+        {
+          "number": "3",
+          "name": "VCC",
+          "net": "+3V3_TOF_SW"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J17",
+      "value": "IMU",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SCL",
+          "net": "S3_D5"
+        },
+        {
+          "number": "2",
+          "name": "SDA",
+          "net": "S3_D4"
+        },
+        {
+          "number": "3",
+          "name": "S3_3V3",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J19",
+      "value": "FRONT BUTTON",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SIG1",
+          "net": "RP_D0"
+        },
+        {
+          "number": "2",
+          "name": "SIG2",
+          "net": null
+        },
+        {
+          "number": "3",
+          "name": "VCC",
+          "net": "+3V3_RP"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J34",
+      "value": "S3 I2C",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SCL",
+          "net": "S3_D5"
+        },
+        {
+          "number": "2",
+          "name": "SDA",
+          "net": "S3_D4"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J35",
+      "value": "OLED / PARALLEL / SCREEN UP",
+      "MPN": "SSW-104-01-G-S",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "VCC",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "SCL",
+          "net": "S3_D5"
+        },
+        {
+          "number": "4",
+          "name": "SDA",
+          "net": "S3_D4"
+        }
+      ]
+    },
+    {
+      "reference": "J36",
+      "value": "LD2450 / REAR RIGHT",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "RADAR TX TO MCU RX",
+          "net": "RP_D3"
+        },
+        {
+          "number": "2",
+          "name": "GATED MCU TX TO RADAR RX",
+          "net": "RADAR_RR_RX"
+        },
+        {
+          "number": "3",
+          "name": "RADAR_5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J37",
+      "value": "ZERO I2C4",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SCL",
+          "net": "Z_GPIO4_B3"
+        },
+        {
+          "number": "2",
+          "name": "SDA",
+          "net": "Z_GPIO4_B2"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J38",
+      "value": "ZERO RP UART9",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "MCU RX",
+          "net": "Z_GPIO4_C6"
+        },
+        {
+          "number": "2",
+          "name": "MCU TX",
+          "net": "Z_GPIO4_C5"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J39",
+      "value": "RP I2C SHARED",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SCL",
+          "net": "S3_D5"
+        },
+        {
+          "number": "2",
+          "name": "SDA",
+          "net": "S3_D4"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J40",
+      "value": "S3 UART A",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "MCU RX",
+          "net": "S3_D9"
+        },
+        {
+          "number": "2",
+          "name": "MCU TX",
+          "net": "S3_D8"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J41",
+      "value": "RP UART1",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "MCU RX",
+          "net": "RP_D3"
+        },
+        {
+          "number": "2",
+          "name": "MCU TX",
+          "net": "RP_D9"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_RP"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "TP1",
+      "value": "GND",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "TP2",
+      "value": "A5V",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "A5V",
+          "net": "+5V_AON"
+        }
+      ]
+    },
+    {
+      "reference": "TP3",
+      "value": "H5V",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "H5V",
+          "net": "+5V_HOST"
+        }
+      ]
+    },
+    {
+      "reference": "TP11",
+      "value": "RADV",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "RADV",
+          "net": "+V_RADAR_SW"
+        }
+      ]
+    },
+    {
+      "reference": "TP6",
+      "value": "S3V3",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "S3V3",
+          "net": "+3V3_S3"
+        }
+      ]
+    },
+    {
+      "reference": "TP5",
+      "value": "RP3V3",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "RP3V3",
+          "net": "+3V3_RP"
+        }
+      ]
+    },
+    {
+      "reference": "TP4",
+      "value": "Z3V3",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "Z3V3",
+          "net": "+3V3_ZERO"
+        }
+      ]
+    },
+    {
+      "reference": "TP9",
+      "value": "RELAY_EN",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "EN",
+          "net": "RP_D1"
+        }
+      ]
+    },
+    {
+      "reference": "TP10",
+      "value": "GND",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "TP7",
+      "value": "ZTX",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "ZTX",
+          "net": "Z_GPIO0_D1"
+        }
+      ]
+    },
+    {
+      "reference": "TP8",
+      "value": "ZRX",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "ZRX",
+          "net": "Z_GPIO0_D0"
+        }
+      ]
+    },
+    {
+      "reference": "TP13",
+      "value": "BAT",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "Pin-number datasheet verification not meaningful for test copper / virtual power flag",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "BAT",
+          "net": "+VBAT_UPS_SW"
+        }
+      ]
+    },
+    {
+      "reference": "M3",
+      "value": "EXISTING 0.96in SSD1306 OLED / I2C",
+      "MPN": "15628-0.96",
+      "on_carrier": false,
+      "datasheet_or_module_document": "",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "VCC",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "SCL",
+          "net": "S3_D5"
+        },
+        {
+          "number": "4",
+          "name": "SDA",
+          "net": "S3_D4"
+        }
+      ]
+    },
+    {
+      "reference": "M4",
+      "value": "NOCTUA NF-A4x10 5V PWM / FOUR-WIRE",
+      "MPN": "NF-A4x10 5V PWM",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://www.noctua.at/en/products/nf-a4x10-5v-pwm",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "2",
+          "name": "5V",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "3",
+          "name": "TACH OC",
+          "net": "Z_GPIO3_A1"
+        },
+        {
+          "number": "4",
+          "name": "PWM INPUT",
+          "net": "FAN_PWM_5V"
+        }
+      ]
+    },
+    {
+      "reference": "J42",
+      "value": "UPS BAT OUT",
+      "MPN": "B2B-XH-A(LF)(SN)",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "BAT_3S",
+          "net": "+VBAT_UPS_SW"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J44",
+      "value": "UPS SWITCH LOOP",
+      "MPN": "B2B-XH-A(LF)(SN)",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SW_A",
+          "net": "+UPS_SW_A"
+        },
+        {
+          "number": "2",
+          "name": "SW_B",
+          "net": "+VBAT_UPS_SW"
+        }
+      ]
+    },
+    {
+      "reference": "J3",
+      "value": "UPS I2C STATUS",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SCL",
+          "net": "S3_D5"
+        },
+        {
+          "number": "2",
+          "name": "SDA",
+          "net": "S3_D4"
+        },
+        {
+          "number": "3",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M10",
+      "value": "COMPLETE Waveshare UPS Module 3S",
+      "MPN": "UPS Module 3S / 23884",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://www.waveshare.com/wiki/UPS_Module_3S",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "P1.2",
+          "name": "INPUT+ 12V6",
+          "net": "+DC_12V6_IN"
+        },
+        {
+          "number": "P1.1",
+          "name": "INPUT-",
+          "net": "GND"
+        },
+        {
+          "number": "P2.2",
+          "name": "SW_A",
+          "net": "+UPS_SW_A"
+        },
+        {
+          "number": "P2.1",
+          "name": "SW_B",
+          "net": "+VBAT_UPS_SW"
+        },
+        {
+          "number": "P3.2",
+          "name": "BAT_OUT+ SW",
+          "net": "+VBAT_UPS_SW"
+        },
+        {
+          "number": "P3.1",
+          "name": "BAT_OUT-",
+          "net": "GND"
+        },
+        {
+          "number": "P4.2",
+          "name": "REG_5V_OUT",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "P4.1",
+          "name": "5V_RETURN",
+          "net": "GND"
+        },
+        {
+          "number": "SCL",
+          "name": "PHOTO_H1 SCL",
+          "net": "S3_D5"
+        },
+        {
+          "number": "SDA",
+          "name": "PHOTO_H2 SDA",
+          "net": "S3_D4"
+        },
+        {
+          "number": "H_GND",
+          "name": "PHOTO_H5 GND",
+          "net": "GND"
+        },
+        {
+          "number": "3V3",
+          "name": "UPS_3V3 NC",
+          "net": null
+        }
+      ]
+    },
+    {
+      "reference": "SW1",
+      "value": "22mm MOMENTARY NO / PANEL START",
+      "MPN": "",
+      "on_carrier": false,
+      "datasheet_or_module_document": "",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SW_A",
+          "net": "+UPS_SW_A"
+        },
+        {
+          "number": "2",
+          "name": "SW_B",
+          "net": "+VBAT_UPS_SW"
+        }
+      ]
+    },
+    {
+      "reference": "M9",
+      "value": "DFRobot SEN0628 / UART 115200",
+      "MPN": "SEN0628",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://wiki.dfrobot.com/sen0628/",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "TX",
+          "net": "TOF_TX"
+        },
+        {
+          "number": "2",
+          "name": "RX",
+          "net": "TOF_RX"
+        },
+        {
+          "number": "3",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "4",
+          "name": "VIN",
+          "net": "+3V3_TOF_SW"
+        }
+      ]
+    },
+    {
+      "reference": "J33",
+      "value": "ZERO GPIO COPY / FULL40 1:1",
+      "MPN": "M20-9982046",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://content.harwin.com/asset/1590d228-db5c-4836-ab0c-0f146730b624/DRG-00478-Technical-Drawing-Datasheet-M20-998-pdf.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "ZERO_P1",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "2",
+          "name": "ZERO_P2",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "3",
+          "name": "ZERO_P3",
+          "net": "Z_GPIO1_A0"
+        },
+        {
+          "number": "4",
+          "name": "ZERO_P4",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "5",
+          "name": "ZERO_P5",
+          "net": "Z_GPIO1_A1"
+        },
+        {
+          "number": "6",
+          "name": "ZERO_P6",
+          "net": "GND"
+        },
+        {
+          "number": "7",
+          "name": "ZERO_P7",
+          "net": "Z_GPIO3_C4"
+        },
+        {
+          "number": "8",
+          "name": "ZERO_P8",
+          "net": "Z_GPIO0_D1"
+        },
+        {
+          "number": "9",
+          "name": "ZERO_P9",
+          "net": "GND"
+        },
+        {
+          "number": "10",
+          "name": "ZERO_P10",
+          "net": "Z_GPIO0_D0"
+        },
+        {
+          "number": "11",
+          "name": "ZERO_P11",
+          "net": "Z_GPIO3_A1"
+        },
+        {
+          "number": "12",
+          "name": "ZERO_P12",
+          "net": "Z_GPIO3_A3"
+        },
+        {
+          "number": "13",
+          "name": "ZERO_P13",
+          "net": "Z_GPIO3_A2"
+        },
+        {
+          "number": "14",
+          "name": "ZERO_P14",
+          "net": "GND"
+        },
+        {
+          "number": "15",
+          "name": "ZERO_P15",
+          "net": "Z_GPIO3_B0"
+        },
+        {
+          "number": "16",
+          "name": "ZERO_P16",
+          "net": "Z_GPIO3_B1"
+        },
+        {
+          "number": "17",
+          "name": "ZERO_P17",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "18",
+          "name": "ZERO_P18",
+          "net": "Z_GPIO3_B2"
+        },
+        {
+          "number": "19",
+          "name": "ZERO_P19",
+          "net": "Z_GPIO4_C3"
+        },
+        {
+          "number": "20",
+          "name": "ZERO_P20",
+          "net": "GND"
+        },
+        {
+          "number": "21",
+          "name": "ZERO_P21",
+          "net": "Z_GPIO4_C5"
+        },
+        {
+          "number": "22",
+          "name": "ZERO_P22",
+          "net": "Z_GPIO3_C1"
+        },
+        {
+          "number": "23",
+          "name": "ZERO_P23",
+          "net": "Z_GPIO4_C2"
+        },
+        {
+          "number": "24",
+          "name": "ZERO_P24",
+          "net": "Z_GPIO4_C6"
+        },
+        {
+          "number": "25",
+          "name": "ZERO_P25",
+          "net": "GND"
+        },
+        {
+          "number": "26",
+          "name": "ZERO_P26",
+          "net": "Z_PHYSICAL26_NC_COPY"
+        },
+        {
+          "number": "27",
+          "name": "ZERO_P27",
+          "net": "Z_GPIO4_B2"
+        },
+        {
+          "number": "28",
+          "name": "ZERO_P28",
+          "net": "Z_GPIO4_B3"
+        },
+        {
+          "number": "29",
+          "name": "ZERO_P29",
+          "net": "Z_GPIO3_B3"
+        },
+        {
+          "number": "30",
+          "name": "ZERO_P30",
+          "net": "GND"
+        },
+        {
+          "number": "31",
+          "name": "ZERO_P31",
+          "net": "Z_GPIO3_B4"
+        },
+        {
+          "number": "32",
+          "name": "ZERO_P32",
+          "net": "Z_GPIO3_C2"
+        },
+        {
+          "number": "33",
+          "name": "ZERO_P33",
+          "net": "Z_GPIO3_C3"
+        },
+        {
+          "number": "34",
+          "name": "ZERO_P34",
+          "net": "GND"
+        },
+        {
+          "number": "35",
+          "name": "ZERO_P35",
+          "net": "Z_GPIO3_A4"
+        },
+        {
+          "number": "36",
+          "name": "ZERO_P36",
+          "net": "Z_GPIO3_A7"
+        },
+        {
+          "number": "37",
+          "name": "ZERO_P37",
+          "net": "Z_GPIO1_A4"
+        },
+        {
+          "number": "38",
+          "name": "ZERO_P38",
+          "net": "Z_GPIO3_A6"
+        },
+        {
+          "number": "39",
+          "name": "ZERO_P39",
+          "net": "GND"
+        },
+        {
+          "number": "40",
+          "name": "ZERO_P40",
+          "net": "Z_GPIO3_A5"
+        }
+      ]
+    },
+    {
+      "reference": "M5",
+      "value": "COMPLETE Waveshare Servo Driver HAT (B)",
+      "MPN": "17035",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://files.waveshare.com/upload/a/a2/Servo_Driver_HAT_Schematic_.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "P4.2 5V",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "2",
+          "name": "P4.4 5V",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "3",
+          "name": "P4.6 GND",
+          "net": "GND"
+        },
+        {
+          "number": "4",
+          "name": "P4.9 GND",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "name": "P4.3 SDA",
+          "net": "Z_GPIO1_A0"
+        },
+        {
+          "number": "6",
+          "name": "P4.5 SCL",
+          "net": "Z_GPIO1_A1"
+        },
+        {
+          "number": "7",
+          "name": "P1 VIN unused",
+          "net": null
+        },
+        {
+          "number": "8",
+          "name": "P2 5V unused",
+          "net": null
+        }
+      ]
+    },
+    {
+      "reference": "M6",
+      "value": "REMOTE HLK-LD2450 / FRONT LEFT",
+      "MPN": "HLK-LD2450",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://www.hlktech.com/Goods-352.html",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "5V",
+          "name": "5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "TX",
+          "name": "TX 3V3",
+          "net": "S3_D3"
+        },
+        {
+          "number": "RX",
+          "name": "RX 3V3",
+          "net": "RADAR_FL_RX"
+        }
+      ]
+    },
+    {
+      "reference": "M7",
+      "value": "REMOTE HLK-LD2450 / FRONT RIGHT",
+      "MPN": "HLK-LD2450",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://www.hlktech.com/Goods-352.html",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "5V",
+          "name": "5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "TX",
+          "name": "TX 3V3",
+          "net": "S3_D9"
+        },
+        {
+          "number": "RX",
+          "name": "RX 3V3",
+          "net": "RADAR_FR_RX"
+        }
+      ]
+    },
+    {
+      "reference": "M8",
+      "value": "REMOTE HLK-LD2450 / REAR LEFT",
+      "MPN": "HLK-LD2450",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://www.hlktech.com/Goods-352.html",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "5V",
+          "name": "5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "TX",
+          "name": "TX 3V3",
+          "net": "S3_D10"
+        },
+        {
+          "number": "RX",
+          "name": "RX 3V3",
+          "net": "RADAR_RL_RX"
+        }
+      ]
+    },
+    {
+      "reference": "M11",
+      "value": "EXISTING ReSpeaker XIAO USB endpoint",
+      "MPN": "",
+      "on_carrier": false,
+      "datasheet_or_module_document": "",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "VBUS",
+          "net": "USB_RESPEAKER_VBUS"
+        },
+        {
+          "number": "2",
+          "name": "D-",
+          "net": "USB_RESPEAKER_DM"
+        },
+        {
+          "number": "3",
+          "name": "D+",
+          "net": "USB_RESPEAKER_DP"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M12",
+      "value": "EXISTING ZERO USB HOST endpoint",
+      "MPN": "",
+      "on_carrier": false,
+      "datasheet_or_module_document": "",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "VBUS",
+          "net": "USB_RESPEAKER_VBUS"
+        },
+        {
+          "number": "2",
+          "name": "D-",
+          "net": "USB_RESPEAKER_DM"
+        },
+        {
+          "number": "3",
+          "name": "D+",
+          "net": "USB_RESPEAKER_DP"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M13",
+      "value": "EXISTING WAVESHARE DUAL EYES / LCD1 P2",
+      "MPN": "ESP32-S3-DualEye-Touch-LCD-1.28",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://www.waveshare.com/wiki/ESP32-S3-DualEye-Touch-LCD-1.28",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "P2.1 USB_5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "2",
+          "name": "P2.2 GND",
+          "net": "GND"
+        },
+        {
+          "number": "9",
+          "name": "P2.9 UART_RXD GPIO44",
+          "net": "EYES_RX"
+        },
+        {
+          "number": "10",
+          "name": "P2.10 UART_TXD GPIO43",
+          "net": "EYES_TX"
+        },
+        {
+          "number": "5",
+          "name": "P2.5 EYES 3V3 OUTPUT",
+          "net": "+3V3_EYES"
+        }
+      ]
+    },
+    {
+      "reference": "M14",
+      "value": "EXISTING GROVE LSM6DS3 / J4",
+      "MPN": "",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://wiki.seeedstudio.com/Grove-6-Axis_AccelerometerAndGyroscope/",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "J4.1 SCL_H",
+          "net": "S3_D5"
+        },
+        {
+          "number": "2",
+          "name": "J4.2 SDA_H",
+          "net": "S3_D4"
+        },
+        {
+          "number": "3",
+          "name": "J4.3 VCC",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "4",
+          "name": "J4.4 GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J12",
+      "value": "LD2450 / FRONT LEFT",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "RADAR TX TO MCU RX",
+          "net": "S3_D3"
+        },
+        {
+          "number": "2",
+          "name": "GATED MCU TX TO RADAR RX",
+          "net": "RADAR_FL_RX"
+        },
+        {
+          "number": "3",
+          "name": "RADAR_5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J13",
+      "value": "LD2450 / FRONT RIGHT",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "RADAR TX TO MCU RX",
+          "net": "S3_D9"
+        },
+        {
+          "number": "2",
+          "name": "GATED MCU TX TO RADAR RX",
+          "net": "RADAR_FR_RX"
+        },
+        {
+          "number": "3",
+          "name": "RADAR_5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J14",
+      "value": "LD2450 / REAR LEFT",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "RADAR TX TO MCU RX",
+          "net": "S3_D10"
+        },
+        {
+          "number": "2",
+          "name": "GATED MCU TX TO RADAR RX",
+          "net": "RADAR_RL_RX"
+        },
+        {
+          "number": "3",
+          "name": "RADAR_5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J45",
+      "value": "EXTERNAL DC DIRECT TO UPS",
+      "MPN": "",
+      "on_carrier": false,
+      "datasheet_or_module_document": "",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "DC_POS",
+          "net": "+DC_12V6_IN"
+        },
+        {
+          "number": "2",
+          "name": "RETURN",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J46",
+      "value": "S3 D2 D3 / FRONT LEFT UART",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "D2",
+          "net": "S3_D2"
+        },
+        {
+          "number": "2",
+          "name": "D3",
+          "net": "S3_D3"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J47",
+      "value": "RP D1 / ZERO RELAY",
+      "MPN": "1125S-4P",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "D1",
+          "net": "RP_D1"
+        },
+        {
+          "number": "2",
+          "name": "D10",
+          "net": "RP_D10"
+        },
+        {
+          "number": "3",
+          "name": "3V3",
+          "net": "+3V3_RP"
+        },
+        {
+          "number": "4",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J50",
+      "value": "S3 EDGE GPIO D0-D10 / AUX NC",
+      "MPN": "M50-3601242",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.harwin.com/products/M50-3601242",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "D0",
+          "net": "S3_D0"
+        },
+        {
+          "number": "2",
+          "name": "D1",
+          "net": "S3_D1"
+        },
+        {
+          "number": "3",
+          "name": "D2",
+          "net": "S3_D2"
+        },
+        {
+          "number": "4",
+          "name": "D3",
+          "net": "S3_D3"
+        },
+        {
+          "number": "5",
+          "name": "D4",
+          "net": "S3_D4"
+        },
+        {
+          "number": "6",
+          "name": "D5",
+          "net": "S3_D5"
+        },
+        {
+          "number": "7",
+          "name": "D6",
+          "net": "S3_D6"
+        },
+        {
+          "number": "8",
+          "name": "D7",
+          "net": "S3_D7"
+        },
+        {
+          "number": "9",
+          "name": "D8",
+          "net": "S3_D8"
+        },
+        {
+          "number": "10",
+          "name": "D9",
+          "net": "S3_D9"
+        },
+        {
+          "number": "11",
+          "name": "D10",
+          "net": "S3_D10"
+        },
+        {
+          "number": "12",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "13",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "14",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "15",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "16",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "17",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "18",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "19",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "20",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "21",
+          "name": "S3_3V3",
+          "net": "+3V3_S3"
+        },
+        {
+          "number": "22",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "23",
+          "name": "S3_5V",
+          "net": "+5V_LOGIC"
+        },
+        {
+          "number": "24",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M15",
+      "value": "SPARKFUN BOB-12009 / 4CH BSS138",
+      "MPN": "BOB-12009",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://github.com/sparkfun/Logic_Level_Bidirectional",
+      "verification_status": "Manufacturer PCB source verifies 12 hole positions/net order; no physical sample or solder qualification",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "HV1",
+          "name": "HV1",
+          "net": "ZERO_RELAY_IN_N"
+        },
+        {
+          "number": "HV2",
+          "name": "HV2",
+          "net": "RADAR_RELAY_IN_N"
+        },
+        {
+          "number": "HV",
+          "name": "HV 5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "GND_H",
+          "name": "GND H",
+          "net": "GND"
+        },
+        {
+          "number": "HV3",
+          "name": "HV3",
+          "net": "MAIN_HOLD_IN_N"
+        },
+        {
+          "number": "HV4",
+          "name": "HV4",
+          "net": "TOF_RELAY_IN_N"
+        },
+        {
+          "number": "LV1",
+          "name": "LV1",
+          "net": "RP_D1"
+        },
+        {
+          "number": "LV2",
+          "name": "LV2",
+          "net": "S3_D1"
+        },
+        {
+          "number": "LV",
+          "name": "LV RP 3V3",
+          "net": "+3V3_RP"
+        },
+        {
+          "number": "GND_L",
+          "name": "GND L",
+          "net": "GND"
+        },
+        {
+          "number": "LV3",
+          "name": "LV3",
+          "net": "RP_D2"
+        },
+        {
+          "number": "LV4",
+          "name": "LV4",
+          "net": "RP_D8"
+        }
+      ],
+      "manufacturer_geometry_verified": true
+    },
+    {
+      "reference": "M16",
+      "value": "M16 / MAIN HOLD / LOAD QUALIFY",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": false,
+      "raw_pin_map": [
+        {
+          "number": "V+",
+          "name": "V+ 5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "V-",
+          "name": "V-",
+          "net": "GND"
+        },
+        {
+          "number": "IN-",
+          "name": "MAIN HOLD ACTIVE LOW",
+          "net": "MAIN_HOLD_IN_N"
+        },
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "+UPS_SW_A"
+        },
+        {
+          "number": "NO",
+          "name": "NO",
+          "net": "+VBAT_UPS_SW"
+        },
+        {
+          "number": "NC",
+          "name": "NC UNUSED",
+          "net": null
+        }
+      ]
+    },
+    {
+      "reference": "M17",
+      "value": "M17 / 5V RELAY / SEN0628 TOF",
+      "MPN": "",
+      "on_carrier": true,
+      "datasheet_or_module_document": "",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": false,
+      "raw_pin_map": [
+        {
+          "number": "V+",
+          "name": "V+ 5V",
+          "net": "+5V_AON"
+        },
+        {
+          "number": "V-",
+          "name": "V-",
+          "net": "GND"
+        },
+        {
+          "number": "IN-",
+          "name": "LOW TO ENERGIZE",
+          "net": "TOF_RELAY_IN_N"
+        },
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "NO",
+          "name": "NO",
+          "net": "+3V3_TOF_SW"
+        },
+        {
+          "number": "NC",
+          "name": "NC UNUSED",
+          "net": null
+        }
+      ]
+    },
+    {
+      "reference": "J51",
+      "value": "PANEL START / MOMENTARY NO",
+      "MPN": "B2B-XH-A(LF)(SN)",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "SW_A",
+          "net": "+UPS_SW_A"
+        },
+        {
+          "number": "2",
+          "name": "SW_B",
+          "net": "+VBAT_UPS_SW"
+        }
+      ]
+    },
+    {
+      "reference": "M19",
+      "value": "REMOTE HLK-LD2450 / REAR RIGHT",
+      "MPN": "HLK-LD2450",
+      "on_carrier": false,
+      "datasheet_or_module_document": "https://www.hlktech.com/Goods-352.html",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "5V",
+          "name": "5V",
+          "net": "+V_RADAR_SW"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "TX",
+          "name": "TX 3V3",
+          "net": "RP_D3"
+        },
+        {
+          "number": "RX",
+          "name": "RX 3V3",
+          "net": "RADAR_RR_RX"
+        }
+      ]
+    },
+    {
+      "reference": "J52",
+      "value": "RP EDGE GPIO D0-D10 / AUX NC",
+      "MPN": "M50-3601242",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.harwin.com/products/M50-3601242",
+      "verification_status": "Raw schematic/circuit consistency checked; not fully datasheet-verified in this closure pass",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "D0",
+          "net": "RP_D0"
+        },
+        {
+          "number": "2",
+          "name": "D1",
+          "net": "RP_D1"
+        },
+        {
+          "number": "3",
+          "name": "D2",
+          "net": "RP_D2"
+        },
+        {
+          "number": "4",
+          "name": "D3",
+          "net": "RP_D3"
+        },
+        {
+          "number": "5",
+          "name": "D4",
+          "net": "S3_D4"
+        },
+        {
+          "number": "6",
+          "name": "D5",
+          "net": "S3_D5"
+        },
+        {
+          "number": "7",
+          "name": "D6",
+          "net": "RP_UART0_TX"
+        },
+        {
+          "number": "8",
+          "name": "D7",
+          "net": "RP_UART0_RX"
+        },
+        {
+          "number": "9",
+          "name": "D8",
+          "net": "RP_D8"
+        },
+        {
+          "number": "10",
+          "name": "D9",
+          "net": "RP_D9"
+        },
+        {
+          "number": "11",
+          "name": "D10",
+          "net": "RP_D10"
+        },
+        {
+          "number": "12",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "13",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "14",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "15",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "16",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "17",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "18",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "19",
+          "name": "NC",
+          "net": null
+        },
+        {
+          "number": "20",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "21",
+          "name": "RP_3V3",
+          "net": "+3V3_RP"
+        },
+        {
+          "number": "22",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "23",
+          "name": "RP_5V",
+          "net": "+5V_LOGIC"
+        },
+        {
+          "number": "24",
+          "name": "GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M20",
+      "value": "ZERO RP UART9 / ADUM1201",
+      "MPN": "LA161062",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.laskakit.cz/en/digitalni-izolator-adum1201-2kanaly-uart--io/",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "VDD1",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "2",
+          "name": "VOA",
+          "net": "Z_GPIO4_C6"
+        },
+        {
+          "number": "3",
+          "name": "VIB",
+          "net": "Z_GPIO4_C5"
+        },
+        {
+          "number": "4",
+          "name": "GND1",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "name": "VDD2",
+          "net": "+3V3_RP"
+        },
+        {
+          "number": "6",
+          "name": "VIA",
+          "net": "RP_UART0_TX"
+        },
+        {
+          "number": "7",
+          "name": "VOB",
+          "net": "RP_UART0_RX"
+        },
+        {
+          "number": "8",
+          "name": "GND2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M21",
+      "value": "ZERO EYES UART5 / ADUM1201",
+      "MPN": "LA161062",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.laskakit.cz/en/digitalni-izolator-adum1201-2kanaly-uart--io/",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "VDD1",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "2",
+          "name": "VOA",
+          "net": "Z_GPIO3_C3"
+        },
+        {
+          "number": "3",
+          "name": "VIB",
+          "net": "Z_GPIO3_C2"
+        },
+        {
+          "number": "4",
+          "name": "GND1",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "name": "VDD2",
+          "net": "+3V3_EYES"
+        },
+        {
+          "number": "6",
+          "name": "VIA",
+          "net": "EYES_TX"
+        },
+        {
+          "number": "7",
+          "name": "VOB",
+          "net": "EYES_RX"
+        },
+        {
+          "number": "8",
+          "name": "GND2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M22",
+      "value": "ZERO TOF UART4 / ADUM1201",
+      "MPN": "LA161062",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.laskakit.cz/en/digitalni-izolator-adum1201-2kanaly-uart--io/",
+      "verification_status": "IC datasheet / module-photo consistency reviewed; complete-module mechanical and electrical qualification incomplete",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "VDD1",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "2",
+          "name": "VOA",
+          "net": "Z_GPIO3_B1"
+        },
+        {
+          "number": "3",
+          "name": "VIB",
+          "net": "Z_GPIO3_B2"
+        },
+        {
+          "number": "4",
+          "name": "GND1",
+          "net": "GND"
+        },
+        {
+          "number": "5",
+          "name": "VDD2",
+          "net": "+3V3_TOF_SW"
+        },
+        {
+          "number": "6",
+          "name": "VIA",
+          "net": "TOF_TX"
+        },
+        {
+          "number": "7",
+          "name": "VOB",
+          "net": "TOF_RX"
+        },
+        {
+          "number": "8",
+          "name": "GND2",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "J53",
+      "value": "EYES 3V3 REFERENCE INPUT",
+      "MPN": "B2B-PH-K-S",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+      "verification_status": "Critical pin/function cross-check recorded in PCB review; assembled system not bench-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "1",
+          "name": "EYES P2.5 3V3",
+          "net": "+3V3_EYES"
+        },
+        {
+          "number": "2",
+          "name": "EYES P2.6 GND",
+          "net": "GND"
+        }
+      ]
+    },
+    {
+      "reference": "M42",
+      "value": "FAN PWM / POLOLU 2990",
+      "MPN": "2990",
+      "on_carrier": true,
+      "datasheet_or_module_document": "https://www.pololu.com/product/2990",
+      "verification_status": "Official Pololu 2990 dimensions checked; not sample/solder-qualified",
+      "physical_pin_numbering_verified": null,
+      "raw_pin_map": [
+        {
+          "number": "GND1",
+          "name": "GND1",
+          "net": "GND"
+        },
+        {
+          "number": "VCC",
+          "name": "VCC",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "ENABLE",
+          "name": "ENABLE",
+          "net": "+3V3_ZERO"
+        },
+        {
+          "number": "PHASE",
+          "name": "PHASE",
+          "net": "Z_GPIO3_C4"
+        },
+        {
+          "number": "SLEEP",
+          "name": "SLEEP",
+          "net": null
+        },
+        {
+          "number": "GND2",
+          "name": "GND2",
+          "net": "GND"
+        },
+        {
+          "number": "VIN",
+          "name": "VIN",
+          "net": "+5V_HOST"
+        },
+        {
+          "number": "OUT2",
+          "name": "OUT2",
+          "net": null
+        },
+        {
+          "number": "OUT1",
+          "name": "OUT1",
+          "net": "FAN_PWM_5V"
+        },
+        {
+          "number": "VM",
+          "name": "VM",
+          "net": null
+        }
+      ],
+      "manufacturer_geometry_verified": true
+    }
+  ]
+}

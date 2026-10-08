@@ -1,0 +1,104 @@
+[
+  {
+    "name": "carrier-drc",
+    "returncode": 0,
+    "working_directory": "mickeyhub/",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "build/carrier-drc.json",
+      "electronics/kicad/box_carrier_modules_r2.kicad_pcb"
+    ]
+  },
+  {
+    "name": "carrier-erc",
+    "returncode": 0,
+    "working_directory": "mickeyhub/",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "build/carrier-erc.json",
+      "electronics/kicad/box_carrier_modules_r2.kicad_sch"
+    ]
+  },
+  {
+    "name": "rp-drc",
+    "returncode": 0,
+    "working_directory": "mickeyhub/",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "build/rp-drc.json",
+      "electronics/daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_pcb"
+    ]
+  },
+  {
+    "name": "rp-erc",
+    "returncode": 0,
+    "working_directory": "mickeyhub/",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "build/rp-erc.json",
+      "electronics/daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_sch"
+    ]
+  },
+  {
+    "name": "s3-drc",
+    "returncode": 0,
+    "working_directory": "mickeyhub/",
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "build/s3-drc.json",
+      "electronics/daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_pcb"
+    ]
+  },
+  {
+    "name": "s3-erc",
+    "returncode": 0,
+    "working_directory": "mickeyhub/",
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--severity-all",
+      "--exit-code-violations",
+      "--format",
+      "json",
+      "-o",
+      "build/s3-erc.json",
+      "electronics/daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_sch"
+    ]
+  }
+]

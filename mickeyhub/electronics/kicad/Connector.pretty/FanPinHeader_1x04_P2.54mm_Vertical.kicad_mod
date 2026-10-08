@@ -1,0 +1,330 @@
+(footprint "FanPinHeader_1x04_P2.54mm_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf")
+	(tags "pin header 4-pin CPU fan")
+	(property "Reference" "REF**"
+		(at 4 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "5ad98def-d583-43be-8a43-aa1bd405b7a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FanPinHeader_1x04_P2.54mm_Vertical"
+		(at 4.05 4.35 0)
+		(layer "F.Fab")
+		(uuid "953fc070-8d36-46b6-afb1-de6846c5eb65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeafffd5-3877-47a1-a295-9a6af3157762")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c4972a0-6e61-46d1-8de0-85f59da2eb82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 3.8)
+		(end -1.75 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bb4ddf6-3f81-4fb9-9ea1-f9faaaf6339f")
+	)
+	(fp_line
+		(start -1.75 3.8)
+		(end 9.35 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "127f5c7c-2412-476d-80f8-1163290fd8a8")
+	)
+	(fp_line
+		(start 9.35 -3.2)
+		(end -1.75 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78140c1e-8c91-4315-b4c0-b9f82215b8c6")
+	)
+	(fp_line
+		(start 9.35 -3.2)
+		(end 9.35 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "957c8ea4-9d53-409c-8734-186c95e17314")
+	)
+	(fp_line
+		(start -1.35 -2.6)
+		(end 4.4 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b734ab2-c4d4-472e-9700-d4f7b88520b1")
+	)
+	(fp_line
+		(start -1.35 3.4)
+		(end -1.35 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73172107-8567-4c8a-9b6c-d737a47c417c")
+	)
+	(fp_line
+		(start -1.25 -2.5)
+		(end 4.4 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf4a13ae-625d-42cf-b860-5a7b5502b8d4")
+	)
+	(fp_line
+		(start -1.25 3.3)
+		(end -1.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f961dd7b-ca5b-46c4-bbd9-a56407dfbcef")
+	)
+	(fp_line
+		(start -1.2 3.3)
+		(end -1.25 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e04bb21-508f-421b-b357-4fbdfc2d1ec0")
+	)
+	(fp_line
+		(start 0 2.29)
+		(end 5.08 2.29)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb50074c-cdd9-413a-9b33-752b3dbfe675")
+	)
+	(fp_line
+		(start 0 2.3)
+		(end 0 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b1c7007-1ee1-4d93-94d0-e00873dede54")
+	)
+	(fp_line
+		(start 0 3.3)
+		(end 0 2.29)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bc8d11a-9d82-4420-a4ea-ab3eba024449")
+	)
+	(fp_line
+		(start 5.08 2.29)
+		(end 5.08 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "342e2b49-07ec-47b9-ad99-ea02a0139a9c")
+	)
+	(fp_line
+		(start 5.1 2.3)
+		(end 0 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b34d636-a4cd-4f41-a68f-a2be72c8c03a")
+	)
+	(fp_line
+		(start 5.1 3.3)
+		(end 5.1 2.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48202719-0dbc-4338-84b6-3972980e95bb")
+	)
+	(fp_line
+		(start 5.75 -2.55)
+		(end 8.95 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71793135-2e8a-44a4-b2e9-f711ef41d8ed")
+	)
+	(fp_line
+		(start 5.75 -2.5)
+		(end 8.85 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af558ca8-905c-4ac6-82ca-5024afb8fc5e")
+	)
+	(fp_line
+		(start 8.85 -2.5)
+		(end 8.85 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abf9b17b-d9ac-4981-be5f-4d812130c383")
+	)
+	(fp_line
+		(start 8.85 3.3)
+		(end -1.2 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "872867db-9c9b-499e-969b-ba389aae2c59")
+	)
+	(fp_line
+		(start 8.95 -2.55)
+		(end 8.95 3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0db11180-2dd8-4fbc-b652-66735bdeeb46")
+	)
+	(fp_line
+		(start 8.95 3.4)
+		(end -1.35 3.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8cab8db-d483-445d-a930-34f0320a161b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.85 -1.75 0)
+		(layer "F.Fab")
+		(uuid "357d55d1-fcec-4b1c-9a5a-b293aa455fa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 -2.16 90)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ca8be170-2534-4fff-965e-cf27f898a6ad")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6dd0282e-69b4-433a-891d-22a0e7a49ead")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2abfb146-9360-4993-81de-e923a74f3a7d")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8ea05bff-ab12-4ea0-b1d6-d15da3e657cb")
+	)
+	(pad "4" thru_hole oval
+		(at 7.62 0 90)
+		(size 2.03 1.73)
+		(drill 1.02)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69831df5-7412-4b11-ac6b-68d0f2893a00")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/FanPinHeader_1x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

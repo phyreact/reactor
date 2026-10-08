@@ -1,0 +1,334 @@
+{
+  "production_release": false,
+  "measured_values": false,
+  "board": "R2.1R original four LOW-active relays",
+  "equations": {
+    "M1": "I_ZERO + I_HAT_electronics + I_fan + I_ZERO_USB_audio",
+    "M16": "5 * I_total_5V / (V_battery_loaded * efficiency) + I_direct_battery_load",
+    "M2": "sum(four actual LD2450 currents); start-up inrush separately",
+    "M17": "I_ToF_3V3 + I_M22_sensor_side; start-up inrush separately"
+  },
+  "unresolved_inputs": [
+    "Exact original relay module revision, contact topology, coil supply and qualification",
+    "Actual loaded battery cutoff voltage and regulator efficiency",
+    "ZERO/USB/audio worst-case load and capacitive inrush",
+    "XIAO, eyes and HAT electronics worst-case combined load",
+    "Actual supply waveforms, contact voltage drop and enclosure temperature"
+  ],
+  "known_limits": {
+    "HFD4": {
+      "resistive_rating": "1A at 30VDC",
+      "max_switching_current_A": 2,
+      "UL_cUL_safety_approval": "2A 30VDC at 40C; 1A 30VDC at 85C (105C variant also listed)",
+      "interpretation": "The 2A/40C entry corrects the previous incomplete 1A-only interpretation. It does not qualify an unknown assembled module, parallel contacts, capacitive inrush or hotter operation.",
+      "contact_resistance": "100mOhm max INITIAL at 10mA/30mV; not a hot/load resistance guarantee",
+      "module_claim": "<4A / 40W is not a verified rating for the assembled module",
+      "parallel_contacts": "Do not double current without explicit manufacturer qualification",
+      "source": "https://source.hongfa.com/Uploads/Product/PDF/HFD4_en.pdf"
+    },
+    "J1_J42_J44_J51": {
+      "conditional_rating": "3A with AWG22 per JST XH; not a board thermal qualification",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+    }
+  },
+  "scenarios": [
+    {
+      "5V_total_A_assumed": 1,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 0.6536,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 1,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 0.6173,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 1,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 0.5447,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 1,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 0.5144,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 1,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 0.4669,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 1,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 0.4409,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 2,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 1.3072,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 2,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 1.2346,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 2,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 1.0893,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 2,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 1.0288,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 2,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 0.9337,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 2,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 0.8818,
+      "above_HFD4_1A_resistive_rating": false,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 3,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 1.9608,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 3,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 1.8519,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 3,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 1.634,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 3,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 1.5432,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 3,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 1.4006,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 3,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 1.3228,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": false,
+      "above_J1_XH_3A_conditional_rating": false
+    },
+    {
+      "5V_total_A_assumed": 5,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 3.268,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": true,
+      "above_J1_XH_3A_conditional_rating": true
+    },
+    {
+      "5V_total_A_assumed": 5,
+      "battery_V_assumed": 9.0,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 3.0864,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": true,
+      "above_J1_XH_3A_conditional_rating": true
+    },
+    {
+      "5V_total_A_assumed": 5,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 2.7233,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": true,
+      "above_J1_XH_3A_conditional_rating": true
+    },
+    {
+      "5V_total_A_assumed": 5,
+      "battery_V_assumed": 10.8,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 2.572,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": true,
+      "above_J1_XH_3A_conditional_rating": true
+    },
+    {
+      "5V_total_A_assumed": 5,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.85,
+      "M16_A_calculated": 2.3343,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": true,
+      "above_J1_XH_3A_conditional_rating": true
+    },
+    {
+      "5V_total_A_assumed": 5,
+      "battery_V_assumed": 12.6,
+      "efficiency_assumed": 0.9,
+      "M16_A_calculated": 2.2046,
+      "above_HFD4_1A_resistive_rating": true,
+      "above_HFD4_2A_40C_UL_and_max_switching": true,
+      "above_J1_XH_3A_conditional_rating": true
+    }
+  ],
+  "candidate_not_selected": {
+    "ref": [
+      "M1",
+      "M16"
+    ],
+    "manufacturer": "Pololu",
+    "MPN": "2480",
+    "complete_assembled_module": true,
+    "relay": "Omron G5LE-14-DC5",
+    "DC_resistive_rating": "8A at 30VDC in manufacturer-linked G5LE datasheet",
+    "body_envelope_mm": [
+      30.1,
+      25.4,
+      22.5
+    ],
+    "active_level": "HIGH, EN 2.5V to 20V; not compatible with the current open-drain release=OFF circuit",
+    "changes_needed": [
+      "Rearrange mechanical placement; does not fit the existing <=4mm B-side envelope",
+      "Wire RP GPIO27/28 directly to the module EN with its own pulldown; do not keep M15 weak pullups on these EN pins",
+      "Change only M1/M16 firmware polarity and startup hold; M2/M17 remain LOW-active",
+      "Re-check power connectors, traces, capacitive inrush and actual host/audio budget"
+    ],
+    "status": "NOT_ADOPTED: user explicitly chose original relay models and no production release",
+    "remaining_gate": "Candidate not authorized; current board and firmware retain all four original LOW-active relays",
+    "sources": [
+      "https://www.pololu.com/product/2480",
+      "https://www.pololu.com/file/0J1889/pololu-spdt-relay-carrier-dimensions.pdf",
+      "https://www.pololu.com/file/0J619/G5LE.pdf"
+    ]
+  },
+  "interpretation": "Assuming 3A total at 5V, 9V loaded battery and 85-90% efficiency, M16 carries 1.852-1.961A before direct battery loads. These are sensitivity assumptions, not actual device specifications. It is below the 2A/40C UL entry but leaves little margin and excludes UPS quiescent current. Neither this entry nor software delays qualifies capacitive inrush. M1 still needs a host/audio load envelope, with no servo load.",
+  "scope": {
+    "servo_motors": "EXCLUDED_BY_USER: no motor current, stall or servo acceptance gate",
+    "SG90": "Future interface reference only",
+    "HAT": "Existing board electronics and capacitors remain if powered; no attached motors",
+    "J42": "Reserved; no assigned external load in current system",
+    "module_dimensions": "USER_CONFIRMED_CLOSED; not an agent measurement"
+  },
+  "catalog_load_inputs": {
+    "M4_fan": {
+      "model": "Noctua NF-A4x10 5V PWM",
+      "supply_V": 5,
+      "max_input_A": 0.07,
+      "max_input_W": 0.35,
+      "operating_ambient_C": [
+        -10,
+        70
+      ],
+      "scope": "Published operating specification, not measured startup waveform",
+      "source": "https://www.noctua.at/en/products/nf-a4x10-5v-pwm/specifications"
+    },
+    "M9_ToF": {
+      "model": "DFRobot SEN0628",
+      "operating_current_A_less_than": 0.08,
+      "allowed_supply_V": [
+        3.3,
+        5
+      ],
+      "scope": "Sensor only; add M22 local side. Inrush unspecified.",
+      "source": "https://www.dfrobot.com/product-2999.html"
+    },
+    "four_radars": {
+      "model": "HLK-LD2450",
+      "quantity": 4,
+      "supply_V": 5,
+      "supply_capacity_A_per_module_greater_than": 0.2,
+      "scope": "Source capacity requirement is not an upper consumption/inrush rating",
+      "source": "https://h.hlktech.com/download/HLK-LD2450-24G/1/HLK%20LD2450%201T2R%E8%BF%90%E5%8A%A8%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E8%BF%BD%E8%B8%AA%E6%A8%A1%E7%BB%84%E8%AF%B4%E6%98%8E%E4%B9%A6%20V1.01.pdf"
+    },
+    "ZERO3": {
+      "recommended_adapter": "5V/2A or higher",
+      "scope": "Adapter recommendation, not actual board consumption or current ceiling",
+      "source": "https://docs.radxa.com/en/zero/zero3/hardware-design/hardware-interface"
+    }
+  },
+  "software_mitigation": {
+    "M1_reenable_M2_M17_edge_interval_ms": 250,
+    "ToF_after_HOST_on_min_ms": 500,
+    "ToF_OFF_before_HOST_cut_min_ms": 50,
+    "MAIN_after_HOST_off_min_ms": 250,
+    "scope": "Engineering command timing only; no single-event inrush limit or arbitrary brownout protection"
+  }
+}

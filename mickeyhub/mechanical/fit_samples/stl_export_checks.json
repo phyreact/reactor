@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "FIT_01_left_0p15_base_key_mm.stl",
+      "sha256": "830219755712673286b9987ab9d871944a21bd92691375ff81be2ac7da7d3d50",
+      "triangles": 160,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 229.10814140885716,
+      "dimensions_mm": [
+        4.399997711181641,
+        18.700000762939453,
+        4.399999618530273
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "FIT_02_left_0p15_cover_channel_mm.stl",
+      "sha256": "577721b9a721f4e1b0db96dcb04ee9291bbfef991edcdd857e5753cea8c91571",
+      "triangles": 60,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 300.1716146226482,
+      "dimensions_mm": [
+        5.5,
+        18.700000762939453,
+        4.0
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "FIT_03_right_0p30_base_key_mm.stl",
+      "sha256": "9542f686fa80b3137b9f71fcdd4a1da7072f96037e4c20cb6f0aa23e6ad9aa53",
+      "triangles": 160,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 229.108127891823,
+      "dimensions_mm": [
+        4.399997711181641,
+        18.700000762939453,
+        4.399999618530273
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    },
+    {
+      "file": "FIT_04_right_0p30_cover_channel_mm.stl",
+      "sha256": "ba4f59a602d3b977859725ccd2a53ebaeb9421a58bc12702fb44364fe372e993",
+      "triangles": 60,
+      "connected_components": 1,
+      "boundary_edges": 0,
+      "edges_not_shared_by_two_faces": 0,
+      "degenerate_triangles": 0,
+      "signed_volume_mm3": 292.98131715071196,
+      "dimensions_mm": [
+        5.5,
+        18.700000762939453,
+        4.0
+      ],
+      "lowest_z_mm": 0.0,
+      "passed": true
+    }
+  ],
+  "scope": "Binary STL size, finite coordinates, shared edges, connectedness, positive signed volume and dimensions; no physical printing claim."
+}

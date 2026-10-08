@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "date": "2026-10-08",
+  "scope": "Workstation provenance strings, PNG File metadata and an ELF debug directory only. This record covers files included in the current package.",
+  "geometry_animation_pixels_and_executable_code_unchanged": true,
+  "validation_note": "Existing geometry, animation, render and build evidence carries forward because non-metadata data is unchanged. Hash references now identify the sanitized files. The final assembly was subsequently recompressed losslessly; its decompressed bytes are identical.",
+  "files": [
+    {
+      "file": "mickeyhub.blend",
+      "format": "Blender",
+      "input_sha256": "cd6496a198f105898da5457207313cde9719ebcc8624f73532e9b28defbd1c04",
+      "output_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+      "metadata_strings_changed": 1255,
+      "all_other_uncompressed_bytes_unchanged": true,
+      "non_metadata_sha256": "fd03f04f7fae3e0f5c7a8db06e14534f385cadeda5892ceeb712cefc0ddfacd2",
+      "external_resource_paths_changed": 0,
+      "packed_image_path_normalized": true,
+      "lossless_container_recompression": {
+        "codec": "Zstandard",
+        "compression_level": 19,
+        "previous_file_sha256": "1b185f0426fd72aaddabeb20aa9a1c0e659ff3eb8aa4b901cdfc6ab6a2d1601c",
+        "file_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+        "decompressed_sha256": "7601eb2631c41a37d368a6e881484cdf3c1ff1551246d6f9e8e4e2ace4f2f9a0",
+        "decompressed_bytes_identical": true,
+        "geometry_materials_and_assembly_unchanged": true
+      }
+    },
+    {
+      "file": "mechanical/images/bottom_four_screws.png",
+      "format": "PNG",
+      "input_sha256": "db14af2eab34227c49d2b37818b2803367f8934643e36e6d2d508f39f5f9d071",
+      "output_sha256": "320bc0ef15adb8d429d7e314008020ea21cb72cf058f4fe4c602deb0db9bd125",
+      "removed_text_keys": [
+        "File"
+      ],
+      "all_other_chunks_unchanged": true,
+      "pixels_and_color_profile_unchanged": true
+    },
+    {
+      "file": "mechanical/images/internal_nut_seats.png",
+      "format": "PNG",
+      "input_sha256": "55f679e8c1bacaed8ef614e66ed4a419ddb50755c9dfaae1e47ade66a12c9187",
+      "output_sha256": "2d9e3779083b2c9317bd81437725142edd9f41d5e619333e7d2ac51ffcb3f5bd",
+      "removed_text_keys": [
+        "File"
+      ],
+      "all_other_chunks_unchanged": true,
+      "pixels_and_color_profile_unchanged": true
+    },
+    {
+      "file": "media/mickeyhub-preview.png",
+      "format": "PNG",
+      "input_sha256": "afb01853c2f924d9f1c2ae163895866832129ea3b670a5a598a9767933aea0f2",
+      "output_sha256": "34ef48e40098c0dbf31bd67f374db4dabed8c6279bfa36ed019a4755f2e8ec89",
+      "removed_text_keys": [
+        "File"
+      ],
+      "all_other_chunks_unchanged": true,
+      "pixels_and_color_profile_unchanged": true
+    },
+    {
+      "file": "firmware/verified_builds/libbox_tof_aarch64.so",
+      "format": "ELF",
+      "input_sha256": "1707e092913fe19fd91a4cf31d7bbcd3bad5948fa548022e576523c75bf08ac3",
+      "output_sha256": "2e1d2c4e21212a74638d5649cdb40056802bafb3d5bd481b9439d70fce4dfce3",
+      "debug_sections_changed": [
+        ".debug_str"
+      ],
+      "allocated_sections_unchanged": true,
+      "allocated_sections_sha256": "4e9116ac698c12d7f724f596ddf33eef3f8d1d2df3894d418b99e9de24a605ed"
+    }
+  ],
+  "archived_file_records": 50
+}

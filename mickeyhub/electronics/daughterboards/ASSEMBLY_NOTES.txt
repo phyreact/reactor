@@ -1,0 +1,13 @@
+XIAO removable solder adapters
+
+S3 and RP boards retain their original14 edge contacts, and add9/8 extra GPIO through the center connector. Module + solder adapter unplugs as one assembly.
+
+Motherboard mate: CLP-105-02-L-D. Adapter connector: FW-05-05-L-D-315-105. Exact14 pin/header stock, solder process, sample mating and tolerances are not qualified. In the current nominal CAD stack only module PCB/electronics rise0.84mm; original14 pins and plastic strips stay fixed. Module top joints are not through-pin joints.
+
+If the original14 headers are already soldered to the XIAO, this assembly requires desoldering and reassembly. The PCB cannot physically slide up along soldered pins. The reviewed sequence solders the adapter contacts before the module covers them; hidden joints and repeated heat exposure still need process qualification.
+
+Read ../analysis/xiao_stack_review/XIAO_STACK_REVIEW.txt for assembly order, original0.85mm module-hole versus modeled0.64mm-square pin limitation, solder-layer allowances and alternate long-pin conditions. The S3 top fine-pitch connector extra7GPIO are not connected by these boards.
+
+ERC/DRC/parity reports apply to the source hashes in manifest.json. This is not a manufacturing release.
+
+Service sequence: remove/lift the upper ReSpeaker assembly before withdrawing either XIAO+adapter vertically. The retained14 contacts have5.8mm nominal engagement; the assembled upper-board clearances are not a claim of sufficient extraction stroke. The complete removal/tool path is not yet qualified.

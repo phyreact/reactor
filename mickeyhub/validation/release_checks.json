@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "product": "mickeyhub",
+  "labelled_assemblies": 46,
+  "included_component_GLB_files": 0,
+  "included_integrated_Blender_files": 1,
+  "printable_STL_files": 15,
+  "BOM_lines": 57,
+  "pcb_non_branding_blocks_preserved": true,
+  "pcb_marking": "MicheyHub V0.0",
+  "pcb_logo_verified": true,
+  "adapter_native_checks_verified": 4,
+  "metadata_sanitized_files_verified": 5,
+  "current_manufacturing_files_verified": 32,
+  "canonical_reference_files_verified": 23,
+  "firmware_sources_verified": 26,
+  "firmware_builds_verified": 4,
+  "drc_violations": 0,
+  "erc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "pcb_3d_reference_models_included": false,
+  "optional_pcb_3d_references_not_bundled": [
+    "${KIPRJMOD}/3dmodels/FanPinHeader_1x04_P2.54mm_Vertical.step",
+    "${KIPRJMOD}/3dmodels/Grove_1125S_4P_nominal.wrl",
+    "${KIPRJMOD}/3dmodels/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.step",
+    "${KIPRJMOD}/3dmodels/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
+  ],
+  "primary_document_links_resolved": true,
+  "complete_model_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+  "archived_animation_model_sha256": "e325adfdb63517103a50cfd31d8b4b25a3e188fecd09e7bff3fb327ffb8ceae7",
+  "public_gif_preview": {
+    "passed": true,
+    "file": "media/mickeyhub-preview.gif",
+    "sha256": "c4f075fb61b4239d248e7b410dd8937463e180546e5fed2bd28d282c5a4bbf42",
+    "width": 960,
+    "height": 540,
+    "frames": 555,
+    "duration_seconds": 55.5,
+    "playback_speed": 2,
+    "looping": true,
+    "source_movie_sha256": "7be994a3447c710cb2b0628cbb1e5c61c756b89841d7f263f4cc41cce4dc812e",
+    "source_movie_in_repository": false
+  },
+  "archived_video_evidence": {
+    "passed": true,
+    "checks": {
+      "full_frame_sequence": true,
+      "resolution_1920_1080": true,
+      "frame_rate_24": true,
+      "all_frames_encoded": true,
+      "duration_111_seconds": true,
+      "all_chapters_encoded": true,
+      "h264_video": true
+    },
+    "movie": "${REACTOR_ROOT}/memory_backups/videos/mickeyhub/mickeyhub-animation.mp4",
+    "movie_sha256": "7be994a3447c710cb2b0628cbb1e5c61c756b89841d7f263f4cc41cce4dc812e",
+    "movie_bytes": 20174767,
+    "source_model_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+    "animation_model_sha256": "e325adfdb63517103a50cfd31d8b4b25a3e188fecd09e7bff3fb327ffb8ceae7",
+    "frames": 2664,
+    "fps": 24,
+    "duration_seconds": 111.0,
+    "English_labelled_assemblies": 46,
+    "audio": "No audio; English on-screen text",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "chapters": 20,
+    "visual_review_complete": true,
+    "encoded_video_review_seconds": [
+      3,
+      110
+    ],
+    "rendered_frame_review": [
+      1,
+      240,
+      1000,
+      2000,
+      2500
+    ],
+    "storage": "local_backup",
+    "included_in_repository": false,
+    "animation_model_in_repository": false
+  },
+  "hardware_qualified": false,
+  "remote_release_published": false
+}

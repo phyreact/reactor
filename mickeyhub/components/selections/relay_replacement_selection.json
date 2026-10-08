@@ -1,0 +1,202 @@
+{
+  "status": "complete_modules_routed_in_rectangular_candidate",
+  "recorded_at": "2026-10-04T05:18:51.514452+00:00",
+  "user_confirmed_replacement_references": [
+    "M1",
+    "M2"
+  ],
+  "quantity": 2,
+  "supersedes_requirement_to_retain_Grove_MOSFET": true,
+  "selected_product": {
+    "url": "https://item.taobao.com/item.htm?id=911124694732&skuId=5942104799538",
+    "item_id": "911124694732",
+    "sku_id": "5942104799538",
+    "relay_marking_from_user_photo": "HFD4/3-S",
+    "board_marking_from_user_photo": "ZXC-0073-A",
+    "markings_are_not_verified_whole_module_specifications": true
+  },
+  "photo_observed_terminal_labels": [
+    "V+",
+    "V-",
+    "IN-",
+    "NC",
+    "COM",
+    "NO"
+  ],
+  "physical_pin_numbering_verified": false,
+  "board_dimensions_mm": [
+    28.08,
+    8.55,
+    7.0
+  ],
+  "module_supply_voltage_V": 5,
+  "module_trigger_logic": "active_low_NPN_control_per_user_supplied_specification",
+  "manufacturer_reference": {
+    "manufacturer": "Hongfa",
+    "scope": "bare HFD4 relay family only; not the assembled ZXC board",
+    "datasheet": "https://static6.arrow.com/aropdfconversion/e461f4136b848a50d48ca356906618c7eee05e2a/hfd4.pdf",
+    "published_contact_load": "1 A at 30 VDC and 0.3 A at 125 VAC; separate maximum switching-current entry 2 A. Exact variant, temperature and load conditions must be checked.",
+    "whole_module_5V_supply_or_GPIO_compatibility_verified": false
+  },
+  "implementation_plan": {
+    "M1": "Direct-solder module. COM to AON5, NO to HOST5. Entire HOST load also includes HAT via J33; rating/inrush and controller source unresolved.",
+    "M2": "Direct-solder module replaces MOSFET. COM to AON5, NO to radar supply. S3_D1 intended controller; 5V low-active input compatibility unresolved.",
+    "mechanical": "M1 and M2 move onto motherboard; do not include relay trays in the future internal front module. Mechanical redesign deferred until motherboard placement.",
+    "do_not_reuse_old_Grove_mounts_or_Grove_pinout": true
+  },
+  "pending": [
+    "M1/M2 measured terminal centres, physical pin mapping and solder fit",
+    "M15 same-row pitch and row-centre separation; current2.54/10.16mm are assumptions",
+    "M1 control source/cold wake and safe shutdown; TP9 is only a routed control entry",
+    "Four existing SW1/backside PTH courtyard/lead-height checks",
+    "Actual5V load current/inrush, selected converter thresholds/startup, thermal/EMC and assembly checks",
+    "Existing radar off-state UART isolation and fan driver/mate not yet integrated"
+  ],
+  "browser_access": {
+    "status": "blocked_by_browser_site_safety_policy",
+    "action": "navigate to user-selected Taobao item",
+    "automatic_approval_review_attempted": false,
+    "user_permission_prompt_attempted": false,
+    "do_not_bypass": true
+  },
+  "active_saved_model_sha256": "6957b3d83f4bdebae0323309fc297939964941c05230720326f548d64c8cf89c",
+  "active_saved_model_is_previous_Grove_revision": true,
+  "schematic_PCB_and_circuit_modified": false,
+  "superseded_unpromoted_study": "analysis/cuboid_module_upright_v2/",
+  "mounting": "two complete miniature relay boards directly soldered to motherboard",
+  "current_work_priority": "motherboard first",
+  "dimension_evidence": {
+    "nominal_spec_image_mm": [
+      28,
+      8.5,
+      7
+    ],
+    "user_measurement_image_mm": [
+      28.08,
+      8.55,
+      null
+    ],
+    "purchased_voltage_confirmed_by_user_V": 5,
+    "measured_image_relay_marking": "G6K-2F-Y",
+    "initial_photo_relay_marking": "HFD4/3-S",
+    "relay_markings_differ_between_images": true,
+    "terminal_pitch_dimensioned": false,
+    "hole_pitch_and_pinmap_need_sample_check": true
+  },
+  "seller_specification_claims": {
+    "contact_current_A": "less than 4",
+    "switching_power_W": 40,
+    "frequency_max_Hz": 5,
+    "source": "user-supplied ZXC-0073 specification screenshot",
+    "independently_qualified_for_HOST_or_radar_load": false
+  },
+  "user_supplied_module_schematic": {
+    "input_resistor_ohm": 1000,
+    "base_emitter_pullup_ohm": 10000,
+    "high_side_driver": "PNP Y2, emitter VCC, base via1k to IN",
+    "coil_driver_integrated": true,
+    "flyback_diode": "M7",
+    "indicator_series_resistor_ohm": 4700,
+    "contact_poles": "two poles shown externally paralleled",
+    "source": "user screenshot supplied in current conversation",
+    "inference": "5V-powered input requires open-collector/open-drain pull-down; 3.3V push-pull high cannot guarantee OFF",
+    "external_GPIO_interface_implemented": true,
+    "implementation_scope": "isolated candidate M15 complete converter; exact board and reset behavior untested"
+  },
+  "3V_alternative_under_discussion": {
+    "selected": false,
+    "user_question": "如果3v的呢",
+    "purchased_version_still_5V": true,
+    "logic_assessment": "For the same supplied PNP/1k/10k circuit powered at an appropriate3V-level supply,3.3V GPIO high turns PNP off and GPIO low turns it on; direct logic operation is feasible without an extra level shifter. Reset and power sequencing still require implementation.",
+    "whole_module_continuous_3p3V_supply_qualified": false,
+    "load_contacts_remain_independent_of_coil_supply": true,
+    "PCB_supply_nets_changed_for_this_question": false,
+    "coil_current_mA": null,
+    "coil_current_status": "Not independently verified in this turn; do not use a bare-family value as the selected assembled module current."
+  },
+  "latest_user_component_reference": {
+    "lcsc": "C2982926",
+    "mpn": "G6K-2F-Y-5V",
+    "review": "references/g6k_lcsc_C2982926/candidate_review.json",
+    "replaces_complete_modules": false,
+    "scope_question_pending": false,
+    "user_clarification": "core relay reference only; retain complete ZXC miniature module boards"
+  },
+  "switched_load_voltage_confirmed_V": 5,
+  "contact_qualification_context": "Manufacturer page3 standard1A switching and2A carry; page9 conditional2A/30VDC40C6000-cycle certification also applies to evaluation. No voltage-ratio scaling or unqualified4A claim.",
+  "user_constraints": {
+    "allow_added_discrete_SMD_parts": false,
+    "require_complete_assembled_control_interface": true,
+    "reason": "用户拒绝额外贴片焊接，并要求提供成品模块条件供其寻找",
+    "through_hole_soldering_ability": "User accepts soldering complete modules to motherboard",
+    "control_module_pin_headers_or_sockets": false
+  },
+  "assembled_control_interface": {
+    "status": "M15_placed_and_routed_provisional_hole_pitch",
+    "minimum_independent_channels": 2,
+    "logic_voltage_V": 3.3,
+    "module_side_voltage_V": 5,
+    "function": "hold each relay IN near5V for OFF and pull low for ON",
+    "search_candidate": "assembled BSS138 four-channel bidirectional level converter",
+    "specific_product_selected": true,
+    "hardware_verified": false,
+    "reference": "M15",
+    "board_dimensions_mm": [
+      15.2,
+      12.2
+    ],
+    "selection_record": "references/assembled_relay_interface/selected_module.json"
+  },
+  "isolated_candidate": "routing/mini_relay_direct",
+  "root_native_design_still_previous_revision": true,
+  "active_work_candidate": "routing/mini_relay_direct",
+  "latest_candidate_validation": "routing/mini_relay_direct/analysis/routed_candidate_status.json",
+  "candidate_placements": {
+    "M1": [
+      89.0,
+      81.55,
+      90,
+      "B"
+    ],
+    "M2": [
+      89.0,
+      110.75,
+      90,
+      "B"
+    ],
+    "M15": [
+      122.5,
+      140.0,
+      90,
+      "F"
+    ],
+    "J2": [
+      106,
+      133.6,
+      90,
+      "F"
+    ],
+    "JP1": [
+      140.0,
+      136.8,
+      0,
+      "F"
+    ],
+    "J3": [
+      88.8,
+      130.5,
+      180,
+      "B"
+    ],
+    "TP4": [
+      95.0,
+      134.0,
+      0,
+      "F"
+    ]
+  },
+  "strict_rectangular_outline_mm": [
+    98,
+    85.5
+  ]
+}

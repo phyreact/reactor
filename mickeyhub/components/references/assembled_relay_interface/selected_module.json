@@ -1,0 +1,82 @@
+{
+  "reference": "M15",
+  "status": "placed_and_routed_in_rectangular_candidate_pending_sample_qualification",
+  "quantity": 1,
+  "description": "Blue four-channel3.3V/5V bidirectional logic-level module",
+  "board_size_mm": [
+    15.2,
+    12.2
+  ],
+  "evidence": "User front photograph and two supplied product-dimension images",
+  "photo_observation": "Four SOT-23 devices and eight103-marked resistors; two rows of six plated through holes",
+  "transistor_part_number_verified_for_this_product": false,
+  "circuit_reference": "SparkFun BSS138/10k four-channel converter; topology reference, not proof of this board's maker or exact schematic",
+  "top_row_left_to_right_component_view": [
+    "HV1",
+    "HV2",
+    "HV",
+    "GND_H",
+    "HV3",
+    "HV4"
+  ],
+  "bottom_row_left_to_right_component_view": [
+    "LV1",
+    "LV2",
+    "LV",
+    "GND_L",
+    "LV3",
+    "LV4"
+  ],
+  "same_row_pitch_mm": null,
+  "between_row_centres_mm": null,
+  "hole_diameter_mm": null,
+  "board_and_component_height_mm": null,
+  "mounting": {
+    "user_instruction": "我直接焊接在主板不用插针",
+    "separate_pin_header_or_socket": false,
+    "discrete_SMD_soldering_by_user": false,
+    "proposal": "Short individual tinned solid-copper links through matching daughterboard and motherboard holes, soldered on accessible outer sides",
+    "board_gap_and_link_length": "3mm board gap allocation; cut links to suit actual solder process and verify clearance",
+    "do_not_assume": "Flat plated-hole boards form a qualified joint merely by placing solder between their pads"
+  },
+  "power": {
+    "HV": "+5V_AON",
+    "LV": "+3V3_S3",
+    "GND_H": "GND",
+    "GND_L": "GND"
+  },
+  "channels": {
+    "1": {
+      "LV1": "HOST_RELAY_CTRL_PENDING",
+      "HV1": "M1_TRIGGER_PENDING"
+    },
+    "2": {
+      "LV2": "S3_D1",
+      "HV2": "M2_TRIGGER_PENDING"
+    },
+    "3": "unused",
+    "4": "unused"
+  },
+  "expected_polarity": "For reference BSS138 circuit, LOW command=relay ON; HIGH/released=OFF",
+  "remaining_electrical_checks": [
+    "Confirm actual module uses reference topology",
+    "GPIO sink current including the relay PNP input and both converter pullups",
+    "Reset and supply-sequencing behavior",
+    "M1 controller source and cold-wake behavior"
+  ],
+  "fitted_to_PCB": true,
+  "physical_pad_coordinates_verified": false,
+  "fabrication_release": false,
+  "PCB_routing_complete": true,
+  "provisional_placement_mm": [
+    122.5,
+    140.0
+  ],
+  "provisional_layout_assumptions": {
+    "same_row_pitch_mm": 2.54,
+    "row_centres_mm": 10.16,
+    "carrier_drill_mm": 1.0
+  },
+  "provisional_placement_rotation_deg": 90,
+  "placement_side": "F"
+}

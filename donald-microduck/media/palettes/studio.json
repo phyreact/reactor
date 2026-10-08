@@ -1,0 +1,14 @@
+{
+  "name": "clear-sky-studio",
+  "lid_hex": "#229BE6",
+  "rim_hex": "#188FD9",
+  "band_hex": "#202429",
+  "shell_hex": "#F2F4F1",
+  "bill_hex": "#FFD04A",
+  "feet_hex": "#F5BF35",
+  "face_hex": "#30383E",
+  "motor_hex": "#424A50",
+  "roughness": 0.5,
+  "specular": 0.28,
+  "rationale": "Bright sky blue, neutral white and warm yellow form a clear palette. Balanced lighting retains saturation and keeps optics and joints readable."
+}

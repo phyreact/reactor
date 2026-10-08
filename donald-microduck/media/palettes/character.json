@@ -1,0 +1,14 @@
+{
+  "name": "Classic Sailor Blue",
+  "lid_hex": "#176ED1",
+  "rim_hex": "#176ED1",
+  "band_hex": "#24282D",
+  "shell_hex": "#ECEAE4",
+  "bill_hex": "#F4B92D",
+  "feet_hex": "#F4B92D",
+  "face_hex": "#24282D",
+  "motor_hex": "#24282D",
+  "roughness": 0.46,
+  "specular": 0.24,
+  "rationale": "Sailor blue unifies the lid and rim. A black front band, warm white body and golden beak and feet keep the silhouette clear. Matte surfaces reduce washed-out highlights."
+}

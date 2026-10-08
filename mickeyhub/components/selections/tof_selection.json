@@ -1,0 +1,50 @@
+{
+  "selected_by_user": true,
+  "updated_at": "2026-10-07T21:22:30.670626+00:00",
+  "quantity": 1,
+  "module": "TKOWTB VL53L8CX 8x8 Multi-Zone ToF Ranging Sensor Module",
+  "ASIN": "B0GSQ5Q1TJ",
+  "selected_product_url": "https://www.amazon.com/dp/B0GSQ5Q1TJ",
+  "replaces": "DFRobot SEN0628 / VL53L7CX with RP2040",
+  "matching_layout_reference": "https://www.aliexpress.us/item/3256809118041439.html",
+  "mechanical_source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/vl53l8cx_replacement/module_ruler.jpg",
+  "manufacturer_dimensioned_board_drawing_available": false,
+  "dimensions_provisional": true,
+  "estimated_carrier_body_length_width_thickness_mm": [
+    24,
+    10.5,
+    1.0
+  ],
+  "estimated_carrier_overall_length_with_ears_mm": 33.5,
+  "estimated_mount_hole_pitch_diameter_mm": [
+    28,
+    3.2
+  ],
+  "mounting_method": "Compact LCD/ToF retainer on removable open main cradle",
+  "PCB_front_y_mm": 66.8,
+  "PCB_centre_z_mm": 54.4,
+  "optical_centre_z_mm": 51.95,
+  "orientation": "Long edge horizontal, optical normal +Y; supplied straight header faces rearwards",
+  "connection": "Supplied straight 9-pin male header faces rearward (-Y), harness to motherboard",
+  "electrical_driver_and_harness_integration_completed": false,
+  "native_carrier_PCB_modified": false,
+  "same_chip_does_not_imply_same_carrier_footprint": true,
+  "physical_sample_fit_qualified": false,
+  "active_model": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/base_large_cover/assembly.blend",
+  "checks": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/base_large_cover/checks.json",
+  "straight_header_modelled": true,
+  "mating_plug_allowance_bounds_mm": [
+    [
+      -11.699999809265137,
+      48.900001525878906,
+      56.60000228881836
+    ],
+    [
+      11.699999809265137,
+      63.249996185302734,
+      59.70000076293945
+    ]
+  ],
+  "header_and_connector_dimensions_provisional": true,
+  "front_common_plane_y_mm": 70.0
+}

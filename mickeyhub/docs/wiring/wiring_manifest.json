@@ -1,0 +1,3183 @@
+{
+  "harnesses": [
+    {
+      "id": "H01",
+      "title": "UPS 5V OUTPUT",
+      "board_ref": "J1",
+      "status": "conditional",
+      "group": "power",
+      "note": "UPS endpoint envelope provisional; verify original P4 mating orientation.",
+      "wires": [
+        "H01-01",
+        "H01-02"
+      ]
+    },
+    {
+      "id": "H02",
+      "title": "UPS I2C STATUS",
+      "board_ref": "J3",
+      "status": "conditional",
+      "group": "power",
+      "note": "J3.3 and UPS power-output pins excluded.",
+      "wires": [
+        "H02-01",
+        "H02-02",
+        "H02-03"
+      ]
+    },
+    {
+      "id": "H03",
+      "title": "UPS TWO-WIRE SWITCH LOOP",
+      "board_ref": "J44",
+      "status": "conditional",
+      "group": "power",
+      "note": "Neither conductor is GND. Original M16 hold retained. P2/J51 carries main battery current; 0.1A TL2230 direct wiring rejected. Rated power executor unresolved.",
+      "wires": [
+        "H03-01",
+        "H03-02"
+      ]
+    },
+    {
+      "id": "H04",
+      "title": "REAR DC TO UPS INPUT",
+      "board_ref": null,
+      "status": "conditional",
+      "group": "power",
+      "note": "Panel jack terminal polarity by actual contact; not a motherboard DC socket.",
+      "wires": [
+        "H04-01",
+        "H04-02"
+      ]
+    },
+    {
+      "id": "H05",
+      "title": "LONG-PRESS POWER: UNRESOLVED",
+      "board_ref": null,
+      "status": "unresolved",
+      "group": "power",
+      "note": "VI/VO recovered from user drawing; no connection to J51; M16 bypass conflict.",
+      "wires": [
+        "H05-01",
+        "H05-02",
+        "H05-03",
+        "H05-04"
+      ]
+    },
+    {
+      "id": "H06",
+      "title": "DUAL EYE UART + POWER",
+      "board_ref": "J15",
+      "status": "conditional",
+      "group": "signal",
+      "note": "Use LCD1 SH1.0-14P, not LCD2. Device connector drawing station; physical contact geometry provisional.",
+      "wires": [
+        "H06-01",
+        "H06-02",
+        "H06-03",
+        "H06-04"
+      ]
+    },
+    {
+      "id": "H07",
+      "title": "EYE LOCAL 3V3 REFERENCE",
+      "board_ref": "J53",
+      "status": "conditional",
+      "group": "signal",
+      "note": "Do not use motherboard 3V3 instead of LCD1 local reference.",
+      "wires": [
+        "H07-01",
+        "H07-02"
+      ]
+    },
+    {
+      "id": "H08",
+      "title": "LEFT RD03E",
+      "board_ref": "J12",
+      "status": "conditional",
+      "group": "signal",
+      "note": "Protocol and voltage qualification pending; OT2/pin5 remains disconnected.",
+      "wires": [
+        "H08-01",
+        "H08-02",
+        "H08-03",
+        "H08-04"
+      ]
+    },
+    {
+      "id": "H09",
+      "title": "RIGHT RD03E",
+      "board_ref": "J13",
+      "status": "conditional",
+      "group": "signal",
+      "note": "Protocol and voltage qualification pending; OT2/pin5 remains disconnected.",
+      "wires": [
+        "H09-01",
+        "H09-02",
+        "H09-03",
+        "H09-04"
+      ]
+    },
+    {
+      "id": "H10",
+      "title": "REAR RD03E",
+      "board_ref": "J14",
+      "status": "conditional",
+      "group": "signal",
+      "note": "Use J14 as third S3 channel. Fourth J36 is unused.",
+      "wires": [
+        "H10-01",
+        "H10-02",
+        "H10-03",
+        "H10-04"
+      ]
+    },
+    {
+      "id": "H11",
+      "title": "GROVE IMU",
+      "board_ref": "J17",
+      "status": "conditional",
+      "group": "signal",
+      "note": "Existing J4 1:1 electrical map. Connector exit envelope to be sample checked.",
+      "wires": [
+        "H11-01",
+        "H11-02",
+        "H11-03",
+        "H11-04"
+      ]
+    },
+    {
+      "id": "H12",
+      "title": "HORIZONTAL COMPASS",
+      "board_ref": "J34",
+      "status": "conditional",
+      "group": "signal",
+      "note": "Reversed function order between Grove and PH2.0; magnetic calibration pending.",
+      "wires": [
+        "H12-01",
+        "H12-02",
+        "H12-03",
+        "H12-04"
+      ]
+    },
+    {
+      "id": "H13A",
+      "title": "TOF I2C CANDIDATE",
+      "board_ref": "J37",
+      "status": "unresolved",
+      "group": "signal",
+      "note": "Open tips: carrier IO voltage and power-off behavior not established.",
+      "wires": [
+        "H13A-01",
+        "H13A-02"
+      ]
+    },
+    {
+      "id": "H13B",
+      "title": "TOF SHARED SUPPLY CANDIDATE",
+      "board_ref": "J37",
+      "status": "unresolved",
+      "group": "signal",
+      "note": "J16 entirely disconnected. Shared J37 ZERO3V3 prevents independent relay power cycling; carrier VIN and IO remain unqualified. ULD controls stop/sleep.",
+      "wires": [
+        "H13B-01",
+        "H13B-02"
+      ]
+    },
+    {
+      "id": "H14",
+      "title": "5010 5V 4-WIRE B3 PWM",
+      "board_ref": "J2",
+      "status": "conditional",
+      "group": "power",
+      "note": "User confirms seller pin table: 1 black GND, 2 yellow +5V, 3 green FG, 4 blue PWM. Actual SKU is 5V despite diagram's 12V text. PWM/FG electrical levels remain unqualified.",
+      "wires": [
+        "H14-01",
+        "H14-02",
+        "H14-03",
+        "H14-04"
+      ]
+    },
+    {
+      "id": "H15",
+      "title": "USB AUDIO SERVICE CABLE",
+      "board_ref": null,
+      "status": "conditional",
+      "group": "lid",
+      "note": "Use finished USB-C data cable. Four cores are explanatory; rear top route requires a suitably thin flat cable and qualified bend/plug envelope; shielding/CC omitted.",
+      "wires": [
+        "H15-01",
+        "H15-02",
+        "H15-03",
+        "H15-04"
+      ]
+    },
+    {
+      "id": "H16",
+      "title": "SPEAKER SERVICE CABLE",
+      "board_ref": null,
+      "status": "conditional",
+      "group": "lid",
+      "note": "Neither speaker wire is system ground. Lower pair runs side by side to preserve battery height allowance; 145mm factory lead may require a verified extension.",
+      "wires": [
+        "H16-01",
+        "H16-02"
+      ]
+    },
+    {
+      "id": "H17",
+      "title": "CAMERA CSI RIBBON",
+      "board_ref": null,
+      "status": "user_confirmed",
+      "group": "camera",
+      "note": "User-confirmed camera/FFC. Ribbon is not 15 independent loose wires.",
+      "wires": [
+        "H17-01"
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "id": "H01-01",
+      "harness": "H01",
+      "source": "J1.1",
+      "target": "UPS P4.2 REG5V",
+      "net": "+5V_AON",
+      "function": "+5V_AON",
+      "color": "red",
+      "diameter_mm": 1.35,
+      "path_mm": [
+        [
+          15.799983999999995,
+          -44.22500000000001,
+          52
+        ],
+        [
+          18,
+          -46.5,
+          55
+        ],
+        [
+          52,
+          -46.5,
+          55
+        ],
+        [
+          53.95,
+          -42.5,
+          48
+        ],
+        [
+          53.95,
+          -38,
+          36.5
+        ],
+        [
+          53.95,
+          26,
+          26.5
+        ],
+        [
+          53,
+          28,
+          29
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 127.1,
+      "route_revision": "separate_wire_stations_v3",
+      "locked_x_station_mm": 53.95
+    },
+    {
+      "id": "H01-02",
+      "harness": "H01",
+      "source": "J1.2",
+      "target": "UPS P4.1 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 1.35,
+      "path_mm": [
+        [
+          18.299983999999995,
+          -44.22500000000001,
+          52
+        ],
+        [
+          18.299978,
+          -44.224996,
+          57.5
+        ],
+        [
+          20.5,
+          -46.5,
+          57.5
+        ],
+        [
+          52,
+          -46.5,
+          57.5
+        ],
+        [
+          53.95,
+          -40.5,
+          50.5
+        ],
+        [
+          53.95,
+          -36,
+          39
+        ],
+        [
+          53.95,
+          22,
+          29
+        ],
+        [
+          53,
+          25.5,
+          29
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 124.4,
+      "route_revision": "separate_wire_stations_v3",
+      "locked_x_station_mm": 53.95
+    },
+    {
+      "id": "H02-01",
+      "harness": "H02",
+      "source": "J3.1",
+      "target": "UPS H1 SCL",
+      "net": "S3_D5",
+      "function": "SCL",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          49.39999499999999,
+          27.5,
+          52
+        ],
+        [
+          53.95,
+          30,
+          52.0
+        ],
+        [
+          53.95,
+          10,
+          43.0
+        ],
+        [
+          53.95,
+          0,
+          33.0
+        ],
+        [
+          53,
+          2,
+          32
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 43.7
+    },
+    {
+      "id": "H02-02",
+      "harness": "H02",
+      "source": "J3.2",
+      "target": "UPS H2 SDA",
+      "net": "S3_D4",
+      "function": "SDA",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          49.39999499999999,
+          29.5,
+          52
+        ],
+        [
+          53.95,
+          30,
+          53.0
+        ],
+        [
+          53.95,
+          10,
+          44.0
+        ],
+        [
+          53.95,
+          0,
+          34.0
+        ],
+        [
+          53,
+          0,
+          32
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 43.0
+    },
+    {
+      "id": "H02-03",
+      "harness": "H02",
+      "source": "J3.4",
+      "target": "UPS H5 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          49.39999499999999,
+          33.5,
+          52
+        ],
+        [
+          53.95,
+          30,
+          54.0
+        ],
+        [
+          53.95,
+          10,
+          45.0
+        ],
+        [
+          53.95,
+          0,
+          35.0
+        ],
+        [
+          53,
+          -4,
+          32
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 47.2
+    },
+    {
+      "id": "H03-01",
+      "harness": "H03",
+      "source": "J44.1",
+      "target": "UPS P2.2 SW_A",
+      "net": "+UPS_SW_A",
+      "function": "+UPS_SW_A",
+      "color": "violet",
+      "diameter_mm": 1.35,
+      "path_mm": [
+        [
+          34.999978,
+          -44.22499599999999,
+          52
+        ],
+        [
+          45,
+          -48,
+          52
+        ],
+        [
+          45,
+          -50,
+          55
+        ],
+        [
+          55.7,
+          -50,
+          55
+        ],
+        [
+          55.7,
+          -38,
+          50
+        ],
+        [
+          55.7,
+          -37.8,
+          26.5
+        ],
+        [
+          53.95,
+          -36.5,
+          26.5
+        ],
+        [
+          53.95,
+          -31.2,
+          26.5
+        ],
+        [
+          53,
+          -29,
+          29
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 72.4,
+      "locked_x_station_mm": 55.7,
+      "routing_constraint": "Keep X tangent flat at right-side corridor stations, preventing Bezier overshoot into radar support.",
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H03-02",
+      "harness": "H03",
+      "source": "J44.2",
+      "target": "UPS P2.1 SW_B",
+      "net": "+VBAT_UPS_SW",
+      "function": "+VBAT_UPS_SW",
+      "color": "orange",
+      "diameter_mm": 1.35,
+      "path_mm": [
+        [
+          37.499978,
+          -44.22499599999999,
+          52
+        ],
+        [
+          37.5,
+          -48,
+          52
+        ],
+        [
+          37.5,
+          -48,
+          58
+        ],
+        [
+          57.3,
+          -48,
+          58
+        ],
+        [
+          57.3,
+          -38,
+          52
+        ],
+        [
+          57.3,
+          -43,
+          30
+        ],
+        [
+          53.95,
+          -43,
+          30
+        ],
+        [
+          53.95,
+          -42.5,
+          30
+        ],
+        [
+          53.95,
+          -32.7,
+          30
+        ],
+        [
+          53,
+          -31.5,
+          29
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 79.3,
+      "locked_x_station_mm": 57.3,
+      "routing_constraint": "Keep X tangent flat at right-side corridor stations, preventing Bezier overshoot into radar support.",
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H04-01",
+      "harness": "H04",
+      "source": "+DC_12V6_IN SOURCE",
+      "target": "UPS P1.2 INPUT+",
+      "net": "+DC_12V6_IN",
+      "function": "+DC_12V6_IN",
+      "color": "red",
+      "diameter_mm": 1.2,
+      "path_mm": [
+        [
+          -2.5,
+          -52.8,
+          52.2
+        ],
+        [
+          0,
+          -49.8,
+          52.5
+        ],
+        [
+          12,
+          -49.8,
+          54.5
+        ],
+        [
+          49,
+          -51,
+          52.5
+        ],
+        [
+          56,
+          -43,
+          37.5
+        ],
+        [
+          53,
+          -39,
+          29
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 81.4
+    },
+    {
+      "id": "H04-02",
+      "harness": "H04",
+      "source": "GND SOURCE",
+      "target": "UPS P1.1 INPUT-",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 1.2,
+      "path_mm": [
+        [
+          2.5,
+          -52.8,
+          52.2
+        ],
+        [
+          3,
+          -51.4,
+          53.5
+        ],
+        [
+          12,
+          -51.4,
+          54.5
+        ],
+        [
+          49,
+          -52.6,
+          52.5
+        ],
+        [
+          56,
+          -46.5,
+          32.5
+        ],
+        [
+          53,
+          -41.5,
+          29
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 77.0,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H05-01",
+      "harness": "H05",
+      "source": "VI- SOURCE",
+      "target": "UNCONNECTED VI- staging",
+      "net": "VI-",
+      "function": "VI-",
+      "color": "red",
+      "diameter_mm": 1.0,
+      "path_mm": [
+        [
+          -6.58,
+          -55.7,
+          30.0
+        ],
+        [
+          -5,
+          -55.7,
+          25
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 5.2,
+      "route_revision": "separate_wire_stations_v3",
+      "free_open_end_relocated": false,
+      "source_mechanical_position_qualified": false,
+      "open_staging_only": true
+    },
+    {
+      "id": "H05-02",
+      "harness": "H05",
+      "source": "VI+ SOURCE",
+      "target": "UNCONNECTED VI+ staging",
+      "net": "VI+",
+      "function": "VI+",
+      "color": "red",
+      "diameter_mm": 1.0,
+      "path_mm": [
+        [
+          6.58,
+          -55.7,
+          30.0
+        ],
+        [
+          5,
+          -55.7,
+          25
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 5.2,
+      "route_revision": "separate_wire_stations_v3",
+      "free_open_end_relocated": false,
+      "source_mechanical_position_qualified": false,
+      "open_staging_only": true
+    },
+    {
+      "id": "H05-03",
+      "harness": "H05",
+      "source": "VO- SOURCE",
+      "target": "UNCONNECTED VO- staging",
+      "net": "VO-",
+      "function": "VO-",
+      "color": "red",
+      "diameter_mm": 1.0,
+      "path_mm": [
+        [
+          -6.45,
+          -55.7,
+          41.2
+        ],
+        [
+          -5,
+          -55.7,
+          45
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 4.1,
+      "route_revision": "separate_wire_stations_v3",
+      "free_open_end_relocated": false,
+      "source_mechanical_position_qualified": false,
+      "open_staging_only": true
+    },
+    {
+      "id": "H05-04",
+      "harness": "H05",
+      "source": "VO+ SOURCE",
+      "target": "UNCONNECTED VO+ staging",
+      "net": "VO+",
+      "function": "VO+",
+      "color": "red",
+      "diameter_mm": 1.0,
+      "path_mm": [
+        [
+          6.45,
+          -55.7,
+          41.2
+        ],
+        [
+          5,
+          -55.7,
+          45
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 4.1,
+      "route_revision": "separate_wire_stations_v3",
+      "free_open_end_relocated": false,
+      "source_mechanical_position_qualified": false,
+      "open_staging_only": true
+    },
+    {
+      "id": "H06-01",
+      "harness": "H06",
+      "source": "J15.1",
+      "target": "LCD1 P2.10 TX",
+      "net": "EYES_TX",
+      "function": "EYES_TX",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          4.599997000000002,
+          33.499998000000005,
+          52
+        ],
+        [
+          6,
+          38,
+          52.5
+        ],
+        [
+          20,
+          43,
+          51.5
+        ],
+        [
+          39,
+          48,
+          43.5
+        ],
+        [
+          35,
+          55,
+          27.5
+        ],
+        [
+          29,
+          57,
+          21.5
+        ],
+        [
+          31,
+          61.1,
+          22.2
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 72.1
+    },
+    {
+      "id": "H06-02",
+      "harness": "H06",
+      "source": "J15.2",
+      "target": "LCD1 P2.9 RX",
+      "net": "EYES_RX",
+      "function": "EYES_RX",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          4.599997000000002,
+          31.499998000000005,
+          52
+        ],
+        [
+          6,
+          38,
+          53.5
+        ],
+        [
+          20,
+          43,
+          52.5
+        ],
+        [
+          39,
+          48,
+          44.5
+        ],
+        [
+          35,
+          55,
+          28.5
+        ],
+        [
+          29,
+          57,
+          22.5
+        ],
+        [
+          30,
+          61.1,
+          22.2
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 73.8
+    },
+    {
+      "id": "H06-03",
+      "harness": "H06",
+      "source": "J15.3",
+      "target": "LCD1 P2.1 5V",
+      "net": "+5V_AON",
+      "function": "+5V_AON",
+      "color": "red",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          4.599997000000002,
+          29.499998000000005,
+          52
+        ],
+        [
+          6,
+          38,
+          54.5
+        ],
+        [
+          20,
+          43,
+          53.5
+        ],
+        [
+          39,
+          48,
+          45.5
+        ],
+        [
+          35,
+          55,
+          29.5
+        ],
+        [
+          29,
+          57,
+          23.5
+        ],
+        [
+          22,
+          61.1,
+          22.2
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 79.9
+    },
+    {
+      "id": "H06-04",
+      "harness": "H06",
+      "source": "J15.4",
+      "target": "LCD1 P2.2 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          4.599997000000002,
+          27.499998000000005,
+          52
+        ],
+        [
+          6,
+          38,
+          55.5
+        ],
+        [
+          20,
+          43,
+          54.5
+        ],
+        [
+          39,
+          48,
+          46.5
+        ],
+        [
+          35,
+          55,
+          30.5
+        ],
+        [
+          29,
+          57,
+          24.5
+        ],
+        [
+          23,
+          61.1,
+          22.2
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 81.5
+    },
+    {
+      "id": "H07-01",
+      "harness": "H07",
+      "source": "J53.1",
+      "target": "LCD1 P2.5 3V3 OUT",
+      "net": "+3V3_EYES",
+      "function": "+3V3_EYES",
+      "color": "orange",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -6.5,
+          34.400000000000006,
+          52
+        ],
+        [
+          -5,
+          40,
+          53.5
+        ],
+        [
+          17,
+          46,
+          53.5
+        ],
+        [
+          35,
+          51,
+          39.5
+        ],
+        [
+          32,
+          55,
+          28.5
+        ],
+        [
+          26,
+          57,
+          22.5
+        ],
+        [
+          26,
+          61.1,
+          22.2
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 77.0
+    },
+    {
+      "id": "H07-02",
+      "harness": "H07",
+      "source": "J53.2",
+      "target": "LCD1 P2.6 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -4.5,
+          34.400000000000006,
+          52
+        ],
+        [
+          -5,
+          40,
+          54.5
+        ],
+        [
+          17,
+          46,
+          54.5
+        ],
+        [
+          35,
+          51,
+          40.5
+        ],
+        [
+          32,
+          55,
+          29.5
+        ],
+        [
+          26,
+          57,
+          23.5
+        ],
+        [
+          27,
+          61.1,
+          22.2
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 77.5
+    },
+    {
+      "id": "H08-01",
+      "harness": "H08",
+      "source": "J12.1",
+      "target": "LEFT Rd03E.3 TX",
+      "net": "S3_D3",
+      "function": "RADAR_TX",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.4,
+          32.199998,
+          52
+        ],
+        [
+          -50,
+          30,
+          52.5
+        ],
+        [
+          -52,
+          15,
+          51.5
+        ],
+        [
+          -54,
+          -10,
+          47.5
+        ],
+        [
+          -59.82,
+          -16.43,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 55.6
+    },
+    {
+      "id": "H08-02",
+      "harness": "H08",
+      "source": "J12.2",
+      "target": "LEFT Rd03E.4 RX",
+      "net": "RADAR_FL_RX",
+      "function": "RADAR_RX",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.4,
+          30.199998000000008,
+          52
+        ],
+        [
+          -50,
+          30,
+          53.5
+        ],
+        [
+          -52,
+          15,
+          52.5
+        ],
+        [
+          -54,
+          -10,
+          48.5
+        ],
+        [
+          -59.82,
+          -18.97,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 57.5
+    },
+    {
+      "id": "H08-03",
+      "harness": "H08",
+      "source": "J12.3",
+      "target": "LEFT Rd03E.1 5V",
+      "net": "+V_RADAR_SW",
+      "function": "+V_RADAR_SW",
+      "color": "red",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.4,
+          28.199998000000008,
+          52
+        ],
+        [
+          -50,
+          30,
+          54.5
+        ],
+        [
+          -52,
+          15,
+          53.5
+        ],
+        [
+          -54,
+          -10,
+          49.5
+        ],
+        [
+          -59.82,
+          -11.35,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 55.1
+    },
+    {
+      "id": "H08-04",
+      "harness": "H08",
+      "source": "J12.4",
+      "target": "LEFT Rd03E.2 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.4,
+          26.199998000000008,
+          52
+        ],
+        [
+          -50,
+          30,
+          55.5
+        ],
+        [
+          -52,
+          15,
+          54.5
+        ],
+        [
+          -54,
+          -10,
+          50.5
+        ],
+        [
+          -59.82,
+          -13.89,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 57.9
+    },
+    {
+      "id": "H09-01",
+      "harness": "H09",
+      "source": "J13.1",
+      "target": "RIGHT Rd03E.3 TX",
+      "net": "S3_D9",
+      "function": "RADAR_TX",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          49.39999800000001,
+          14.499998000000005,
+          52
+        ],
+        [
+          54,
+          20,
+          52.5
+        ],
+        [
+          56,
+          6,
+          48.5
+        ],
+        [
+          58,
+          -14,
+          45.5
+        ],
+        [
+          59.82,
+          -16.57,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 46.4
+    },
+    {
+      "id": "H09-02",
+      "harness": "H09",
+      "source": "J13.2",
+      "target": "RIGHT Rd03E.4 RX",
+      "net": "RADAR_FR_RX",
+      "function": "RADAR_RX",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          49.39999800000001,
+          16.499998000000005,
+          52
+        ],
+        [
+          54,
+          20,
+          53.5
+        ],
+        [
+          56,
+          6,
+          49.5
+        ],
+        [
+          58,
+          -14,
+          46.5
+        ],
+        [
+          59.82,
+          -14.03,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 45.1
+    },
+    {
+      "id": "H09-03",
+      "harness": "H09",
+      "source": "J13.3",
+      "target": "RIGHT Rd03E.1 5V",
+      "net": "+V_RADAR_SW",
+      "function": "+V_RADAR_SW",
+      "color": "red",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          49.39999800000001,
+          18.499998000000005,
+          52
+        ],
+        [
+          54,
+          20,
+          54.5
+        ],
+        [
+          56,
+          6,
+          50.5
+        ],
+        [
+          58,
+          -14,
+          47.5
+        ],
+        [
+          59.82,
+          -21.65,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 49.6
+    },
+    {
+      "id": "H09-04",
+      "harness": "H09",
+      "source": "J13.4",
+      "target": "RIGHT Rd03E.2 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          49.39999800000001,
+          20.499998000000005,
+          52
+        ],
+        [
+          54,
+          20,
+          55.5
+        ],
+        [
+          56,
+          6,
+          51.5
+        ],
+        [
+          58,
+          -14,
+          48.5
+        ],
+        [
+          59.82,
+          -19.11,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 48.7
+    },
+    {
+      "id": "H10-01",
+      "harness": "H10",
+      "source": "J14.1",
+      "target": "REAR Rd03E.3 TX",
+      "net": "S3_D10",
+      "function": "RADAR_TX",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400008,
+          -17.799998000000002,
+          52
+        ],
+        [
+          -51,
+          -22,
+          51.1
+        ],
+        [
+          -51,
+          -28,
+          51.3
+        ],
+        [
+          -53,
+          -33,
+          51.9
+        ],
+        [
+          -53,
+          -44,
+          52.5
+        ],
+        [
+          -38,
+          -48,
+          52.5
+        ],
+        [
+          31.93,
+          -48,
+          52.5
+        ],
+        [
+          31.93,
+          -49,
+          52.5
+        ],
+        [
+          31.93,
+          -49,
+          57.5
+        ],
+        [
+          31.93,
+          -53.5,
+          57.5
+        ],
+        [
+          31.93,
+          -55,
+          46.5
+        ],
+        [
+          31.93,
+          -56.17,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 140.4,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H10-02",
+      "harness": "H10",
+      "source": "J14.2",
+      "target": "REAR Rd03E.4 RX",
+      "net": "RADAR_RL_RX",
+      "function": "RADAR_RX",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400008,
+          -19.799998000000002,
+          52
+        ],
+        [
+          -51,
+          -22,
+          52.5
+        ],
+        [
+          -51,
+          -44,
+          53.5
+        ],
+        [
+          -38,
+          -48,
+          53.5
+        ],
+        [
+          34.47,
+          -48,
+          53.5
+        ],
+        [
+          34.47,
+          -49,
+          53.5
+        ],
+        [
+          34.47,
+          -49,
+          58.5
+        ],
+        [
+          34.47,
+          -53.5,
+          58.5
+        ],
+        [
+          34.47,
+          -55,
+          46.5
+        ],
+        [
+          34.47,
+          -56.17,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 140.6,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H10-03",
+      "harness": "H10",
+      "source": "J14.3",
+      "target": "REAR Rd03E.1 5V",
+      "net": "+V_RADAR_SW",
+      "function": "+V_RADAR_SW",
+      "color": "red",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400008,
+          -21.799998000000002,
+          52
+        ],
+        [
+          -51,
+          -22,
+          53.5
+        ],
+        [
+          -51,
+          -44,
+          54.5
+        ],
+        [
+          -38,
+          -48,
+          54.5
+        ],
+        [
+          26.85,
+          -48,
+          54.5
+        ],
+        [
+          26.85,
+          -49,
+          54.5
+        ],
+        [
+          26.85,
+          -49,
+          59.5
+        ],
+        [
+          26.85,
+          -53.5,
+          59.5
+        ],
+        [
+          26.85,
+          -55,
+          46.5
+        ],
+        [
+          26.85,
+          -56.17,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 133.7,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H10-04",
+      "harness": "H10",
+      "source": "J14.4",
+      "target": "REAR Rd03E.2 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400008,
+          -23.799998000000002,
+          52
+        ],
+        [
+          -51,
+          -22,
+          54.5
+        ],
+        [
+          -51,
+          -44,
+          55.5
+        ],
+        [
+          -38,
+          -48,
+          55.5
+        ],
+        [
+          29.39,
+          -48,
+          55.5
+        ],
+        [
+          29.39,
+          -49,
+          55.5
+        ],
+        [
+          29.39,
+          -49,
+          60.5
+        ],
+        [
+          29.39,
+          -53.5,
+          60.5
+        ],
+        [
+          29.39,
+          -55,
+          46.5
+        ],
+        [
+          29.39,
+          -56.17,
+          42.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 137.9,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H11-01",
+      "harness": "H11",
+      "source": "J17.1",
+      "target": "IMU J4.1 SCL",
+      "net": "S3_D5",
+      "function": "SCL",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          24.499976000000004,
+          39.6,
+          52
+        ],
+        [
+          27,
+          44,
+          51.5
+        ],
+        [
+          8,
+          46,
+          53.5
+        ],
+        [
+          -19,
+          44,
+          53.5
+        ],
+        [
+          -30,
+          37,
+          54.5
+        ],
+        [
+          -39,
+          44.3,
+          59
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 76.9
+    },
+    {
+      "id": "H11-02",
+      "harness": "H11",
+      "source": "J17.2",
+      "target": "IMU J4.2 SDA",
+      "net": "S3_D4",
+      "function": "SDA",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          26.499976000000004,
+          39.6,
+          52
+        ],
+        [
+          27,
+          44,
+          52.5
+        ],
+        [
+          8,
+          46,
+          54.5
+        ],
+        [
+          -19,
+          44,
+          54.5
+        ],
+        [
+          -30,
+          37,
+          55.5
+        ],
+        [
+          -37,
+          44.3,
+          59
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 74.5
+    },
+    {
+      "id": "H11-03",
+      "harness": "H11",
+      "source": "J17.3",
+      "target": "IMU J4.3 VCC",
+      "net": "+3V3_S3",
+      "function": "+3V3_S3",
+      "color": "orange",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          28.499976000000004,
+          39.6,
+          52
+        ],
+        [
+          27,
+          44,
+          53.5
+        ],
+        [
+          8,
+          46,
+          55.5
+        ],
+        [
+          -19,
+          44,
+          55.5
+        ],
+        [
+          -30,
+          37,
+          56.5
+        ],
+        [
+          -35,
+          44.3,
+          59
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 73.4
+    },
+    {
+      "id": "H11-04",
+      "harness": "H11",
+      "source": "J17.4",
+      "target": "IMU J4.4 GND",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          30.499976000000004,
+          39.6,
+          52
+        ],
+        [
+          27,
+          44,
+          54.5
+        ],
+        [
+          8,
+          46,
+          56.5
+        ],
+        [
+          -19,
+          44,
+          56.5
+        ],
+        [
+          -30,
+          37,
+          57.5
+        ],
+        [
+          -33,
+          44.3,
+          59
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 73.5
+    },
+    {
+      "id": "H12-01",
+      "harness": "H12",
+      "source": "J34.1",
+      "target": "COMPASS CN1.4 SCL",
+      "net": "S3_D5",
+      "function": "SCL",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.399995,
+          -5.299999999999997,
+          52
+        ],
+        [
+          -50,
+          -8,
+          51.5
+        ],
+        [
+          -53,
+          -30,
+          44.5
+        ],
+        [
+          -52,
+          -36,
+          20.5
+        ],
+        [
+          -46,
+          -34,
+          15.5
+        ],
+        [
+          -39,
+          -30.7,
+          15.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 69.2
+    },
+    {
+      "id": "H12-02",
+      "harness": "H12",
+      "source": "J34.2",
+      "target": "COMPASS CN1.3 SDA",
+      "net": "S3_D4",
+      "function": "SDA",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.399995,
+          -7.299999999999997,
+          52
+        ],
+        [
+          -50,
+          -8,
+          52.5
+        ],
+        [
+          -53,
+          -30,
+          45.5
+        ],
+        [
+          -52,
+          -36,
+          21.5
+        ],
+        [
+          -46,
+          -34,
+          16.5
+        ],
+        [
+          -41,
+          -30.7,
+          15.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 66.8
+    },
+    {
+      "id": "H12-03",
+      "harness": "H12",
+      "source": "J34.3",
+      "target": "COMPASS CN1.2 V",
+      "net": "+3V3_S3",
+      "function": "+3V3_S3",
+      "color": "orange",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.399995,
+          -9.299999999999997,
+          52
+        ],
+        [
+          -50,
+          -8,
+          53.5
+        ],
+        [
+          -53,
+          -30,
+          46.5
+        ],
+        [
+          -52,
+          -36,
+          22.5
+        ],
+        [
+          -46,
+          -34,
+          17.5
+        ],
+        [
+          -43,
+          -30.7,
+          15.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 65.9
+    },
+    {
+      "id": "H12-04",
+      "harness": "H12",
+      "source": "J34.4",
+      "target": "COMPASS CN1.1 G",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.399995,
+          -11.299999999999997,
+          52
+        ],
+        [
+          -50,
+          -8,
+          54.5
+        ],
+        [
+          -53,
+          -30,
+          47.5
+        ],
+        [
+          -52,
+          -36,
+          23.5
+        ],
+        [
+          -46,
+          -34,
+          18.5
+        ],
+        [
+          -45,
+          -30.7,
+          15.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 66.7
+    },
+    {
+      "id": "H13A-01",
+      "harness": "H13A",
+      "source": "J37.1",
+      "target": "ToF P6 SCL candidate",
+      "net": "Z_GPIO4_B3",
+      "function": "SCL",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400001,
+          19.700000000000003,
+          52
+        ],
+        [
+          -49,
+          20,
+          53.5
+        ],
+        [
+          -46,
+          35,
+          54.5
+        ],
+        [
+          -22,
+          36,
+          54.5
+        ],
+        [
+          -20,
+          47,
+          54.5
+        ],
+        [
+          -5,
+          50,
+          56.5
+        ],
+        [
+          -2.54,
+          55.0,
+          58.15
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 75.7
+    },
+    {
+      "id": "H13A-02",
+      "harness": "H13A",
+      "source": "J37.2",
+      "target": "ToF P7 SDA candidate",
+      "net": "Z_GPIO4_B2",
+      "function": "SDA",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400001,
+          17.700000000000003,
+          52
+        ],
+        [
+          -49,
+          20,
+          54.5
+        ],
+        [
+          -46,
+          35,
+          55.5
+        ],
+        [
+          -22,
+          36,
+          55.5
+        ],
+        [
+          -20,
+          47,
+          55.5
+        ],
+        [
+          -5,
+          50,
+          57.5
+        ],
+        [
+          -5.08,
+          55.0,
+          58.15
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 76.0
+    },
+    {
+      "id": "H13B-01",
+      "harness": "H13B",
+      "source": "J37.3",
+      "target": "ToF P9 VIN candidate",
+      "net": "+3V3_ZERO",
+      "function": "+3V3_ZERO",
+      "color": "red",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400001,
+          15.700000000000003,
+          52
+        ],
+        [
+          -49,
+          20,
+          55.5
+        ],
+        [
+          -46,
+          35,
+          56.0
+        ],
+        [
+          -22,
+          36,
+          56.0
+        ],
+        [
+          -20,
+          47,
+          56.0
+        ],
+        [
+          -10,
+          50,
+          56.5
+        ],
+        [
+          -10.16,
+          55.0,
+          58.15
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 72.8
+    },
+    {
+      "id": "H13B-02",
+      "harness": "H13B",
+      "source": "J37.4",
+      "target": "ToF P8 GND candidate",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.400001,
+          13.700000000000003,
+          52
+        ],
+        [
+          -49,
+          20,
+          56.5
+        ],
+        [
+          -46,
+          35,
+          57.0
+        ],
+        [
+          -22,
+          36,
+          57.0
+        ],
+        [
+          -20,
+          47,
+          57.0
+        ],
+        [
+          -10,
+          50,
+          57.5
+        ],
+        [
+          -7.62,
+          55.0,
+          58.15
+        ]
+      ],
+      "electrical_status": "unresolved",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 75.1
+    },
+    {
+      "id": "H14-01",
+      "harness": "H14",
+      "source": "J2.1",
+      "target": "FAN B3 pin1 GND black",
+      "net": "GND",
+      "function": "GND",
+      "color": "black",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.5,
+          -29.489998999999997,
+          52
+        ],
+        [
+          -49,
+          -34,
+          52.5
+        ],
+        [
+          -54.8,
+          -40,
+          48
+        ],
+        [
+          -54.8,
+          -46,
+          30.5
+        ],
+        [
+          -52,
+          -49.5,
+          23
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 42.4,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H14-02",
+      "harness": "H14",
+      "source": "J2.2",
+      "target": "FAN B3 pin2 +5V yellow",
+      "net": "+5V_HOST",
+      "function": "+5V_HOST",
+      "color": "yellow",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.5,
+          -32.029999000000004,
+          52
+        ],
+        [
+          -49,
+          -34,
+          53.5
+        ],
+        [
+          -53.8,
+          -40,
+          48
+        ],
+        [
+          -53.8,
+          -46,
+          30.5
+        ],
+        [
+          -51,
+          -49.5,
+          23
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 41.0,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H14-03",
+      "harness": "H14",
+      "source": "J2.3",
+      "target": "FAN B3 pin3 FG green",
+      "net": "Z_GPIO3_A1",
+      "function": "TACH",
+      "color": "green",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.5,
+          -34.56999900000001,
+          52
+        ],
+        [
+          -49,
+          -34,
+          54.5
+        ],
+        [
+          -52.8,
+          -40,
+          48
+        ],
+        [
+          -52.8,
+          -46,
+          30.5
+        ],
+        [
+          -50,
+          -49.5,
+          23
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 41.2,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H14-04",
+      "harness": "H14",
+      "source": "J2.4",
+      "target": "FAN B3 pin4 PWM blue",
+      "net": "FAN_PWM_5V",
+      "function": "PWM",
+      "color": "blue",
+      "diameter_mm": 0.8,
+      "path_mm": [
+        [
+          -45.5,
+          -37.109999,
+          52
+        ],
+        [
+          -49,
+          -34,
+          55.5
+        ],
+        [
+          -51.8,
+          -40,
+          48
+        ],
+        [
+          -51.8,
+          -46,
+          30.5
+        ],
+        [
+          -49,
+          -49.5,
+          23
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": true,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 43.1,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H15-01",
+      "harness": "H15",
+      "source": "USB_VBUS SOURCE",
+      "target": "XVF3800 USB VBUS",
+      "net": "USB_VBUS",
+      "function": "USB_VBUS",
+      "color": "red",
+      "diameter_mm": 0.7,
+      "path_mm": [
+        [
+          -10.6,
+          -12,
+          56
+        ],
+        [
+          -6.5,
+          -12.0,
+          57.0
+        ],
+        [
+          -6.373466045286927,
+          -36.602985093052794,
+          56.0
+        ],
+        [
+          11.939339828220179,
+          -53.06066017177982,
+          57.0
+        ],
+        [
+          14.557714078538766,
+          -57.41208169184607,
+          61.0
+        ],
+        [
+          14.073267672102144,
+          -58.82052249176637,
+          65.7
+        ],
+        [
+          8.753401519041963,
+          -61.020409114251784,
+          65.7
+        ],
+        [
+          0.0,
+          -61.0,
+          65.7
+        ],
+        [
+          1.5,
+          -60.9,
+          63.0
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 82.5,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H15-02",
+      "harness": "H15",
+      "source": "USB_DM SOURCE",
+      "target": "XVF3800 USB D-",
+      "net": "USB_DM",
+      "function": "USB_DM",
+      "color": "white",
+      "diameter_mm": 0.7,
+      "path_mm": [
+        [
+          -10.6,
+          -11,
+          56
+        ],
+        [
+          -5.5,
+          -12.0,
+          57.0
+        ],
+        [
+          -5.457822015095642,
+          -36.2009950310176,
+          56.0
+        ],
+        [
+          12.646446609406727,
+          -52.35355339059328,
+          57.0
+        ],
+        [
+          15.519238026179588,
+          -57.13736056394869,
+          61.0
+        ],
+        [
+          14.691089224034048,
+          -59.60684083058879,
+          65.7
+        ],
+        [
+          8.917800506347321,
+          -62.00680303808393,
+          65.7
+        ],
+        [
+          0.0,
+          -62.0,
+          65.7
+        ],
+        [
+          0.5,
+          -60.9,
+          63.0
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 84.2,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H15-03",
+      "harness": "H15",
+      "source": "USB_DP SOURCE",
+      "target": "XVF3800 USB D+",
+      "net": "USB_DP",
+      "function": "USB_DP",
+      "color": "green",
+      "diameter_mm": 0.7,
+      "path_mm": [
+        [
+          -10.6,
+          -10,
+          56
+        ],
+        [
+          -4.5,
+          -12.0,
+          57.0
+        ],
+        [
+          -4.542177984904358,
+          -35.7990049689824,
+          56.0
+        ],
+        [
+          13.353553390593273,
+          -51.64644660940672,
+          57.0
+        ],
+        [
+          16.48076197382041,
+          -56.86263943605131,
+          61.0
+        ],
+        [
+          15.308910775965952,
+          -60.39315916941121,
+          65.7
+        ],
+        [
+          9.082199493652679,
+          -62.99319696191607,
+          65.7
+        ],
+        [
+          0.0,
+          -63.0,
+          65.7
+        ],
+        [
+          -0.5,
+          -60.9,
+          63.0
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 86.8,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H15-04",
+      "harness": "H15",
+      "source": "USB_GND SOURCE",
+      "target": "XVF3800 USB GND",
+      "net": "USB_GND",
+      "function": "USB_GND",
+      "color": "black",
+      "diameter_mm": 0.7,
+      "path_mm": [
+        [
+          -10.6,
+          -9,
+          56
+        ],
+        [
+          -3.5,
+          -12.0,
+          57.0
+        ],
+        [
+          -3.6265339547130737,
+          -35.397014906947206,
+          56.0
+        ],
+        [
+          14.060660171779821,
+          -50.93933982822018,
+          57.0
+        ],
+        [
+          17.442285921461234,
+          -56.58791830815393,
+          61.0
+        ],
+        [
+          15.926732327897856,
+          -61.17947750823363,
+          65.7
+        ],
+        [
+          9.246598480958037,
+          -63.979590885748216,
+          65.7
+        ],
+        [
+          0.0,
+          -64.0,
+          65.7
+        ],
+        [
+          -1.5,
+          -60.9,
+          63.0
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 90.1,
+      "route_revision": "separate_wire_stations_v3"
+    },
+    {
+      "id": "H16-01",
+      "harness": "H16",
+      "source": "SPK+ SOURCE",
+      "target": "SPEAKER +",
+      "net": "SPK+",
+      "function": "SPK+",
+      "color": "pink",
+      "diameter_mm": 0.65,
+      "path_mm": [
+        [
+          -42.5,
+          -14,
+          57.0
+        ],
+        [
+          -51,
+          -12.5,
+          49
+        ],
+        [
+          -51,
+          -12.5,
+          17
+        ],
+        [
+          -15,
+          33.5,
+          17
+        ],
+        [
+          -10,
+          35.0,
+          12
+        ],
+        [
+          18,
+          35.0,
+          11.8
+        ],
+        [
+          19,
+          36.4,
+          10.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 139.4
+    },
+    {
+      "id": "H16-02",
+      "harness": "H16",
+      "source": "SPK- SOURCE",
+      "target": "SPEAKER -",
+      "net": "SPK-",
+      "function": "SPK-",
+      "color": "white",
+      "diameter_mm": 0.65,
+      "path_mm": [
+        [
+          -44,
+          -14,
+          57.0
+        ],
+        [
+          -51,
+          -11.5,
+          49
+        ],
+        [
+          -51,
+          -11.5,
+          17
+        ],
+        [
+          -15,
+          34.5,
+          17
+        ],
+        [
+          -10,
+          36.0,
+          12
+        ],
+        [
+          18,
+          36.0,
+          11.8
+        ],
+        [
+          20.3,
+          36.4,
+          10.8
+        ]
+      ],
+      "electrical_status": "conditional",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 139.1
+    },
+    {
+      "id": "H17-01",
+      "harness": "H17",
+      "source": "CSI_FFC SOURCE",
+      "target": "B0310 CSI FFC",
+      "net": "CSI_FFC",
+      "function": "CSI_FFC",
+      "color": "sand",
+      "diameter_mm": 0.35,
+      "path_mm": [
+        [
+          -22,
+          32.5,
+          55
+        ],
+        [
+          -12,
+          37,
+          54.0
+        ],
+        [
+          -12,
+          46.5,
+          53.0
+        ],
+        [
+          -8,
+          48,
+          44.0
+        ],
+        [
+          0,
+          48,
+          32.0
+        ],
+        [
+          0,
+          48.5,
+          26.0
+        ],
+        [
+          0,
+          49.0,
+          23
+        ]
+      ],
+      "electrical_status": "user_confirmed",
+      "route_qualification": "ROUTING_STUDY_NOT_ASSEMBLY_QUALIFIED",
+      "motherboard_pad_registered": false,
+      "device_contact_geometry": "Envelope placement; pin functions from cited map",
+      "estimated_path_mm": 54.0
+    }
+  ],
+  "all_routes_qualified": false,
+  "wire_route_v3": {
+    "revision": "separate_wire_stations_v3",
+    "mechanical_reference_sha256": "221fcd527faff4bd38fe5e5bd02e5c51f76d3fbe970127b9ee97331bab6f44f4",
+    "roof_audio_shift_mm": -1.0,
+    "shifted_audio_route_requires_new_CAD_screen": true,
+    "wire_count": 54,
+    "template_wires": [
+      "H01-01",
+      "H01-02",
+      "H03-01",
+      "H03-02",
+      "H04-02",
+      "H05-01",
+      "H05-02",
+      "H05-03",
+      "H05-04",
+      "H10-01",
+      "H10-02",
+      "H10-03",
+      "H10-04",
+      "H14-01",
+      "H14-02",
+      "H14-03",
+      "H14-04",
+      "H15-01",
+      "H15-02",
+      "H15-03",
+      "H15-04"
+    ],
+    "changed_route_count": 17,
+    "changes": [
+      {
+        "wire": "H01-01",
+        "route_changed": true,
+        "before_control_polygon_mm": 123.412,
+        "after_control_polygon_mm": 127.121,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H01-02",
+        "route_changed": true,
+        "before_control_polygon_mm": 121.142,
+        "after_control_polygon_mm": 124.42,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H03-01",
+        "route_changed": true,
+        "before_control_polygon_mm": 46.851,
+        "after_control_polygon_mm": 72.438,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H03-02",
+        "route_changed": true,
+        "before_control_polygon_mm": 45.061,
+        "after_control_polygon_mm": 79.276,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H04-02",
+        "route_changed": true,
+        "before_control_polygon_mm": 81.814,
+        "after_control_polygon_mm": 76.955,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H05-01",
+        "route_changed": false,
+        "before_control_polygon_mm": 5.244,
+        "after_control_polygon_mm": 5.244,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": true
+      },
+      {
+        "wire": "H05-02",
+        "route_changed": false,
+        "before_control_polygon_mm": 5.244,
+        "after_control_polygon_mm": 5.244,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": true
+      },
+      {
+        "wire": "H05-03",
+        "route_changed": false,
+        "before_control_polygon_mm": 4.067,
+        "after_control_polygon_mm": 4.067,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": true
+      },
+      {
+        "wire": "H05-04",
+        "route_changed": false,
+        "before_control_polygon_mm": 4.067,
+        "after_control_polygon_mm": 4.067,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": true
+      },
+      {
+        "wire": "H10-01",
+        "route_changed": true,
+        "before_control_polygon_mm": 120.666,
+        "after_control_polygon_mm": 140.432,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H10-02",
+        "route_changed": true,
+        "before_control_polygon_mm": 120.861,
+        "after_control_polygon_mm": 140.606,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H10-03",
+        "route_changed": true,
+        "before_control_polygon_mm": 122.614,
+        "after_control_polygon_mm": 133.742,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H10-04",
+        "route_changed": true,
+        "before_control_polygon_mm": 122.776,
+        "after_control_polygon_mm": 137.866,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H14-01",
+        "route_changed": true,
+        "before_control_polygon_mm": 41.267,
+        "after_control_polygon_mm": 42.449,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H14-02",
+        "route_changed": true,
+        "before_control_polygon_mm": 40.431,
+        "after_control_polygon_mm": 40.974,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H14-03",
+        "route_changed": true,
+        "before_control_polygon_mm": 40.615,
+        "after_control_polygon_mm": 41.204,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H14-04",
+        "route_changed": true,
+        "before_control_polygon_mm": 42.364,
+        "after_control_polygon_mm": 43.087,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H15-01",
+        "route_changed": true,
+        "before_control_polygon_mm": 84.93,
+        "after_control_polygon_mm": 82.481,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H15-02",
+        "route_changed": true,
+        "before_control_polygon_mm": 84.954,
+        "after_control_polygon_mm": 84.165,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H15-03",
+        "route_changed": true,
+        "before_control_polygon_mm": 86.159,
+        "after_control_polygon_mm": 86.802,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      },
+      {
+        "wire": "H15-04",
+        "route_changed": true,
+        "before_control_polygon_mm": 88.482,
+        "after_control_polygon_mm": 90.07,
+        "source_endpoint_preserved": true,
+        "target_endpoint_preserved": true,
+        "free_end_authorised": false
+      }
+    ],
+    "missing_template_ids": [],
+    "protected_fields": [
+      "id",
+      "harness",
+      "source",
+      "target",
+      "net",
+      "electrical_status",
+      "diameter_mm"
+    ],
+    "H17_unchanged": true,
+    "physical_route_qualified": false,
+    "revalidation_required_after_CAD_changes": true,
+    "limits": [
+      "Route-template checks belong to assembly_simplicity_review_v3.txt; this function does not run them.",
+      "Remaining wire pairs are not repaired or waived by this helper.",
+      "The proposed H05 tip relocation was rejected: H05-01 PCB overlap increased from0.365 to0.894mm3. Original red open pigtails are retained with source_mechanical_position_qualified=False.",
+      "H05 remains blocked for physical routing: its provisional source/exit positions and full lead envelopes are not clear.",
+      "H05 short leads need terminal-inclusive checking; the standard 4mm exclusions can erase the entire lead.",
+      "H15 remains explanatory USB cores, not a measured cable jacket, mating plug or strain-relief envelope.",
+      "Control-polygon lengths are not cut lengths or verified service slack."
+    ]
+  },
+  "default_state": "ASSEMBLY_WIRING_STUDY",
+  "removed_external_function_buttons": 0,
+  "fan_selected_item": "852827738499",
+  "fan_selected_sku": "5651202152814",
+  "delta_fan_rejected": true,
+  "wiring_notes": [
+    "Board endpoints registered to native pad coordinates.",
+    "Merged device geometry lacks contact semantic IDs; target pin functions are correct per cited evidence, target coordinates are envelope study points.",
+    "ToF carrier electrical qualification remains open. Fan pinout and colors are user-confirmed seller data for the 5V SKU; PWM/FG levels remain unqualified.",
+    "No wire is added for direct plugs or printed copper; copper shown separately from PCB data."
+  ]
+}

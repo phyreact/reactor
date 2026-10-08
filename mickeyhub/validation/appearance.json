@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "checks": {
+    "same_object_inventory": true,
+    "all_mesh_and_curve_geometry_unchanged": true,
+    "all_assembly_transforms_and_visibility_unchanged": true,
+    "other_material_assignments_unchanged": true,
+    "exterior_materials_saved": true,
+    "source_file_unchanged": true,
+    "output_file_unchanged_during_render": true
+  },
+  "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/full_system_wiring_2026-10-07/BOX_含线束完整装配.blend",
+  "source_sha256": "1e88bb50e90058b8189003a471e47f85acd838d766193f6278281e934546199e",
+  "model": "${REACTOR_ROOT}/mickeyhub/mickeyhub.blend",
+  "model_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+  "geometry_object_count": 788,
+  "changed_objects": {
+    "COVER one large cap with roof ReSpeaker screw mounts": "graphite",
+    "BASE separate open washable pan": "graphite",
+    "CENTRED long-press button": "graphite",
+    "DC removable bonded spacer": "graphite"
+  },
+  "images": [
+    {
+      "file": "${REACTOR_ROOT}/mickeyhub/build/mickeyhub-graphite-front.png",
+      "sha256": "34ef48e40098c0dbf31bd67f374db4dabed8c6279bfa36ed019a4755f2e8ec89"
+    },
+    {
+      "file": "${REACTOR_ROOT}/mickeyhub/build/mickeyhub-graphite-rear.png",
+      "sha256": "c3e5813c3ae044d395423420c6b72fa4a16a8f4651fc4c0880ee53268eb2beb1"
+    }
+  ],
+  "visual_review_complete": true,
+  "geometry_revision": "wide_bearing_halo_v7b",
+  "change_scope": "Exterior material and presentation only",
+  "source_CAD_checks": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/full_system_wiring_2026-10-07/final_review_checks.json",
+  "hardware_qualified": false,
+  "new_archive_created": false,
+  "product_name": "mickeyhub",
+  "requested_finish": "Uniform dark graphite on the entire enclosure except the LED ring"
+}

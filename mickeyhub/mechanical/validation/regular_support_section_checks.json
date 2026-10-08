@@ -1,0 +1,235 @@
+{
+  "passed": true,
+  "model_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "sections": [
+    {
+      "feature": "IMU lower backing replaces deep block",
+      "object": "M01 independent front integrated support",
+      "point_mm": [
+        -36,
+        59.35,
+        28
+      ],
+      "axis": "Y",
+      "target_mm": 3.2,
+      "measured_mm": 3.2000431092455983,
+      "passed": true
+    },
+    {
+      "feature": "Main front wall",
+      "object": "M01 independent front integrated support",
+      "point_mm": [
+        30,
+        59.35,
+        48
+      ],
+      "axis": "Y",
+      "target_mm": 3.2,
+      "measured_mm": 3.2000429928302765,
+      "passed": true
+    },
+    {
+      "feature": "IMU broad left slot root",
+      "object": "M01 independent front integrated support",
+      "point_mm": [
+        -48.3,
+        56.5,
+        60
+      ],
+      "axis": "X",
+      "target_mm": 4.2,
+      "measured_mm": 4.199981689453125,
+      "passed": true
+    },
+    {
+      "feature": "IMU rear retaining edge",
+      "object": "M01 independent front integrated support",
+      "point_mm": [
+        -45.2,
+        54.05,
+        60
+      ],
+      "axis": "Y",
+      "target_mm": 3.0,
+      "measured_mm": 2.999938908033073,
+      "passed": true
+    },
+    {
+      "feature": "IMU broad lower seat",
+      "object": "M01 independent front integrated support",
+      "point_mm": [
+        -36,
+        56.5,
+        42.1
+      ],
+      "axis": "Z",
+      "target_mm": 3.2,
+      "measured_mm": 3.1999984057620168,
+      "passed": true
+    },
+    {
+      "feature": "LCD raised rectangular bridge",
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        0,
+        64,
+        61.7
+      ],
+      "axis": "Z",
+      "target_mm": 3.2,
+      "measured_mm": 3.1999984057620168,
+      "passed": true
+    },
+    {
+      "feature": "Left radar bar",
+      "object": "左 radar removable top keeper",
+      "point_mm": [
+        -64.5,
+        -16.5,
+        39.95
+      ],
+      "axis": "Z",
+      "target_mm": 3.6,
+      "measured_mm": 3.599986550398171,
+      "passed": true
+    },
+    {
+      "feature": "Right radar bar",
+      "object": "右 radar removable top keeper",
+      "point_mm": [
+        64.5,
+        -16.5,
+        39.95
+      ],
+      "axis": "Z",
+      "target_mm": 3.6,
+      "measured_mm": 3.5999866668134928,
+      "passed": true
+    },
+    {
+      "feature": "Rear radar bar",
+      "object": "后 radar removable top keeper",
+      "point_mm": [
+        32,
+        -61,
+        39.95
+      ],
+      "axis": "Z",
+      "target_mm": 3.6,
+      "measured_mm": 3.5999863175675273,
+      "passed": true
+    },
+    {
+      "feature": "DC broad rectangular keeper",
+      "object": "Power DC nut removable keeper",
+      "point_mm": [
+        0,
+        -62.7,
+        60.7
+      ],
+      "axis": "Z",
+      "target_mm": 3.2,
+      "measured_mm": 3.1999872298911214,
+      "passed": true
+    },
+    {
+      "feature": "Right radar edge without M3 tunnel",
+      "object": "M04 rear support with integrated left and right radar frames",
+      "point_mm": [
+        64.5,
+        -30,
+        25
+      ],
+      "axis": "X",
+      "target_mm": 2.05,
+      "measured_mm": 2.0499975071288645,
+      "passed": true
+    },
+    {
+      "feature": "Broad flat left radar-to-rear connection",
+      "object": "M04 rear support with integrated left and right radar frames",
+      "point_mm": [
+        -54.7,
+        -15,
+        8.2
+      ],
+      "axis": "Z",
+      "target_mm": 4.4,
+      "measured_mm": 4.399999976158142,
+      "passed": true
+    },
+    {
+      "feature": "Broad flat right radar-to-rear connection",
+      "object": "M04 rear support with integrated left and right radar frames",
+      "point_mm": [
+        54.7,
+        -15,
+        8.2
+      ],
+      "axis": "Z",
+      "target_mm": 4.4,
+      "measured_mm": 4.399999976158142,
+      "passed": true
+    },
+    {
+      "feature": "Full-depth front right column bearing floor",
+      "object": "M01 independent front integrated support",
+      "point_mm": [
+        44.85,
+        41,
+        8.2
+      ],
+      "axis": "Z",
+      "target_mm": 4.4,
+      "measured_mm": 4.400000208988786,
+      "passed": true
+    },
+    {
+      "feature": "Full-depth front left column bearing floor",
+      "object": "M01 independent front integrated support",
+      "point_mm": [
+        -47.15,
+        41,
+        8.2
+      ],
+      "axis": "Z",
+      "target_mm": 4.4,
+      "measured_mm": 4.400000208988786,
+      "passed": true
+    }
+  ],
+  "side_mounts_on_end_feet": true,
+  "side_mount_axes_mm": [
+    [
+      -19,
+      -36
+    ],
+    [
+      37,
+      -44
+    ],
+    [
+      -60,
+      6
+    ],
+    [
+      60,
+      6
+    ]
+  ],
+  "IMU_forward_shift_verified": true,
+  "IMU_bounds_mm": [
+    [
+      -46.00001525878906,
+      44.74998474121094,
+      43.69999694824219
+    ],
+    [
+      -26.0000057220459,
+      57.349998474121094,
+      67.53340148925781
+    ]
+  ],
+  "scope": "Selected real-mesh normal section measurements and layout checks; not a whole-part minimum thickness certificate, force calculation or resin qualification.",
+  "physical_fit_qualified": false
+}

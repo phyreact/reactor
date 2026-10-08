@@ -1,0 +1,1615 @@
+{
+  "product": "mickeyhub",
+  "source_model": "../mickeyhub.blend",
+  "source_model_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+  "count": 46,
+  "components": [
+    {
+      "id": "cover",
+      "name": "Graphite upper cover",
+      "description": "Protects the electronics and carries the roof interface.",
+      "source_objects": [
+        "COVER one large cap with roof ReSpeaker screw mounts"
+      ],
+      "source_origin_mm": [
+        0.0,
+        0.0,
+        39.250001311302185
+      ],
+      "dimensions_mm": [
+        136.00000739097595,
+        140.00000059604645,
+        62.5
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "base",
+      "name": "Graphite bottom shell",
+      "description": "The separate lower enclosure and mounting foundation.",
+      "source_objects": [
+        "BASE separate open washable pan"
+      ],
+      "source_origin_mm": [
+        0.0,
+        0.0,
+        4.600000102072954
+      ],
+      "dimensions_mm": [
+        136.00000739097595,
+        140.00000059604645,
+        9.200000204145908
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "case_screws",
+      "name": "Four enclosure screws",
+      "description": "Secure the upper cover to the bottom shell.",
+      "source_objects": [
+        "Hidden bottom case screw head",
+        "Bottom case M3x12 screw",
+        "Hidden bottom case screw head.001",
+        "Bottom case M3x12 screw.001",
+        "Hidden bottom case screw head.002",
+        "Bottom case M3x12 screw.002",
+        "Hidden bottom case screw head.003",
+        "Bottom case M3x12 screw.003"
+      ],
+      "source_origin_mm": [
+        0.0,
+        0.0,
+        7.600000593811274
+      ],
+      "dimensions_mm": [
+        121.50000035762787,
+        95.89999914169312,
+        14.400000683963299
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "halo",
+      "name": "Transparent light ring",
+      "description": "The flush optical ring sits on the widened bearing seat.",
+      "source_objects": [
+        "HALO printable translucent ring"
+      ],
+      "source_origin_mm": [
+        0.0,
+        0.0,
+        68.2000070810318
+      ],
+      "dimensions_mm": [
+        86.0000029206276,
+        86.0000029206276,
+        4.5999884605407715
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "microphones",
+      "name": "ReSpeaker XVF3800",
+      "description": "Roof-mounted microphone array and USB audio interface.",
+      "source_objects": [
+        "RESPEAKER",
+        "PLUG_RESPEAKER_SPK",
+        "PLUG_RESPEAKER",
+        "MIC_SEAL_4",
+        "MIC_SEAL_3",
+        "MIC_SEAL_2",
+        "MIC_SEAL_1",
+        "MIC_SCREW_3",
+        "MIC_SCREW_2",
+        "MIC_SCREW_1"
+      ],
+      "source_origin_mm": [
+        0.6749927997589111,
+        -3.30406054854393,
+        61.96250021457672
+      ],
+      "dimensions_mm": [
+        101.81166231632233,
+        106.60683363676071,
+        11.495012789964676
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "eyes",
+      "name": "Dual touch displays",
+      "description": "The front display assembly connects through UART.",
+      "source_objects": [
+        "ESP32_EYES"
+      ],
+      "source_origin_mm": [
+        1.862645149230957e-06,
+        65.69751352071762,
+        37.545181810855865
+      ],
+      "dimensions_mm": [
+        93.49961578845978,
+        8.605003356933594,
+        36.50036081671715
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "speaker",
+      "name": "XFDZ-3727 speaker",
+      "description": "The front speaker reproduces audio from ReSpeaker.",
+      "source_objects": [
+        "SPEAKER_3727"
+      ],
+      "source_origin_mm": [
+        -1.862645149230957e-06,
+        50.39999634027481,
+        7.300000637769699
+      ],
+      "dimensions_mm": [
+        50.00000074505806,
+        27.400001883506775,
+        9.000001475214958
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "camera",
+      "name": "Arducam B0310",
+      "description": "The front camera connects to the host through CSI.",
+      "source_objects": [
+        "CAMERA_B0310"
+      ],
+      "source_origin_mm": [
+        0.0,
+        59.16117876768112,
+        26.047810912132263
+      ],
+      "dimensions_mm": [
+        25.00000037252903,
+        19.077643752098083,
+        26.09477750957012
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "tof",
+      "name": "VL53L8CX ToF carrier",
+      "description": "The front optical module is intended for depth sensing.",
+      "source_objects": [
+        "VL53L8CX red carrier with two fixing ears",
+        "VL53L8CX plated signal pad",
+        "VL53L8CX plated signal pad.001",
+        "VL53L8CX plated signal pad.002",
+        "VL53L8CX plated signal pad.003",
+        "VL53L8CX plated signal pad.004",
+        "VL53L8CX plated signal pad.005",
+        "VL53L8CX plated signal pad.006",
+        "VL53L8CX plated signal pad.007",
+        "VL53L8CX plated signal pad.008",
+        "VL53L8CX sensor 6.4x3x1.75",
+        "VL53L8CX emitter receiver",
+        "VL53L8CX emitter receiver.001",
+        "VL53L8CX supplied optical cap",
+        "VL53L8CX rear component envelope",
+        "VL53L8CX rear component envelope.001",
+        "VL53L8CX rear component envelope.002",
+        "VL53L8CX supplied straight header insulator",
+        "VL53L8CX straight header pin",
+        "VL53L8CX straight header pin.001",
+        "VL53L8CX straight header pin.002",
+        "VL53L8CX straight header pin.003",
+        "VL53L8CX straight header pin.004",
+        "VL53L8CX straight header pin.005",
+        "VL53L8CX straight header pin.006",
+        "VL53L8CX straight header pin.007",
+        "VL53L8CX straight header pin.008",
+        "VL53L8CX front M2 ear screw head",
+        "VL53L8CX front M2 ear screw head.001"
+      ],
+      "source_origin_mm": [
+        3.725290298461914e-06,
+        63.630007207393646,
+        53.599998354911804
+      ],
+      "dimensions_mm": [
+        33.50000083446503,
+        12.740012258291245,
+        12.09999993443489
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "radar_left",
+      "name": "Left Rd-03E radar",
+      "description": "A separate radar module faces the left side.",
+      "source_objects": [
+        "左 original Rd-03E wired radar",
+        "左 optional Bent header solder leg",
+        "左 optional Bent header vertical leg",
+        "左 optional Bent header solder leg.001",
+        "左 optional Bent header vertical leg.001",
+        "左 optional Bent header solder leg.002",
+        "左 optional Bent header vertical leg.002",
+        "左 optional Bent header solder leg.003",
+        "左 optional Bent header vertical leg.003",
+        "左 optional Bent header solder leg.004",
+        "左 optional Bent header vertical leg.004",
+        "左 optional Bent header insulating body"
+      ],
+      "source_origin_mm": [
+        -61.2499937415123,
+        -16.499999910593033,
+        28.299998492002487
+      ],
+      "dimensions_mm": [
+        5.100000649690628,
+        28.0000027269125,
+        29.00000475347042
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "radar_right",
+      "name": "Right Rd-03E radar",
+      "description": "A separate radar module faces the right side.",
+      "source_objects": [
+        "右 original Rd-03E wired radar",
+        "右 optional Bent header solder leg",
+        "右 optional Bent header vertical leg",
+        "右 optional Bent header solder leg.001",
+        "右 optional Bent header vertical leg.001",
+        "右 optional Bent header solder leg.002",
+        "右 optional Bent header vertical leg.002",
+        "右 optional Bent header solder leg.003",
+        "右 optional Bent header vertical leg.003",
+        "右 optional Bent header solder leg.004",
+        "右 optional Bent header vertical leg.004",
+        "右 optional Bent header insulating body"
+      ],
+      "source_origin_mm": [
+        61.2499937415123,
+        -16.499999910593033,
+        28.299998492002487
+      ],
+      "dimensions_mm": [
+        5.100000649690628,
+        28.0000027269125,
+        29.00000475347042
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "radar_rear",
+      "name": "Rear Rd-03E radar",
+      "description": "The third radar module faces the rear.",
+      "source_objects": [
+        "后 original Rd-03E wired radar",
+        "后 optional Bent header solder leg",
+        "后 optional Bent header vertical leg",
+        "后 optional Bent header solder leg.001",
+        "后 optional Bent header vertical leg.001",
+        "后 optional Bent header solder leg.002",
+        "后 optional Bent header vertical leg.002",
+        "后 optional Bent header solder leg.003",
+        "后 optional Bent header vertical leg.003",
+        "后 optional Bent header solder leg.004",
+        "后 optional Bent header vertical leg.004",
+        "后 optional Bent header insulating body"
+      ],
+      "source_origin_mm": [
+        32.00000151991844,
+        -57.5999915599823,
+        28.299998492002487
+      ],
+      "dimensions_mm": [
+        28.000004589557648,
+        5.100000649690628,
+        29.00000475347042
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "imu",
+      "name": "Grove LSM6DS3 IMU",
+      "description": "The six-axis inertial module measures motion.",
+      "source_objects": [
+        "IMU Grove惯性传感器"
+      ],
+      "source_origin_mm": [
+        -36.00000962615013,
+        51.04999244213104,
+        55.616699159145355
+      ],
+      "dimensions_mm": [
+        20.000003278255463,
+        12.600008398294449,
+        23.833394050598145
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "compass",
+      "name": "QMC5883L compass",
+      "description": "The horizontal compass module senses magnetic heading.",
+      "source_objects": [
+        "COMPASS HS-S75-L horizontal PCB 33x23",
+        "COMPASS QMC5883L sensor",
+        "COMPASS regulator",
+        "COMPASS capacitor",
+        "COMPASS power LED",
+        "COMPASS resistor bank",
+        "COMPASS resistor bank.001",
+        "COMPASS rear-facing PH2.0 4P socket",
+        "COMPASS PH2.0 mating plug",
+        "COMPASS nylon M3 washer",
+        "COMPASS nylon M3x6 screw nominal envelope",
+        "COMPASS nylon M3 washer.001",
+        "COMPASS nylon M3x6 screw nominal envelope.001"
+      ],
+      "source_origin_mm": [
+        -42.00000315904617,
+        -11.099999770522118,
+        13.100001029670238
+      ],
+      "dimensions_mm": [
+        23.600002750754356,
+        39.20000419020653,
+        11.000001803040504
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "host",
+      "name": "Radxa ZERO 3W",
+      "description": "The main Linux computer handles host applications.",
+      "source_objects": [
+        "ZERO M2 support fastener.001",
+        "ZERO M2 support fastener",
+        "RADXA_H1",
+        "POST_ZERO_UNDERSIDE_1",
+        "POST_ZERO_UNDERSIDE_0",
+        "FASTENER_ZERO_BOTTOM_1",
+        "FASTENER_ZERO_BOTTOM_0",
+        "COOLER"
+      ],
+      "source_origin_mm": [
+        -26.524990797042847,
+        1.1109281331300735,
+        49.647003412246704
+      ],
+      "dimensions_mm": [
+        31.505532562732697,
+        65.01509249210358,
+        18.293999135494232
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "s3",
+      "name": "XIAO ESP32S3 Plus",
+      "description": "A microcontroller provides peripheral coordination.",
+      "source_objects": [
+        "XIAO_PLUS"
+      ],
+      "source_origin_mm": [
+        11.412695050239563,
+        -5.057099275290966,
+        52.59999632835388
+      ],
+      "dimensions_mm": [
+        17.780013382434845,
+        22.643009200692177,
+        13.199996203184128
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "rp",
+      "name": "XIAO RP2350",
+      "description": "A microcontroller handles power and control logic.",
+      "source_objects": [
+        "XIAO_RP2350"
+      ],
+      "source_origin_mm": [
+        35.65000370144844,
+        -4.770847037434578,
+        52.59999632835388
+      ],
+      "dimensions_mm": [
+        17.780005931854248,
+        23.0863019824028,
+        13.199996203184128
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "oled",
+      "name": "SSD1306 status OLED",
+      "description": "A small internal display is available for status output.",
+      "source_objects": [
+        "OLED nominal screen glass",
+        "OLED nominal PCB 27.178 x 27.94",
+        "OLED male header insulator 4",
+        "OLED male header insulator 3",
+        "OLED male header insulator 2",
+        "OLED male header insulator 1",
+        "OLED illustrative male contact 4",
+        "OLED illustrative male contact 3",
+        "OLED illustrative male contact 2",
+        "OLED illustrative male contact 1"
+      ],
+      "source_origin_mm": [
+        24.490002542734146,
+        25.136999785900116,
+        51.9770048558712
+      ],
+      "dimensions_mm": [
+        27.96000801026821,
+        27.17801183462143,
+        10.333999991416931
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "hat",
+      "name": "Servo Driver HAT (B)",
+      "description": "The board is retained as an expansion interface.",
+      "source_objects": [
+        "HAT aligned with current J33"
+      ],
+      "source_origin_mm": [
+        -29.598597437143326,
+        1.1559166014194489,
+        29.04999628663063
+      ],
+      "dimensions_mm": [
+        38.55881094932556,
+        65.02164900302887,
+        18.70000921189785
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "mux_a",
+      "name": "UART multiplexer A",
+      "description": "Routes one group of serial connections.",
+      "source_objects": [
+        "UART_MUX_A"
+      ],
+      "source_origin_mm": [
+        11.40000019222498,
+        -25.300007313489914,
+        51.87499523162842
+      ],
+      "dimensions_mm": [
+        20.280001685023308,
+        15.240000560879707,
+        11.750001460313797
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "mux_b",
+      "name": "UART multiplexer B",
+      "description": "Routes a second group of serial connections.",
+      "source_objects": [
+        "UART_MUX_B"
+      ],
+      "source_origin_mm": [
+        35.64999997615814,
+        -25.29999427497387,
+        51.87499523162842
+      ],
+      "dimensions_mm": [
+        20.280003547668457,
+        15.240002423524857,
+        11.750001460313797
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "relay_1",
+      "name": "M1 host-power relay",
+      "description": "Switches the host-side power domain.",
+      "source_objects": [
+        "M1 relay case illustrative",
+        "M1 PCB nominal outline",
+        "M1 module terminal land.005",
+        "M1 module terminal land.004",
+        "M1 module terminal land.003",
+        "M1 module terminal land.002",
+        "M1 module terminal land.001",
+        "M1 module terminal land",
+        "M1 drive circuit illustration.002",
+        "M1 drive circuit illustration.001",
+        "M1 drive circuit illustration"
+      ],
+      "source_origin_mm": [
+        11.40000019222498,
+        -1.6999989748001099,
+        46.70000076293945
+      ],
+      "dimensions_mm": [
+        8.55000875890255,
+        29.40000221133232,
+        6.800003349781036
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "relay_2",
+      "name": "M2 radar-power relay",
+      "description": "Switches the radar power domain.",
+      "source_objects": [
+        "M2 relay case illustrative",
+        "M2 PCB nominal outline",
+        "M2 module terminal land.005",
+        "M2 module terminal land.004",
+        "M2 module terminal land.003",
+        "M2 module terminal land.002",
+        "M2 module terminal land.001",
+        "M2 module terminal land",
+        "M2 drive circuit illustration.002",
+        "M2 drive circuit illustration.001",
+        "M2 drive circuit illustration"
+      ],
+      "source_origin_mm": [
+        35.65000370144844,
+        -1.6999989748001099,
+        46.70000076293945
+      ],
+      "dimensions_mm": [
+        8.550010621547699,
+        29.40000221133232,
+        6.800003349781036
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "relay_16",
+      "name": "M16 main-hold relay",
+      "description": "Maintains the existing main-power holding path.",
+      "source_objects": [
+        "M16 relay case illustrative",
+        "M16 PCB nominal outline",
+        "M16 module terminal land.005",
+        "M16 module terminal land.004",
+        "M16 module terminal land.003",
+        "M16 module terminal land.002",
+        "M16 module terminal land.001",
+        "M16 module terminal land",
+        "M16 drive circuit illustration.002",
+        "M16 drive circuit illustration.001",
+        "M16 drive circuit illustration"
+      ],
+      "source_origin_mm": [
+        29.500002041459084,
+        29.100004583597183,
+        46.70000076293945
+      ],
+      "dimensions_mm": [
+        29.40000221133232,
+        8.550001308321953,
+        6.800003349781036
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "relay_17",
+      "name": "M17 retained relay",
+      "description": "Its previous ToF power output is currently unused.",
+      "source_objects": [
+        "M17 relay case illustrative",
+        "M17 PCB nominal outline",
+        "M17 module terminal land.005",
+        "M17 module terminal land.004",
+        "M17 module terminal land.003",
+        "M17 module terminal land.002",
+        "M17 module terminal land.001",
+        "M17 module terminal land",
+        "M17 drive circuit illustration.002",
+        "M17 drive circuit illustration.001",
+        "M17 drive circuit illustration"
+      ],
+      "source_origin_mm": [
+        29.500002041459084,
+        18.550001084804535,
+        46.70000076293945
+      ],
+      "dimensions_mm": [
+        29.40000221133232,
+        8.549999445676804,
+        6.800003349781036
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "relay_driver",
+      "name": "M15 relay interface",
+      "description": "Interfaces the control electronics to the relay bank.",
+      "source_objects": [
+        "M15 nominal board outline",
+        "M15 module terminal land.011",
+        "M15 module terminal land.010",
+        "M15 module terminal land.009",
+        "M15 module terminal land.008",
+        "M15 module terminal land.007",
+        "M15 module terminal land.006",
+        "M15 module terminal land.005",
+        "M15 module terminal land.004",
+        "M15 module terminal land.003",
+        "M15 module terminal land.002",
+        "M15 module terminal land.001",
+        "M15 module terminal land",
+        "M15 assembled channel illustration.003",
+        "M15 assembled channel illustration.002",
+        "M15 assembled channel illustration.001",
+        "M15 assembled channel illustration"
+      ],
+      "source_origin_mm": [
+        -24.150021374225616,
+        36.70000284910202,
+        44.35000196099281
+      ],
+      "dimensions_mm": [
+        15.200003981590271,
+        13.360001146793365,
+        2.1000057458877563
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "iso_20",
+      "name": "M20 serial interface",
+      "description": "A board-level serial isolation module.",
+      "source_objects": [
+        "M20 SOIC8",
+        "M20 short solder contact.007",
+        "M20 short solder contact.006",
+        "M20 short solder contact.005",
+        "M20 short solder contact.004",
+        "M20 short solder contact.003",
+        "M20 short solder contact.002",
+        "M20 short solder contact.001",
+        "M20 short solder contact",
+        "M20 IC lead.007",
+        "M20 IC lead.006",
+        "M20 IC lead.005",
+        "M20 IC lead.004",
+        "M20 IC lead.003",
+        "M20 IC lead.002",
+        "M20 IC lead.001",
+        "M20 IC lead",
+        "M20 complete module PCB"
+      ],
+      "source_origin_mm": [
+        -26.500001549720764,
+        29.200002551078796,
+        39.85000029206276
+      ],
+      "dimensions_mm": [
+        10.100001469254494,
+        20.999997854232788,
+        3.4999996423721313
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "iso_21",
+      "name": "M21 display interface",
+      "description": "Provides the display-side serial interface.",
+      "source_objects": [
+        "M21 SOIC8",
+        "M21 short solder contact.007",
+        "M21 short solder contact.006",
+        "M21 short solder contact.005",
+        "M21 short solder contact.004",
+        "M21 short solder contact.003",
+        "M21 short solder contact.002",
+        "M21 short solder contact.001",
+        "M21 short solder contact",
+        "M21 IC lead.007",
+        "M21 IC lead.006",
+        "M21 IC lead.005",
+        "M21 IC lead.004",
+        "M21 IC lead.003",
+        "M21 IC lead.002",
+        "M21 IC lead.001",
+        "M21 IC lead",
+        "M21 complete module PCB"
+      ],
+      "source_origin_mm": [
+        -26.500001549720764,
+        4.199999384582043,
+        39.85000029206276
+      ],
+      "dimensions_mm": [
+        10.100001469254494,
+        20.999999716877937,
+        3.4999996423721313
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "iso_22",
+      "name": "M22 retained interface",
+      "description": "The legacy serial interface is retained but unused.",
+      "source_objects": [
+        "M22 SOIC8",
+        "M22 short solder contact.007",
+        "M22 short solder contact.006",
+        "M22 short solder contact.005",
+        "M22 short solder contact.004",
+        "M22 short solder contact.003",
+        "M22 short solder contact.002",
+        "M22 short solder contact.001",
+        "M22 short solder contact",
+        "M22 IC lead.007",
+        "M22 IC lead.006",
+        "M22 IC lead.005",
+        "M22 IC lead.004",
+        "M22 IC lead.003",
+        "M22 IC lead.002",
+        "M22 IC lead.001",
+        "M22 IC lead",
+        "M22 complete module PCB"
+      ],
+      "source_origin_mm": [
+        -26.500001549720764,
+        -20.80000191926956,
+        39.85000029206276
+      ],
+      "dimensions_mm": [
+        10.100001469254494,
+        20.999997854232788,
+        3.4999996423721313
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "fan_driver",
+      "name": "M42 fan interface",
+      "description": "The board-level interface carries the fan control signal.",
+      "source_objects": [
+        "M42 short solder contact.009",
+        "M42 short solder contact.008",
+        "M42 short solder contact.007",
+        "M42 short solder contact.006",
+        "M42 short solder contact.005",
+        "M42 short solder contact.004",
+        "M42 short solder contact.003",
+        "M42 short solder contact.002",
+        "M42 short solder contact.001",
+        "M42 short solder contact",
+        "M42 driver envelope",
+        "M42 complete module PCB"
+      ],
+      "source_origin_mm": [
+        -26.500001549720764,
+        -40.300000458955765,
+        40.174998342990875
+      ],
+      "dimensions_mm": [
+        12.700000777840614,
+        10.159999132156372,
+        2.849999815225601
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "ups",
+      "name": "UPS Module 3S + battery",
+      "description": "The UPS board, holder and cells form one power assembly.",
+      "source_objects": [
+        "UPS with existing battery holder and cells"
+      ],
+      "source_origin_mm": [
+        21.849989891052246,
+        -2.0000040531158447,
+        25.750000029802322
+      ],
+      "dimensions_mm": [
+        60.30002236366272,
+        93.00000965595245,
+        25.300011038780212
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "dc",
+      "name": "DC-022B input socket",
+      "description": "The rear DC socket feeds the UPS charging input.",
+      "source_objects": [
+        "DC-022B panel jack",
+        "DC nut visual envelope",
+        "DC centre contact",
+        "DC terminals exposed inwards",
+        "DC terminals exposed inwards.001",
+        "DC removable bonded spacer"
+      ],
+      "source_origin_mm": [
+        0.0,
+        -61.80001422762871,
+        52.20000445842743
+      ],
+      "dimensions_mm": [
+        11.258331127464771,
+        18.000029027462006,
+        13.000000268220901
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "button",
+      "name": "Rear power-button assembly",
+      "description": "Cap, pusher and provisional switch mounting hardware.",
+      "source_objects": [
+        "Purchased long-press PCB",
+        "Tactile switch envelope",
+        "Tactile actuator",
+        "Switch back electronics allowance",
+        "INTERNAL power button keyed pusher",
+        "Power pusher bonded M3 insert envelope",
+        "CENTRED long-press button",
+        "Power cap removable M3x8 bolt"
+      ],
+      "source_origin_mm": [
+        0.0,
+        -62.62500584125519,
+        35.7000008225441
+      ],
+      "dimensions_mm": [
+        16.499999910593033,
+        16.350015997886658,
+        14.500001445412636
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "fan",
+      "name": "5010 four-wire blower",
+      "description": "The selected 5 V blower has PWM control and FG feedback.",
+      "source_objects": [
+        "FAN_DOWN_ADAPTER",
+        "FAN_5010"
+      ],
+      "source_origin_mm": [
+        -33.60000252723694,
+        -55.1999993622303,
+        35.80000251531601
+      ],
+      "dimensions_mm": [
+        49.99999701976776,
+        10.999999940395355,
+        53.80000174045563
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "wires",
+      "name": "Power and data harnesses",
+      "description": "Power, UART, I2C, USB, audio and CSI connections.",
+      "source_objects": [
+        "H01-01 J1.1 to UPS P4.2 REG5V",
+        "H01-02 J1.2 to UPS P4.1 GND",
+        "H02-01 J3.1 to UPS H1 SCL",
+        "H02-02 J3.2 to UPS H2 SDA",
+        "H02-03 J3.4 to UPS H5 GND",
+        "H03-01 J44.1 to UPS P2.2 SW_A",
+        "H03-02 J44.2 to UPS P2.1 SW_B",
+        "H04-01 +DC_12V6_IN SOURCE to UPS P1.2 INPUT+",
+        "H04-02 GND SOURCE to UPS P1.1 INPUT-",
+        "H05-01 VI- SOURCE to UNCONNECTED VI- staging",
+        "H05-02 VI+ SOURCE to UNCONNECTED VI+ staging",
+        "H05-03 VO- SOURCE to UNCONNECTED VO- staging",
+        "H05-04 VO+ SOURCE to UNCONNECTED VO+ staging",
+        "H06-01 J15.1 to LCD1 P2.10 TX",
+        "H06-02 J15.2 to LCD1 P2.9 RX",
+        "H06-03 J15.3 to LCD1 P2.1 5V",
+        "H06-04 J15.4 to LCD1 P2.2 GND",
+        "H07-01 J53.1 to LCD1 P2.5 3V3 OUT",
+        "H07-02 J53.2 to LCD1 P2.6 GND",
+        "H08-01 J12.1 to LEFT Rd03E.3 TX",
+        "H08-02 J12.2 to LEFT Rd03E.4 RX",
+        "H08-03 J12.3 to LEFT Rd03E.1 5V",
+        "H08-04 J12.4 to LEFT Rd03E.2 GND",
+        "H09-01 J13.1 to RIGHT Rd03E.3 TX",
+        "H09-02 J13.2 to RIGHT Rd03E.4 RX",
+        "H09-03 J13.3 to RIGHT Rd03E.1 5V",
+        "H09-04 J13.4 to RIGHT Rd03E.2 GND",
+        "H10-01 J14.1 to REAR Rd03E.3 TX",
+        "H10-02 J14.2 to REAR Rd03E.4 RX",
+        "H10-03 J14.3 to REAR Rd03E.1 5V",
+        "H10-04 J14.4 to REAR Rd03E.2 GND",
+        "H11-01 J17.1 to IMU J4.1 SCL",
+        "H11-02 J17.2 to IMU J4.2 SDA",
+        "H11-03 J17.3 to IMU J4.3 VCC",
+        "H11-04 J17.4 to IMU J4.4 GND",
+        "H12-01 J34.1 to COMPASS CN1.4 SCL",
+        "H12-02 J34.2 to COMPASS CN1.3 SDA",
+        "H12-03 J34.3 to COMPASS CN1.2 V",
+        "H12-04 J34.4 to COMPASS CN1.1 G",
+        "H13A-01 J37.1 to ToF P6 SCL candidate",
+        "H13A-02 J37.2 to ToF P7 SDA candidate",
+        "H13B-01 J37.3 to ToF P9 VIN candidate",
+        "H13B-02 J37.4 to ToF P8 GND candidate",
+        "H14-01 J2.1 to FAN B3 pin1 GND black",
+        "H14-02 J2.2 to FAN B3 pin2 +5V yellow",
+        "H14-03 J2.3 to FAN B3 pin3 FG green",
+        "H14-04 J2.4 to FAN B3 pin4 PWM blue",
+        "H15-01 USB_VBUS SOURCE to XVF3800 USB VBUS",
+        "H15-02 USB_DM SOURCE to XVF3800 USB D-",
+        "H15-03 USB_DP SOURCE to XVF3800 USB D+",
+        "H15-04 USB_GND SOURCE to XVF3800 USB GND",
+        "H16-01 SPK+ SOURCE to SPEAKER +",
+        "H16-02 SPK- SOURCE to SPEAKER -",
+        "H17-01 CSI_FFC SOURCE to B0310 CSI FFC"
+      ],
+      "source_origin_mm": [
+        0.020751729607582092,
+        -1.5438906848430634,
+        38.40196505188942
+      ],
+      "dimensions_mm": [
+        120.35539746284485,
+        125.9506344795227,
+        55.77238276600838
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "motherboard",
+      "name": "Custom carrier PCB",
+      "description": "The board carries connectors, copper routing and interfaces.",
+      "source_objects": [
+        "UPS4 upper screw",
+        "UPS4 upper M2.5 head",
+        "UPS4 motherboard washer",
+        "UPS4 lower insulating washer",
+        "UPS4 6mm brass spacer",
+        "UPS3 upper screw",
+        "UPS3 upper M2.5 head",
+        "UPS3 motherboard washer",
+        "UPS3 lower screw",
+        "UPS3 lower M2.5 head",
+        "UPS3 lower insulating washer",
+        "UPS3 6mm brass spacer",
+        "UPS2 upper screw",
+        "UPS2 upper M2.5 head",
+        "UPS2 motherboard washer",
+        "UPS2 lower insulating washer",
+        "UPS2 6mm brass spacer",
+        "UPS1 upper screw",
+        "UPS1 upper M2.5 head",
+        "UPS1 motherboard washer",
+        "UPS1 lower screw",
+        "UPS1 lower M2.5 head",
+        "UPS1 lower insulating washer",
+        "UPS1 6mm brass spacer",
+        "SSW-120-01-G-D dimensioned socket body",
+        "SSW-120-01-G-D contacts and solder tails",
+        "SOCKET_XIAO_RP2350",
+        "SOCKET_XIAO_PLUS",
+        "SOCKET_UART_MUX_B",
+        "SOCKET_UART_MUX_A",
+        "Module assembly - routing copper not shown",
+        "MH_ZERO:2 top exposed copper",
+        "MH_ZERO:2 plated hole wall",
+        "MH_ZERO:2 bottom exposed copper",
+        "MH_ZERO:1 top exposed copper",
+        "MH_ZERO:1 plated hole wall",
+        "MH_ZERO:1 bottom exposed copper",
+        "MH_UPS4 top exposed copper",
+        "MH_UPS4 plated hole wall",
+        "MH_UPS4 coaxial upper stud",
+        "MH_UPS4 bottom exposed copper",
+        "MH_UPS3 top exposed copper",
+        "MH_UPS3 plated hole wall",
+        "MH_UPS3 bottom exposed copper",
+        "MH_UPS2 top exposed copper",
+        "MH_UPS2 plated hole wall",
+        "MH_UPS2 coaxial upper stud",
+        "MH_UPS2 bottom exposed copper",
+        "MH_UPS1 top exposed copper",
+        "MH_UPS1 plated hole wall",
+        "MH_UPS1 bottom exposed copper",
+        "M42 carrier land.009",
+        "M42 carrier land.008",
+        "M42 carrier land.007",
+        "M42 carrier land.006",
+        "M42 carrier land.005",
+        "M42 carrier land.004",
+        "M42 carrier land.003",
+        "M42 carrier land.002",
+        "M42 carrier land.001",
+        "M42 carrier land",
+        "M22 carrier land.007",
+        "M22 carrier land.006",
+        "M22 carrier land.005",
+        "M22 carrier land.004",
+        "M22 carrier land.003",
+        "M22 carrier land.002",
+        "M22 carrier land.001",
+        "M22 carrier land",
+        "M21 carrier land.007",
+        "M21 carrier land.006",
+        "M21 carrier land.005",
+        "M21 carrier land.004",
+        "M21 carrier land.003",
+        "M21 carrier land.002",
+        "M21 carrier land.001",
+        "M21 carrier land",
+        "M20 carrier land.007",
+        "M20 carrier land.006",
+        "M20 carrier land.005",
+        "M20 carrier land.004",
+        "M20 carrier land.003",
+        "M20 carrier land.002",
+        "M20 carrier land.001",
+        "M20 carrier land",
+        "JP1 S3 shunt",
+        "JP1 RP shunt",
+        "JP1 header pins",
+        "JP1 connector envelope",
+        "J53 reference contact.001",
+        "J53 reference contact",
+        "J53 eyes reference housing",
+        "J52 SMT termination.023",
+        "J52 SMT termination.022",
+        "J52 SMT termination.021",
+        "J52 SMT termination.020",
+        "J52 SMT termination.019",
+        "J52 SMT termination.018",
+        "J52 SMT termination.017",
+        "J52 SMT termination.016",
+        "J52 SMT termination.015",
+        "J52 SMT termination.014",
+        "J52 SMT termination.013",
+        "J52 SMT termination.012",
+        "J52 SMT termination.011",
+        "J52 SMT termination.010",
+        "J52 SMT termination.009",
+        "J52 SMT termination.008",
+        "J52 SMT termination.007",
+        "J52 SMT termination.006",
+        "J52 SMT termination.005",
+        "J52 SMT termination.004",
+        "J52 SMT termination.003",
+        "J52 SMT termination.002",
+        "J52 SMT termination.001",
+        "J52 SMT termination",
+        "J52 mating contact.023",
+        "J52 mating contact.022",
+        "J52 mating contact.021",
+        "J52 mating contact.020",
+        "J52 mating contact.019",
+        "J52 mating contact.018",
+        "J52 mating contact.017",
+        "J52 mating contact.016",
+        "J52 mating contact.015",
+        "J52 mating contact.014",
+        "J52 mating contact.013",
+        "J52 mating contact.012",
+        "J52 mating contact.011",
+        "J52 mating contact.010",
+        "J52 mating contact.009",
+        "J52 mating contact.008",
+        "J52 mating contact.007",
+        "J52 mating contact.006",
+        "J52 mating contact.005",
+        "J52 mating contact.004",
+        "J52 mating contact.003",
+        "J52 mating contact.002",
+        "J52 mating contact.001",
+        "J52 mating contact",
+        "J52 Harwin 24P housing",
+        "J51 XH right wall",
+        "J51 XH rear wall",
+        "J51 XH left wall",
+        "J51 XH front right",
+        "J51 XH front left",
+        "J51 XH front center",
+        "J51 XH contact.001",
+        "J51 XH contact",
+        "J51 XH base",
+        "J50 SMT termination.023",
+        "J50 SMT termination.022",
+        "J50 SMT termination.021",
+        "J50 SMT termination.020",
+        "J50 SMT termination.019",
+        "J50 SMT termination.018",
+        "J50 SMT termination.017",
+        "J50 SMT termination.016",
+        "J50 SMT termination.015",
+        "J50 SMT termination.014",
+        "J50 SMT termination.013",
+        "J50 SMT termination.012",
+        "J50 SMT termination.011",
+        "J50 SMT termination.010",
+        "J50 SMT termination.009",
+        "J50 SMT termination.008",
+        "J50 SMT termination.007",
+        "J50 SMT termination.006",
+        "J50 SMT termination.005",
+        "J50 SMT termination.004",
+        "J50 SMT termination.003",
+        "J50 SMT termination.002",
+        "J50 SMT termination.001",
+        "J50 SMT termination",
+        "J50 mating contact.023",
+        "J50 mating contact.022",
+        "J50 mating contact.021",
+        "J50 mating contact.020",
+        "J50 mating contact.019",
+        "J50 mating contact.018",
+        "J50 mating contact.017",
+        "J50 mating contact.016",
+        "J50 mating contact.015",
+        "J50 mating contact.014",
+        "J50 mating contact.013",
+        "J50 mating contact.012",
+        "J50 mating contact.011",
+        "J50 mating contact.010",
+        "J50 mating contact.009",
+        "J50 mating contact.008",
+        "J50 mating contact.007",
+        "J50 mating contact.006",
+        "J50 mating contact.005",
+        "J50 mating contact.004",
+        "J50 mating contact.003",
+        "J50 mating contact.002",
+        "J50 mating contact.001",
+        "J50 mating contact",
+        "J50 Harwin 24P housing",
+        "J47 keyed Grove receptacle",
+        "J47 contacts and3mm solder tails",
+        "J46 keyed Grove receptacle",
+        "J46 contacts and3mm solder tails",
+        "J44 XH right wall",
+        "J44 XH rear wall",
+        "J44 XH left wall",
+        "J44 XH front right",
+        "J44 XH front left",
+        "J44 XH front center",
+        "J44 XH contact.001",
+        "J44 XH contact",
+        "J44 XH base",
+        "J42 XH right wall",
+        "J42 XH rear wall",
+        "J42 XH left wall",
+        "J42 XH front right",
+        "J42 XH front left",
+        "J42 XH front center",
+        "J42 XH contact.001",
+        "J42 XH contact",
+        "J42 XH base",
+        "J41 keyed Grove receptacle",
+        "J41 contacts and3mm solder tails",
+        "J40 keyed Grove receptacle",
+        "J40 contacts and3mm solder tails",
+        "J39 keyed Grove receptacle",
+        "J39 contacts and3mm solder tails",
+        "J38 keyed Grove receptacle",
+        "J38 contacts and3mm solder tails",
+        "J37 keyed Grove receptacle",
+        "J37 contacts and3mm solder tails",
+        "J36 keyed Grove receptacle",
+        "J36 contacts and3mm solder tails",
+        "J35 solder tail 4",
+        "J35 solder tail 3",
+        "J35 solder tail 2",
+        "J35 solder tail 1",
+        "J35 socket entry rim.015",
+        "J35 socket entry rim.014",
+        "J35 socket entry rim.013",
+        "J35 socket entry rim.012",
+        "J35 socket entry rim.011",
+        "J35 socket entry rim.010",
+        "J35 socket entry rim.009",
+        "J35 socket entry rim.008",
+        "J35 socket entry rim.007",
+        "J35 socket entry rim.006",
+        "J35 socket entry rim.005",
+        "J35 socket entry rim.004",
+        "J35 socket entry rim.003",
+        "J35 socket entry rim.002",
+        "J35 socket entry rim.001",
+        "J35 socket entry rim",
+        "J35 socket end wall.001",
+        "J35 socket end wall",
+        "J35 socket contact housing 4",
+        "J35 socket contact housing 3",
+        "J35 socket contact housing 2",
+        "J35 socket contact housing 1",
+        "J34 keyed Grove receptacle",
+        "J34 contacts and3mm solder tails",
+        "J33 Harwin M20-9982046 full 2x20 male housing",
+        "J33 40 actual mating posts and solder tails",
+        "J3 keyed Grove receptacle",
+        "J3 contacts and3mm solder tails",
+        "J2 keyed four-pin fan SHAPE_99",
+        "J2 keyed four-pin fan SHAPE_98",
+        "J2 keyed four-pin fan SHAPE_97",
+        "J2 keyed four-pin fan SHAPE_96",
+        "J2 keyed four-pin fan SHAPE_95",
+        "J2 keyed four-pin fan SHAPE_94",
+        "J2 keyed four-pin fan SHAPE_93",
+        "J2 keyed four-pin fan SHAPE_92",
+        "J2 keyed four-pin fan SHAPE_91",
+        "J2 keyed four-pin fan SHAPE_90",
+        "J2 keyed four-pin fan SHAPE_9",
+        "J2 keyed four-pin fan SHAPE_89",
+        "J2 keyed four-pin fan SHAPE_88",
+        "J2 keyed four-pin fan SHAPE_87",
+        "J2 keyed four-pin fan SHAPE_86",
+        "J2 keyed four-pin fan SHAPE_85",
+        "J2 keyed four-pin fan SHAPE_84",
+        "J2 keyed four-pin fan SHAPE_83",
+        "J2 keyed four-pin fan SHAPE_82",
+        "J2 keyed four-pin fan SHAPE_81",
+        "J2 keyed four-pin fan SHAPE_80",
+        "J2 keyed four-pin fan SHAPE_8",
+        "J2 keyed four-pin fan SHAPE_79",
+        "J2 keyed four-pin fan SHAPE_78",
+        "J2 keyed four-pin fan SHAPE_77",
+        "J2 keyed four-pin fan SHAPE_76",
+        "J2 keyed four-pin fan SHAPE_75",
+        "J2 keyed four-pin fan SHAPE_74",
+        "J2 keyed four-pin fan SHAPE_73",
+        "J2 keyed four-pin fan SHAPE_72",
+        "J2 keyed four-pin fan SHAPE_71",
+        "J2 keyed four-pin fan SHAPE_70",
+        "J2 keyed four-pin fan SHAPE_7",
+        "J2 keyed four-pin fan SHAPE_69",
+        "J2 keyed four-pin fan SHAPE_68",
+        "J2 keyed four-pin fan SHAPE_67",
+        "J2 keyed four-pin fan SHAPE_66",
+        "J2 keyed four-pin fan SHAPE_65",
+        "J2 keyed four-pin fan SHAPE_64",
+        "J2 keyed four-pin fan SHAPE_63",
+        "J2 keyed four-pin fan SHAPE_62",
+        "J2 keyed four-pin fan SHAPE_61",
+        "J2 keyed four-pin fan SHAPE_60",
+        "J2 keyed four-pin fan SHAPE_6",
+        "J2 keyed four-pin fan SHAPE_59",
+        "J2 keyed four-pin fan SHAPE_58",
+        "J2 keyed four-pin fan SHAPE_57",
+        "J2 keyed four-pin fan SHAPE_56",
+        "J2 keyed four-pin fan SHAPE_55",
+        "J2 keyed four-pin fan SHAPE_54",
+        "J2 keyed four-pin fan SHAPE_53",
+        "J2 keyed four-pin fan SHAPE_52",
+        "J2 keyed four-pin fan SHAPE_51",
+        "J2 keyed four-pin fan SHAPE_50",
+        "J2 keyed four-pin fan SHAPE_5",
+        "J2 keyed four-pin fan SHAPE_49",
+        "J2 keyed four-pin fan SHAPE_48",
+        "J2 keyed four-pin fan SHAPE_47",
+        "J2 keyed four-pin fan SHAPE_46",
+        "J2 keyed four-pin fan SHAPE_45",
+        "J2 keyed four-pin fan SHAPE_44",
+        "J2 keyed four-pin fan SHAPE_43",
+        "J2 keyed four-pin fan SHAPE_42",
+        "J2 keyed four-pin fan SHAPE_41",
+        "J2 keyed four-pin fan SHAPE_40",
+        "J2 keyed four-pin fan SHAPE_4",
+        "J2 keyed four-pin fan SHAPE_39",
+        "J2 keyed four-pin fan SHAPE_38",
+        "J2 keyed four-pin fan SHAPE_37",
+        "J2 keyed four-pin fan SHAPE_36",
+        "J2 keyed four-pin fan SHAPE_35",
+        "J2 keyed four-pin fan SHAPE_34",
+        "J2 keyed four-pin fan SHAPE_33",
+        "J2 keyed four-pin fan SHAPE_32",
+        "J2 keyed four-pin fan SHAPE_31",
+        "J2 keyed four-pin fan SHAPE_30",
+        "J2 keyed four-pin fan SHAPE_3",
+        "J2 keyed four-pin fan SHAPE_29",
+        "J2 keyed four-pin fan SHAPE_28",
+        "J2 keyed four-pin fan SHAPE_27",
+        "J2 keyed four-pin fan SHAPE_26",
+        "J2 keyed four-pin fan SHAPE_25",
+        "J2 keyed four-pin fan SHAPE_24",
+        "J2 keyed four-pin fan SHAPE_23",
+        "J2 keyed four-pin fan SHAPE_22",
+        "J2 keyed four-pin fan SHAPE_21",
+        "J2 keyed four-pin fan SHAPE_20",
+        "J2 keyed four-pin fan SHAPE_2",
+        "J2 keyed four-pin fan SHAPE_19",
+        "J2 keyed four-pin fan SHAPE_18",
+        "J2 keyed four-pin fan SHAPE_17",
+        "J2 keyed four-pin fan SHAPE_16",
+        "J2 keyed four-pin fan SHAPE_15",
+        "J2 keyed four-pin fan SHAPE_14",
+        "J2 keyed four-pin fan SHAPE_13",
+        "J2 keyed four-pin fan SHAPE_12",
+        "J2 keyed four-pin fan SHAPE_11",
+        "J2 keyed four-pin fan SHAPE_10",
+        "J2 keyed four-pin fan SHAPE_1",
+        "J19 keyed Grove receptacle",
+        "J19 contacts and3mm solder tails",
+        "J17 keyed Grove receptacle",
+        "J17 contacts and3mm solder tails",
+        "J16 keyed Grove receptacle",
+        "J16 contacts and3mm solder tails",
+        "J15 keyed Grove receptacle",
+        "J15 contacts and3mm solder tails",
+        "J14 remote radar Grove J17 keyed Grove receptacle",
+        "J14 remote radar Grove J17 contacts and3mm solder tails",
+        "J13 remote radar Grove J17 keyed Grove receptacle",
+        "J13 remote radar Grove J17 contacts and3mm solder tails",
+        "J12 remote radar Grove J17 keyed Grove receptacle",
+        "J12 remote radar Grove J17 contacts and3mm solder tails",
+        "J1 XH right wall",
+        "J1 XH rear wall",
+        "J1 XH left wall",
+        "J1 XH front right",
+        "J1 XH front left",
+        "J1 XH front center",
+        "J1 XH contact.001",
+        "J1 XH contact",
+        "J1 XH base",
+        "H3 top exposed copper",
+        "H3 plated hole wall",
+        "H3 bottom exposed copper",
+        "H3 base mount washer",
+        "H3 base mount screw head",
+        "H3 base mount screw",
+        "H1 top exposed copper",
+        "H1 plated hole wall",
+        "H1 bottom exposed copper",
+        "H1 base mount washer",
+        "H1 base mount screw head",
+        "H1 base mount screw",
+        "F.Cu width2.0",
+        "F.Cu width0.8",
+        "F.Cu width0.4",
+        "F.Cu width0.9998",
+        "F.Cu width0.25",
+        "F.Cu width1.2",
+        "B.Cu width2.0",
+        "B.Cu width0.8",
+        "B.Cu width1.7298",
+        "B.Cu width0.25",
+        "B.Cu width1.2"
+      ],
+      "source_origin_mm": [
+        1.1750012636184692,
+        -2.0000003278255463,
+        42.1999990940094
+      ],
+      "dimensions_mm": [
+        103.65000367164612,
+        93.00000220537186,
+        22.200001403689384
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "front_support",
+      "name": "M01 front support",
+      "description": "A separate printed support positions the front devices.",
+      "source_objects": [
+        "M01 independent front integrated support"
+      ],
+      "source_origin_mm": [
+        0.0,
+        39.900001138448715,
+        36.4999994635582
+      ],
+      "dimensions_mm": [
+        109.00004953145981,
+        55.2000030875206,
+        61.000000685453415
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "rear_support",
+      "name": "M04 rear support",
+      "description": "The rear support also carries the left and right radars.",
+      "source_objects": [
+        "M04 rear support with integrated left and right radar frames"
+      ],
+      "source_origin_mm": [
+        0.0,
+        -26.30002610385418,
+        34.49999913573265
+      ],
+      "dimensions_mm": [
+        130.6000053882599,
+        76.00007951259613,
+        57.00000002980232
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "lcd_keeper",
+      "name": "Display retaining strip",
+      "description": "Holds the display assembly in its support.",
+      "source_objects": [
+        "LCD narrow retaining strip"
+      ],
+      "source_origin_mm": [
+        0.0,
+        64.50000405311584,
+        57.35001713037491
+      ],
+      "dimensions_mm": [
+        101.19999945163727,
+        6.000000983476639,
+        11.89996674656868
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "left_keeper",
+      "name": "Left radar retainer",
+      "description": "Clamps the left radar into its mounting seat.",
+      "source_objects": [
+        "左 radar removable top keeper"
+      ],
+      "source_origin_mm": [
+        -61.40000373125076,
+        -16.499994322657585,
+        39.95002061128616
+      ],
+      "dimensions_mm": [
+        7.80000165104866,
+        38.000013679265976,
+        3.5999901592731476
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "right_keeper",
+      "name": "Right radar retainer",
+      "description": "Clamps the right radar into its mounting seat.",
+      "source_objects": [
+        "右 radar removable top keeper"
+      ],
+      "source_origin_mm": [
+        61.40000373125076,
+        -16.50000549852848,
+        39.95002061128616
+      ],
+      "dimensions_mm": [
+        7.80000165104866,
+        38.000013679265976,
+        3.5999901592731476
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "rear_keeper",
+      "name": "Rear radar retainer",
+      "description": "Clamps the rear radar into its mounting seat.",
+      "source_objects": [
+        "后 radar removable top keeper"
+      ],
+      "source_origin_mm": [
+        32.00000524520874,
+        -57.750023901462555,
+        39.95002061128616
+      ],
+      "dimensions_mm": [
+        38.00000995397568,
+        7.800005376338959,
+        3.5999901592731476
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "halo_keeper",
+      "name": "Light-ring locking key",
+      "description": "The removable key prevents the transparent ring turning.",
+      "source_objects": [
+        "HALO removable rigid anti-rotation key",
+        "HALO M2x5 screw envelope",
+        "HALO M2 nut envelope"
+      ],
+      "source_origin_mm": [
+        51.050007343292236,
+        -4.900000989437103,
+        64.10001218318939
+      ],
+      "dimensions_mm": [
+        21.8999981880188,
+        6.800001487135887,
+        6.600022315979004
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "power_keeper",
+      "name": "Power-switch keeper",
+      "description": "Retains the provisional rear switch assembly.",
+      "source_objects": [
+        "Power switch removable keeper",
+        "Power switch keeper M2 head",
+        "Power switch keeper M2 head.001"
+      ],
+      "source_origin_mm": [
+        0.0,
+        -59.75000187754631,
+        42.47501492500305
+      ],
+      "dimensions_mm": [
+        18.799999728798866,
+        8.70000571012497,
+        5.149997770786285
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "dc_keeper",
+      "name": "DC socket keeper",
+      "description": "Retains the rear socket nut within the support.",
+      "source_objects": [
+        "Power DC nut removable keeper",
+        "Power DC keeper M2 head",
+        "Power DC keeper M2 head.001"
+      ],
+      "source_origin_mm": [
+        0.0,
+        -63.10000270605087,
+        61.40000373125076
+      ],
+      "dimensions_mm": [
+        24.000000208616257,
+        4.4000037014484406,
+        4.599984735250473
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    },
+    {
+      "id": "fasteners",
+      "name": "Internal screws and spacers",
+      "description": "Mounting screws, nuts and stand-offs secure the assembly.",
+      "source_objects": [
+        "M01 M3x6 internal screw",
+        "M01 accessible low screw head",
+        "M01 internally accessible M3 nut",
+        "M01 M3x6 internal screw.001",
+        "M01 accessible low screw head.001",
+        "M01 internally accessible M3 nut.001",
+        "M04 M3x6 internal screw",
+        "M04 accessible low screw head",
+        "M04 internally accessible M3 nut",
+        "M04 M3x6 internal screw.001",
+        "M04 accessible low screw head.001",
+        "M04 internally accessible M3 nut.001",
+        "M04 M3x6 internal screw.002",
+        "M04 accessible low screw head.002",
+        "M04 internally accessible M3 nut.002",
+        "M04 M3x6 internal screw.003",
+        "M04 accessible low screw head.003",
+        "M04 internally accessible M3 nut.003",
+        "LCD left M2x6 reference head",
+        "LCD left M2x6 reference clearance span",
+        "LCD left M2x6 reference pilot engagement",
+        "LCD right M2x6 reference head",
+        "LCD right M2x6 reference clearance span",
+        "LCD right M2x6 reference pilot engagement",
+        "MH_UPS4 lower base spacer - height provisional",
+        "MH_UPS2 lower base spacer - height provisional",
+        "H3 lower base spacer - height provisional",
+        "H1 lower base spacer - height provisional"
+      ],
+      "source_origin_mm": [
+        0.0,
+        9.400002658367157,
+        32.099999487400055
+      ],
+      "dimensions_mm": [
+        126.35001540184021,
+        113.80000412464142,
+        57.79999494552612
+      ],
+      "geometry_note": "A visualization assembly; original CAD mesh geometry is retained."
+    }
+  ],
+  "dimension_units": "mm",
+  "model_delivery": "One final integrated Blender assembly and STL print files. Individual GLB exports are archived locally."
+}

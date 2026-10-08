@@ -1,0 +1,18 @@
+{
+  "uart": "/dev/REPLACE_WITH_VERIFIED_UART9_M1",
+  "socket": "/run/box-controller/control.sock",
+  "fan_pwm_channel": null,
+  "poweroff_enabled": false,
+  "fan": {
+    "electrical_qualified": false,
+    "pwm_frequency_hz": 25000,
+    "tach_gpiochip": null,
+    "pulses_per_revolution": null
+  },
+  "tof": {
+    "carrier_3v3_qualified": false,
+    "supply_policy": "same_3v3_as_i2c",
+    "i2c_device": null,
+    "library": "/usr/libexec/box-controller/tof/libbox_tof.so"
+  }
+}

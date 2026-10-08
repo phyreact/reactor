@@ -1,0 +1,1334 @@
+{
+  "passed": true,
+  "gates": {
+    "baseline_bound": true,
+    "actual_models_and_ribs_match": true,
+    "old_cantilever_core_existed": true,
+    "cantilever_core_removed": true,
+    "two_closed_primary_supports": true,
+    "fewer_rear_planar_patches": true,
+    "camera_side_platforms_coplanar": true,
+    "rear_solid_post_cores_preserved": true,
+    "eighteen_equal_midheight_openings": true,
+    "rib_root_and_area_gates_pass": true,
+    "three_radar_bars_one_nominal_family": true,
+    "rebuilt_LCD_closed_ear_ligaments": true,
+    "LCD_reference_screws_and_cover_checked": true,
+    "pointed_fan_foot_remnant_removed": true,
+    "unused_fan_root_removed_and_parent_floor_preserved": true
+  },
+  "before": {
+    "model_sha256": "221fcd527faff4bd38fe5e5bd02e5c51f76d3fbe970127b9ee97331bab6f44f4",
+    "parts": {
+      "M01": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 42752.09523088954,
+        "planar_patches_005deg": 814
+      },
+      "M04": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 60706.78920902558,
+        "planar_patches_005deg": 2453
+      }
+    },
+    "cantilever_core_volume_mm3": 450.66019248435464,
+    "pointed_fan_fin_volume_mm3": 2.9104936344874743,
+    "idle_fan_root_volume_mm3": 19.120008913984975,
+    "parent_floor_sections": [
+      {
+        "xy_mm": [
+          -61.5,
+          -53.9
+        ],
+        "thickness_mm": 7.600011769682169
+      },
+      {
+        "xy_mm": [
+          -61.5,
+          -52
+        ],
+        "thickness_mm": 7.600012235343456
+      },
+      {
+        "xy_mm": [
+          -61.5,
+          -50.5
+        ],
+        "thickness_mm": 7.600012235343456
+      },
+      {
+        "xy_mm": [
+          -60,
+          -53.9
+        ],
+        "thickness_mm": 7.600012933835387
+      },
+      {
+        "xy_mm": [
+          -60,
+          -52
+        ],
+        "thickness_mm": 7.600012235343456
+      },
+      {
+        "xy_mm": [
+          -60,
+          -50.5
+        ],
+        "thickness_mm": 7.6000124681741
+      },
+      {
+        "xy_mm": [
+          -58.7,
+          -53.9
+        ],
+        "thickness_mm": 6.450001383200288
+      },
+      {
+        "xy_mm": [
+          -58.7,
+          -52
+        ],
+        "thickness_mm": 6.450001383200288
+      },
+      {
+        "xy_mm": [
+          -58.7,
+          -50.5
+        ],
+        "thickness_mm": 6.450001150369644
+      }
+    ],
+    "camera_side_platform_tops": [
+      {
+        "x_mm": -20,
+        "top_z_mm": null
+      },
+      {
+        "x_mm": 20,
+        "top_z_mm": null
+      },
+      {
+        "x_mm": 40,
+        "top_z_mm": null
+      }
+    ],
+    "rear_post_sections": [
+      {
+        "x_mm": 15.375,
+        "xy_width_mm": [
+          4.750000545755029,
+          10.349902790039778
+        ]
+      },
+      {
+        "x_mm": 48.625,
+        "xy_width_mm": [
+          6.199996918439865,
+          10.349903721362352
+        ]
+      }
+    ]
+  },
+  "after": {
+    "model_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+    "parts": {
+      "M01": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 43762.076682904095,
+        "planar_patches_005deg": 860
+      },
+      "M04": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 59233.3238954848,
+        "planar_patches_005deg": 2374
+      }
+    },
+    "cantilever_core_volume_mm3": 0.0,
+    "pointed_fan_fin_volume_mm3": 0.0,
+    "idle_fan_root_volume_mm3": 0.0,
+    "parent_floor_sections": [
+      {
+        "xy_mm": [
+          -61.5,
+          -53.9
+        ],
+        "thickness_mm": 4.399999976158142
+      },
+      {
+        "xy_mm": [
+          -61.5,
+          -52
+        ],
+        "thickness_mm": 4.399999976158142
+      },
+      {
+        "xy_mm": [
+          -61.5,
+          -50.5
+        ],
+        "thickness_mm": 4.399999976158142
+      },
+      {
+        "xy_mm": [
+          -60,
+          -53.9
+        ],
+        "thickness_mm": 4.400000208988786
+      },
+      {
+        "xy_mm": [
+          -60,
+          -52
+        ],
+        "thickness_mm": 4.399999976158142
+      },
+      {
+        "xy_mm": [
+          -60,
+          -50.5
+        ],
+        "thickness_mm": 4.400000208988786
+      },
+      {
+        "xy_mm": [
+          -58.7,
+          -53.9
+        ],
+        "thickness_mm": 4.400000208988786
+      },
+      {
+        "xy_mm": [
+          -58.7,
+          -52
+        ],
+        "thickness_mm": 4.400000208988786
+      },
+      {
+        "xy_mm": [
+          -58.7,
+          -50.5
+        ],
+        "thickness_mm": 4.399999976158142
+      }
+    ],
+    "camera_side_platform_tops": [
+      {
+        "x_mm": -20,
+        "top_z_mm": 15.200000256299973
+      },
+      {
+        "x_mm": 20,
+        "top_z_mm": 15.200000256299973
+      },
+      {
+        "x_mm": 40,
+        "top_z_mm": 15.200000256299973
+      }
+    ],
+    "rear_post_sections": [
+      {
+        "x_mm": 15.375,
+        "xy_width_mm": [
+          4.750000545755029,
+          7.799938321113586
+        ]
+      },
+      {
+        "x_mm": 48.625,
+        "xy_width_mm": [
+          6.199996918439865,
+          7.79993855394423
+        ]
+      }
+    ]
+  },
+  "LCD_ear_radial_samples": [
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 0.013,
+      "bore_radius_mm": 1.1999884154647589,
+      "ligament_mm": 34.78599033236504,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 22.513,
+      "bore_radius_mm": 1.1999869020655751,
+      "ligament_mm": 6.896260389238596,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 45.013,
+      "bore_radius_mm": 1.1999922571703792,
+      "ligament_mm": 2.617532814964652,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 67.513,
+      "bore_radius_mm": 1.199991093017161,
+      "ligament_mm": 1.7222117950394749,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 90.013,
+      "bore_radius_mm": 1.1999846901744604,
+      "ligament_mm": 1.500033618994057,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 112.513,
+      "bore_radius_mm": 1.1999919079244137,
+      "ligament_mm": 1.7227603440359234,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 135.013,
+      "bore_radius_mm": 1.1999966809526086,
+      "ligament_mm": 2.4062615904211997,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 157.513,
+      "bore_radius_mm": 1.1999864364042878,
+      "ligament_mm": 1.8304265887662767,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 180.013,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.6000091183185576,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 202.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 1.830999584980309,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 225.013,
+      "bore_radius_mm": 1.1999860871583223,
+      "ligament_mm": 2.760706664174795,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 247.513,
+      "bore_radius_mm": 1.1999852722510695,
+      "ligament_mm": 1.9386615223437547,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 270.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.7000181452557444,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 292.513,
+      "bore_radius_mm": 1.1999837588518858,
+      "ligament_mm": 1.9392508167028426,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 315.013,
+      "bore_radius_mm": 1.1999810812994838,
+      "ligament_mm": 2.9021729334443807,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 337.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 2.4798079013079404,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 0.013,
+      "bore_radius_mm": 1.1999884154647589,
+      "ligament_mm": 34.50001097202301,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 22.513,
+      "bore_radius_mm": 1.199987018480897,
+      "ligament_mm": 6.896260389238596,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 45.013,
+      "bore_radius_mm": 1.1999922571703792,
+      "ligament_mm": 2.617532814964652,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 67.513,
+      "bore_radius_mm": 1.199990976601839,
+      "ligament_mm": 1.7222115622088312,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 90.013,
+      "bore_radius_mm": 1.1999848065897822,
+      "ligament_mm": 1.5000335025787352,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 112.513,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.7227603440359234,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 135.013,
+      "bore_radius_mm": 1.1999966809526086,
+      "ligament_mm": 2.4062615904211997,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 157.513,
+      "bore_radius_mm": 1.1999865528196096,
+      "ligament_mm": 1.830426355935633,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 180.013,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.6000092347338795,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 202.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 1.8309997013956307,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 225.013,
+      "bore_radius_mm": 1.1999860871583223,
+      "ligament_mm": 2.760706664174795,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 247.513,
+      "bore_radius_mm": 1.1999852722510695,
+      "ligament_mm": 1.9386615223437547,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 270.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.7000182616710662,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 292.513,
+      "bore_radius_mm": 1.199983642436564,
+      "ligament_mm": 1.9392508167028426,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 315.013,
+      "bore_radius_mm": 1.1999810812994838,
+      "ligament_mm": 2.9021729334443807,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 337.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 2.4798079013079404,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 0.013,
+      "bore_radius_mm": 1.1999884154647589,
+      "ligament_mm": 34.50001097202301,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 22.513,
+      "bore_radius_mm": 1.199987018480897,
+      "ligament_mm": 6.8962599235773085,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 45.013,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 2.617532814964652,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 67.513,
+      "bore_radius_mm": 1.199990976601839,
+      "ligament_mm": 1.7222117950394749,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 90.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.5000335025787352,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 112.513,
+      "bore_radius_mm": 1.1999920243397355,
+      "ligament_mm": 1.7227604604512452,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 135.013,
+      "bore_radius_mm": 1.1999966809526086,
+      "ligament_mm": 2.406261357590556,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 157.513,
+      "bore_radius_mm": 1.1999865528196096,
+      "ligament_mm": 1.8304267051815986,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 180.013,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.6000090019032358,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 202.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 1.830999584980309,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 225.013,
+      "bore_radius_mm": 1.1999859707430005,
+      "ligament_mm": 2.760706664174795,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 247.513,
+      "bore_radius_mm": 1.1999852722510695,
+      "ligament_mm": 1.9386615223437547,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 270.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.7000182616710662,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 292.513,
+      "bore_radius_mm": 1.1999837588518858,
+      "ligament_mm": 1.939250583872199,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 315.013,
+      "bore_radius_mm": 1.1999811977148056,
+      "ligament_mm": 2.902173399105668,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        -47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 337.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 2.4798076684772967,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 0.013,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.6000092347338795,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 22.513,
+      "bore_radius_mm": 1.199987018480897,
+      "ligament_mm": 1.830995510444045,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 45.013,
+      "bore_radius_mm": 1.1999972630292177,
+      "ligament_mm": 2.4062536741793155,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 67.513,
+      "bore_radius_mm": 1.199992373585701,
+      "ligament_mm": 1.7222117950394749,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 90.013,
+      "bore_radius_mm": 1.1999846901744604,
+      "ligament_mm": 1.500033618994057,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 112.513,
+      "bore_radius_mm": 1.1999905109405518,
+      "ligament_mm": 1.7227604604512452,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 135.013,
+      "bore_radius_mm": 1.1999912094324827,
+      "ligament_mm": 2.619277647808194,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 157.513,
+      "bore_radius_mm": 1.1999864364042878,
+      "ligament_mm": 6.905138221681118,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 180.013,
+      "bore_radius_mm": 1.1999884154647589,
+      "ligament_mm": 34.78598660707474,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 202.513,
+      "bore_radius_mm": 1.1999837588518858,
+      "ligament_mm": 2.4804991754889487,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 225.013,
+      "bore_radius_mm": 1.1999813141301274,
+      "ligament_mm": 2.9003005094081162,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 247.513,
+      "bore_radius_mm": 1.1999839916825294,
+      "ligament_mm": 1.938661289513111,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 270.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.7000182616710662,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 292.513,
+      "bore_radius_mm": 1.1999853886663914,
+      "ligament_mm": 1.9392508167028426,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 315.013,
+      "bore_radius_mm": 1.1999866692349315,
+      "ligament_mm": 2.7589143338799476,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 56.45,
+      "angle_deg": 337.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 1.8304306633025407,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 0.013,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.6000090019032358,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 22.513,
+      "bore_radius_mm": 1.199987018480897,
+      "ligament_mm": 1.830995510444045,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 45.013,
+      "bore_radius_mm": 1.199997146613896,
+      "ligament_mm": 2.406253441348672,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 67.513,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.7222117950394749,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 90.013,
+      "bore_radius_mm": 1.1999848065897822,
+      "ligament_mm": 1.5000335025787352,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 112.513,
+      "bore_radius_mm": 1.1999906273558736,
+      "ligament_mm": 1.7227604604512452,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 135.013,
+      "bore_radius_mm": 1.1999912094324827,
+      "ligament_mm": 2.619277647808194,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 157.513,
+      "bore_radius_mm": 1.1999865528196096,
+      "ligament_mm": 6.905138221681118,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 180.013,
+      "bore_radius_mm": 1.1999884154647589,
+      "ligament_mm": 34.50001469731331,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 202.513,
+      "bore_radius_mm": 1.199983642436564,
+      "ligament_mm": 2.4804987098276614,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 225.013,
+      "bore_radius_mm": 1.1999810812994838,
+      "ligament_mm": 2.9003005094081162,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 247.513,
+      "bore_radius_mm": 1.1999839916825294,
+      "ligament_mm": 1.9386615223437547,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 270.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.7000182616710662,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 292.513,
+      "bore_radius_mm": 1.1999852722510695,
+      "ligament_mm": 1.9392508167028426,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 315.013,
+      "bore_radius_mm": 1.1999866692349315,
+      "ligament_mm": 2.758914101049304,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 57.7,
+      "angle_deg": 337.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 1.8304305468872188,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 0.013,
+      "bore_radius_mm": 1.1999921407550573,
+      "ligament_mm": 1.6000090019032358,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 22.513,
+      "bore_radius_mm": 1.199987018480897,
+      "ligament_mm": 1.830995510444045,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 45.013,
+      "bore_radius_mm": 1.1999972630292177,
+      "ligament_mm": 2.406253441348672,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 67.513,
+      "bore_radius_mm": 1.1999922571703792,
+      "ligament_mm": 1.7222117950394749,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 90.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.5000335025787352,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 112.513,
+      "bore_radius_mm": 1.1999905109405518,
+      "ligament_mm": 1.7227604604512452,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 135.013,
+      "bore_radius_mm": 1.1999912094324827,
+      "ligament_mm": 2.619277647808194,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 157.513,
+      "bore_radius_mm": 1.1999865528196096,
+      "ligament_mm": 6.905138221681118,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 180.013,
+      "bore_radius_mm": 1.1999884154647589,
+      "ligament_mm": 34.50001097202301,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 202.513,
+      "bore_radius_mm": 1.1999837588518858,
+      "ligament_mm": 2.480498942658305,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 225.013,
+      "bore_radius_mm": 1.1999810812994838,
+      "ligament_mm": 2.9003005094081162,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 247.513,
+      "bore_radius_mm": 1.1999839916825294,
+      "ligament_mm": 1.9386615223437547,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 270.013,
+      "bore_radius_mm": 1.1999845737591386,
+      "ligament_mm": 1.7000182616710662,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 292.513,
+      "bore_radius_mm": 1.1999852722510695,
+      "ligament_mm": 1.9392508167028426,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 315.013,
+      "bore_radius_mm": 1.1999866692349315,
+      "ligament_mm": 2.7589143338799476,
+      "passed": true
+    },
+    {
+      "axis_xy_mm": [
+        47.8,
+        64.4
+      ],
+      "z_mm": 58.95,
+      "angle_deg": 337.513,
+      "bore_radius_mm": 1.1999838752672076,
+      "ligament_mm": 1.8304305468872188,
+      "passed": true
+    }
+  ],
+  "opening_max_chords_mm": [
+    9.599998999999997,
+    9.600002999999994,
+    9.599999999999998,
+    9.599986000000001,
+    9.6,
+    9.599986000000001,
+    9.599999999999998,
+    9.600002999999994,
+    9.599998999999997,
+    9.599998999999997,
+    9.600002999999994,
+    9.599999999999998,
+    9.599986000000001,
+    9.6,
+    9.599986000000001,
+    9.599999999999998,
+    9.600002999999994,
+    9.599998999999997
+  ],
+  "model_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "limits": [
+    "Selected native geometric sections; not whole-part wall thickness, resin strength, airflow or acoustic qualification.",
+    "Wire routing and electrical readiness are reviewed separately."
+  ],
+  "physical_fit_qualified": false
+}

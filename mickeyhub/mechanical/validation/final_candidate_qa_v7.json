@@ -1,0 +1,189 @@
+{
+  "passed": true,
+  "model_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "jobs": [
+    {
+      "name": "export",
+      "exit_code": 0,
+      "reused_export_manifest": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/export_manifest.json",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "-b",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/present_base_large_cover.py",
+        "--",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b",
+        "--export-only"
+      ]
+    },
+    {
+      "name": "assembly_access",
+      "exit_code": 0,
+      "reused_passed_report": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/open_support_assembly_checks.json",
+      "report_sha256": "c7db4881606a70572cef39ffc56cc300aa7be419d727e80de4ae8effa084e94d",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "-b",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_open_support_assembly.py",
+        "--",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b"
+      ]
+    },
+    {
+      "name": "sections",
+      "exit_code": 0,
+      "reused_passed_report": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/regular_support_section_checks.json",
+      "report_sha256": "f8ae0eefb14b0dcacf77564686398f510e687e5588c9fea78bc5eda9f648a2c7",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "-b",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_regular_support_sections.py",
+        "--",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b"
+      ]
+    },
+    {
+      "name": "interfaces",
+      "exit_code": 0,
+      "reused_passed_report": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/regular_interface_access_checks.json",
+      "report_sha256": "59ad8e9c0a3b97bd15f882f82472aae481f2faaae8635b1e82b212825603cb0b",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "-b",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_regular_interface_access.py",
+        "--",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b"
+      ]
+    },
+    {
+      "name": "fragile",
+      "exit_code": 0,
+      "reused_passed_report": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/fragile_region_checks.json",
+      "report_sha256": "2fb31a8a77d3017e05fcb7e015d545ad7f8cacf9c84cc5e69307e5d13c1be996",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "-b",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_fragile_regions.py",
+        "--",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b"
+      ]
+    },
+    {
+      "name": "contacts",
+      "exit_code": 0,
+      "reused_passed_report": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/support_simplification_checks.json",
+      "report_sha256": "21f2c04ff65e81e0956ad722174f832055949f3c10968de4a399d66a7c5c543d",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "-b",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_support_simplification.py",
+        "--",
+        "--before",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/no_voice_compact_2026-10-07/reinforced_openings_simple_supports_v2",
+        "--after",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b",
+        "--integrated-rear",
+        "--strict-unchanged",
+        "--allow-material-addition",
+        "--lcd-mount-redesign"
+      ]
+    },
+    {
+      "name": "seam_samples",
+      "exit_code": 0,
+      "reused_passed_report": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/optional_fit_samples/fit_samples_manifest.json",
+      "report_sha256": "3e05335a1e26fcb2c43708ff48facef62cb79cb0739b6b68d30ddf3f67fca6ac",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/export_seam_fit_samples_v6.py",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b"
+      ]
+    },
+    {
+      "name": "opening_ribs",
+      "exit_code": 0,
+      "elapsed_seconds": 3.99,
+      "log": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/validation_logs/opening_ribs.log",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_opening_rib_geometry.py",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b",
+        "--baseline-dir",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/no_voice_compact_2026-10-07/integrated_rear_halo_keyed_case",
+        "--output",
+        "/tmp/box-v7b-ribs-bmngiimc/opening_rib_geometry.json"
+      ]
+    },
+    {
+      "name": "stl_check",
+      "exit_code": 0,
+      "elapsed_seconds": 0.43,
+      "log": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/validation_logs/stl_check.log",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_exported_stls.py",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b"
+      ]
+    },
+    {
+      "name": "v3_geometry",
+      "exit_code": 0,
+      "elapsed_seconds": 2.31,
+      "log": "no_voice_compact_2026-10-07/wide_bearing_halo_v7b/validation_logs/v3_geometry.log",
+      "command": [
+        "/Applications/Blender.app/Contents/MacOS/Blender",
+        "-b",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/check_support_v3_geometry.py",
+        "--",
+        "--model-dir",
+        "no_voice_compact_2026-10-07/wide_bearing_halo_v7b"
+      ]
+    }
+  ],
+  "checks": {
+    "wide_halo_native_checks.json": true,
+    "wide_halo_area_checks.json": true,
+    "halo_service_checks.json": true,
+    "support_v3_geometry_checks.json": true,
+    "open_support_assembly_checks.json": true,
+    "regular_support_section_checks.json": true,
+    "regular_interface_access_checks.json": true,
+    "fragile_region_checks.json": true,
+    "support_simplification_checks.json": true,
+    "stl_export_checks.json": true,
+    "opening_rib_geometry.json": true,
+    "optional_fit_samples/fit_samples_manifest.json": true
+  },
+  "baseline_v6": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/no_voice_compact_2026-10-07/flush_halo_v6",
+  "inherited_only_for_bit_identical_unchanged_meshes": true,
+  "thresholds_unchanged": true,
+  "promoted": false,
+  "dpdt_integrated": false
+}

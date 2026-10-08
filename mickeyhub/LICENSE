@@ -1,0 +1,70 @@
+Mickey Hub licensing
+====================
+
+Copyright 2026 Mickey Hub contributors.
+
+Mickey Hub's first-party work is source-available under the noncommercial
+licenses below. Separate written authorization is required for commercial
+uses outside their permissions. This scope notice does not modify the
+complete public license texts.
+
+Designs, models, documentation and media
+---------------------------------------
+
+Creative Commons Attribution-NonCommercial 4.0 International
+SPDX: CC-BY-NC-4.0
+Complete, unmodified text: LICENSES/CC-BY-NC-4.0.txt
+
+This covers copyrightable first-party enclosure and board designs, original
+model contributions, STL exports, drawings, documentation and presentation
+media, including first-party contributions to the integrated Blender model.
+
+Firmware and software tools
+---------------------------
+
+PolyForm Noncommercial License 1.0.0
+SPDX: PolyForm-Noncommercial-1.0.0
+Complete, unmodified text: LICENSES/PolyForm-Noncommercial-1.0.0.md
+
+This covers first-party firmware and software tools, including corresponding
+first-party contributions to supplied build artifacts.
+
+Required Notice: Copyright 2026 Mickey Hub contributors.
+
+Commercial production and authorization
+---------------------------------------
+
+The applicable public licenses permit noncommercial development, modification,
+sharing, personal builds and noncommercial prototypes under their terms.
+
+Before manufacturing or commissioning products for sale, selling derivative
+hardware products, or undertaking other commercial uses outside the public
+licenses, contact the Reactor maintainers and obtain a separate written
+commercial license. This includes mass production and large-scale commercial
+deployment. There is no production-volume exemption. Publishing source code
+or design files does not waive the noncommercial conditions.
+
+Request authorization from the Reactor maintainers at:
+phyreact@gmail.com
+
+Contact alone is not authorization. Permission must be granted in writing
+before the commercial activity begins. The complete public licenses continue
+to govern uses they already permit, including applicable legal exceptions.
+
+Exclusions and mixed works
+-------------------------
+
+Third-party software, manufacturer documents, purchased-module CAD, libraries,
+icons, fonts and separately licensed assets retain their original notices and
+terms. For mixed assemblies, these licenses cover only first-party work.
+
+The ST driver in firmware/zero/tof/vendor/ retains its original license.
+LICENSES/Apache-2.0.txt supplies the standard text for Apache-licensed
+third-party dependencies; it does not license Mickey Hub's first-party work.
+Pico SDK retains LICENSES/Pico-SDK-BSD-3-Clause.txt. Manufacturer material in
+components/references/, components/datasheets/ and local KiCad libraries is
+not relicensed by this file.
+
+A Reactor commercial authorization covers only rights held or controlled by
+its grantor. Microduck and other third-party assets may require independent
+permissions from their rights holders. See THIRD_PARTY.md and ../LICENSING.md.

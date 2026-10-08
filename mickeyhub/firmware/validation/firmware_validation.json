@@ -1,0 +1,87 @@
+{
+  "status": "software_checks_passed_hardware_unqualified",
+  "C_state_machine_ASan_UBSan": "passed",
+  "C_tof_chunking_ASan_UBSan": "passed",
+  "python_tests": 20,
+  "RP_cross_build": "passed",
+  "S3_cross_build": "passed",
+  "ToF_AArch64_Linux_glibc_2_31_build": "passed",
+  "ToF_compiler": "Zig 0.17.0 cc -target aarch64-linux-gnu.2.31 -O2 -Wall -Wextra -Werror",
+  "DTS_compile": "passed",
+  "vendor_source_hashes_verified": true,
+  "vendor_commit": "c12709c3ac802d91dd2a215178f53cb94c024709",
+  "native_pcb_sha256": "1eb601e37996cc4124cee0e0ae231d309f32925c0ef0d9bac2a062498357b958",
+  "PCB_modified": false,
+  "hardware_flashed": false,
+  "hardware_energized": false,
+  "target_DTB_merged": false,
+  "manufacturing_release": false,
+  "no_new_archive": true,
+  "builds": [
+    {
+      "file": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/power_tof_fan_2026-10-08/verified_builds/rp.uf2",
+      "sha256": "f858225f021e110141b7995ccc436baef97cfcd1e887743d5755179a6c90ff6c",
+      "bytes": 29696
+    },
+    {
+      "file": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/power_tof_fan_2026-10-08/verified_builds/s3.bin",
+      "sha256": "c563a450c84430e7a9ba1d0f5ef5ffec89d705c2196ec52b54f2ab488c1a6fc7",
+      "bytes": 218784
+    },
+    {
+      "file": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/power_tof_fan_2026-10-08/verified_builds/libbox_tof_aarch64.so",
+      "sha256": "2e1d2c4e21212a74638d5649cdb40056802bafb3d5bd481b9439d70fce4dfce3",
+      "bytes": 160032
+    },
+    {
+      "file": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/power_tof_fan_2026-10-08/verified_builds/box-r21r.dtbo",
+      "sha256": "b80761eff2c31059d540bffeb36d5dfc8ad9b8121a1d086dadd11df0745cb287",
+      "bytes": 2147
+    }
+  ],
+  "source_hashes": {
+    "package_commissioning.py": "72fa69cdf8dc0ae7b50a17c7a2ce750035e4366cfd31efbaac8cda94ebd9c309",
+    "s3/main/main.c": "3f4962b0268e1e50a67bdfd938b49575c403c36136446e1ce19ec2dee302bb9b",
+    "tests/test_tof_platform.c": "3d637ecbd778342b52165de8504b6b4232470f855d113cf7a7ada677dc2f4094",
+    "tests/run_tests.py": "197854f98822b07cfe026ffdc948aa4581f897175f08f968735b9dc21acec341",
+    "tests/test_zero.py": "ed15155b8100dfe4dc1022dc5e1faa5f153bdd77a30c886acae9b400ba17e8db",
+    "tests/test_peripherals.py": "06351049cf995c0e9aa043b6415755064a4bf764ab520d64a199fd2298240444",
+    "tests/test_power.c": "ce45bbcf836e6fe46bd414725ce802ca204c9f9e3a262eb97fba2a7cb0260a41",
+    "common/protocol.h": "f55c20f4f4742e5e1e774e38a2b6bc203aae89b6de8748187c057be91f306191",
+    "common/power.h": "111871d386d0da60dbd690f1217256750e113a28f0c39af38724b823b64d4ee3",
+    "common/pins.h": "aea0e0c29e81d0e87f1d5438969cb68ea7dfc8726a8daa1684253c310ad5e671",
+    "common/power.c": "57d3e2f5f7f6c4e9470c074ed5f73db228343418e77c403e8d261f228b065266",
+    "common/protocol.c": "782a5d32d2f629063e85154e16602f3f88a635908a016e728b22388f23f38bb3",
+    "zero/box-controller.example.json": "2912d577ac73d99dad34f405e3e94f2a610721c956eb9d02d2d20b2df1ae4f09",
+    "zero/box-r21r.dts": "99580f18d670ae7264829d1446adf6fad557c45eac92a128fe021a552d585a2e",
+    "zero/box_host.py": "da22edf521d6f0a1ecfb0be425fa165c6f60209fcc1d2ef6911e7667826682fe",
+    "zero/box_peripherals.py": "5dbda1855c80a021c1339161cd1d3bf7ef5d9cbb3754b305528a06d4c467824a",
+    "zero/preflight.py": "e9be7645201f675521905c20f60085afc9454aca04b3687c6c778a7bfd30caf6",
+    "zero/tof/linux_platform.c": "fc88832f11118d3b1665b51b0bfe7d003c0204397f47587f68f5dd36af0d9cf0",
+    "zero/tof/vendor_sources.json": "338ea23c3a29fe16af996b313cdd65ef3b46789511ab517e3aa0e98b40003d16",
+    "zero/tof/box_tof.c": "aed5c60e9ce2b6b07eed5eefbcc9ad3a5b6a8c59b5cf69cbaecba288b735ea19",
+    "zero/tof/vendor/vl53l8cx_api.h": "c7fc8b7aea8bf7f1e74953339990ad4ec08e7da5c2d77b1cb55438279a32e492",
+    "zero/tof/vendor/platform.c": "f396db2e8ebd061a70868dcb16a3c9a546a8bd8eb2a93982bd8e94060285090b",
+    "zero/tof/vendor/vl53l8cx_api.c": "7e370b8018b2d4bf1354e7bde3b85d4030707e73676f2825837cb8958ccb6cc1",
+    "zero/tof/vendor/vl53l8cx_buffers.h": "3b834927e23e24eb0fe540132b4413b8df815f347abcfbe5f9a0dde4cbc84109",
+    "zero/tof/vendor/platform.h": "4e42774487c58babe9eafd7ec6d7170128854dee7525a6a88afbc89c22bcf91a",
+    "rp/main.c": "ec3074ec77d4b37dcc7239b98a284be5958e96d069b027032972d3bcfab883cc"
+  },
+  "remaining": [
+    "ToF carrier VIN and I/O voltage evidence",
+    "Fan PWM/FG electrical levels and current",
+    "Adequately rated power executor, final shutdown interlock and mechanical integration",
+    "Physical resin fit, cable routing, power sequencing and energized tests",
+    "Rd-03E protocol and device application integration"
+  ],
+  "power_executor_qualified": false,
+  "power_executor_rejection": "TL2230 (0.1A) must not bridge J51 main-current loop; rated replacement and final physical integration are unresolved",
+  "no_flash_release": true,
+  "mechanical_followup_completed": {
+    "request": "Widen halo bearing and roof connection while keeping the exterior flush",
+    "revision": "wide_bearing_halo_v7b",
+    "completed_at": "2026-10-08T07:07:48.230141+00:00",
+    "CAD_validation": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/base_large_cover/final_candidate_qa_v7.json",
+    "physical_print_tested": false
+  }
+}

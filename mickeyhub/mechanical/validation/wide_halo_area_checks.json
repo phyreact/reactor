@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "models": {
+    "before": {
+      "native": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/no_voice_compact_2026-10-07/flush_halo_v6/assembly.blend",
+      "sha256": "d7ea15fe9bc745cad872c5b77d9593b8bfa352bbf14d96daab0c17b901346969",
+      "cover": {
+        "volume_mm3": 93872.70126371397,
+        "vertices": 17504,
+        "faces": 12140,
+        "nonmanifold_edges": 0
+      },
+      "ring": {
+        "volume_mm3": 2824.7766861659293,
+        "vertices": 1248,
+        "faces": 689,
+        "nonmanifold_edges": 0
+      },
+      "effective_bearing_contact_area_mm2": 1221.7122538671483,
+      "ring_flat_underside_area_mm2": 1488.3110693557633,
+      "available_floor_area_at_seat_mm2": 1372.4570464162298,
+      "conservative_horizontal_roof_connection_area_mm2": 49.254761058207805,
+      "nominal_root_bands_mm": [
+        [
+          36.6,
+          36.7
+        ],
+        [
+          43.3,
+          43.4
+        ]
+      ],
+      "inner_root_min_mm": 0.09996557235717773,
+      "outer_root_min_mm": 0.09996795654296875,
+      "circumferential_samples": 360,
+      "inner_root_unbroken_samples": 360,
+      "outer_root_unbroken_samples": 360,
+      "joint_plane_z_mm": [
+        68.69,
+        68.71
+      ]
+    },
+    "after": {
+      "native": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/no_voice_compact_2026-10-07/wide_bearing_halo_v7b/assembly.blend",
+      "sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+      "cover": {
+        "volume_mm3": 95122.06337084666,
+        "vertices": 18891,
+        "faces": 12610,
+        "nonmanifold_edges": 0
+      },
+      "ring": {
+        "volume_mm3": 3237.542270425693,
+        "vertices": 1753,
+        "faces": 689,
+        "nonmanifold_edges": 0
+      },
+      "effective_bearing_contact_area_mm2": 1451.0266171314415,
+      "ring_flat_underside_area_mm2": 1717.6254670386838,
+      "available_floor_area_at_seat_mm2": 1599.885438503227,
+      "conservative_horizontal_roof_connection_area_mm2": 991.7458119366202,
+      "nominal_root_bands_mm": [
+        [
+          33.7,
+          35.7
+        ],
+        [
+          43.3,
+          45.3
+        ]
+      ],
+      "inner_root_min_mm": 1.9998283386230469,
+      "outer_root_min_mm": 1.9998330175876617,
+      "circumferential_samples": 360,
+      "inner_root_unbroken_samples": 360,
+      "outer_root_unbroken_samples": 360,
+      "joint_plane_z_mm": [
+        68.69,
+        68.71
+      ]
+    }
+  },
+  "delta": {
+    "bearing_contact_area_mm2": 229.3143632642932,
+    "bearing_contact_percent": 18.76991595512223,
+    "roof_connection_area_mm2": 942.4910508784124,
+    "roof_connection_area_ratio": 20.135024323122888,
+    "cover_volume_mm3": 1249.3621071326925,
+    "halo_volume_mm3": 412.7655842597637
+  },
+  "method": "Actual native coplanar cover top / halo underside polygon intersection at Z68.7; LED holes, gates and neck gaps excluded by the actual faces. Joint area is native sections at Z68.69/68.71 intersected and conservatively restricted to the declared radial root bands. Six-decimal-mm noding only joins common section vertices. 360 radial rays independently test both continuous root widths. No physical strength claim."
+}

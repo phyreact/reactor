@@ -1,0 +1,223 @@
+{
+  "ranging_module": "VL53L8CX",
+  "ranging_module_ASIN": "B0GSQ5Q1TJ",
+  "case_half_xy_mm": 70.0,
+  "case_top_z_mm": 70.5,
+  "case_bottom_z_mm": 0.0,
+  "base_edge_roll_mm": 8.0,
+  "case_seam_z_mm": 8.0,
+  "front_support_y_shift_mm": -3.0,
+  "rear_support_y_shift_mm": 2.0,
+  "speaker_y_shift_mm": -1.8,
+  "power_attached_to_cover": false,
+  "DC_mount_face_y_mm": -66.4,
+  "DC_panel_clamping_thickness_mm": 3.6,
+  "power_switch_y_shift_mm": -4.85,
+  "grille_slot_width_mm": 33.6,
+  "plan_corner_radius_mm": 22.0,
+  "top_bottom_roll_mm": 8.0,
+  "camera_forward_from_previous_mm": -0.1,
+  "LCD_vertical_shift_mm": -12.0,
+  "laser_board_centre_z_mm": 54.4,
+  "laser_board_front_y_mm": 66.8,
+  "laser_optical_centre_z_mm": 51.95,
+  "laser_long_edge_horizontal": true,
+  "laser_header": "supplied straight 9-pin header; mating side towards interior",
+  "side_button_centre_y_mm": 30.0,
+  "ToF_vertical_shift_from_original_mm": -8.6,
+  "ToF_rearward_shift_mm": -2.6,
+  "microphone_vertical_shift_mm": -10.0,
+  "microphone_rotation_degrees": 90.0,
+  "side_button_centre_z_mm": 53.0,
+  "front_panel_outer_y_mm": 70.0,
+  "independent_front_panel": false,
+  "front_panel_top_z_mm": 69.8,
+  "camera_hole_diameter_mm": 18.4,
+  "camera_barrel_diameter_mm": 17.0,
+  "cover_service_forward_shift_mm": 2.4,
+  "LCD_forward_adjustment_mm": 7.195015,
+  "front_optical_common_plane_y_mm": 70.0,
+  "case_fastener_axes_xy_mm": [
+    [
+      -58.0,
+      -45.2
+    ],
+    [
+      -58.0,
+      45.2
+    ],
+    [
+      58.0,
+      -45.2
+    ],
+    [
+      58.0,
+      45.2
+    ]
+  ],
+  "side_button_modules_enabled": false,
+  "outer_color_name": "matte black",
+  "outer_color_rgb": [
+    0.012,
+    0.014,
+    0.016
+  ],
+  "component_support_owner": "Two independent front/rear supports; side radar frames integrated into rear flat base; 2 front plus 4 rear internal screws",
+  "use_compact_rear_power_geometry": true,
+  "microphone_attached_to_cover": true,
+  "case_lug_radius_mm": 4.4,
+  "case_lug_root_halfwidth_mm": 4.2,
+  "grille_style": "Three symmetric low groups per face, each containing three equal9.6mm mid-height openings with broad rooted integral webs",
+  "side_radar_centre_y_before_group_shift_mm": -18.5,
+  "grille_layout_rows_columns": [
+    1,
+    3
+  ],
+  "grille_slot_height_mm": 3.4,
+  "grille_column_centres_mm": [
+    -38.0,
+    0.0,
+    38.0
+  ],
+  "grille_row_z_ranges_mm": [
+    [
+      3.0,
+      6.4
+    ]
+  ],
+  "rear_face_integral_with_cover": true,
+  "rear_cover_service_panel": false,
+  "final_rear_DC_centre_x_z_mm": [
+    0,
+    52.2
+  ],
+  "final_rear_button_centre_x_z_mm": [
+    0,
+    35.7
+  ],
+  "rear_external_parts_removed_for_cover_service": [
+    "DC socket and bonded spacer",
+    "threaded button cap and bonded bolt"
+  ],
+  "native_single_button_modules_enabled": false,
+  "native_button_actuator_y_mm": [
+    11.8,
+    35.8
+  ],
+  "native_button_pcb_centres_y_mm": [
+    9.0,
+    33.0
+  ],
+  "native_button_pcb_length_width_depth_mm": [
+    19.6,
+    13.6,
+    14.0
+  ],
+  "native_button_front_x_abs_mm": 67.4,
+  "native_button_centre_z_mm": 53.0,
+  "preview_shell_colour": "Original blue-grey printed-part inspection material",
+  "preview_shell_rgb": [
+    0.13,
+    0.32,
+    0.35
+  ],
+  "production_shell_colour": "black",
+  "preview_mode": "materials",
+  "preview_display_material_colours": true,
+  "colour_design_deferred": false,
+  "grille_end_radius_mm": 1.7,
+  "voice_wake_button": {
+    "enabled": false,
+    "requested_count": 0,
+    "removed_at_user_request": true,
+    "rear_power_switch_retained": true
+  },
+  "front_compass": {
+    "enabled": true,
+    "requested_by_user": true,
+    "source_url": "http://www.hellostem.cn/chuan-gan-qi-1/115.html",
+    "orientation": "horizontal_lower_cavity",
+    "pcb_centre_x_y_top_z_mm": [
+      -42.0,
+      -8.0,
+      13.0
+    ],
+    "rotation_z_degrees": 90.0,
+    "horizontal_mount_requested_by_user": true
+  },
+  "top_voice_ToF_additional_shift_mm": -2.6,
+  "case_half_width_mm": 68.0,
+  "modular_supports_enabled": true,
+  "compact_tof_retainer_enabled": true,
+  "print_process": "resin",
+  "rear_and_both_sides_one_piece": false,
+  "simple_open_supports_enabled": true,
+  "camera_lens_recess_mm": 1.3,
+  "remove_rear_cantilever": true,
+  "camera_guard_enabled": true,
+  "camera_guard_projection_mm": 0.0,
+  "grilles_entirely_in_base": true,
+  "lower_grille_user_request": "Front and rear lower openings moved down to avoid cutting the surrounding rim and the camera guard region",
+  "fan_inward_x_shift_mm": 1.4,
+  "camera_guard_style": "recessed_inner_sleeve",
+  "camera_sleeve_lip_recess_mm": 0.5,
+  "camera_sleeve_depth_mm": 1.5,
+  "camera_sleeve_upper_rear_clearance": true,
+  "lcd1_wiring_window": {
+    "minimum_mm": [
+      17.5,
+      57.3,
+      17
+    ],
+    "maximum_mm": [
+      39.5,
+      61.8,
+      28
+    ],
+    "reason": "LCD1 rear lower SH1.0 14-pin connector access; visible through opening, no closed cavity",
+    "physical_mating_qualified": false
+  },
+  "internal_support_fasteners": true,
+  "side_vents_enabled": false,
+  "battery_clearance_design": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/full_system_wiring_2026-10-07/battery_clearance_design.json",
+  "front_rear_support_split": {
+    "centre_y_mm": 12.0,
+    "gap_mm": 0.6,
+    "purpose": "Front and rear print independently; no bridge or fragile interlocking pins"
+  },
+  "simplify_unused_support_material": true,
+  "plain_support_faces": true,
+  "regular_reinforced_supports": true,
+  "imu_forward_shift_mm": 5.0,
+  "integrate_side_radars_with_rear": true,
+  "case_seam_registration_enabled": true,
+  "printable_halo_enabled": true,
+  "opening_ribs_enabled": true,
+  "opening_rib_web_width_mm": 2.4,
+  "opening_rib_root_width_mm": 3.2,
+  "opening_rib_offsets_mm": [
+    -6.0,
+    6.0
+  ],
+  "further_support_simplification_v2_enabled": true,
+  "local_support_edge_reinforcement_v2_enabled": true,
+  "opening_ribs_cut_directly": true,
+  "regular_solid_supports_v3_enabled": true,
+  "simplify_retainers_v3_enabled": true,
+  "revision": "wide_bearing_halo_v7b",
+  "equal_width_low_openings_v3": true,
+  "front_support_v3_fill_imu_wall": false,
+  "wire_route_v3_enabled": true,
+  "retainer_ears_v3_enabled": true,
+  "lcd_mount_v3_enabled": true,
+  "rear_tip_cleanup_v4_enabled": true,
+  "unused_fan_root_v5_enabled": true,
+  "roof_audio_boss_extension_mm": 1.5,
+  "flush_halo_v6_enabled": true,
+  "roof_audio_shift_relative_v5_mm": -1.0,
+  "roof_top_shift_relative_v5_mm": 0.5,
+  "fixed_support_profile_top_z_mm": 70.0,
+  "widen_halo_bearing_v7_enabled": true,
+  "rear_dpdt_v7_enabled": false,
+  "new_pad_microphone_screw_reliefs": true
+}

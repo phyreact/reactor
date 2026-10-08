@@ -1,0 +1,22 @@
+{
+  "product": "Waveshare SKU14747, Amazon B07DBXMFSN",
+  "checked_date": "2026-10-05",
+  "sources": {
+    "product": "https://www.waveshare.com/1.5inch-RGB-OLED-Module.htm",
+    "wiki": "https://www.waveshare.com/w/index.php?title=1.5inch_RGB_OLED_Module&printable=yes",
+    "STEP": "https://files.waveshare.com/upload/c/c5/1.5inch_RGB_OLED_3D_Drawing.zip",
+    "outline": "https://www.waveshare.com/img/devkit/LCD/1.5inch-RGB-OLED-Module/1.5inch-RGB-OLED-Module-details-size.jpg"
+  },
+  "nominal_outline_mm": [
+    44.5,
+    37
+  ],
+  "interface": "3/4-wire SPI, PH2.0 seven-pin cable",
+  "file_sha256": {
+    "product.jpg": "570fe93912c53e4a933c38b66e210d28df1f75131195f45316fc0a69dfa0372b",
+    "3d.zip": "736a98c53c29eb4b2bca758337f05864d37645aa2df66bf3fe93046f598d87a9",
+    "outline.jpg": "e1651bb07c2ac5d37747dd75382ce6bf05986ed0d91829acde41026dec7616db",
+    "schematic-v01.pdf": "6626d1c610cd8e5f54f7d01bbb20b645adb83e18beae8be61df9dce7b22a98bd",
+    "3d/1.5inch RGB OLED 3D Drawing/1_5inch-rgb-oled-module_asm-1110.stp": "53794634d0ba68f90aff418cad65f30476f5a3588a8fa4eaeb8a447a7140b74d"
+  }
+}

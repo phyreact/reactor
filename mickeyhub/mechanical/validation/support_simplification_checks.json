@@ -1,0 +1,3363 @@
+{
+  "passed": true,
+  "objective": "Regular solid faces and shorter fragile spans; material addition allowed, every existing interface included",
+  "material_addition_allowed": true,
+  "strict_unchanged_interfaces": false,
+  "all_unmodified_interfaces_included": true,
+  "intentional_LCD_joint_redesign_samples": [
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.06058683991432,
+        64.8408904671669,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.20922592282295,
+        64.89134579896927,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.750005662441254,
+        64.80002403259277,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.90664666891098,
+        64.81027603149414,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.59338328242302,
+        64.81027603149414,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.439424484968185,
+        64.8408904671669,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.29079285264015,
+        64.89134579896927,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.350012093782425,
+        64.9607703089714,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.48052018880844,
+        65.04799425601959,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.15000668168068,
+        64.9607703089714,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.019491136074066,
+        65.04799425601959,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.59854483604431,
+        65.15147536993027,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.90148511528969,
+        65.15147536993027,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.70203712582588,
+        65.26948511600494,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.78923499584198,
+        65.40000438690186,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.79799282550812,
+        65.26948511600494,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.710783779621124,
+        65.40000438690186,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.858659505844116,
+        65.54079055786133,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.64135926961899,
+        65.54079055786133,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.90912601351738,
+        65.68941473960876,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.59090393781662,
+        65.68941473960876,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.93974044919014,
+        65.84338843822479,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.560278326272964,
+        65.84338843822479,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.9500147998333,
+        65.99999964237213,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.55000397562981,
+        65.99999964237213,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.93974044919014,
+        66.15663319826126,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.560278326272964,
+        66.15663319826126,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.90912601351738,
+        66.3105845451355,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.59090393781662,
+        66.3105845451355,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.858659505844116,
+        66.45922362804413,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.64135926961899,
+        66.45922362804413,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.78923499584198,
+        66.6000097990036,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.710783779621124,
+        66.6000097990036,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.70203712582588,
+        66.73051416873932,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.59854483604431,
+        66.84854626655579,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.79799282550812,
+        66.73051416873932,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.90148511528969,
+        66.84854626655579,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -50.599999725818634,
+        66.94662570953369,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.48052018880844,
+        66.95202738046646,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.019491136074066,
+        66.95202738046646,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.350012093782425,
+        67.03925132751465,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.80427026748657,
+        67.12531298398972,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.20922592282295,
+        67.10866093635559,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.06058683991432,
+        67.15913116931915,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.15000668168068,
+        67.03925132751465,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.29079285264015,
+        67.10866093635559,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.439424484968185,
+        67.15913116931915,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -49.07247796654701,
+        67.25230067968369,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.90664666891098,
+        67.18973815441132,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.750005662441254,
+        67.19999760389328,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.59338328242302,
+        67.18973815441132,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -48.86125028133392,
+        67.28894263505936,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -47.91134223341942,
+        67.40611791610718,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -46.95681855082512,
+        67.47651100158691,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.750005662441254,
+        64.80002403259277,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.59338328242302,
+        64.81027603149414,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.439424484968185,
+        64.8408904671669,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.90664666891098,
+        64.81027603149414,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.29079285264015,
+        64.89134579896927,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.06058683991432,
+        64.8408904671669,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.20922592282295,
+        64.89134579896927,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.15000668168068,
+        64.9607703089714,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.019491136074066,
+        65.04799425601959,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.350012093782425,
+        64.9607703089714,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.48052018880844,
+        65.04799425601959,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.90148511528969,
+        65.15147536993027,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.59854483604431,
+        65.15147536993027,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.79799282550812,
+        65.26948511600494,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.710783779621124,
+        65.40000438690186,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.70203712582588,
+        65.26948511600494,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.78923499584198,
+        65.40000438690186,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.64135926961899,
+        65.54079055786133,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.858659505844116,
+        65.54079055786133,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.59090393781662,
+        65.68941473960876,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.90912601351738,
+        65.68941473960876,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.560278326272964,
+        65.84338843822479,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.93974044919014,
+        65.84338843822479,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.55000397562981,
+        65.99999964237213,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.9500147998333,
+        65.99999964237213,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.560278326272964,
+        66.15663319826126,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.93974044919014,
+        66.15663319826126,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.59090393781662,
+        66.3105845451355,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.90912601351738,
+        66.3105845451355,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.64135926961899,
+        66.45922362804413,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.858659505844116,
+        66.45922362804413,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.710783779621124,
+        66.6000097990036,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.78923499584198,
+        66.6000097990036,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.79799282550812,
+        66.73051416873932,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.90148511528969,
+        66.84854626655579,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.70203712582588,
+        66.73051416873932,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.59854483604431,
+        66.84854626655579,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.019491136074066,
+        66.95202738046646,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.48052018880844,
+        66.95202738046646,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        50.599999725818634,
+        66.94662570953369,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.15000668168068,
+        67.03925132751465,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.29079285264015,
+        67.10866093635559,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.439424484968185,
+        67.15913116931915,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.350012093782425,
+        67.03925132751465,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.20922592282295,
+        67.10866093635559,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.80427026748657,
+        67.12531298398972,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.06058683991432,
+        67.15913116931915,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        46.95681855082512,
+        67.47651100158691,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.59338328242302,
+        67.18973815441132,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.90664666891098,
+        67.18973815441132,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.750005662441254,
+        67.19999760389328,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        48.86125028133392,
+        67.28894263505936,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        49.07247796654701,
+        67.25230067968369,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        47.91134223341942,
+        67.40611791610718,
+        56.40001595020294
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    },
+    {
+      "object": "LCD narrow retaining strip",
+      "point_mm": [
+        -46.912092715501785,
+        66.00222736597061,
+        56.40002712607384
+      ],
+      "reason": "Printed LCD ear/pilot joint deliberately rebuilt; separately checked with new closed ears and screw envelopes."
+    }
+  ],
+  "LCD_joint_validation": {
+    "version": 3,
+    "passed": true,
+    "status": "rebuilt",
+    "changed_objects": [
+      "M01 independent front integrated support",
+      "LCD narrow retaining strip"
+    ],
+    "fastener_names": [
+      "LCD left M2x6 reference head",
+      "LCD left M2x6 reference clearance span",
+      "LCD left M2x6 reference pilot engagement",
+      "LCD right M2x6 reference head",
+      "LCD right M2x6 reference clearance span",
+      "LCD right M2x6 reference pilot engagement"
+    ],
+    "old_axes_xy_mm": [
+      [
+        -48.75,
+        66.0
+      ],
+      [
+        48.75,
+        66.0
+      ]
+    ],
+    "new_axes_xy_mm": [
+      [
+        -47.8,
+        64.4
+      ],
+      [
+        47.8,
+        64.4
+      ]
+    ],
+    "old_pilot_z_range_mm": [
+      50.80009,
+      56.4
+    ],
+    "pilot_z_range_mm": [
+      52.4,
+      56.4
+    ],
+    "pilot_diameter_mm": 1.7,
+    "clearance_diameter_mm": 2.4,
+    "clearance_z_range_mm": [
+      56.4,
+      59.0
+    ],
+    "modified_support_regions_mm": [
+      [
+        [
+          -50.6002,
+          60.8498,
+          50.3998
+        ],
+        [
+          -45.3998,
+          66.9002,
+          56.4002
+        ]
+      ],
+      [
+        [
+          45.3998,
+          60.8498,
+          50.3998
+        ],
+        [
+          50.6002,
+          66.9002,
+          56.4002
+        ]
+      ]
+    ],
+    "modified_retainer_regions_mm": [
+      [
+        [
+          -51.001,
+          60.999,
+          56.349
+        ],
+        [
+          -44.399,
+          68.001,
+          59.051
+        ]
+      ],
+      [
+        [
+          44.399,
+          60.999,
+          56.349
+        ],
+        [
+          51.001,
+          68.001,
+          59.051
+        ]
+      ]
+    ],
+    "original_LCD_screw_quantity": 2,
+    "resulting_LCD_screw_quantity": 2,
+    "physical_fit_qualified": false,
+    "reference_hardware_only": true,
+    "reference_screw": {
+      "nominal": "M2x6 full-thread socket cap reference",
+      "thread_outer_diameter_mm": 2.0,
+      "under_head_length_mm": 6.0,
+      "maximum_head_diameter_mm": 3.8,
+      "maximum_head_height_mm": 2.0,
+      "hex_drive_across_flats_mm": 1.5,
+      "ear_thickness_mm": 2.6,
+      "pilot_engagement_mm": 3.4,
+      "pilot_bottom_clearance_mm": 0.6,
+      "source": "Official Accu web-result reference id=152177, retrieved by main agent; local PDF retrieval HTTP403",
+      "purchase_or_physical_fit_verified": false
+    },
+    "permitted_thread_contact": {
+      "object": "M01 independent front integrated support",
+      "axes_xy_mm": [
+        [
+          -47.8,
+          64.4
+        ],
+        [
+          47.8,
+          64.4
+        ]
+      ],
+      "radial_region_mm": 1.02,
+      "pilot_z_range_mm": [
+        52.4,
+        56.4
+      ],
+      "engagement_z_range_mm": [
+        53.0,
+        56.4
+      ]
+    },
+    "before": {
+      "M01": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 43543.72602214286,
+        "nonmanifold_vertices": 0,
+        "euler": -10
+      },
+      "LCD": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 1482.3721302955696,
+        "nonmanifold_vertices": 0,
+        "euler": -6
+      }
+    },
+    "reference_envelope_objects": 6,
+    "after": {
+      "M01": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 43762.076682904095,
+        "nonmanifold_vertices": 0,
+        "euler": -14
+      },
+      "LCD": {
+        "nonmanifold_edges": 0,
+        "connected_components": 1,
+        "volume_mm3": 1557.5162815395474,
+        "nonmanifold_vertices": 0,
+        "euler": -6
+      }
+    },
+    "changed_volume_mm3": {
+      "M01": 218.3506607612362,
+      "LCD": 75.14415124397783
+    },
+    "measured_pilot_bottom_z_mm": [
+      52.40000534057617,
+      52.40000534057617
+    ],
+    "changes_outside_authorized_regions_mm3": {
+      "M01": [
+        0.000629945765579583,
+        0.0003668514564221764
+      ],
+      "LCD": [
+        0.008353814535170694,
+        0.0017991874933011812
+      ]
+    },
+    "radial_ligaments": {
+      "LCD": {
+        "angular_step_deg": 1,
+        "sections": [
+          {
+            "axis_xy_mm": [
+              -47.8,
+              64.4
+            ],
+            "z_mm": 56.45,
+            "minimum": {
+              "angle_deg": 90.017,
+              "nominal_angle_deg": 90,
+              "bore_radius_mm": 1.1999794244766235,
+              "ligament_mm": 1.500038212886304
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 1.1999832391738892,
+                "ligament_mm": 34.7859927571766
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 1.1987165212631226,
+                "ligament_mm": 10.76551090174479
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 1.198710322380066,
+                "ligament_mm": 4.998103926684446
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 1.1999881267547607,
+                "ligament_mm": 2.617283013721792
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 1.19871985912323,
+                "ligament_mm": 1.9184602934978785
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 1.1987190246582031,
+                "ligament_mm": 1.5963249162376503
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.500038212886304
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 1.198732852935791,
+                "ligament_mm": 1.5967526060479982
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 1.1987102031707764,
+                "ligament_mm": 1.9195403673687512
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 1.1999952793121338,
+                "ligament_mm": 2.4062601064494538
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 1.1987318992614746,
+                "ligament_mm": 2.0338722615692757
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 1.1987160444259644,
+                "ligament_mm": 1.6998262656717256
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 1.1999908685684204,
+                "ligament_mm": 1.6000099612817447
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 1.1987245082855225,
+                "ligament_mm": 1.700278190858376
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 1.1987130641937256,
+                "ligament_mm": 2.035002806987279
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 1.1999818086624146,
+                "ligament_mm": 2.7609922756596843
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 1.1987197399139404,
+                "ligament_mm": 2.149341101926808
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 1.1987102031707764,
+                "ligament_mm": 1.8033518121299086
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 1.199979543685913,
+                "ligament_mm": 1.7000237367513147
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 1.1987196207046509,
+                "ligament_mm": 1.8038204389130248
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 1.1987059116363525,
+                "ligament_mm": 2.1504993324624655
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 1.1999741792678833,
+                "ligament_mm": 2.902462778435978
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 1.1987148523330688,
+                "ligament_mm": 2.7265965588035517
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 1.1987018585205078,
+                "ligament_mm": 2.3209607859519803
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              -47.8,
+              64.4
+            ],
+            "z_mm": 57.7,
+            "minimum": {
+              "angle_deg": 90.017,
+              "nominal_angle_deg": 90,
+              "bore_radius_mm": 1.1999794244766235,
+              "ligament_mm": 1.500038212886304
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 1.1999832391738892,
+                "ligament_mm": 34.500017441484204
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 1.1987165212631226,
+                "ligament_mm": 10.76551090174479
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 1.1987104415893555,
+                "ligament_mm": 4.998103926684446
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 1.1999881267547607,
+                "ligament_mm": 2.617283013721792
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 1.19871985912323,
+                "ligament_mm": 1.9184602934978785
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 1.1987190246582031,
+                "ligament_mm": 1.5963249162376503
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.500038212886304
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 1.198732852935791,
+                "ligament_mm": 1.5967526060479982
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 1.1987102031707764,
+                "ligament_mm": 1.9195403673687512
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 1.1999952793121338,
+                "ligament_mm": 2.4062601064494538
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 1.1987318992614746,
+                "ligament_mm": 2.0338722615692757
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 1.1987160444259644,
+                "ligament_mm": 1.6998262656717256
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 1.19999098777771,
+                "ligament_mm": 1.6000099612817447
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 1.198724627494812,
+                "ligament_mm": 1.700278190858376
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 1.1987130641937256,
+                "ligament_mm": 2.035002806987279
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 1.1999818086624146,
+                "ligament_mm": 2.7609922756596843
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 1.1987196207046509,
+                "ligament_mm": 2.149341101926808
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 1.1987100839614868,
+                "ligament_mm": 1.8033518121299086
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.7000237367513147
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 1.1987196207046509,
+                "ligament_mm": 1.8038204389130248
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 1.1987059116363525,
+                "ligament_mm": 2.1504993324624655
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 1.1999741792678833,
+                "ligament_mm": 2.902462778435978
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 1.1987148523330688,
+                "ligament_mm": 2.7265965588035517
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 1.1987018585205078,
+                "ligament_mm": 2.3209607859519803
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              -47.8,
+              64.4
+            ],
+            "z_mm": 58.95,
+            "minimum": {
+              "angle_deg": 90.017,
+              "nominal_angle_deg": 90,
+              "bore_radius_mm": 1.199979305267334,
+              "ligament_mm": 1.500038212886304
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 1.1999832391738892,
+                "ligament_mm": 34.500017441484204
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 1.1987165212631226,
+                "ligament_mm": 10.76551090174479
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 1.1987104415893555,
+                "ligament_mm": 4.998103926684446
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 1.1999881267547607,
+                "ligament_mm": 2.617283013721792
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 1.1987199783325195,
+                "ligament_mm": 1.9184602934978785
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 1.1987189054489136,
+                "ligament_mm": 1.5963249162376503
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 1.199979305267334,
+                "ligament_mm": 1.500038212886304
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 1.198732852935791,
+                "ligament_mm": 1.5967526060479982
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 1.1987102031707764,
+                "ligament_mm": 1.9195403673687512
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 1.1999953985214233,
+                "ligament_mm": 2.4062601064494538
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 1.1987318992614746,
+                "ligament_mm": 2.0338722615692757
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 1.1987160444259644,
+                "ligament_mm": 1.6998262656717256
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 1.1999908685684204,
+                "ligament_mm": 1.6000099612817447
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 1.198724627494812,
+                "ligament_mm": 1.700278190858376
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 1.1987130641937256,
+                "ligament_mm": 2.035002806987279
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 1.1999818086624146,
+                "ligament_mm": 2.7609922756596843
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 1.1987196207046509,
+                "ligament_mm": 2.149341101926808
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 1.1987102031707764,
+                "ligament_mm": 1.8033518121299086
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.7000237367513147
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 1.1987196207046509,
+                "ligament_mm": 1.8038204389130248
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 1.1987059116363525,
+                "ligament_mm": 2.1504993324624655
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 1.1999741792678833,
+                "ligament_mm": 2.902462778435978
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 1.1987148523330688,
+                "ligament_mm": 2.7265965588035517
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 1.1987018585205078,
+                "ligament_mm": 2.3209607859519803
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              47.8,
+              64.4
+            ],
+            "z_mm": 56.45,
+            "minimum": {
+              "angle_deg": 90.017,
+              "nominal_angle_deg": 90,
+              "bore_radius_mm": 1.1999794244766235,
+              "ligament_mm": 1.500038212886304
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 1.1999908685684204,
+                "ligament_mm": 1.6000099612817447
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 1.1987276077270508,
+                "ligament_mm": 1.7002744749374847
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 1.198720097541809,
+                "ligament_mm": 2.0349942836634325
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 1.1999958753585815,
+                "ligament_mm": 2.4062573816755943
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 1.1987217664718628,
+                "ligament_mm": 1.9184602934978785
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 1.1987212896347046,
+                "ligament_mm": 1.5963249162376503
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.500038212886304
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 1.1987308263778687,
+                "ligament_mm": 1.5967599971067679
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 1.1987082958221436,
+                "ligament_mm": 1.9195403673687512
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 1.1999869346618652,
+                "ligament_mm": 2.61954881415891
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 1.198722004890442,
+                "ligament_mm": 5.004464540448747
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 1.1987049579620361,
+                "ligament_mm": 10.79203462648457
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 1.1999832391738892,
+                "ligament_mm": 34.7859927571766
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 1.1987134218215942,
+                "ligament_mm": 2.3215077722054955
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 1.1987031698226929,
+                "ligament_mm": 2.727953230965942
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 1.1999741792678833,
+                "ligament_mm": 2.9000297347550386
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 1.1987178325653076,
+                "ligament_mm": 2.149341101926808
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 1.1987078189849854,
+                "ligament_mm": 1.803356435292702
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 1.199979543685913,
+                "ligament_mm": 1.7000237367513147
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 1.1987218856811523,
+                "ligament_mm": 1.8038204389130248
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 1.1987080574035645,
+                "ligament_mm": 2.1504993324624655
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 1.1999826431274414,
+                "ligament_mm": 2.7586428335139637
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 1.198724627494812,
+                "ligament_mm": 2.0338826944757655
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 1.1987128257751465,
+                "ligament_mm": 1.6998299825724266
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              47.8,
+              64.4
+            ],
+            "z_mm": 57.7,
+            "minimum": {
+              "angle_deg": 90.017,
+              "nominal_angle_deg": 90,
+              "bore_radius_mm": 1.1999794244766235,
+              "ligament_mm": 1.500038212886304
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 1.19999098777771,
+                "ligament_mm": 1.6000099612817447
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 1.1987276077270508,
+                "ligament_mm": 1.7002744749374847
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 1.198720097541809,
+                "ligament_mm": 2.0349942836634325
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 1.1999958753585815,
+                "ligament_mm": 2.4062601064494538
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 1.1987217664718628,
+                "ligament_mm": 1.9184602934978785
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 1.198721170425415,
+                "ligament_mm": 1.5963249162376503
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.500038212886304
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 1.1987308263778687,
+                "ligament_mm": 1.5967599971067679
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 1.1987082958221436,
+                "ligament_mm": 1.9195403673687512
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 1.1999870538711548,
+                "ligament_mm": 2.61954881415891
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 1.198722004890442,
+                "ligament_mm": 5.004464540448747
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 1.1987049579620361,
+                "ligament_mm": 10.79203462648457
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 1.1999832391738892,
+                "ligament_mm": 34.500020979752165
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 1.1987135410308838,
+                "ligament_mm": 2.3215077722054955
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 1.1987031698226929,
+                "ligament_mm": 2.727953230965942
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 1.1999740600585938,
+                "ligament_mm": 2.9000297347550386
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 1.198717713356018,
+                "ligament_mm": 2.149341101926808
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 1.1987078189849854,
+                "ligament_mm": 1.803356435292702
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.7000237367513147
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 1.1987217664718628,
+                "ligament_mm": 1.8038204389130248
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 1.1987080574035645,
+                "ligament_mm": 2.1504993324624655
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 1.1999825239181519,
+                "ligament_mm": 2.7586428335139637
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 1.198724627494812,
+                "ligament_mm": 2.0338826944757655
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 1.1987128257751465,
+                "ligament_mm": 1.6998299825724266
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              47.8,
+              64.4
+            ],
+            "z_mm": 58.95,
+            "minimum": {
+              "angle_deg": 90.017,
+              "nominal_angle_deg": 90,
+              "bore_radius_mm": 1.199979305267334,
+              "ligament_mm": 1.500038212886304
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 1.1999908685684204,
+                "ligament_mm": 1.6000099612817447
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 1.1987276077270508,
+                "ligament_mm": 1.7002744749374847
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 1.1987202167510986,
+                "ligament_mm": 2.0349942836634325
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 1.199995994567871,
+                "ligament_mm": 2.4062573816755943
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 1.1987217664718628,
+                "ligament_mm": 1.9184602934978785
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 1.1987212896347046,
+                "ligament_mm": 1.5963249162376503
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 1.199979305267334,
+                "ligament_mm": 1.500038212886304
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 1.1987308263778687,
+                "ligament_mm": 1.5967599971067679
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 1.1987082958221436,
+                "ligament_mm": 1.9195403673687512
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 1.1999869346618652,
+                "ligament_mm": 2.61954881415891
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 1.198722004890442,
+                "ligament_mm": 5.004464540448747
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 1.1987049579620361,
+                "ligament_mm": 10.79203462648457
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 1.1999832391738892,
+                "ligament_mm": 34.500017441484204
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 1.1987135410308838,
+                "ligament_mm": 2.3215077722054955
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 1.1987031698226929,
+                "ligament_mm": 2.727953230965942
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 1.1999741792678833,
+                "ligament_mm": 2.9000297347550386
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 1.1987178325653076,
+                "ligament_mm": 2.149341101926808
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 1.1987078189849854,
+                "ligament_mm": 1.803356435292702
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 1.1999794244766235,
+                "ligament_mm": 1.7000237367513147
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 1.1987217664718628,
+                "ligament_mm": 1.8038204389130248
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 1.1987078189849854,
+                "ligament_mm": 2.1504993324624655
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 1.1999825239181519,
+                "ligament_mm": 2.7586428335139637
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 1.198724627494812,
+                "ligament_mm": 2.0338826944757655
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 1.1987128257751465,
+                "ligament_mm": 1.6998299825724266
+              }
+            ]
+          }
+        ],
+        "minimum_sampled_ligament_mm": 1.500038212886304
+      },
+      "M01": {
+        "angular_step_deg": 1,
+        "sections": [
+          {
+            "axis_xy_mm": [
+              -47.8,
+              64.4
+            ],
+            "z_mm": 53.1,
+            "minimum": {
+              "angle_deg": 45.017,
+              "nominal_angle_deg": 45,
+              "bore_radius_mm": 0.8499810099601746,
+              "ligament_mm": 1.413423277812675
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 1.5500031162743044
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 0.8490896224975586,
+                "ligament_mm": 1.635761946373782
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 0.8490852117538452,
+                "ligament_mm": 1.9226594425005954
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 0.8499810099601746,
+                "ligament_mm": 1.413423277812675
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 0.8490970134735107,
+                "ligament_mm": 2.0371758805827342
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 0.8490884304046631,
+                "ligament_mm": 2.3341550820462778
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 2.1643296347578365
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 0.8490995168685913,
+                "ligament_mm": 2.1773960483649892
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 0.8490888476371765,
+                "ligament_mm": 2.3767088213637915
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 0.8499895334243774,
+                "ligament_mm": 2.8178966033896664
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 0.8491010069847107,
+                "ligament_mm": 2.3835046732164313
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 0.849088728427887,
+                "ligament_mm": 2.0494553194189504
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 0.8499937057495117,
+                "ligament_mm": 1.9500046736194314
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 0.849096417427063,
+                "ligament_mm": 2.049906923925824
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 0.8490869998931885,
+                "ligament_mm": 2.384625230010417
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 0.8499830961227417,
+                "ligament_mm": 3.110990555069901
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 0.8490917086601257,
+                "ligament_mm": 11.35718894188263
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 0.8490825295448303,
+                "ligament_mm": 14.057710705174784
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 10.999935634626905
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 0.8490881323814392,
+                "ligament_mm": 6.0360480282366105
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 0.849083423614502,
+                "ligament_mm": 6.830992072733938
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 0.8499758243560791,
+                "ligament_mm": 2.5431180051724738
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 0.8490875363349915,
+                "ligament_mm": 1.9217056882138175
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 0.8490808010101318,
+                "ligament_mm": 1.6353754663035938
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              -47.8,
+              64.4
+            ],
+            "z_mm": 54.5,
+            "minimum": {
+              "angle_deg": 45.017,
+              "nominal_angle_deg": 45,
+              "bore_radius_mm": 0.8499810099601746,
+              "ligament_mm": 1.413423277812675
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 1.5500031162743044
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 0.8490896224975586,
+                "ligament_mm": 1.635761946373782
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 0.8490852117538452,
+                "ligament_mm": 1.9226594425005954
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 0.8499810099601746,
+                "ligament_mm": 1.413423277812675
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 0.8490970134735107,
+                "ligament_mm": 2.0371758805827342
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 0.8490884304046631,
+                "ligament_mm": 2.3341550820462778
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 0.8499861359596252,
+                "ligament_mm": 2.1643296347578365
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 0.8490995168685913,
+                "ligament_mm": 2.1773960483649892
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 0.8490889072418213,
+                "ligament_mm": 2.3767154421177357
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 0.8499894142150879,
+                "ligament_mm": 2.8178966033896664
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 0.8491010069847107,
+                "ligament_mm": 2.3835046732164313
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 0.849088728427887,
+                "ligament_mm": 2.0494553194189504
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 0.8499937653541565,
+                "ligament_mm": 1.9500046736194314
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 0.8490964770317078,
+                "ligament_mm": 2.049906923925824
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 0.8490869998931885,
+                "ligament_mm": 2.384625230010417
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 0.8499830961227417,
+                "ligament_mm": 3.110990555069901
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 0.8490917086601257,
+                "ligament_mm": 11.35718894188263
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 0.8490827679634094,
+                "ligament_mm": 14.057710705174784
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 10.999935634626905
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 0.8490881323814392,
+                "ligament_mm": 6.0360480282366105
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 0.849083423614502,
+                "ligament_mm": 6.830992072733938
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 0.8499760031700134,
+                "ligament_mm": 2.5431126145131335
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 0.8490875363349915,
+                "ligament_mm": 1.9217056882138175
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 0.8490808010101318,
+                "ligament_mm": 1.6353754663035938
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              -47.8,
+              64.4
+            ],
+            "z_mm": 56.2,
+            "minimum": {
+              "angle_deg": 45.017,
+              "nominal_angle_deg": 45,
+              "bore_radius_mm": 0.8499810099601746,
+              "ligament_mm": 1.413423277812675
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 1.5500031162743044
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 0.8490896224975586,
+                "ligament_mm": 1.635761946373782
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 0.8490852117538452,
+                "ligament_mm": 1.9226594425005954
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 0.8499810099601746,
+                "ligament_mm": 1.413423277812675
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 0.8490970730781555,
+                "ligament_mm": 2.0371758805827342
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 0.8490884900093079,
+                "ligament_mm": 2.3341550820462778
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 0.8499861359596252,
+                "ligament_mm": 2.1643296347578365
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 0.8490994572639465,
+                "ligament_mm": 2.1773960483649892
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 0.8490889072418213,
+                "ligament_mm": 2.376717348088937
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 0.8499895334243774,
+                "ligament_mm": 2.8178966033896664
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 0.8491010069847107,
+                "ligament_mm": 2.3835046732164313
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 0.849088728427887,
+                "ligament_mm": 2.0494553194189504
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 0.8499936461448669,
+                "ligament_mm": 1.9500046736194314
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 0.849096417427063,
+                "ligament_mm": 2.049906923925824
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 0.8490869998931885,
+                "ligament_mm": 2.384625230010417
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 0.8499831557273865,
+                "ligament_mm": 3.110990555069901
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 0.8490917086601257,
+                "ligament_mm": 11.357185583042824
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 0.8490827083587646,
+                "ligament_mm": 14.057710705174784
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 0.8499861359596252,
+                "ligament_mm": 10.999935634626905
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 0.8490881323814392,
+                "ligament_mm": 6.0360480282366105
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 0.849083423614502,
+                "ligament_mm": 6.830992072733938
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 0.8499760031700134,
+                "ligament_mm": 2.5431126145131335
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 0.8490875363349915,
+                "ligament_mm": 1.9217056882138175
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 0.8490808010101318,
+                "ligament_mm": 1.6353754663035938
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              47.8,
+              64.4
+            ],
+            "z_mm": 53.1,
+            "minimum": {
+              "angle_deg": 135.017,
+              "nominal_angle_deg": 135,
+              "bore_radius_mm": 0.8499811291694641,
+              "ligament_mm": 1.4134313745089713
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 0.8499937057495117,
+                "ligament_mm": 1.9500046736194314
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 0.8490970730781555,
+                "ligament_mm": 2.049906923925824
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 0.8490927815437317,
+                "ligament_mm": 2.384621930616259
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 0.8499887585639954,
+                "ligament_mm": 2.8165182443221215
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 0.8490970134735107,
+                "ligament_mm": 2.3759283961671445
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 0.8490912914276123,
+                "ligament_mm": 2.177136449454876
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 0.84998619556427,
+                "ligament_mm": 2.1644669976295017
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 0.8490967750549316,
+                "ligament_mm": 2.334802064552231
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 0.8490888476371765,
+                "ligament_mm": 2.0381729992054765
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 0.8499811291694641,
+                "ligament_mm": 1.4134313745089713
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 0.8490934371948242,
+                "ligament_mm": 1.9217023384255094
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 0.8490814566612244,
+                "ligament_mm": 1.6353754663035938
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 1.5500031162743044
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 0.8490890264511108,
+                "ligament_mm": 1.635761946373782
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 0.8490792512893677,
+                "ligament_mm": 1.9226646351854242
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 0.8499752879142761,
+                "ligament_mm": 2.5451302666291835
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 0.8490917086601257,
+                "ligament_mm": 6.82835279560489
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 0.8490799069404602,
+                "ligament_mm": 6.034961605945442
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 0.8499861359596252,
+                "ligament_mm": 5.800014672067841
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 0.8490908741950989,
+                "ligament_mm": 14.060072184902378
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 0.849083423614502,
+                "ligament_mm": 11.34465758841314
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 0.8499844074249268,
+                "ligament_mm": 3.108638350288322
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 0.8490951657295227,
+                "ligament_mm": 2.3835131756302532
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 0.8490882515907288,
+                "ligament_mm": 2.0494543378619365
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              47.8,
+              64.4
+            ],
+            "z_mm": 54.5,
+            "minimum": {
+              "angle_deg": 135.017,
+              "nominal_angle_deg": 135,
+              "bore_radius_mm": 0.8499810695648193,
+              "ligament_mm": 1.4134313745089713
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 0.8499937653541565,
+                "ligament_mm": 1.9500046736194314
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 0.8490970730781555,
+                "ligament_mm": 2.049906923925824
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 0.8490927815437317,
+                "ligament_mm": 2.384621930616259
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 0.8499887585639954,
+                "ligament_mm": 2.8165182443221215
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 0.8490970134735107,
+                "ligament_mm": 2.3759283961671445
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 0.8490912914276123,
+                "ligament_mm": 2.177136449454876
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 0.84998619556427,
+                "ligament_mm": 2.1644669976295017
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 0.8490966558456421,
+                "ligament_mm": 2.334802064552231
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 0.8490889072418213,
+                "ligament_mm": 2.0381729992054765
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 0.8499810695648193,
+                "ligament_mm": 1.4134313745089713
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 0.8490933775901794,
+                "ligament_mm": 1.9217023384255094
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 0.8490814566612244,
+                "ligament_mm": 1.6353754663035938
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 1.5500031162743044
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 0.8490890264511108,
+                "ligament_mm": 1.635761946373782
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 0.8490792512893677,
+                "ligament_mm": 1.9226646351854242
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 0.8499753475189209,
+                "ligament_mm": 2.5451302666291835
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 0.8490917086601257,
+                "ligament_mm": 6.82835279560489
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 0.8490799069404602,
+                "ligament_mm": 6.034961605945442
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 0.8499861359596252,
+                "ligament_mm": 5.800014672067841
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 0.8490909337997437,
+                "ligament_mm": 14.060072184902378
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 0.849083423614502,
+                "ligament_mm": 11.34465758841314
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 0.8499842882156372,
+                "ligament_mm": 3.108638350288322
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 0.8490951657295227,
+                "ligament_mm": 2.3835131756302532
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 0.849088191986084,
+                "ligament_mm": 2.0494543378619365
+              }
+            ]
+          },
+          {
+            "axis_xy_mm": [
+              47.8,
+              64.4
+            ],
+            "z_mm": 56.2,
+            "minimum": {
+              "angle_deg": 135.017,
+              "nominal_angle_deg": 135,
+              "bore_radius_mm": 0.8499810695648193,
+              "ligament_mm": 1.4134313745089713
+            },
+            "every_15_degrees": [
+              {
+                "angle_deg": 0.017,
+                "nominal_angle_deg": 0,
+                "bore_radius_mm": 0.8499936461448669,
+                "ligament_mm": 1.9500046736194314
+              },
+              {
+                "angle_deg": 15.017,
+                "nominal_angle_deg": 15,
+                "bore_radius_mm": 0.8490970730781555,
+                "ligament_mm": 2.049906923925824
+              },
+              {
+                "angle_deg": 30.017,
+                "nominal_angle_deg": 30,
+                "bore_radius_mm": 0.8490927815437317,
+                "ligament_mm": 2.384621930616259
+              },
+              {
+                "angle_deg": 45.017,
+                "nominal_angle_deg": 45,
+                "bore_radius_mm": 0.8499887585639954,
+                "ligament_mm": 2.8165182443221215
+              },
+              {
+                "angle_deg": 60.017,
+                "nominal_angle_deg": 60,
+                "bore_radius_mm": 0.8490970730781555,
+                "ligament_mm": 2.3759283961671445
+              },
+              {
+                "angle_deg": 75.017,
+                "nominal_angle_deg": 75,
+                "bore_radius_mm": 0.8490912914276123,
+                "ligament_mm": 2.177136449454876
+              },
+              {
+                "angle_deg": 90.017,
+                "nominal_angle_deg": 90,
+                "bore_radius_mm": 0.84998619556427,
+                "ligament_mm": 2.1644669976295017
+              },
+              {
+                "angle_deg": 105.017,
+                "nominal_angle_deg": 105,
+                "bore_radius_mm": 0.8490967750549316,
+                "ligament_mm": 2.334802064552231
+              },
+              {
+                "angle_deg": 120.017,
+                "nominal_angle_deg": 120,
+                "bore_radius_mm": 0.8490889072418213,
+                "ligament_mm": 2.0381729992054765
+              },
+              {
+                "angle_deg": 135.017,
+                "nominal_angle_deg": 135,
+                "bore_radius_mm": 0.8499810695648193,
+                "ligament_mm": 1.4134313745089713
+              },
+              {
+                "angle_deg": 150.017,
+                "nominal_angle_deg": 150,
+                "bore_radius_mm": 0.8490934371948242,
+                "ligament_mm": 1.9217023384255094
+              },
+              {
+                "angle_deg": 165.017,
+                "nominal_angle_deg": 165,
+                "bore_radius_mm": 0.8490814566612244,
+                "ligament_mm": 1.6353754663035938
+              },
+              {
+                "angle_deg": 180.017,
+                "nominal_angle_deg": 180,
+                "bore_radius_mm": 0.8499860763549805,
+                "ligament_mm": 1.5500031162743044
+              },
+              {
+                "angle_deg": 195.017,
+                "nominal_angle_deg": 195,
+                "bore_radius_mm": 0.8490891456604004,
+                "ligament_mm": 1.635761946373782
+              },
+              {
+                "angle_deg": 210.017,
+                "nominal_angle_deg": 210,
+                "bore_radius_mm": 0.8490792512893677,
+                "ligament_mm": 1.9226646351854242
+              },
+              {
+                "angle_deg": 225.017,
+                "nominal_angle_deg": 225,
+                "bore_radius_mm": 0.8499754071235657,
+                "ligament_mm": 2.5451302666291835
+              },
+              {
+                "angle_deg": 240.017,
+                "nominal_angle_deg": 240,
+                "bore_radius_mm": 0.8490917086601257,
+                "ligament_mm": 6.82835279560489
+              },
+              {
+                "angle_deg": 255.017,
+                "nominal_angle_deg": 255,
+                "bore_radius_mm": 0.8490799069404602,
+                "ligament_mm": 6.034961605945442
+              },
+              {
+                "angle_deg": 270.017,
+                "nominal_angle_deg": 270,
+                "bore_radius_mm": 0.8499861359596252,
+                "ligament_mm": 5.800014672067841
+              },
+              {
+                "angle_deg": 285.017,
+                "nominal_angle_deg": 285,
+                "bore_radius_mm": 0.8490908741950989,
+                "ligament_mm": 14.060072184902378
+              },
+              {
+                "angle_deg": 300.017,
+                "nominal_angle_deg": 300,
+                "bore_radius_mm": 0.849083423614502,
+                "ligament_mm": 11.34465758841314
+              },
+              {
+                "angle_deg": 315.017,
+                "nominal_angle_deg": 315,
+                "bore_radius_mm": 0.8499842882156372,
+                "ligament_mm": 3.108638350288322
+              },
+              {
+                "angle_deg": 330.017,
+                "nominal_angle_deg": 330,
+                "bore_radius_mm": 0.8490951657295227,
+                "ligament_mm": 2.3835131756302532
+              },
+              {
+                "angle_deg": 345.017,
+                "nominal_angle_deg": 345,
+                "bore_radius_mm": 0.849088191986084,
+                "ligament_mm": 2.0494543378619365
+              }
+            ]
+          }
+        ],
+        "minimum_sampled_ligament_mm": 1.413423277812675
+      }
+    },
+    "contact_samples_by_part": {
+      "M01": {
+        "BASE separate open washable pan": 147,
+        "CAMERA_B0310": 190,
+        "COVER one large cap with roof ReSpeaker screw mounts": 56,
+        "ESP32_EYES": 66,
+        "H1 lower base spacer - height provisional": 58,
+        "IMU Grove惯性传感器": 781,
+        "M01 accessible low screw head": 64,
+        "M01 accessible low screw head.001": 64,
+        "M01 internally accessible M3 nut": 7,
+        "M01 internally accessible M3 nut.001": 7,
+        "MH_UPS2 lower base spacer - height provisional": 58
+      },
+      "LCD": {
+        "VL53L8CX red carrier with two fixing ears": 244
+      }
+    },
+    "unchanged_component_contact_samples": 1742,
+    "lost_unchanged_component_contacts": 0,
+    "redesigned_interfaces": [
+      "Two M01 printed LCD seats/pilots versus the two printed LCD ears"
+    ],
+    "electronic_interface_exclusions": [],
+    "static_new_region_checks": [
+      {
+        "probe": "_LCD_support_added_region",
+        "target": "COVER one large cap with roof ReSpeaker screw mounts",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_support_added_region",
+        "target": "ESP32_EYES",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_support_added_region.001",
+        "target": "COVER one large cap with roof ReSpeaker screw mounts",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_support_added_region.001",
+        "target": "ESP32_EYES",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_support_added_region.002",
+        "target": "COVER one large cap with roof ReSpeaker screw mounts",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_support_added_region.002",
+        "target": "ESP32_EYES",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_support_added_region.003",
+        "target": "COVER one large cap with roof ReSpeaker screw mounts",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_support_added_region.003",
+        "target": "ESP32_EYES",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_closed_ear",
+        "target": "COVER one large cap with roof ReSpeaker screw mounts",
+        "volume_mm3": 0.0
+      },
+      {
+        "probe": "_LCD_closed_ear.001",
+        "target": "COVER one large cap with roof ReSpeaker screw mounts",
+        "volume_mm3": 0.0
+      }
+    ],
+    "new_static_collisions": 0,
+    "print_seating_intersection_mm3": 0.0,
+    "intentional_full_D2_thread_intersections": [
+      {
+        "fastener": "LCD left M2x6 reference pilot engagement",
+        "target": "M01 independent front integrated support",
+        "intentional_intersection_mm3": 2.9593143326779012
+      },
+      {
+        "fastener": "LCD right M2x6 reference pilot engagement",
+        "target": "M01 independent front integrated support",
+        "intentional_intersection_mm3": 2.959314332677892
+      }
+    ],
+    "head_clearance_margin_mm": {
+      "radial": 0.2,
+      "above_head": 0.2
+    },
+    "cover_motion_poses_mm": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0.4,
+        0
+      ],
+      [
+        0,
+        1.2,
+        0
+      ],
+      [
+        0,
+        2.4,
+        0
+      ],
+      [
+        0,
+        2.4,
+        0.2
+      ],
+      [
+        0,
+        2.4,
+        0.5
+      ],
+      [
+        0,
+        2.4,
+        1
+      ],
+      [
+        0,
+        2.4,
+        2
+      ],
+      [
+        0,
+        2.4,
+        4
+      ],
+      [
+        0,
+        2.4,
+        8
+      ],
+      [
+        0,
+        2.4,
+        16
+      ],
+      [
+        0,
+        2.4,
+        30
+      ],
+      [
+        0,
+        2.4,
+        50
+      ],
+      [
+        0,
+        2.4,
+        70
+      ]
+    ],
+    "cover_motion_checked_pairs": 100,
+    "cover_motion_collisions": 0,
+    "strip_lift_samples_z_mm": [
+      0.2,
+      0.5,
+      1,
+      2,
+      4,
+      8,
+      16,
+      30,
+      50
+    ],
+    "strip_lift_collisions": 0,
+    "removal_sequence": "Remove cover using +Y2.4 then +Z; remove both LCD screws (all lcd_mount_fastener_v3 segments); unplug ToF cable; lift strip with attached ToF in +Z.",
+    "tool_access": {
+      "shaft_diameter_mm": 3.0,
+      "z_range_mm": [
+        61.05,
+        111.05
+      ],
+      "hex_drive_reference_mm": 1.5,
+      "checks": [
+        {
+          "axis_xy_mm": [
+            -47.8,
+            64.4
+          ],
+          "target": "_M01_LCD_mount_trial",
+          "volume_mm3": 0.0
+        },
+        {
+          "axis_xy_mm": [
+            -47.8,
+            64.4
+          ],
+          "target": "_LCD_closed_ear_trial",
+          "volume_mm3": 0.0
+        },
+        {
+          "axis_xy_mm": [
+            47.8,
+            64.4
+          ],
+          "target": "_M01_LCD_mount_trial",
+          "volume_mm3": 0.0
+        },
+        {
+          "axis_xy_mm": [
+            47.8,
+            64.4
+          ],
+          "target": "_LCD_closed_ear_trial",
+          "volume_mm3": 0.0
+        }
+      ],
+      "collisions": 0
+    },
+    "nominal_boolean_tolerance_mm3": 0.005
+  },
+  "redesigned_interfaces_excluded": [],
+  "support_owner_transfer": {
+    "M02": "M04",
+    "M03": "M04"
+  },
+  "redesigned_interface_validation": null,
+  "contact_samples": 4339,
+  "original_proximity_samples": 4448,
+  "changed_mount_clearance_samples": [],
+  "samples_by_support": {
+    "M01": 1498,
+    "M04": 2841
+  },
+  "lost_contact_samples": [],
+  "volumes": [
+    {
+      "module": "M01",
+      "before_mm3": 42752.09523088954,
+      "after_mm3": 43762.076682904095,
+      "removed_mm3": -1009.9814520145519,
+      "removed_percent": -2.3624139274577893
+    },
+    {
+      "module": "M04",
+      "before_mm3": 60706.78920902558,
+      "after_mm3": 59233.3238954848,
+      "removed_mm3": 1473.4653135407789,
+      "removed_percent": 2.427183734701145
+    }
+  ],
+  "source_sha256": "221fcd527faff4bd38fe5e5bd02e5c51f76d3fbe970127b9ee97331bab6f44f4",
+  "target_sha256": "29085c91d18766d029f294a4fa799665742af1d14a805a41e7ce038b70d9380e",
+  "scope": "Visible component/retainer/base vertex and face-centre samples within0.3mm of old supports must stay within previous distance+0.05mm. Only the two explicitly rebuilt printed LCD joints are separately validated; no real electronic device contact exceptions. Connected-solid/assembly/collision checks separate. Not stress analysis or a real assembly test."
+}

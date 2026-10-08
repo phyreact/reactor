@@ -1,0 +1,16 @@
+[
+  {
+    "file": "sparkfun_hookup.html",
+    "url": "https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide/all",
+    "bytes": 39055,
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "file": "sparkfun_schematic.pdf",
+    "url": "https://cdn.sparkfun.com/datasheets/BreakoutBoards/Logic_Level_Bidirectional.pdf",
+    "bytes": 43901,
+    "status": 200,
+    "content_type": "application/pdf"
+  }
+]

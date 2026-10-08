@@ -1,0 +1,164 @@
+[
+  {
+    "id": "S01",
+    "title": "当前原生PCB",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/routing/quad_relay_flush/analysis/small_oled_compact/four_relay_backside_2026-10-06/native/box_carrier_modules_r2.kicad_pcb",
+    "scope": "网络、连接器和实际封装；按SHA256锁定"
+  },
+  {
+    "id": "S02",
+    "title": "当前原理图XML",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/interface_audit_2026-10-07/current.net.xml",
+    "scope": "所有逻辑端点逐针交叉核对"
+  },
+  {
+    "id": "S03",
+    "title": "当前控制契约",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/power_tof_fan_2026-10-08/pin_and_power_contract.json",
+    "scope": "本轮安全长按、I2C ToF同源供电、风扇针序；旧UART ToF和第四雷达退出"
+  },
+  {
+    "id": "S04",
+    "title": "当前固件",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/firmware/box_controller_r21r",
+    "scope": "源码检查；没有烧录或运行在目标硬件上"
+  },
+  {
+    "id": "S05",
+    "title": "ZERO 3接口",
+    "source": "https://docs.radxa.com/en/zero/zero3/hardware-design/hardware-interface",
+    "scope": "40针复用、USB、22针CSI；2026-10-07查阅"
+  },
+  {
+    "id": "S06",
+    "title": "双眼屏",
+    "source": "https://docs.waveshare.com/ESP32-S3-DualEye-Touch-LCD-1.28",
+    "scope": "LCD1 P2针表；不要拿LCD2同形接口代替"
+  },
+  {
+    "id": "S07",
+    "title": "Rd-03E原厂",
+    "source": "https://docs.aithinker.com/en/Rd-03E/",
+    "scope": "原厂手册与协议入口；有测距/手势两种固件"
+  },
+  {
+    "id": "S08",
+    "title": "Rd-03E缓存PDF",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/electrical_closure/sources/rd03e_spec.pdf",
+    "scope": "第6、7、9页：5V、200mA供电能力、44mA典型及DIP5针序"
+  },
+  {
+    "id": "S09",
+    "title": "VL53L8CX原厂",
+    "source": "https://www.st.com/resource/en/datasheet/vl53l8cx.pdf",
+    "scope": "DS14161：I2C/SPI、1.2/1.8V IO；不是九针载板电路证明"
+  },
+  {
+    "id": "S10",
+    "title": "VL53L8CX已选商品",
+    "source": "https://www.amazon.com/dp/B0GSQ5Q1TJ",
+    "scope": "用户选型；载板详细原理图未取得"
+  },
+  {
+    "id": "S11",
+    "title": "九针板照片",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/vl53l8cx_replacement/module_ruler_chat.jpg",
+    "scope": "同布局参考板丝印可读；非制造商电平/稳压电路保证"
+  },
+  {
+    "id": "S12",
+    "title": "罗盘原理图",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/mechanical/front_rear_modules_2026-10-06/component_review_2026-10-07/compass_schematic.pdf",
+    "scope": "HS-S75-L：CN1 G/V/SDA/SCL；R1/R2 4.7k到内部VCC"
+  },
+  {
+    "id": "S13",
+    "title": "Grove六轴",
+    "source": "https://wiki.seeedstudio.com/Grove-6-Axis_AccelerometerAndGyroscope/",
+    "scope": "整块模块包含接口电路"
+  },
+  {
+    "id": "S14",
+    "title": "I2C旧版核算",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/electrical_closure/i2c_review.json",
+    "scope": "只继承明确的电阻支路，不继承整机通过结论"
+  },
+  {
+    "id": "S15",
+    "title": "ReSpeaker USB",
+    "source": "https://wiki.seeedstudio.com/respeaker_xvf3800_introduction/",
+    "scope": "USB音频端口/固件；扬声器口与AUX不同"
+  },
+  {
+    "id": "S16",
+    "title": "原始长按板图片",
+    "source": "${ORIGINAL_WORKSPACE}/codex_recovery/20261007_box/power_history_1108_1_chat.jpg",
+    "scope": "用户已提供：2.7–26V、VI±/VO±、标称10A、长按2–3秒；额定能力未实测"
+  },
+  {
+    "id": "S17",
+    "title": "长按板选型",
+    "source": "https://item.taobao.com/item.htm?id=974867853296&skuId=5926586228519",
+    "scope": "恢复自历史线程01a117b2第209行；网页抓取失败，按原用户图片"
+  },
+  {
+    "id": "S18",
+    "title": "已拒绝风扇图片",
+    "source": "${ORIGINAL_WORKSPACE}/codex_recovery/20261007_box/fan_history_470_1_chat.jpg",
+    "scope": "用户本轮明确说不是Delta；本图不再作为现选风扇的型号/电流/针序依据"
+  },
+  {
+    "id": "S19",
+    "title": "当前风扇唯一选型",
+    "source": "https://item.taobao.com/item.htm?id=852827738499&skuId=5651202152814",
+    "scope": "用户最终明确答复5V四线，并给选中5010 5V 4线B3接口 PWM的截图；撤销Delta和12V两线判断"
+  },
+  {
+    "id": "S20",
+    "title": "UPS原理图",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/electrical_closure/sources/ups3s_schematic.pdf",
+    "scope": "P1/P2/P3/P4和状态口，INA219 0x41"
+  },
+  {
+    "id": "S21",
+    "title": "扬声器用户选型",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/speaker_selection.json",
+    "scope": "XFDZ-3727 4Ω3W，1.25mm两针、线长145±5mm"
+  },
+  {
+    "id": "S22",
+    "title": "M15原厂",
+    "source": "https://www.sparkfun.com/products/12009",
+    "scope": "BOB-12009成品模块"
+  },
+  {
+    "id": "S23",
+    "title": "M42原厂",
+    "source": "https://www.pololu.com/product/2990",
+    "scope": "DRV8838电机驱动模块，OUT1不是普通开漏GPIO"
+  },
+  {
+    "id": "S24",
+    "title": "相机用户确认",
+    "source": "current conversation 2026-10-07",
+    "scope": "用户：已经确认可以接，不用再管摄像头；采纳，不宣称本次硬件实测"
+  },
+  {
+    "id": "S25",
+    "title": "后电源双组瞬时按钮",
+    "source": "https://configured-product-images.s3.amazonaws.com/2D/specs/TL2230OAF140.pdf",
+    "scope": "E-Switch官方图；DPDT瞬时，机械安装另做检查"
+  },
+  {
+    "id": "S26",
+    "title": "本轮固件检查",
+    "source": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/power_tof_fan_2026-10-08",
+    "scope": "安全长按、ToF ULD、风扇FG；编译/软件测试，不是实机验收"
+  },
+  {
+    "id": "S27",
+    "title": "风扇卖家针序的用户确认",
+    "source": "takeover thread 01a11a21-1b4c-73b2-ad89-6fbccbf0790f",
+    "scope": "用户提供卖家图并确认实购仍为5V：1黑GND、2黄5V、3绿FG、4蓝PWM；图中12V不用于本SKU"
+  }
+]

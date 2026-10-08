@@ -1,0 +1,1328 @@
+{
+  "passed": true,
+  "source": "${REACTOR_ROOT}/mickeyhub/mickeyhub.blend",
+  "source_sha256": "7a644fdcfd4c151cd514ce6cf9e0a041cbfea6f36a80c2fc615189b82d3726c1",
+  "animation_model": "${REACTOR_ROOT}/memory_backups/3d_sources/mickeyhub/mickeyhub-animation.blend",
+  "animation_sha256": "e325adfdb63517103a50cfd31d8b4b25a3e188fecd09e7bff3fb327ffb8ceae7",
+  "source_geometry_object_count": 777,
+  "labelled_assemblies": 46,
+  "original_geometry_unchanged": true,
+  "source_material_assignments_unchanged": true,
+  "complete_initial_rotation": true,
+  "no_disassembly_before_full_rotation": true,
+  "English_labels_cover_all_modules": true,
+  "text_fit_checks": [
+    {
+      "label": "Brand",
+      "font_px": 54,
+      "fit": true
+    },
+    {
+      "label": "Edition",
+      "font_px": 19,
+      "fit": true
+    },
+    {
+      "label": "View caption",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "Footnote",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "0/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "0/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "0/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "0/big",
+      "font_px": 66,
+      "fit": true
+    },
+    {
+      "label": "0/bullet0",
+      "font_px": 26,
+      "fit": true
+    },
+    {
+      "label": "0/bullet1",
+      "font_px": 26,
+      "fit": true
+    },
+    {
+      "label": "0/bullet2",
+      "font_px": 26,
+      "fit": true
+    },
+    {
+      "label": "0/assembly_count",
+      "font_px": 23,
+      "fit": true
+    },
+    {
+      "label": "1/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "1/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "1/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "1/cover/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "1/cover/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "1/cover/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "1/cover/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "1/base/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "1/base/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "1/base/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "1/base/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "1/case_screws/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "1/case_screws/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "1/case_screws/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "1/case_screws/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "2/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "2/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "2/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "2/halo/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "2/halo/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "2/halo/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "2/halo/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "2/microphones/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "2/microphones/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "2/microphones/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "2/microphones/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "3/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "3/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "3/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "3/eyes/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "3/eyes/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "3/eyes/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "3/eyes/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "3/speaker/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "3/speaker/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "3/speaker/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "3/speaker/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "4/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "4/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "4/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "4/camera/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "4/camera/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "4/camera/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "4/camera/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "4/tof/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "4/tof/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "4/tof/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "4/tof/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "5/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "5/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "5/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "5/radar_left/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "5/radar_left/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "5/radar_left/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "5/radar_left/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "5/radar_right/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "5/radar_right/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "5/radar_right/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "5/radar_right/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "5/radar_rear/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "5/radar_rear/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "5/radar_rear/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "5/radar_rear/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "6/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "6/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "6/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "6/imu/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "6/imu/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "6/imu/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "6/imu/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "6/compass/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "6/compass/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "6/compass/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "6/compass/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "7/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "7/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "7/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "7/host/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "7/host/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "7/host/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "7/host/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "8/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "8/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "8/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "8/s3/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "8/s3/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "8/s3/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "8/s3/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "8/rp/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "8/rp/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "8/rp/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "8/rp/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "9/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "9/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "9/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "9/oled/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "9/oled/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "9/oled/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "9/oled/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "9/hat/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "9/hat/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "9/hat/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "9/hat/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "10/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "10/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "10/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "10/mux_a/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "10/mux_a/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "10/mux_a/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "10/mux_a/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "10/mux_b/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "10/mux_b/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "10/mux_b/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "10/mux_b/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "11/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "11/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "11/relay_1/name",
+      "font_px": 22,
+      "fit": true
+    },
+    {
+      "label": "11/relay_1/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_1/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_1/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "11/relay_2/name",
+      "font_px": 22,
+      "fit": true
+    },
+    {
+      "label": "11/relay_2/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_2/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_2/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "11/relay_16/name",
+      "font_px": 22,
+      "fit": true
+    },
+    {
+      "label": "11/relay_16/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_16/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_16/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "11/relay_17/name",
+      "font_px": 22,
+      "fit": true
+    },
+    {
+      "label": "11/relay_17/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_17/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_17/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "11/relay_driver/name",
+      "font_px": 22,
+      "fit": true
+    },
+    {
+      "label": "11/relay_driver/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_driver/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "11/relay_driver/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "12/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "12/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "12/iso_20/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "12/iso_20/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/iso_20/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/iso_20/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "12/iso_21/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "12/iso_21/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/iso_21/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/iso_21/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "12/iso_22/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "12/iso_22/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/iso_22/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/iso_22/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "12/fan_driver/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "12/fan_driver/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/fan_driver/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "12/fan_driver/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "13/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "13/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "13/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "13/ups/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "13/ups/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "13/ups/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "13/ups/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "13/dc/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "13/dc/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "13/dc/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "13/dc/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "13/button/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "13/button/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "13/button/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "13/button/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "14/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "14/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "14/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "14/fan/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "14/fan/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "14/fan/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "14/fan/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "15/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "15/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "15/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "15/wires/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "15/wires/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "15/wires/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "15/wires/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "15/motherboard/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "15/motherboard/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "15/motherboard/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "15/motherboard/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "16/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "16/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "16/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "16/front_support/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "16/front_support/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "16/front_support/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "16/front_support/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "16/rear_support/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "16/rear_support/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "16/rear_support/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "16/rear_support/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "17/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "17/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "17/lcd_keeper/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "17/lcd_keeper/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/lcd_keeper/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/lcd_keeper/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "17/left_keeper/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "17/left_keeper/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/left_keeper/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/left_keeper/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "17/right_keeper/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "17/right_keeper/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/right_keeper/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/right_keeper/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "17/rear_keeper/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "17/rear_keeper/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/rear_keeper/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "17/rear_keeper/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "18/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "18/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "18/halo_keeper/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "18/halo_keeper/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/halo_keeper/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/halo_keeper/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "18/power_keeper/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "18/power_keeper/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/power_keeper/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/power_keeper/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "18/dc_keeper/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "18/dc_keeper/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/dc_keeper/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/dc_keeper/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "18/fasteners/name",
+      "font_px": 24,
+      "fit": true
+    },
+    {
+      "label": "18/fasteners/description",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/fasteners/number",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "18/fasteners/rownumber",
+      "font_px": 17,
+      "fit": true
+    },
+    {
+      "label": "19/chapter",
+      "font_px": 16,
+      "fit": true
+    },
+    {
+      "label": "19/section",
+      "font_px": 18,
+      "fit": true
+    },
+    {
+      "label": "19/title",
+      "font_px": 40,
+      "fit": true
+    },
+    {
+      "label": "19/big",
+      "font_px": 66,
+      "fit": true
+    },
+    {
+      "label": "19/bullet0",
+      "font_px": 26,
+      "fit": true
+    },
+    {
+      "label": "19/bullet1",
+      "font_px": 26,
+      "fit": true
+    },
+    {
+      "label": "19/bullet2",
+      "font_px": 26,
+      "fit": true
+    },
+    {
+      "label": "19/assembly_count",
+      "font_px": 23,
+      "fit": true
+    }
+  ],
+  "framing_issues": [],
+  "framing_issue_count": 0,
+  "fps": 24,
+  "frames": 2664,
+  "duration_seconds": 111.0,
+  "render_resolution": [
+    1920,
+    1080
+  ],
+  "native_keyframes_no_handlers": true,
+  "source_file_unchanged": true,
+  "visual_review_complete": true,
+  "visually_reviewed_render_frames": [
+    1,
+    240,
+    1000,
+    2000,
+    2500
+  ],
+  "visual_review_note": "Inspected bounded previews: correct mickeyhub title, graphite enclosure, English component panels, rotating detail view and legible framing.",
+  "animation_model_in_repository": false,
+  "evidence_scope": "Recorded validation of the archived animation used to render the included GIF; the final source assembly remains included."
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Microduck R2.1R power and radar supervisor
+After=local-fs.target
+ConditionPathExists=/etc/box-controller.json
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -B /usr/libexec/box-controller/box_host.py daemon
+Restart=on-failure
+RestartSec=2
+RuntimeDirectory=box-controller
+RuntimeDirectoryMode=0700
+TimeoutStopSec=5
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

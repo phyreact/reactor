@@ -1,0 +1,28 @@
+{
+  "status": "rectangular_candidate_routed_pending_sample_qualification",
+  "quantity": 1,
+  "search_term": "BSS138 四路双向电平转换模块 3.3V 5V 未焊排针",
+  "minimum_channels": 2,
+  "assembled_components_required": true,
+  "presoldered_headers_preferred": false,
+  "LV_reference_V": 3.3,
+  "HV_reference_V": 5,
+  "grounds": "common",
+  "application": "static or low-frequency control of two selected5V relay IN terminals",
+  "load_current_through_converter": false,
+  "expected_logic_for_BSS138_topology": "non-inverting: GPIO LOW=relay ON, released/HIGH=OFF, subject to selected-board verification",
+  "electrical_design_inference": "From user1k/10k PNP input, module pull-down current is about4mA at5V; converter pull-ups add current. Verify GPIO sink capacity and VOL as well as startup/reset/power sequencing.",
+  "required_product_evidence": [
+    "front/back pin labels",
+    "schematic or fitted parts and resistor values",
+    "board dimensions and pin-row pitch",
+    "assembled/presoldered status"
+  ],
+  "verified_reference_only": "SparkFun BOB-12009 hookup guide and linked schematic; not a selected purchase",
+  "source_record": "references/assembled_relay_interface/sources.json",
+  "motherboard_footprint_selected": true,
+  "fabrication_release": false,
+  "headers_to_be_used": false,
+  "selected_module_record": "selected_module.json",
+  "footprint_is_provisional": true
+}

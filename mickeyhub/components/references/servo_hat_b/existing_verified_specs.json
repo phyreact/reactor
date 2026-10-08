@@ -1,0 +1,160 @@
+{
+  "id": "03_pca9685_servo_hat",
+  "name": "Waveshare Servo Driver HAT (B) 舵机板",
+  "label": "WAVESHARE SERVO HAT B",
+  "selection_status": "owned_user_confirmed_B",
+  "model_recipe": {
+    "type": "official_step",
+    "builder": "servo_hat",
+    "quality": "厂家B版STEP转网格，未改变接口方向；配色示意；实物公差未检验"
+  },
+  "mechanical": {
+    "known": "标称PCB 65×30 mm；官方CAD含连接器约65.022×38.559×18.700 mm，PCB厚1.6mm；安装孔Ø3mm",
+    "assumptions": "含侧向舵机排针及板下40针母座，不含插入后的舵机线头、40针配对座或电源线弯。完整包络不能只用65×30mm。",
+    "mounting": "保留官方CAD的四个安装孔；孔轴局部坐标见official_cad.mounting_holes，实物复核后用于支架",
+    "mated_plug_clearance_verified": false,
+    "model_bounds_mm": [
+      [
+        -32.51082229614258,
+        -19.279401779174805,
+        0.0
+      ],
+      [
+        32.51082229614258,
+        19.279401779174805,
+        18.700000762939453
+      ]
+    ],
+    "model_dimensions_mm": [
+      65.02164459228516,
+      38.55880355834961,
+      18.700000762939453
+    ],
+    "coordinate_frame": "右手坐标，XY居中，主体最低Z=0；Z向上。现有模型经刚性旋转/平移，详见source_to_local_mm。"
+  },
+  "electrical": {
+    "power": "VIN 6～12V → 板内5V；厂家最大3A为主板/舵机共用上限。R17=0Ω默认连接板内5V与40针座2/4脚。",
+    "control": "PCA9685，16路12位PWM，I²C逻辑3.3V；舵机使用50Hz。默认地址0x40，另可能响应ALLCALL 0x70；A0～A4可设32种地址。"
+  },
+  "ports": [
+    {
+      "id": "VIN",
+      "kind": "input",
+      "signal": "P1 VIN/GND",
+      "limits": "6～12V；不是电池充电输入；不接GPIO",
+      "pinout": {
+        "1": "VIN",
+        "2": "GND"
+      },
+      "position_mm": null,
+      "position_status": "未量测；不是可直接生成线束的坐标",
+      "location_note": "右侧绿色接线端子；接入线及螺丝刀空间另留"
+    },
+    {
+      "id": "I2C",
+      "kind": "bidirectional",
+      "signal": "P2 辅助电源/I²C",
+      "limits": "SDA/SCL为3.3V逻辑；P2第1脚是板内5V，不是3.3V",
+      "pinout": {
+        "1": "5V",
+        "2": "GND",
+        "3": "SDA",
+        "4": "SCL"
+      },
+      "position_mm": null,
+      "position_status": "未量测；不是可直接生成线束的坐标",
+      "location_note": "辅助4针接口；精确焊接位置按实物丝印确认"
+    },
+    {
+      "id": "SERVO0",
+      "kind": "output",
+      "signal": "通道0：GND / +5V / PWM",
+      "limits": "5V电源；50Hz；黑排GND、红排5V、黄排PWM，不能仅按线色反推顺序",
+      "pinout": null,
+      "position_mm": null,
+      "position_status": "未量测；不是可直接生成线束的坐标",
+      "location_note": "B版16路为直角排针，针尖朝模型+Y，插头从+Y侧沿−Y插入"
+    },
+    {
+      "id": "HEADER_5V",
+      "kind": "bidirectional",
+      "signal": "P4 40针主板接口5V轨",
+      "limits": "2/4脚经R17连接板内5V；先核对隔离再用独立双5V电源",
+      "pinout": {
+        "2": "5V via R17",
+        "4": "5V via R17"
+      },
+      "position_mm": null,
+      "position_status": "未量测；不是可直接生成线束的坐标",
+      "location_note": "40针扩展座仍为竖向；本机不默认直插Radxa"
+    }
+  ],
+  "notes": [
+    "用户明确型号为HAT (B)，不是普通直排针版；官方Wiki同时介绍两版，应使用B版STEP。",
+    "原理图P4第3/5脚为SDA/SCL；不能把树莓派针号直接套到Radxa。候选用Radxa配置后的I²C4物理27/28连P2的3/4及共地，P2的5V不接主板独立5V。",
+    "原理图明确R17=0Ω连接40针2/4与板内5V。官方针对大舵机建议分离此连接并从VIN供电；这是接线核对记录，本轮没有改动实物。",
+    "不是充电器、BMS、电量计或UPS；仍需2S充电与电源切换。5V输出不能按7.4V的20kg·cm标称扭矩计算。",
+    "若只连辅助I²C且不插40针，可不把HAT的5V接到主板；是否需要拆R17取决于最终连接方式，不能一概要求拆除。"
+  ],
+  "sources": [
+    "https://www.waveshare.com/servo-driver-hat-b.htm",
+    "https://www.waveshare.com/wiki/Servo_Driver_HAT",
+    "https://files.waveshare.com/wiki/Servo-Driver-HAT-(B)/3D-Drawings/Servo-Driver-HAT-(B).zip",
+    "https://files.waveshare.com/upload/a/a2/Servo_Driver_HAT_Schematic_.pdf"
+  ],
+  "verified_on": "2026-09-09",
+  "fabrication_ready": false,
+  "actual_hardware_tested": false,
+  "official_cad": {
+    "source_url": "https://files.waveshare.com/wiki/Servo-Driver-HAT-(B)/3D-Drawings/Servo-Driver-HAT-(B).zip",
+    "source_sha256": "1dbeb0349db24f2d8405ddeb0f24fadb2b43c2b11768496e8e471d6f2862fab6",
+    "source_to_local_translation_mm": [
+      -32.50000104000003,
+      -19.27941401,
+      10.1
+    ],
+    "dimensions_mm": [
+      65.02164796000005,
+      38.55880262,
+      18.700000000000003
+    ],
+    "pcb_bottom_z_mm": 8.5,
+    "pcb_top_z_mm": 10.1,
+    "mounting_holes": {
+      "diameter_mm": 3.0,
+      "axes_xy_mm": [
+        [
+          -28.99999,
+          -15.76858
+        ],
+        [
+          -28.99999,
+          7.23142
+        ],
+        [
+          29.0,
+          -15.76858
+        ],
+        [
+          29.0,
+          7.23142
+        ]
+      ],
+      "source": "official STEP cylinder faces"
+    },
+    "servo_pin_tip_direction_local": [
+      0,
+      1,
+      0
+    ],
+    "colours": "illustrative, not extracted from STEP"
+  },
+  "manufacturer": "Waveshare",
+  "manufacturer_sku": "17035",
+  "model_files": {
+    "blend": "modules/03_pca9685_servo_hat/model.blend",
+    "glb": "modules/03_pca9685_servo_hat/model.glb",
+    "stl_mm": "modules/03_pca9685_servo_hat/model_mm.stl",
+    "step_mm": "modules/03_pca9685_servo_hat/model_mm.step"
+  }
+}

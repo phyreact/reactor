@@ -1,0 +1,29 @@
+(version 1)
+(rule "0.15mm electrical clearance" (constraint clearance (min 0.15mm)))
+(rule "0.30mm copper to outline" (constraint edge_clearance (min 0.30mm)))
+(rule "Signal track minimum"
+  (condition "A.Type == 'Track'")
+  (constraint track_width (min 0.25mm)))
+(rule "Power branch clearance"
+  (condition "A.NetClass == 'POWER_BRANCH' || B.NetClass == 'POWER_BRANCH'")
+  (constraint clearance (min 0.20mm)))
+(rule "Main power clearance"
+  (condition "A.NetClass == '5V_MAIN' || B.NetClass == '5V_MAIN'")
+  (constraint clearance (min 0.25mm)))
+(rule "Main power track floor"
+  (condition "A.Type == 'Track' && A.NetClass == '5V_MAIN'")
+  (constraint track_width (min 0.80mm)))
+
+# Surface-only test pads are flat copper, not fitted components.
+(rule "Rear airflow - no fitted parts"
+  (layer "F.Cu")
+  (condition "A.Type == 'Footprint' && A.intersectsArea('REAR_AIRFLOW_CLEAR') && A.Reference != 'TP7' && A.Reference != 'TP8' && A.Reference != 'TP10' && A.Reference != 'TP11' && A.Reference != 'TP13'")
+  (constraint disallow footprint))
+
+
+# FPC remains above the front strip; only the flush 2.1mm M15 module is allowed
+# below it. Assembly requirement: no headers; cable must remain at z>=40mm.
+(rule "Camera front strip - flush M15 only"
+  (layer "F.Cu")
+  (condition "A.Type == 'Footprint' && A.intersectsArea('CAMERA_FPC_LOW_PROFILE_ONLY') && A.Reference != 'M15'")
+  (constraint disallow footprint))

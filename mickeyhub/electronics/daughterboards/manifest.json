@@ -1,0 +1,59 @@
+{
+  "source": "Current MicheyHub V0.0 adapter projects; electrical and mechanical blocks unchanged.",
+  "files": [
+    {
+      "source": "analysis/xiao_gpio_expansion/adapter_s3/xiao_s3_gpio_adapter.kicad_pcb",
+      "file": "daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_pcb",
+      "sha256": "63336ff7ab6c0d4d2ce0602761a1e195e9ea300d2cd972852e74065ed5d34023"
+    },
+    {
+      "source": "analysis/xiao_gpio_expansion/adapter_s3/xiao_s3_gpio_adapter.kicad_sch",
+      "file": "daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_sch",
+      "sha256": "6ec387707cfd68c9ec38aa1b217fd02d5ec530c9a893b9302c0fc3d4adf919bd"
+    },
+    {
+      "source": "analysis/xiao_gpio_expansion/adapter_s3/xiao_s3_gpio_adapter.kicad_pro",
+      "file": "daughterboards/adapter_s3/xiao_s3_gpio_adapter.kicad_pro",
+      "sha256": "e099a254ac95502cbe3bfe4a53b90667949f4430f34abb8f6627b5280c6c7339"
+    },
+    {
+      "source": "analysis/xiao_gpio_expansion/adapter_rp/xiao_rp_gpio_adapter.kicad_pcb",
+      "file": "daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_pcb",
+      "sha256": "ee74354b0cb2d18261e5b6138eb9c27900bae1845741ec2dca1d59cf0ffc34df"
+    },
+    {
+      "source": "analysis/xiao_gpio_expansion/adapter_rp/xiao_rp_gpio_adapter.kicad_sch",
+      "file": "daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_sch",
+      "sha256": "c2956df56f2f9140b0c4bc1a0c445ee763f349c75d51da866f739fc54ccba998"
+    },
+    {
+      "source": "analysis/xiao_gpio_expansion/adapter_rp/xiao_rp_gpio_adapter.kicad_pro",
+      "file": "daughterboards/adapter_rp/xiao_rp_gpio_adapter.kicad_pro",
+      "sha256": "9f3c5eb77432e190e2134bbe6b906e4132686f27b9bad8dc5dd41d3271da3a0e"
+    },
+    {
+      "source": "Native embedded schematic symbols, unchanged",
+      "file": "daughterboards/adapter_rp/XiaoExpansion.kicad_sym",
+      "sha256": "1000a0fcc52df8d57f76b7b064695f253493e4a2bb3f0e36542ae6462e62ace3"
+    },
+    {
+      "source": "Native embedded schematic symbols, unchanged",
+      "file": "daughterboards/adapter_rp/sym-lib-table",
+      "sha256": "a1b8f65889c5532455782f9126e9021e36cb6950bbf7601ca44b01df0c8308c8"
+    },
+    {
+      "source": "Native embedded schematic symbols, unchanged",
+      "file": "daughterboards/adapter_s3/XiaoExpansion.kicad_sym",
+      "sha256": "0b10fea1edba9795976775ed2af7b419ab12a2c29f4aca1770c51d7f7720d8c1"
+    },
+    {
+      "source": "Native embedded schematic symbols, unchanged",
+      "file": "daughterboards/adapter_s3/sym-lib-table",
+      "sha256": "a1b8f65889c5532455782f9126e9021e36cb6950bbf7601ca44b01df0c8308c8"
+    }
+  ],
+  "native_validation": "analysis/xiao_gpio_expansion/validation.json",
+  "contact_audit": "analysis/xiao_gpio_expansion/contact_contract_check.json",
+  "assembly_review": "analysis/xiao_stack_review/XIAO_STACK_REVIEW.txt",
+  "fabrication_release": false
+}

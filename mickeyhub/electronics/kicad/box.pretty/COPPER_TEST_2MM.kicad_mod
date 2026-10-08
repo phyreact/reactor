@@ -1,0 +1,7 @@
+(footprint "COPPER_TEST_2MM" (version 20241229) (generator "pcbnew") (layer "F.Cu")
+(descr "Copper-only probe pad; no component and no paste aperture.")
+(attr smd)
+(property "Reference" "REF**" (at 0 -3) (layer "F.SilkS") (effects (font (size 1.0 1.0))))
+(property "Value" "COPPER_TEST_2MM" (at 0 3) (layer "F.Fab") (effects (font (size 1.0 1.0))))
+(pad "1" smd rect (at 0.000000 0.000000) (size 2 2) (layers "F.Cu" "F.Mask"))
+)

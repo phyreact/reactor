@@ -1,0 +1,47 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.stl binary
+*.blend binary
+*.png binary
+*.gz binary
+*.m4a binary
+*.gif binary
+
+# Preserve exact bytes used by manifests and upstream integrity records.
+*.csv -text
+*.kicad_mod -text
+*.kicad_sym -text
+mickeyhub/firmware/zero/tof/vendor/LICENSE.md -text
+
+# Final integrated assemblies and STL meshes use Git LFS.
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+
+# Local conversations, historical material and render caches are not releases.
+memory_backups export-ignore
+memory_backups/** export-ignore
+*.[mM][pP]4 export-ignore
+/tools export-ignore
+/tools/** export-ignore
+checksums.sha256 export-ignore
+assets/reactor-family.png export-ignore
+
+# Component exports and intermediate modeling projects remain local.
+*.blend export-ignore
+donald-microduck/mechanical/duck.blend -export-ignore
+mickeyhub/mickeyhub.blend -export-ignore
+*.glb export-ignore
+*.step export-ignore
+*.stp export-ignore
+*.wrl export-ignore
+*.dxf export-ignore
+*.obj export-ignore
+*.fbx export-ignore
+*.ply export-ignore
+*.3mf export-ignore
+*.stl.gz export-ignore
+donald-microduck/mechanical/source/** export-ignore
+mickeyhub/mechanical/source/** export-ignore
+mickeyhub/mechanical/native/** export-ignore
+mickeyhub/mechanical/rebuild_inputs/** export-ignore

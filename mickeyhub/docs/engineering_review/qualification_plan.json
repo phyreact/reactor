@@ -1,0 +1,53 @@
+{
+  "production_release": false,
+  "results_are_measurements": false,
+  "items": [
+    {
+      "id": "Q1",
+      "topic": "原继电器负载",
+      "state": "NOT_EXECUTED",
+      "acceptance_work": "Measure HOST/ZERO/USB/audio/fan/HAT-electronics peak load and inrush, and battery-switch current at low battery; establish original module contact wiring and qualified load envelope. Servo motors are excluded by user. HFD4 UL 2A/30VDC at 40C is not a module capacitive-load qualification."
+    },
+    {
+      "id": "Q2",
+      "topic": "模块实物尺寸",
+      "state": "USER_CONFIRMED_CLOSED",
+      "evidence": "用户确认：模块实物尺寸没问题，已经确认",
+      "acceptance_work": "No further dimensional verification requested. Confirmation is supplied by the user, not an agent measurement."
+    },
+    {
+      "id": "Q3",
+      "topic": "MUX版本和上下电",
+      "state": "NOT_EXECUTED",
+      "acceptance_work": "Confirm received board pin12 is active-high INHIBIT and has pulldown; scope EN, radar power, both sides of each TX gate during relay make/break and supply collapse."
+    },
+    {
+      "id": "Q4",
+      "topic": "控制程序",
+      "state": "IMPLEMENTED_BUILT_SOFTWARE_TESTED",
+      "acceptance_work": "Verify actual GPIOs and two-controller TX_RELEASED handshake, MAIN hold before initialization, ZERO storage-quiescent shutdown authorization, inverse fan PWM, and HAT GPIO-I2C on actual S3/RP/ZERO. Software implementation and builds are complete; target execution is outstanding.",
+      "evidence": "S3/RP cross-builds; C ASan/UBSan fault/relay-dwell/ToF/HOST/MAIN-delay cases and 11 Python tests passed; DTS compiled. No flashing, target DTB merge or hardware timing measurement."
+    },
+    {
+      "id": "Q5",
+      "topic": "掉电和维护",
+      "state": "NOT_EXECUTED",
+      "acceptance_work": "Exercise M1/M2/M17 independently, main switch, brownout and USB maintenance setup; check device-specific unpowered pin and supply-injection limits from actual device documentation."
+    },
+    {
+      "id": "Q6",
+      "topic": "电流与温升",
+      "state": "NOT_EXECUTED",
+      "acceptance_work": "No servo load. Measure temperatures and rail voltage under the actual electronics/audio workload in the enclosure. Copper path resistance estimated separately; no measured thermal boundary or valid full-module thermal model."
+    },
+    {
+      "id": "Q7",
+      "topic": "装配和线缆EMC",
+      "state": "NOT_EXECUTED",
+      "acceptance_work": "Module physical dimensions closed by user confirmation. Final solder-joint quality, insulation, harness strain and any required product EMC prescan remain physical assembly tasks."
+    }
+  ],
+  "user_decision": "保留原继电器型号，暂不投产",
+  "servo_motors_in_current_load_budget": false,
+  "prototype_availability": "Not established in this resumed session; no physical test data supplied"
+}

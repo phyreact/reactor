@@ -1,0 +1,294 @@
+{
+  "schema_version": 2,
+  "status": "geometry and logical pin contract; sample fit and supplier availability unqualified",
+  "motherboard": {
+    "manufacturer": "Samtec",
+    "mpn": "CLP-105-02-L-D",
+    "footprint": "XiaoExpansion:Samtec_CLP-105-02-L-D_F",
+    "file": "footprints.pretty/Samtec_CLP-105-02-L-D_F.kicad_mod",
+    "side": "F.Cu",
+    "pad_size_mm": [
+      1.4732,
+      0.7366
+    ],
+    "pad_row_centers_x_mm": [
+      -1.6129,
+      1.6129
+    ],
+    "body_mm": [
+      3.048,
+      6.7818,
+      2.286
+    ],
+    "no_alignment_or_bottom_entry_holes": true,
+    "body_height_note": "2.286mm mounted bend reference (.090in); housing height 2.1336mm REF (.084in), not the same reference plane."
+  },
+  "adapter": {
+    "manufacturer": "Samtec",
+    "mpn": "FW-05-05-L-D-315-105",
+    "footprint": "XiaoExpansion:Samtec_FW_2x05_SMT_NoPeg_B",
+    "side": "B.Cu",
+    "configured_catalog_part_not_stock_confirmed": true,
+    "body_spacing_mm": 8.001,
+    "post_length_mm": 2.667,
+    "pad_size_mm": [
+      2.794,
+      0.7366
+    ],
+    "pad_row_centers_x_mm": [
+      -2.032,
+      2.032
+    ],
+    "supersedes": "FW-05-05-L-D-335-085; same SMT geometry and total reach, 0.508mm more female-to-male-plastic clearance",
+    "underbody_USB_reliefs": "module_underbody_clearances.json; 2 USB-edge open slots on each adapter; S3 4 internal NPTHs, RP 2 internal NPTHs; motherboard receives no additional holes."
+  },
+  "stack": {
+    "motherboard_top_to_adapter_bottom_nominal_mm": 11.04,
+    "adapter_thickness_mm": 0.8,
+    "XIAO_height_increase_vs_current_mm": 0.84,
+    "CLP_top_height_current_drawing_mm": 2.286,
+    "CLP_top_entry_minimum_insertion_mm": 1.4,
+    "nominal_pin_tip_to_motherboard_mm": 0.372,
+    "nominal_insertion_mm": 1.914,
+    "alternative_catalog_height_insertion_mm": 1.838,
+    "nominal_CLP_top_to_FW_plastic_gap_mm": 0.753,
+    "required_sample_mating": true,
+    "stack_set_by_original_14_pin_connectors": true,
+    "note": "FW board-space dimension A=.315in, post=.105in, sum=.420in. Nominal total reach 10.668mm, nominal tip-to-board at 11.04mm separation=.372mm. CLR body face .084in=2.1336mm REF and current mounted lead bend height .090in=2.286mm are not identical. Conservative nominal insertion from body face=1.7616mm; from bend-height reference=1.914mm. All exceed 1.40mm top-entry minimum at nominal dimensions. Do not qualify production from nominal geometry.",
+    "nominal_insertion_conservative_body_face_mm": 1.7616,
+    "tolerance_limits": "FW A +/-0.005in; CLP bend height +0.003/-0.002in. Original14 socket and male header exact SKUs/tolerances unknown. 11.04mm derives from current CAD envelope, not measured hardware. Inspect samples before production; solder stand-off, coplanarity, post-to-floor and 14-pin engagement must be included.",
+    "original14_module_full_drill_native_mm": 0.85,
+    "original14_adapter_finished_drill_nominal_mm": 0.95,
+    "original14_pin_selection": "Use supplied/verified XIAO header pins. Do not assume arbitrary 0.64mm square pin fits 0.85mm module drill; actual pin corner geometry and plated hole tolerance matter.",
+    "module_height_reference_note": "Current native module PCB bottom44.10mm; motherboard top33.10mm plus11.04mm gap plus0.8mm adapter gives44.94mm module underside, hence0.84mm lift at zero solder-layer thickness. Original14 pins/insulators stay fixed. Add actual solder-layer thickness to module lift; sample process not qualified.",
+    "original14_nominal_insulator_to_adapter_gap_mm": 0.04
+  },
+  "frame": {
+    "standard": "USB toward -Y; original module D0=(-7.62,-7.62); common assembled top view",
+    "logical_contact_axes_x_mm": [
+      -0.635,
+      0.635
+    ],
+    "rows_y_mm": [
+      -2.54,
+      -1.27,
+      0,
+      1.27,
+      2.54
+    ],
+    "numbering": "odd left(-X), even right(+X), increasing downward(+Y) in common assembled top view; custom passive-contact logical numbering",
+    "rotation": "KiCad: X=cx+x*cos(theta)+y*sin(theta);Y=cy-x*sin(theta)+y*cos(theta)",
+    "warning": "Load motherboard F footprint without flipping. Adapter J1 already on B.Cu. Do not add a second mirror; compare common contact axes, not visual solder-pad centers."
+  },
+  "connectors": {
+    "J48": {
+      "module": "S3",
+      "center_mm": [
+        112.9,
+        92.3
+      ],
+      "angle_deg": 90,
+      "side": "F.Cu",
+      "pins": [
+        {
+          "pin": 1,
+          "net": "S3_D11",
+          "gpio": 38,
+          "motherboard_solder_pad_center_mm": [
+            110.36,
+            93.9129
+          ]
+        },
+        {
+          "pin": 2,
+          "net": "S3_D12",
+          "gpio": 39,
+          "motherboard_solder_pad_center_mm": [
+            110.36,
+            90.6871
+          ]
+        },
+        {
+          "pin": 3,
+          "net": "S3_D13",
+          "gpio": 40,
+          "motherboard_solder_pad_center_mm": [
+            111.63,
+            93.9129
+          ]
+        },
+        {
+          "pin": 4,
+          "net": "S3_D14",
+          "gpio": 41,
+          "motherboard_solder_pad_center_mm": [
+            111.63,
+            90.6871
+          ]
+        },
+        {
+          "pin": 5,
+          "net": "S3_D15",
+          "gpio": 42,
+          "motherboard_solder_pad_center_mm": [
+            112.9,
+            93.9129
+          ]
+        },
+        {
+          "pin": 6,
+          "net": "S3_D16",
+          "gpio": 10,
+          "motherboard_solder_pad_center_mm": [
+            112.9,
+            90.6871
+          ]
+        },
+        {
+          "pin": 7,
+          "net": "S3_D17",
+          "gpio": 13,
+          "motherboard_solder_pad_center_mm": [
+            114.17,
+            93.9129
+          ]
+        },
+        {
+          "pin": 8,
+          "net": "S3_D18",
+          "gpio": 12,
+          "motherboard_solder_pad_center_mm": [
+            114.17,
+            90.6871
+          ]
+        },
+        {
+          "pin": 9,
+          "net": "S3_D19",
+          "gpio": 11,
+          "motherboard_solder_pad_center_mm": [
+            115.44,
+            93.9129
+          ]
+        },
+        {
+          "pin": 10,
+          "net": "GND",
+          "gpio": null,
+          "motherboard_solder_pad_center_mm": [
+            115.44,
+            90.6871
+          ]
+        }
+      ]
+    },
+    "J49": {
+      "module": "RP",
+      "center_mm": [
+        134.7,
+        92.3
+      ],
+      "angle_deg": 270,
+      "side": "F.Cu",
+      "pins": [
+        {
+          "pin": 1,
+          "net": "RP_D11",
+          "gpio": 21,
+          "motherboard_solder_pad_center_mm": [
+            137.24,
+            90.6871
+          ]
+        },
+        {
+          "pin": 2,
+          "net": "RP_D12",
+          "gpio": 20,
+          "motherboard_solder_pad_center_mm": [
+            137.24,
+            93.9129
+          ]
+        },
+        {
+          "pin": 3,
+          "net": "RP_D13",
+          "gpio": 17,
+          "motherboard_solder_pad_center_mm": [
+            135.97,
+            90.6871
+          ]
+        },
+        {
+          "pin": 4,
+          "net": "RP_D14",
+          "gpio": 16,
+          "motherboard_solder_pad_center_mm": [
+            135.97,
+            93.9129
+          ]
+        },
+        {
+          "pin": 5,
+          "net": "RP_D15",
+          "gpio": 11,
+          "motherboard_solder_pad_center_mm": [
+            134.7,
+            90.6871
+          ]
+        },
+        {
+          "pin": 6,
+          "net": "RP_D16",
+          "gpio": 12,
+          "motherboard_solder_pad_center_mm": [
+            134.7,
+            93.9129
+          ]
+        },
+        {
+          "pin": 7,
+          "net": "RP_D17",
+          "gpio": 10,
+          "motherboard_solder_pad_center_mm": [
+            133.43,
+            90.6871
+          ]
+        },
+        {
+          "pin": 8,
+          "net": "RP_D18",
+          "gpio": 9,
+          "motherboard_solder_pad_center_mm": [
+            133.43,
+            93.9129
+          ]
+        },
+        {
+          "pin": 9,
+          "net": "+3V3_RP",
+          "gpio": null,
+          "motherboard_solder_pad_center_mm": [
+            132.16,
+            90.6871
+          ]
+        },
+        {
+          "pin": 10,
+          "net": "GND",
+          "gpio": null,
+          "motherboard_solder_pad_center_mm": [
+            132.16,
+            93.9129
+          ]
+        }
+      ]
+    }
+  },
+  "sources": [
+    "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf",
+    "https://suddendocs.samtec.com/prints/fw-xx-xx-xx-d-xxx-xxx-xx-x-xx-mkt.pdf",
+    "https://suddendocs.samtec.com/prints/fw-d-sm-1-footprint.pdf",
+    "https://suddendocs.samtec.com/prints/clp-1xx-xx-xxx-d-xx-xx-xx-mkt.pdf",
+    "https://suddendocs.samtec.com/prints/clp-1xx-xx-xxx-d-xx-footprint.pdf"
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "revision": "takeover_power_candidate_REQUIRES_RATED_EXECUTOR",
+  "pcb_sha256": "1eb601e37996cc4124cee0e0ae231d309f32925c0ef0d9bac2a062498357b958",
+  "firmware_integration_status": "Software tests/cross-builds passed, but power executor selection and corresponding final integration remain unqualified; do not flash this as a complete system.",
+  "pin_sources": [
+    "https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/",
+    "https://wiki.seeedstudio.com/xiao_rp2350_arduino/",
+    "https://docs.radxa.com/en/zero/zero3/hardware-design/hardware-interface"
+  ],
+  "gpio_map": [
+    {
+      "controller": "S3",
+      "xiao_pin": "D0",
+      "gpio": 1,
+      "socket": "J7",
+      "socket_pin": 1,
+      "net": "S3_D0"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D1",
+      "gpio": 2,
+      "socket": "J7",
+      "socket_pin": 2,
+      "net": "S3_D1"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D2",
+      "gpio": 3,
+      "socket": "J7",
+      "socket_pin": 3,
+      "net": "S3_D2"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D3",
+      "gpio": 4,
+      "socket": "J7",
+      "socket_pin": 4,
+      "net": "S3_D3"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D4",
+      "gpio": 5,
+      "socket": "J7",
+      "socket_pin": 5,
+      "net": "S3_D4"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D5",
+      "gpio": 6,
+      "socket": "J7",
+      "socket_pin": 6,
+      "net": "S3_D5"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D6",
+      "gpio": 43,
+      "socket": "J7",
+      "socket_pin": 7,
+      "net": "S3_D6"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D7",
+      "gpio": 44,
+      "socket": "J7",
+      "socket_pin": 8,
+      "net": "S3_D7"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D8",
+      "gpio": 7,
+      "socket": "J7",
+      "socket_pin": 9,
+      "net": "S3_D8"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D9",
+      "gpio": 8,
+      "socket": "J7",
+      "socket_pin": 10,
+      "net": "S3_D9"
+    },
+    {
+      "controller": "S3",
+      "xiao_pin": "D10",
+      "gpio": 9,
+      "socket": "J7",
+      "socket_pin": 11,
+      "net": "S3_D10"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D0",
+      "gpio": 26,
+      "socket": "J10",
+      "socket_pin": 1,
+      "net": "RP_D0"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D1",
+      "gpio": 27,
+      "socket": "J10",
+      "socket_pin": 2,
+      "net": "RP_D1"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D2",
+      "gpio": 28,
+      "socket": "J10",
+      "socket_pin": 3,
+      "net": "RP_D2"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D3",
+      "gpio": 5,
+      "socket": "J10",
+      "socket_pin": 4,
+      "net": "RP_D3"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D4",
+      "gpio": 6,
+      "socket": "J10",
+      "socket_pin": 5,
+      "net": "S3_D4"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D5",
+      "gpio": 7,
+      "socket": "J10",
+      "socket_pin": 6,
+      "net": "S3_D5"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D6",
+      "gpio": 0,
+      "socket": "J10",
+      "socket_pin": 7,
+      "net": "RP_UART0_TX"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D7",
+      "gpio": 1,
+      "socket": "J10",
+      "socket_pin": 8,
+      "net": "RP_UART0_RX"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D8",
+      "gpio": 2,
+      "socket": "J10",
+      "socket_pin": 9,
+      "net": "RP_D8"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D9",
+      "gpio": 4,
+      "socket": "J10",
+      "socket_pin": 10,
+      "net": "RP_D9"
+    },
+    {
+      "controller": "RP",
+      "xiao_pin": "D10",
+      "gpio": 3,
+      "socket": "J10",
+      "socket_pin": 11,
+      "net": "RP_D10"
+    }
+  ],
+  "relays": [
+    {
+      "ref": "M1",
+      "controller": "RP",
+      "d": 1,
+      "gpio": 27,
+      "m15": "LV1",
+      "function": "ZERO + HAT + fan",
+      "active_level": 0,
+      "off_mode": "release open-drain; module pullups set OFF"
+    },
+    {
+      "ref": "M2",
+      "controller": "S3",
+      "d": 1,
+      "gpio": 2,
+      "m15": "LV2",
+      "function": "four radars",
+      "active_level": 0,
+      "off_mode": "release open-drain; module pullups set OFF"
+    },
+    {
+      "ref": "M16",
+      "controller": "RP",
+      "d": 2,
+      "gpio": 28,
+      "m15": "LV3",
+      "function": "main hold",
+      "active_level": 0,
+      "off_mode": "release open-drain; module pullups set OFF"
+    },
+    {
+      "ref": "M17",
+      "controller": "RP",
+      "d": 8,
+      "gpio": 2,
+      "m15": "LV4",
+      "function": "Legacy ToF power output, unused by new I2C ToF",
+      "active_level": 0,
+      "off_mode": "release open-drain; module pullups set OFF"
+    }
+  ],
+  "radars": [
+    {
+      "name": "front_left",
+      "controller": "S3",
+      "tx_gpio": 3,
+      "rx_gpio": 4,
+      "mux": "J28",
+      "mux_input": 4,
+      "mux_output": 1,
+      "port": "J12",
+      "tx_net": "S3_D2",
+      "baud": 256000,
+      "format": "8N1",
+      "rx_internal_pull": "disabled"
+    },
+    {
+      "name": "front_right",
+      "controller": "S3",
+      "tx_gpio": 7,
+      "rx_gpio": 8,
+      "mux": "J28",
+      "mux_input": 6,
+      "mux_output": 9,
+      "port": "J13",
+      "tx_net": "S3_D8",
+      "baud": 256000,
+      "format": "8N1",
+      "rx_internal_pull": "disabled"
+    },
+    {
+      "name": "rear_left",
+      "controller": "S3",
+      "tx_gpio": 1,
+      "rx_gpio": 9,
+      "mux": "J29",
+      "mux_input": 4,
+      "mux_output": 1,
+      "port": "J14",
+      "tx_net": "S3_D0",
+      "baud": 256000,
+      "format": "8N1",
+      "rx_internal_pull": "disabled"
+    },
+    {
+      "name": "rear_right",
+      "controller": "RP",
+      "tx_gpio": 4,
+      "rx_gpio": 5,
+      "mux": "J29",
+      "mux_input": 6,
+      "mux_output": 9,
+      "port": "J36",
+      "tx_net": "RP_D9",
+      "baud": 256000,
+      "format": "8N1",
+      "rx_internal_pull": "disabled"
+    }
+  ],
+  "fan": {
+    "zero_header_pwm_pin": 7,
+    "gpio": "GPIO3_C4",
+    "peripheral": "PWM14_M0",
+    "tach_header_pin": 11,
+    "tach_gpio": "GPIO3_A1",
+    "frequency_hz": 25000,
+    "phase_duty": "1 - requested fan duty",
+    "reset_phase_low": "full speed",
+    "tach_pullup_supply": "+3V3_ZERO",
+    "user_pinout": {
+      "item_id": "852827738499",
+      "sku_id": "5651202152814",
+      "voltage_V": 5,
+      "wire_count": 4,
+      "seller_connector_label": "B3",
+      "control": "PWM",
+      "form": "5010 metal-bottom centrifugal blower",
+      "user_confirmed": true,
+      "evidence": "evidence/fan_selected_5V_4wire_B3_PWM_chat.jpg",
+      "rejected_authorities": [
+        "Delta BFB0505LA 0.09A photo",
+        "SUNVN 12V 0.2A two-wire listing image"
+      ],
+      "unconfirmed": [
+        "current and startup current",
+        "PWM input voltage and frequency range",
+        "FG output circuit and pulses per revolution"
+      ],
+      "pinout_confirmation": {
+        "source": "User supplied seller pin table and explicitly confirmed actual fan is 5V in takeover thread",
+        "thread": "01a11a21-1b4c-73b2-ad89-6fbccbf0790f",
+        "table_voltage_text": "12V",
+        "actual_order_voltage_V": 5,
+        "generic_table_voltage_overridden_by_user_confirmation": true,
+        "independently_measured": false,
+        "pin_numbering_view": "seller diagram; connector mating view still must match"
+      },
+      "pins": [
+        {
+          "pin": 1,
+          "function": "GND",
+          "wire_color": "black"
+        },
+        {
+          "pin": 2,
+          "function": "+5V",
+          "wire_color": "yellow"
+        },
+        {
+          "pin": 3,
+          "function": "FG",
+          "wire_color": "green"
+        },
+        {
+          "pin": 4,
+          "function": "PWM",
+          "wire_color": "blue"
+        }
+      ]
+    },
+    "software_status": "Startup full speed, FG edges, unknown PPR reports Hz, latched FG fault full speed, unqualified electrical interface disabled"
+  },
+  "uart_domains": [
+    {
+      "module": "M20",
+      "zero": "UART9_M1 TX=P21 RX=P24",
+      "endpoint": "RP UART0 GPIO0 TX / GPIO1 RX",
+      "supply2": "+3V3_RP"
+    },
+    {
+      "module": "M21",
+      "zero": "UART5_M1 TX=P32 RX=P33",
+      "endpoint": "EYES P2.10 TX / P2.9 RX",
+      "supply2": "+3V3_EYES from J53"
+    },
+    {
+      "module": "M22",
+      "zero": "Legacy UART4 disabled; header P16/P18 now I2C4_M0 SCL/SDA",
+      "endpoint": "No connection; old SEN0628 retired",
+      "supply2": "Legacy +3V3_TOF_SW unused",
+      "status": "UNUSED_LEGACY_UART"
+    }
+  ],
+  "startup": [
+    "Power executor is unresolved: never connect the 0.1A TL2230 directly across J51. A main-current-rated DC contact or a MOS power stage is required. Firmware GPIO26 assumes an isolated sense contact.",
+    "Assert original LOW-active M16 immediately, before UART and I2C setup. M1/M17 remain released.",
+    "Require 1000ms continuous press after RP startup before enabling HOST M1; short startup presses shut back down via the normal peripheral handshake.",
+    "The initial ON press must be released before a new 2500ms OFF press is accepted. A short running-state press has no HOST toggle action.",
+    "Radar power sequencing retains the existing release handshake; current LD2450 parser is not yet a Rd-03E application."
+  ],
+  "shutdown": [
+    "Long press 2500ms requests ALL_OFF; stop ToF via ULD and software sleep without M17 power cycling.",
+    "Request normal Linux systemctl poweroff; only a current-token late systemd storage-quiescent confirmation permits HOST cut.",
+    "Fresh radar-OFF handshake, no active legacy ToF relay, and final delay remain mandatory.",
+    "Retain MAIN while either raw or debounced rear button is pressed; wait a fresh 250ms after release before releasing M16.",
+    "Timeout, missing acknowledgments, and link loss retain power; MCU reset and failed contacts remain hardware qualification gaps."
+  ],
+  "limits": [
+    "Contact/rail settle and hold times are not measured; no timing constant in this document is a production qualification.",
+    "No automatic USB power arbitration: remove controllers from carrier for USB programming; do not hot-remove one powered controller.",
+    "The S3/RP bus is shared I2C (S3 master, RP slave); regulator outputs remain separate.",
+    "HAT I2C on ZERO header 3/5 requires an appropriate GPIO I2C driver; these pins are not automatically hardware I2C on ZERO3.",
+    "M2 NC uses recorded module EN pulldowns. Sample check must confirm that the received board still has those pulldowns.",
+    "Direct radar RX lines remain subject to uncontrolled brownout/back-power qualification.",
+    "Duplicated breakout connectors do not add MCU peripherals and must not be driven by a second source.",
+    "ZERO DT overlay compiled but not merged against the actual target kernel DTB; Python shutdown hook not executed on a target device.",
+    "No servo motor is populated in the current system. Timing defaults limit command rate, not single-event inrush current."
+  ],
+  "firmware_project": "${ORIGINAL_DUCK_WORKSPACE}/firmware/box_controller_r21r",
+  "current_system_has_servo_motors": false,
+  "module_dimensions": "USER_CONFIRMED_CLOSED",
+  "engineering_timing_ms": {
+    "BOX_LINK_TIMEOUT_MS": 500,
+    "BOX_RADAR_ON_SETTLE_MS": 300,
+    "BOX_RADAR_OFF_SETTLE_MS": 50,
+    "BOX_FINAL_CUT_DELAY_MS": 1000,
+    "BOX_RELAY_MIN_DWELL_MS": 250,
+    "BOX_HOST_ON_SETTLE_MS": 500,
+    "BOX_MAIN_RELEASE_DELAY_MS": 250
+  },
+  "fabrication_scope": "User authorized 1–5 bare prototype PCBs; hardware qualification remains incomplete.",
+  "legacy_contract": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/routing/quad_relay_flush/analysis/small_oled_compact/four_relay_backside_2026-10-06/control/pin_and_power_contract.json",
+  "tof": {
+    "module": "TKOWTB VL53L8CX B0GSQ5Q1TJ",
+    "port": "J37",
+    "pins": {
+      "1": "SCL -> module P6",
+      "2": "SDA -> module P7",
+      "3": "ZERO 3V3 -> module P9 VIN, only after carrier qualification",
+      "4": "GND -> module P8"
+    },
+    "bus": "I2C4_M0",
+    "address_7bit": "0x29",
+    "ULD_address_8bit": "0x52",
+    "frequency_hz": 400000,
+    "ranging": {
+      "zones": [
+        8,
+        8
+      ],
+      "hz": 10
+    },
+    "J16": "all pins unused for new sensor",
+    "M17": "not used for new sensor",
+    "power_control": "ULD stop + SLEEP; supply shares ZERO 3V3 with bus",
+    "hardware_qualified": false
+  },
+  "rear_button": {
+    "part_candidate": null,
+    "type": "DPDT momentary, mechanically linked electrically isolated contacts",
+    "group_A": [
+      "J51.1",
+      "J51.2"
+    ],
+    "group_B": [
+      "J19.1",
+      "J19.4"
+    ],
+    "J19_unconnected": [
+      "2",
+      "3"
+    ],
+    "mechanical_integration": "in_progress",
+    "long_on_ms": 1000,
+    "long_off_ms": 2500,
+    "debounce_ms": 40,
+    "status": "TL2230_DIRECT_J51_REJECTED",
+    "warning": "UPS P2 is series main battery-current path (M2 source to VBAT), not a low-current control input. TL2230 is rated only 0.1A at30VDC.",
+    "rejection_record": "${ORIGINAL_DUCK_WORKSPACE}/hardware/box_carrier_modules_r2/analysis/power_tof_fan_2026-10-08/rejected_small_DPDT.json"
+  }
+}

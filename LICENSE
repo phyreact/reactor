@@ -1,0 +1,52 @@
+Reactor licensing scope
+=======================
+
+This repository contains separately licensed projects. The following scope
+notices do not modify the complete license texts referenced below.
+
+1. Donald Microduck
+
+   Software retains the official upstream Apache-2.0 license in
+   donald-microduck/LICENSE. Upstream and derived model assets retain the
+   original noncommercial, share-alike notice in
+   donald-microduck/UPSTREAM_LICENSES.md.
+
+2. Mickey Hub
+
+   First-party designs, models, documentation and media use Creative Commons
+   Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+   First-party firmware and software tools use the PolyForm Noncommercial
+   License 1.0.0.
+
+   The complete, unmodified texts are in mickeyhub/LICENSES/. See
+   mickeyhub/LICENSE for scope and third-party exclusions.
+
+3. Commercial production and authorization
+
+   Noncommercial development, sharing, personal builds and prototypes are
+   available under the applicable public licenses and their conditions.
+   Commercial manufacture, commissioned production for sale, and other
+   commercial uses outside those permissions require a separate written
+   commercial license from the relevant rights holders before they begin.
+   There is no production-volume exemption. Publishing source or design
+   files does not waive the noncommercial conditions.
+
+   Contact the Reactor maintainers at phyreact@gmail.com to request
+   authorization. A request alone is not permission.
+
+4. Shared Reactor material
+
+   Original shared documentation and graphics use CC BY-NC 4.0, whose full
+   text is in mickeyhub/LICENSES/CC-BY-NC-4.0.txt. Shared artwork, models and
+   scenes retain the terms of incorporated assets, including Microduck's
+   upstream share-alike condition.
+
+5. Third-party material
+
+   Original third-party licenses and explicit file-level notices take
+   precedence for the works they identify. No third-party rights are
+   relicensed here. A Reactor commercial authorization can grant only rights
+   held or controlled by its grantor.
+
+See LICENSING.md and THIRD_PARTY.md for project scope and source information.

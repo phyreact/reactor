@@ -1,0 +1,5 @@
+(fp_lib_table (version 7)
+(lib (name "box") (type "KiCad") (uri "${KIPRJMOD}/box.pretty") (options "") (descr ""))
+(lib (name "Connector") (type "KiCad") (uri "${KIPRJMOD}/Connector.pretty") (options "") (descr ""))
+(lib (name "Connector_JST") (type "KiCad") (uri "${KIPRJMOD}/Connector_JST.pretty") (options "") (descr ""))
+(lib (name "CompactMechanical") (type "KiCad") (uri "${KIPRJMOD}/CompactMechanical.pretty") (options "") (descr "")))
