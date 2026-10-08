@@ -1,5 +1,25 @@
 # Schematic, PCB and libraries
 
+## Board previews
+
+[![Carrier PCB front and back](images/pcb-carrier.jpg)](images/pcb-carrier.jpg)
+
+Front and back bare-board views come directly from
+[the native carrier PCB](kicad/box_carrier_modules_r2.kicad_pcb), rendered in
+KiCad. Click any preview to inspect the large image.
+
+[![Main carrier with its host and board-mounted modules installed](images/pcb-assembled.jpg)](images/pcb-assembled.jpg)
+
+This populated view uses the mounted electronics from the final
+[integrated Blender assembly](../mickeyhub.blend). Components retain their
+source geometry, materials and placement; the enclosure and remote devices are
+hidden. Purchased-module models include simplified reference geometry.
+
+For the system-level relationships, see the
+[hardware functional overview](../docs/HARDWARE_OVERVIEW.md).
+
+## Editable sources and board identity
+
 Open [kicad/box_carrier_modules_r2.kicad_pro](kicad/box_carrier_modules_r2.kicad_pro) in KiCad. The project retains its original electrical identifier, BOX R2.1R. The product is mickeyhub.
 
 `kicad/` includes schematic sheets, the PCB, project settings, local symbols,

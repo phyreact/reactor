@@ -181,6 +181,7 @@ def main():
         "README.md", "THIRD_PARTY.md", "media/README.md", "docs/CURRENT_STATUS.md", "docs/BUILD.md",
         "mechanical/README.md", "electronics/README.md", "manufacturing/README.md",
         "simulation/README.md", "components/README.md",
+        "docs/HARDWARE_OVERVIEW.md",
     ]
     future_files = {"release_manifest.json", "checksums.sha256"}
     for name in primary_docs:

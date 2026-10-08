@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2220" viewBox="0 0 3000 2220" role="img" aria-labelledby="title desc"><title id="title">Mickey Hub hardware functional overview</title><desc id="desc">The Linux host connects to USB audio, CSI camera, I2C depth, UART displays, fan and expansion. RP2350 coordinates power and communicates with the host by UART and ESP32S3 by I2C. Three assembled Rd-03E radars and motion sensors connect to ESP32S3. A UPS and 3S battery supply the system. This is a functional design overview, not a pin-level wiring guide.</desc><defs><marker id="236BD8" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10z" fill="#236BD8"/></marker><marker id="0C817D" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10z" fill="#0C817D"/></marker><marker id="7560BD" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10z" fill="#7560BD"/></marker><marker id="A76B16" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L10 5L0 10z" fill="#A76B16"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="3000" height="2220" rx="0" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="80" y="91" font-size="28" fill="#236BD8" font-weight="700" text-anchor="start">REACTOR  /  HARDWARE OVERVIEW</text>
+<text x="80" y="196" font-size="88" fill="#16283E" font-weight="700" text-anchor="start">Mickey Hub</text>
+<text x="820" y="192" font-size="46" fill="#526579" font-weight="400" text-anchor="start">Hear. See. Sense. Respond.</text>
+<rect x="2504" y="111" width="416" height="70" rx="35" fill="#E5EDF7" stroke="#E5EDF7" stroke-width="0"/>
+<text x="2712" y="158" font-size="34" fill="#236BD8" font-weight="700" text-anchor="middle">MicheyHub V0.0</text>
+<text x="80" y="263" font-size="33" fill="#526579" font-weight="400" text-anchor="start">A functional map of the complete hardware platform</text>
+<rect x="1020" y="314" width="960" height="1400" rx="34" fill="#E8EEF7" stroke="#D6E0ED" stroke-width="2"/>
+<text x="1500" y="364" font-size="29" fill="#236BD8" font-weight="700" text-anchor="middle">COMPUTE + CONTROL</text>
+<text x="1500" y="1688" font-size="29" fill="#526579" font-weight="400" text-anchor="middle">Carrier PCB · XIAO adapters · interface modules</text>
+<path d="M830 492H1080" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#236BD8)"/>
+<rect x="858.5" y="436" width="183.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="950" y="470" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">USB audio</text>
+<path d="M830 774H925V690H1080" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#236BD8)"/>
+<rect x="899.0" y="698" width="82.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="940" y="732" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">CSI</text>
+<path d="M830 1040H990V789H1080" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8" marker-end="url(#236BD8)"/>
+<rect x="882.0" y="977" width="72.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="918" y="1011" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">I²C</text>
+<path d="M1920 492H2170" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#236BD8)"/>
+<rect x="1944.5" y="419" width="201.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="2045" y="453" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">UART · M21</text>
+<path d="M1920 669H2070V772H2170" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8" marker-end="url(#236BD8)"/>
+<rect x="1977.0" y="688" width="170.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="2062" y="722" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">PWM / FG</text>
+<path d="M1920 791H2010V1040H2170" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#236BD8)"/>
+<rect x="1971.0" y="976" width="170.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="2056" y="1010" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">GPIO / I²C</text>
+<path d="M1500 830V1040" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#236BD8)"/>
+<rect x="1399.5" y="905" width="201.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="1500" y="939" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">UART · M20</text>
+<path d="M1500 1260V1430" fill="none" stroke="#7560BD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#7560BD)"/>
+<rect x="1409.0" y="1317" width="182.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="1500" y="1351" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">Shared I²C</text>
+<path d="M830 1315H925V1500H1080" fill="none" stroke="#0C817D" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8" marker-end="url(#0C817D)"/>
+<rect x="890.0" y="1382" width="116.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="948" y="1416" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">UART</text>
+<path d="M830 1597H1080" fill="none" stroke="#0C817D" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#0C817D)"/>
+<rect x="914.0" y="1538" width="72.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="950" y="1572" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">I²C</text>
+<path d="M1920 1515H2070V1320H2170" fill="none" stroke="#7560BD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#7560BD)"/>
+<rect x="2032.0" y="1402" width="72.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="2068" y="1436" font-size="30" fill="#236BD8" font-weight="600" text-anchor="middle">I²C</text>
+<path d="M1530 1860V1720" fill="none" stroke="#A76B16" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#A76B16)"/>
+<rect x="1403.5" y="1760" width="253.0" height="48" rx="10" fill="#F5F7FA" stroke="#F5F7FA" stroke-width="0"/>
+<text x="1530" y="1794" font-size="30" fill="#A76B16" font-weight="600" text-anchor="middle">Power domains</text>
+<rect x="80" y="370" width="750" height="245" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="80" y="394" width="6" height="197" rx="3" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(110,400)" fill="none" stroke="#0C817D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="15" y="0" width="24" height="38" rx="12"/><path d="M5 26v6a22 22 0 0 0 44 0v-6M27 54v10M14 64h26"/>
+</g>
+<text x="196" y="431" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Hearing + voice</text>
+<text x="112" y="502" font-size="32" fill="#526579" font-weight="400" text-anchor="start">4 microphones · ReSpeaker XVF3800</text>
+<text x="112" y="545" font-size="32" fill="#526579" font-weight="400" text-anchor="start">USB audio front end</text>
+<text x="112" y="588" font-size="32" fill="#526579" font-weight="400" text-anchor="start">XFDZ-3727 speaker on ReSpeaker</text>
+<rect x="80" y="667" width="750" height="216" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="80" y="691" width="6" height="168" rx="3" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(110,697)" fill="none" stroke="#0C817D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="0" y="10" width="58" height="42" rx="8"/><circle cx="29" cy="31" r="13"/><path d="M12 10l5-9h22l5 9"/>
+</g>
+<text x="196" y="728" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Wide-angle vision</text>
+<text x="112" y="799" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Arducam B0310 camera</text>
+<text x="112" y="842" font-size="32" fill="#526579" font-weight="400" text-anchor="start">CSI image stream to the Linux host</text>
+<rect x="80" y="937" width="750" height="216" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="80" y="961" width="6" height="168" rx="3" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(110,967)" fill="none" stroke="#0C817D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="0" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="0" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="0" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="8" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="0" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="16" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="0" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="24" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="0" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="32" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="0" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="40" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="0" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="48" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="0" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="8" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="16" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="24" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="32" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="40" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="48" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/><rect x="56" y="56" width="5" height="5" rx="1" fill="#0C817D" stroke="none"/>
+</g>
+<text x="196" y="998" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Front depth</text>
+<text x="112" y="1069" font-size="32" fill="#526579" font-weight="400" text-anchor="start">VL53L8CX carrier · 8 × 8 zones</text>
+<text x="112" y="1112" font-size="32" fill="#526579" font-weight="400" text-anchor="start">I²C depth measurements</text>
+<rect x="80" y="1207" width="750" height="222" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="80" y="1231" width="6" height="174" rx="3" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(110,1237)" fill="none" stroke="#0C817D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 55A50 50 0 0 1 54 5M4 38A33 33 0 0 1 37 5M4 21A16 16 0 0 1 20 5M4 55L49 10"/><circle cx="4" cy="55" r="3"/>
+</g>
+<text x="196" y="1268" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Surrounding motion</text>
+<text x="112" y="1339" font-size="32" fill="#526579" font-weight="400" text-anchor="start">3 × Rd-03E radar · left / right / rear</text>
+<text x="112" y="1382" font-size="32" fill="#526579" font-weight="400" text-anchor="start">UART paths through TX gate modules</text>
+<rect x="80" y="1482" width="750" height="218" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="80" y="1506" width="6" height="170" rx="3" fill="#0C817D" stroke="#0C817D" stroke-width="0"/>
+<g transform="translate(110,1512)" fill="none" stroke="#0C817D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="30" cy="30" r="28"/><path d="M21 41L30 12l9 29-9-5zM30 0v5M30 55v5M0 30h5M55 30h5"/>
+</g>
+<text x="196" y="1543" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Motion + heading</text>
+<text x="112" y="1614" font-size="32" fill="#526579" font-weight="400" text-anchor="start">LSM6DS3 · 6-axis IMU</text>
+<text x="112" y="1657" font-size="32" fill="#526579" font-weight="400" text-anchor="start">QMC5883L · magnetic compass</text>
+<rect x="1080" y="393" width="840" height="437" rx="28" fill="#162E4D" stroke="#162E4D" stroke-width="0"/>
+<g transform="translate(1120,431)" fill="none" stroke="#8BBFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="10" y="10" width="44" height="44" rx="6"/><path d="M21 1v9M21 54v9M1 21h9M54 21h9"/><path d="M32 1v9M32 54v9M1 32h9M54 32h9"/><path d="M43 1v9M43 54v9M1 43h9M54 43h9"/>
+</g>
+<text x="1217" y="474" font-size="53" fill="#FFFFFF" font-weight="700" text-anchor="start">Radxa ZERO 3W</text>
+<text x="1120" y="554" font-size="28" fill="#8BBFFF" font-weight="700" text-anchor="start">MAIN LINUX COMPUTER</text>
+<text x="1120" y="621" font-size="35" fill="#FFFFFF" font-weight="400" text-anchor="start">Audio · vision · depth acquisition</text>
+<text x="1120" y="674" font-size="35" fill="#FFFFFF" font-weight="400" text-anchor="start">Host applications and interaction</text>
+<path d="M1120 715H1880" fill="none" stroke="#3A5272" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1120" y="768" font-size="34" fill="#B8D4F8" font-weight="400" text-anchor="start">USB / CSI / I²C / UART / GPIO</text>
+<rect x="1080" y="1040" width="840" height="220" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="1080" y="1064" width="6" height="172" rx="3" fill="#236BD8" stroke="#236BD8" stroke-width="0"/>
+<g transform="translate(1110,1070)" fill="none" stroke="#236BD8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="10" y="10" width="44" height="44" rx="6"/><path d="M21 1v9M21 54v9M1 21h9M54 21h9"/><path d="M32 1v9M32 54v9M1 32h9M54 32h9"/><path d="M43 1v9M43 54v9M1 43h9M54 43h9"/>
+</g>
+<text x="1196" y="1101" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">XIAO RP2350</text>
+<text x="1112" y="1172" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Power sequencing and button handling</text>
+<text x="1112" y="1215" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Host link and shutdown coordination</text>
+<rect x="1080" y="1430" width="840" height="217" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="1080" y="1454" width="6" height="169" rx="3" fill="#7560BD" stroke="#7560BD" stroke-width="0"/>
+<g transform="translate(1110,1460)" fill="none" stroke="#7560BD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="10" y="10" width="44" height="44" rx="6"/><path d="M21 1v9M21 54v9M1 21h9M54 21h9"/><path d="M32 1v9M32 54v9M1 32h9M54 32h9"/><path d="M43 1v9M43 54v9M1 43h9M54 43h9"/>
+</g>
+<text x="1196" y="1491" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">XIAO ESP32S3 Plus</text>
+<text x="1112" y="1562" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Radar and shared I²C peripherals</text>
+<text x="1112" y="1605" font-size="32" fill="#526579" font-weight="400" text-anchor="start">IMU · compass · OLED · UPS telemetry</text>
+<rect x="2170" y="370" width="750" height="245" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="2170" y="394" width="6" height="197" rx="3" fill="#236BD8" stroke="#236BD8" stroke-width="0"/>
+<g transform="translate(2200,400)" fill="none" stroke="#236BD8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="0" y="12" width="65" height="38" rx="12"/><circle cx="17" cy="31" r="10"/><circle cx="48" cy="31" r="10"/>
+</g>
+<text x="2286" y="431" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Expressive displays</text>
+<text x="2202" y="502" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Dual touch displays · glasses-like face</text>
+<text x="2202" y="545" font-size="32" fill="#526579" font-weight="400" text-anchor="start">UART link via M21</text>
+<text x="2202" y="588" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Visual responses and touch input</text>
+<rect x="2170" y="667" width="750" height="216" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="2170" y="691" width="6" height="168" rx="3" fill="#236BD8" stroke="#236BD8" stroke-width="0"/>
+<g transform="translate(2200,697)" fill="none" stroke="#236BD8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="30" cy="30" r="28"/><circle cx="30" cy="30" r="5"/><path d="M30 25c-30-29-34 6-9 9M35 30c29-30-6-34-9-9M30 35c30 29 34-6 9-9M25 30c-29 30 6 34 9 9"/>
+</g>
+<text x="2286" y="728" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Active cooling</text>
+<text x="2202" y="799" font-size="32" fill="#526579" font-weight="400" text-anchor="start">5010 blower · 5 V · 4 wires</text>
+<text x="2202" y="842" font-size="32" fill="#526579" font-weight="400" text-anchor="start">PWM control + FG feedback · M42</text>
+<rect x="2170" y="937" width="750" height="216" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="2170" y="961" width="6" height="168" rx="3" fill="#236BD8" stroke="#236BD8" stroke-width="0"/>
+<g transform="translate(2200,967)" fill="none" stroke="#236BD8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="5" y="6" width="52" height="47" rx="5"/><path d="M13 0v6M13 53v7"/><path d="M26 0v6M26 53v7"/><path d="M39 0v6M39 53v7"/><path d="M52 0v6M52 53v7"/><path d="M18 22h26M18 35h26"/>
+</g>
+<text x="2286" y="998" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Expansion</text>
+<text x="2202" y="1069" font-size="32" fill="#526579" font-weight="400" text-anchor="start">40-pin copy · Servo Driver HAT (B)</text>
+<text x="2202" y="1112" font-size="32" fill="#526579" font-weight="400" text-anchor="start">GPIO / UART / I²C breakouts</text>
+<rect x="2170" y="1207" width="750" height="222" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="2170" y="1231" width="6" height="174" rx="3" fill="#7560BD" stroke="#7560BD" stroke-width="0"/>
+<g transform="translate(2200,1237)" fill="none" stroke="#7560BD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="0" y="5" width="64" height="45" rx="6"/><path d="M11 18h28M11 28h42M11 38h18M24 59h16M32 50v9"/>
+</g>
+<text x="2286" y="1268" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Internal status</text>
+<text x="2202" y="1339" font-size="32" fill="#526579" font-weight="400" text-anchor="start">SSD1306 OLED</text>
+<text x="2202" y="1382" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Shared I²C status-display hardware</text>
+<rect x="2170" y="1482" width="750" height="218" rx="24" fill="white" stroke="#DBE2EB" stroke-width="2"/>
+<rect x="2170" y="1506" width="6" height="170" rx="3" fill="#526579" stroke="#526579" stroke-width="0"/>
+<g transform="translate(2200,1512)" fill="none" stroke="#526579" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="1" y="2" width="63" height="54" rx="15"/><ellipse cx="32" cy="25" rx="20" ry="13"/><path d="M8 48h49"/>
+</g>
+<text x="2286" y="1543" font-size="39" fill="#16283E" font-weight="700" text-anchor="start">Light + enclosure</text>
+<text x="2202" y="1614" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Transparent roof light ring</text>
+<text x="2202" y="1657" font-size="32" fill="#526579" font-weight="400" text-anchor="start">Graphite shell · supports · harnesses</text>
+<text x="80" y="1787" font-size="29" fill="#A76B16" font-weight="700" text-anchor="start">POWER + USER INPUT</text>
+<rect x="80" y="1819" width="2840" height="275" rx="30" fill="#FCF5E9" stroke="#E7D8BF" stroke-width="2"/>
+<path d="M500 1930H555" fill="none" stroke="#A76B16" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#A76B16)"/>
+<path d="M1120 1930H1190" fill="none" stroke="#A76B16" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#A76B16)"/>
+<text x="136" y="1884" font-size="34" fill="#16283E" font-weight="700" text-anchor="start">DC input</text>
+<text x="136" y="1952" font-size="29" fill="#526579" font-weight="400" text-anchor="start">Rear DC-022B</text>
+<text x="136" y="1998" font-size="29" fill="#526579" font-weight="400" text-anchor="start">12.6 V charging input</text>
+<text x="579" y="1884" font-size="34" fill="#16283E" font-weight="700" text-anchor="start">UPS + 3S battery</text>
+<text x="579" y="1952" font-size="29" fill="#526579" font-weight="400" text-anchor="start">UPS Module 3S · holder + cells</text>
+<text x="579" y="1998" font-size="29" fill="#526579" font-weight="400" text-anchor="start">Power conversion · I²C telemetry</text>
+<text x="1214" y="1884" font-size="34" fill="#16283E" font-weight="700" text-anchor="start">Switched power + interfaces</text>
+<text x="1214" y="1952" font-size="29" fill="#526579" font-weight="400" text-anchor="start">M16 main hold · M1 host · M2 radar</text>
+<text x="1214" y="1998" font-size="29" fill="#526579" font-weight="400" text-anchor="start">M15 relay interface · M17 retained / unused</text>
+<text x="2154" y="1884" font-size="34" fill="#16283E" font-weight="700" text-anchor="start">Rear power button</text>
+<text x="2154" y="1952" font-size="29" fill="#526579" font-weight="400" text-anchor="start">User input → RP2350</text>
+<text x="2154" y="1998" font-size="29" fill="#526579" font-weight="400" text-anchor="start">Rated power executor still to be finalized</text>
+<path d="M2100 1860L2100 2054" fill="none" stroke="#E1CFB0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="142" y="2062" font-size="26" fill="#526579" font-weight="400" text-anchor="start">M20 / M21 serial interfaces and M42 fan interface are shown on their functional paths; M22 is retained but unused.</text>
+<path d="M82 2144H153" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="172" y="2154" font-size="27" fill="#526579" font-weight="400" text-anchor="start">Design interface</text>
+<path d="M537 2144H608" fill="none" stroke="#236BD8" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 8"/>
+<text x="626" y="2154" font-size="27" fill="#526579" font-weight="400" text-anchor="start">Integration pending</text>
+<text x="1120" y="2154" font-size="28" fill="#526579" font-weight="400" text-anchor="start">Radar protocol migration, ToF/fan qualification and power completion remain open.</text>
+<text x="80" y="2200" font-size="26" fill="#526579" font-weight="400" text-anchor="start">Functional overview · current assembly · no servo motors populated</text>
+<text x="2920" y="2200" font-size="25" fill="#526579" font-weight="600" text-anchor="end">REACTOR  /  2026-10-08</text>
+</g></svg>

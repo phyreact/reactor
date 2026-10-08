@@ -5,8 +5,8 @@
   "geometry_revision": "wide_bearing_halo_v7b",
   "electrical_revision": "BOX R2.1R",
   "appearance": "Uniform dark graphite enclosure except unchanged LED ring",
-  "file_count": 368,
-  "total_bytes": 116204328,
+  "file_count": 373,
+  "total_bytes": 119619737,
   "files": [
     {
       "path": ".gitignore",
@@ -40,8 +40,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4858,
-      "sha256": "cff7afd5a0d8704e8771696faa85ca72dcf42b18055984abeb17b144a56c5f9e"
+      "bytes": 6855,
+      "sha256": "e373e592562a20042480cae542a8e0ef70a1aa24874507b5a727f3469688565a"
     },
     {
       "path": "THIRD_PARTY.md",
@@ -489,6 +489,11 @@
       "sha256": "77fb2fd5ad00a78db216917dfaa313589594776e3a20df1b9e22657f5af7c115"
     },
     {
+      "path": "docs/HARDWARE_OVERVIEW.md",
+      "bytes": 3680,
+      "sha256": "6d3ce855beb33a163b27806fcff50a83f8e990ec4693f02c590fcdd8ee500420"
+    },
+    {
       "path": "docs/current_contract/pin_and_power_contract.json",
       "bytes": 13280,
       "sha256": "a7665bbd91622adaf9538eec2cffb26af0f0761f8e922d93d90fa605ae8876e9"
@@ -517,6 +522,16 @@
       "path": "docs/engineering_review/relay_load_review.json",
       "bytes": 12713,
       "sha256": "120ff01ab604625b2e6209287e2d13ea87ea2f13baf94f5c895bacd766aadf95"
+    },
+    {
+      "path": "docs/images/hardware-overview.png",
+      "bytes": 1426931,
+      "sha256": "8194ce4c06b29d30cd8ee292cbc05f6c80bedc102df3732dffe7c4ff5619f0e2"
+    },
+    {
+      "path": "docs/images/hardware-overview.svg",
+      "bytes": 26767,
+      "sha256": "0803a5aa22511587e25ea1d263ebef3988440ab3a93812a4f00faa813676374a"
     },
     {
       "path": "docs/wiring/battery_clearance_design.json",
@@ -560,8 +575,8 @@
     },
     {
       "path": "electronics/README.md",
-      "bytes": 2679,
-      "sha256": "301445ab0d603ed27a116bf8f8d5b31ced96012bbe51e43b4f08a18f05848b4c"
+      "bytes": 3520,
+      "sha256": "898957965c86ce1b6bdf6ad893c8a801c59cb39b7d5be39efd77bd923afbd6fb"
     },
     {
       "path": "electronics/bom/mickeyhub-board-bom.csv",
@@ -702,6 +717,16 @@
       "path": "electronics/daughterboards/pinmap.json",
       "bytes": 113914,
       "sha256": "98ab4f8e2b0e2f3c0a3dc8cbf57ae9e6d966303ef300a2f685317b0c0e0f27c0"
+    },
+    {
+      "path": "electronics/images/pcb-assembled.jpg",
+      "bytes": 676213,
+      "sha256": "19a1301ff18f7f55fec7c925b9460160eec37019abc8943dae4bdba373a08f2a"
+    },
+    {
+      "path": "electronics/images/pcb-carrier.jpg",
+      "bytes": 1278943,
+      "sha256": "e5061b533ca1bdbbd172c06bfc2b15a4ba7282d49eee397dad565df9a2c8e324"
     },
     {
       "path": "electronics/kicad/01_power.kicad_sch",
@@ -1810,8 +1835,8 @@
     },
     {
       "path": "tools/verify_release.py",
-      "bytes": 13352,
-      "sha256": "e0e08af33b42516306921a7b34ed888dae7cc8b83f5ea452d14d8327af72cf68"
+      "bytes": 13389,
+      "sha256": "796831765a57aea70fef9cafeb0bcdee182d469103ef3aee6904562fbd0ea1f9"
     },
     {
       "path": "validation/animation_checks.json",

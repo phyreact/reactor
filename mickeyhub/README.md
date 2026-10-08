@@ -34,11 +34,24 @@ and detail views. [Captions](media/mickeyhub-animation.srt),
 These inputs provide a platform for perception experiments. Complete sensor
 fusion and reliable autonomous responses remain development goals.
 
+## Hardware at a glance
+
+[![Mickey Hub complete hardware functional diagram](docs/images/hardware-overview.png)](docs/images/hardware-overview.png)
+
+The Linux host brings together audio, camera and depth input. RP2350 handles
+power coordination; ESP32S3 connects the radar and shared I²C peripherals.
+The figure also shows displays, cooling, expansion, the UPS and user input.
+
+[Open the large figure](docs/images/hardware-overview.png) ·
+[Editable SVG](docs/images/hardware-overview.svg) ·
+[Hardware map and source notes](docs/HARDWARE_OVERVIEW.md)
+
 ## Open the design
 
 | I want to… | Start here |
 | --- | --- |
 | Inspect the complete device | [Assembled Blender model](mickeyhub.blend) |
+| Understand the hardware functions | [Hardware overview](docs/HARDWARE_OVERVIEW.md) — complete system block diagram |
 | View the rotating explainer | [Media guide](media/) — GIF, storyboard and captions |
 | Work on the enclosure | [Mechanical guide](mechanical/) — 15 print STLs and four fit samples |
 | Inspect individual assemblies | [Component catalog](components/) — 46 descriptions, dimensions and source-object names |
@@ -60,9 +73,22 @@ only included Blender file. Printable geometry is supplied as STL.
 Component GLBs, STEP references, structural construction baselines and separate
 animation projects are retained in the local archive.
 
-## The board identity
+## PCB and assembled electronics
 
-![Enclosure silhouette and MicheyHub V0.0 PCB marking](electronics/branding/pcb-mark-preview.png)
+[![Carrier PCB front and back](electronics/images/pcb-carrier.jpg)](electronics/images/pcb-carrier.jpg)
+
+The carrier is shown from both sides, with its native copper, connector lands,
+mounting holes and silkscreen. These previews are rendered from the included
+KiCad PCB.
+
+[![Main carrier with the host and board-mounted modules installed](electronics/images/pcb-assembled.jpg)](electronics/images/pcb-assembled.jpg)
+
+The assembled view shows the host, controllers, interface modules, connectors
+and HAT in their positions from the final Blender model. The enclosure and
+remote modules are hidden to expose the electronics.
+
+[Explore the electronics](electronics/) for the editable PCB sources and
+fabrication references.
 
 The carrier uses a monochrome icon traced from the enclosure and the marking
 **MicheyHub V0.0**. [Editable SVG](electronics/branding/mickeyhub-mark.svg),
@@ -92,11 +118,25 @@ they are excluded from commits and are not required to verify a fresh checkout.
 
 ## License
 
-Mickey Hub's first-party work is available for **noncommercial use**:
+Copyright 2026 Mickey Hub contributors.
 
-- Designs, models, documentation and media: **CC BY-NC 4.0**.
+Mickey Hub's first-party work is source-available under these public licenses:
+
+- Designs, original models, documentation and media: **CC BY-NC 4.0**.
 - Firmware and software tools: **PolyForm Noncommercial 1.0.0**.
 
-See [LICENSE](LICENSE) for the scope and complete texts, and
+Noncommercial development, sharing, personal builds and prototypes are
+permitted under the applicable license terms. **Commercial production requires
+prior written authorization.** Before manufacturing or commissioning products
+for sale, contact the Reactor maintainers for a separate commercial license.
+There is no production-volume exemption, and publishing source or design files
+does not waive the noncommercial conditions.
+
+See [LICENSE](LICENSE) for the complete terms and contact information,
+[Reactor's license scope](../LICENSING.md) for the project boundaries, and
 [THIRD_PARTY.md](THIRD_PARTY.md) for exclusions. Third-party code, documents and
 CAD retain their own terms. Donald Microduck's upstream licenses remain separate.
+
+---
+
+<sub>For questions or commercial licensing, contact [phyreact@gmail.com](mailto:phyreact@gmail.com).</sub>
