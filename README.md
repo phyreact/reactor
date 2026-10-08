@@ -71,12 +71,13 @@ change and include the checks needed to reproduce your result.
 | Project | Terms |
 | --- | --- |
 | **Donald Microduck** | Preserves the official upstream Apache-2.0 software license and the upstream noncommercial, share-alike model notice. [Upstream terms](donald-microduck/UPSTREAM_LICENSES.md). |
-| **Mickey Hub** | First-party designs and content: **CC BY-NC 4.0**. First-party firmware and tools: **PolyForm Noncommercial 1.0.0**. Commercial production requires prior written authorization. [License](mickeyhub/LICENSE). |
+| **Mickey Hub** | First-party designs and content: **CC BY-NC 4.0**. First-party firmware and tools: **PolyForm Noncommercial 1.0.0**. Additional permission allows **up to 100 covered units sold per entity per calendar year** without a license fee. [License](mickeyhub/LICENSE). |
 
-Mickey Hub is source-available for noncommercial development and sharing under
-its public licenses. To manufacture or commission products for sale, contact
-the Reactor maintainers and obtain a separate written commercial license.
-Publishing design files does not waive this requirement.
+Mickey Hub's [limited commercial permission](mickeyhub/COMMERCIAL_USE.md)
+covers up to and including 100 devices or one-device kits sold by the same
+individual or legal entity each calendar year. Before selling the 101st unit,
+obtain separate written authorization from the Reactor maintainers.
+The complete grant defines the counting rules and third-party exclusions.
 
 Original shared documentation and graphics use CC BY-NC 4.0.
 Third-party material retains its own terms. [LICENSING.md](LICENSING.md)

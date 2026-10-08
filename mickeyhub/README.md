@@ -120,17 +120,24 @@ they are excluded from commits and are not required to verify a fresh checkout.
 
 Copyright 2026 Mickey Hub contributors.
 
-Mickey Hub's first-party work is source-available under these public licenses:
+Mickey Hub's first-party work is source-available under these public licenses,
+with a separate limited commercial permission:
 
 - Designs, original models, documentation and media: **CC BY-NC 4.0**.
 - Firmware and software tools: **PolyForm Noncommercial 1.0.0**.
 
 Noncommercial development, sharing, personal builds and prototypes are
-permitted under the applicable license terms. **Commercial production requires
-prior written authorization.** Before manufacturing or commissioning products
-for sale, contact the Reactor maintainers for a separate commercial license.
-There is no production-volume exemption, and publishing source or design files
-does not waive the noncommercial conditions.
+permitted under the applicable license terms.
+
+The [additional commercial permission](COMMERCIAL_USE.md) allows the same
+individual or legal entity to sell **up to and including 100 covered devices
+or one-device kits per calendar year**, without a license fee or an individual
+permission request. Sales across the entity's brands, stores, channels and
+product variants count together.
+
+**Before selling the 101st unit in that year**, obtain a separate written
+commercial license. A calendar year runs from January 1 through December 31;
+the complete grant defines the permitted activities and counting rules.
 
 See [LICENSE](LICENSE) for the complete terms and contact information,
 [Reactor's license scope](../LICENSING.md) for the project boundaries, and

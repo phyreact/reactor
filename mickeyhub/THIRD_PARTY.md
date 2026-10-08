@@ -2,8 +2,10 @@
 
 Mickey Hub's [license scope](LICENSE) applies CC BY-NC 4.0 to first-party
 designs and content, and PolyForm Noncommercial 1.0.0 to first-party firmware
-and software tools. Commercial production requires separate prior written
-authorization from the relevant rights holders.
+and software tools. A separate [commercial permission](COMMERCIAL_USE.md)
+allows up to 100 covered units sold per individual or legal entity per calendar
+year. A separate written commercial license is required before selling the
+101st unit in that year.
 See [the repository license scope](../LICENSING.md).
 It does not relicense third-party material or the separate
 Donald Microduck project.

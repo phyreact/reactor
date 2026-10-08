@@ -3,8 +3,8 @@
 Reactor's project scopes and commercial-authorization policy are defined in
 [LICENSE](LICENSE) and [LICENSING.md](LICENSING.md).
 Donald Microduck preserves its official upstream terms; Mickey Hub's first-party
-work uses noncommercial public licenses with separate written authorization
-for commercial production. Third-party material keeps its original terms.
+work uses noncommercial public licenses with an additional limited commercial
+permission. Third-party material keeps its original terms.
 
 | Source | Included use | Terms |
 | --- | --- | --- |
@@ -30,8 +30,10 @@ The Mickey Hub release manifest records its delivered files and hashes.
 No source repository history, private recordings or device backups are included.
 
 Mickey Hub uses CC BY-NC 4.0 for first-party designs/content and PolyForm
-Noncommercial 1.0.0 for first-party software. Commercial production requires
-separate prior written authorization from the relevant rights holders.
+Noncommercial 1.0.0 for first-party software. Its separate
+[commercial permission](mickeyhub/COMMERCIAL_USE.md) allows up to 100 covered
+units sold per individual or legal entity per calendar year. A separate written
+commercial license is required before selling the 101st unit in that year.
 See [the license scope](LICENSING.md)
 and [third-party exclusions](mickeyhub/THIRD_PARTY.md). These terms do not override
 Microduck's official licenses or third-party manufacturer terms.

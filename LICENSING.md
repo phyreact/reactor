@@ -2,9 +2,10 @@
 
 Copyright 2026 Reactor contributors.
 
-Reactor supports noncommercial development, modification and sharing under
-the applicable project licenses. Mickey Hub and original shared Reactor
-content are source-available with separate commercial authorization.
+Reactor supports development, modification and sharing under the applicable
+project licenses. Mickey Hub is source-available with an additional
+commercial allowance of 100 covered units per entity per calendar year.
+Original shared Reactor content retains its separate licensing scope.
 [LICENSE](LICENSE) summarizes the repository scopes.
 
 ## Donald Microduck
@@ -32,22 +33,29 @@ integrated Blender assembly. See [Mickey Hub's LICENSE](mickeyhub/LICENSE)
 for the complete scope and [third-party record](mickeyhub/THIRD_PARTY.md)
 for exclusions.
 
-## Commercial production
+## Mickey Hub commercial sales
 
 Personal builds, learning, noncommercial research, modification, sharing and
 noncommercial prototypes are available under the applicable public licenses.
 
-**Commercial production requires prior written authorization.** Before
-manufacturing or commissioning products for sale, selling derivative hardware,
-or undertaking other commercial uses outside the public licenses, contact the
-[Reactor maintainers](mailto:phyreact@gmail.com) and obtain a separate
-written commercial license. This includes mass production and large-scale
-commercial deployment. There is no production-volume exemption.
+The separate [limited commercial permission](mickeyhub/COMMERCIAL_USE.md)
+also allows commercial activities associated with **up to and including 100
+covered units sold by the same individual or legal entity per calendar
+year**, without a license fee or an individual permission request.
 
-Publishing source code or design files does not waive the noncommercial
-conditions. A request alone is not authorization. The complete public license
-texts govern uses they permit; this notice does not add restrictions to those
-permissions or override applicable legal exceptions.
+- The year runs from January 1 through December 31.
+- Count sales across the entity's brands, stores, channels and product variants.
+- Each complete Mickey Hub or derived device, or kit for assembling one,
+  counts as one unit.
+- **Before selling the 101st unit in that year**, obtain a separate written
+  commercial license from the [Reactor maintainers](mailto:phyreact@gmail.com).
+  A request alone is not authorization.
+
+The 100th unit is within the free allowance. The complete additional grant
+defines the permitted activities, counting rules, continuing notice
+obligations and exclusions. It covers only the relevant first-party Mickey
+Hub rights; it does not change the standard public license texts or withdraw
+permissions already available under them.
 
 ## Shared material and third parties
 
