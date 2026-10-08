@@ -71,7 +71,18 @@ change and include the checks needed to reproduce your result.
 | Project | Terms |
 | --- | --- |
 | **Donald Microduck** | Preserves the official upstream Apache-2.0 software license and the upstream noncommercial, share-alike model notice. [Upstream terms](donald-microduck/UPSTREAM_LICENSES.md). |
-| **Mickey Hub** | First-party designs, models, documentation and media: **CC BY-NC 4.0**. First-party firmware and tools: **PolyForm Noncommercial 1.0.0**. [License scope](mickeyhub/LICENSE). |
+| **Mickey Hub** | First-party designs and content: **CC BY-NC 4.0**. First-party firmware and tools: **PolyForm Noncommercial 1.0.0**. Commercial production requires prior written authorization. [License](mickeyhub/LICENSE). |
 
-Third-party material retains its own terms. [LICENSE](LICENSE) defines the
-repository's directory scopes; [THIRD_PARTY.md](THIRD_PARTY.md) records upstream sources.
+Mickey Hub is source-available for noncommercial development and sharing under
+its public licenses. To manufacture or commission products for sale, contact
+the Reactor maintainers and obtain a separate written commercial license.
+Publishing design files does not waive this requirement.
+
+Original shared documentation and graphics use CC BY-NC 4.0.
+Third-party material retains its own terms. [LICENSING.md](LICENSING.md)
+defines the project scopes, commercial authorization and model exceptions;
+[THIRD_PARTY.md](THIRD_PARTY.md) records upstream sources.
+
+---
+
+<sub>For questions or commercial licensing, contact [phyreact@gmail.com](mailto:phyreact@gmail.com).</sub>
