@@ -3,10 +3,9 @@ Mickey Hub licensing
 
 Copyright 2026 Mickey Hub contributors.
 
-Mickey Hub's first-party work is source-available under the noncommercial
-licenses below. Separate written authorization is required for commercial
-uses outside their permissions. This scope notice does not modify the
-complete public license texts.
+Mickey Hub's first-party work is source-available under the public licenses
+below, with a separate limited commercial permission in COMMERCIAL_USE.md.
+This scope notice does not modify the complete standard license texts.
 
 Designs, models, documentation and media
 ---------------------------------------
@@ -31,25 +30,28 @@ first-party contributions to supplied build artifacts.
 
 Required Notice: Copyright 2026 Mickey Hub contributors.
 
-Commercial production and authorization
----------------------------------------
+Limited commercial permission
+-----------------------------
 
 The applicable public licenses permit noncommercial development, modification,
 sharing, personal builds and noncommercial prototypes under their terms.
 
-Before manufacturing or commissioning products for sale, selling derivative
-hardware products, or undertaking other commercial uses outside the public
-licenses, contact the Reactor maintainers and obtain a separate written
-commercial license. This includes mass production and large-scale commercial
-deployment. There is no production-volume exemption. Publishing source code
-or design files does not waive the noncommercial conditions.
+COMMERCIAL_USE.md additionally permits the same individual or legal entity
+to sell up to and including 100 covered units per calendar year without a
+license fee or an individual authorization request. A covered unit is one
+complete Mickey Hub or derived device, or one kit for assembling it. Count
+all of the entity's brands, stores, channels and variants together.
+
+The grant covers associated first-party design and software use under its
+conditions. Before selling the 101st unit in that year, obtain a separate
+written commercial license. The year runs from January 1 through December 31.
 
 Request authorization from the Reactor maintainers at:
 phyreact@gmail.com
 
-Contact alone is not authorization. Permission must be granted in writing
-before the commercial activity begins. The complete public licenses continue
-to govern uses they already permit, including applicable legal exceptions.
+Contact alone is not authorization. See COMMERCIAL_USE.md for the complete
+additional grant and counting rules. The original public licenses remain
+independently available for uses they permit.
 
 Exclusions and mixed works
 -------------------------

@@ -22,18 +22,21 @@ notices do not modify the complete license texts referenced below.
    The complete, unmodified texts are in mickeyhub/LICENSES/. See
    mickeyhub/LICENSE for scope and third-party exclusions.
 
-3. Commercial production and authorization
+3. Mickey Hub commercial allowance
 
-   Noncommercial development, sharing, personal builds and prototypes are
-   available under the applicable public licenses and their conditions.
-   Commercial manufacture, commissioned production for sale, and other
-   commercial uses outside those permissions require a separate written
-   commercial license from the relevant rights holders before they begin.
-   There is no production-volume exemption. Publishing source or design
-   files does not waive the noncommercial conditions.
+   A separate additional permission allows the same individual or legal
+   entity to sell up to and including 100 covered Mickey Hub devices or
+   one-device kits per calendar year without a license fee or an individual
+   authorization request. It covers associated first-party design and
+   software use, subject to its conditions.
 
-   Contact the Reactor maintainers at phyreact@gmail.com to request
-   authorization. A request alone is not permission.
+   Before selling the 101st unit in that year, obtain a separate written
+   commercial license. See mickeyhub/COMMERCIAL_USE.md for the complete grant,
+   counting rules and exclusions. Contact phyreact@gmail.com for
+   authorization; a request alone is not permission.
+
+   The original public licenses remain independently available. This
+   allowance does not extend to Donald Microduck or third-party material.
 
 4. Shared Reactor material
 

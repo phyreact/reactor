@@ -5,8 +5,8 @@
   "geometry_revision": "wide_bearing_halo_v7b",
   "electrical_revision": "BOX R2.1R",
   "appearance": "Uniform dark graphite enclosure except unchanged LED ring",
-  "file_count": 373,
-  "total_bytes": 119620585,
+  "file_count": 374,
+  "total_bytes": 119624068,
   "files": [
     {
       "path": ".gitignore",
@@ -14,9 +14,14 @@
       "sha256": "1f34210bd66b8e4e935aa4ed0c3748fa61413ac2225412403dede60941b9cf6f"
     },
     {
+      "path": "COMMERCIAL_USE.md",
+      "bytes": 2976,
+      "sha256": "7d86293f6873a73cfd70741d6b99edac77ecf08669ad6807b8161c6677ec6e59"
+    },
+    {
       "path": "LICENSE",
-      "bytes": 3062,
-      "sha256": "e3b10ba0e85726b2a41db96042539e0aa1b52404b5f06e7925768260c2a486cb"
+      "bytes": 3139,
+      "sha256": "5b8deda62ecca853d3eabc5df91a3324720abf112c4e61be0444f5b72f1fbe53"
     },
     {
       "path": "LICENSES/Apache-2.0.txt",
@@ -40,13 +45,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6855,
-      "sha256": "e373e592562a20042480cae542a8e0ef70a1aa24874507b5a727f3469688565a"
+      "bytes": 7153,
+      "sha256": "7a172f352a44bc035d83ae51821a6959de3de6445b893795474cb77bd73ee02d"
     },
     {
       "path": "THIRD_PARTY.md",
-      "bytes": 1733,
-      "sha256": "2df92a0b38f8f0cdd78be7d64fe56a91b7b57596991c6c1e0d9f01954cd91ed4"
+      "bytes": 1865,
+      "sha256": "4678040454e6d2ff415b681ea9554419651c5e583350dcb1a981fb5222d2a62e"
     },
     {
       "path": "components/README.md",
