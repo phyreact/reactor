@@ -1,4 +1,16 @@
-# Reactor product portrait
+# Reactor design gallery and product portrait
+
+[![Four Reactor design renders](reactor-design-gallery.jpg)](reactor-design-gallery.jpg)
+
+The gallery collects the Donald Microduck and Mickey Hub designs, the Dolphin
+two-microphone concept, and the XPen V49 exterior. These are separate renders,
+not a shared-scale comparison or photographs of tested devices.
+
+Rebuild from the original render files with
+`bash assets/build-design-gallery.sh` (ImageMagick 7 required). The script does
+not change the source images.
+
+## Original studio portrait
 
 ![donald microduck & mickey hub](reactor-family.jpg)
 

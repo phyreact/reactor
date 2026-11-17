@@ -6,11 +6,14 @@ Someone calls from across the room. A hand moves beside the camera. The surface
 under a device shifts. Each moment carries a cue about what is happening nearby.
 
 We want to build machines that can notice those cues and respond in ways people
-understand. Reactor explores that idea through two devices: an expressive robot
-and a compact sensing hub. They share a Radxa ZERO 3W host and four-microphone
-audio, with different bodies and ways to interact.
+understand. Reactor explores that idea through an expressive robot, a sensing
+hub, and compact device concepts. Donald Microduck and Mickey Hub share a
+Radxa ZERO 3W host and four-microphone audio, with different bodies and ways
+to interact. Dolphin and XPen explore smaller form factors.
 
-[![Donald Microduck and Mickey Hub in the Reactor studio](assets/reactor-family.jpg)](assets/reactor-family.jpg)
+[![Reactor design gallery: Donald Microduck, Mickey Hub, Dolphin, and XPen](assets/reactor-design-gallery.jpg)](assets/reactor-design-gallery.jpg)
+
+[Original Donald Microduck and Mickey Hub studio portrait](assets/reactor-family.jpg)
 
 ## Meet the projects
 
@@ -20,8 +23,15 @@ audio, with different bodies and ways to interact.
 | **Give listening a body.** A small robot with four microphones, a camera, a speaker and 15 smart servos. | **Bring perception together.** Four microphones, three radars, a camera, depth sensing, motion sensors and dual displays. |
 | [**Explore Donald Microduck →**](donald-microduck/) | [**Explore Mickey Hub →**](mickeyhub/) |
 
-Each project has its own guide, animated previews, STL parts, one final assembled
-Blender model, firmware and build instructions. The GIFs above show the devices rotating, separating
+**[Dolphin](dolphin/gallery.md)** is a desktop pan-and-tilt vision concept with
+a two-microphone layout. Assembled hardware and control have not been validated.
+
+**[XPen](xpen/)** is a handheld sensing enclosure prototype that packages a
+camera, audio hardware, and a display. The gallery shows the V49 exterior;
+the project note also includes a V55 camera-mount cutaway.
+
+Donald Microduck and Mickey Hub have their own guides, animated previews, STL parts,
+assembled Blender models, firmware, and build instructions. The GIFs above show the devices rotating, separating
 into modules and coming back together, with English explanations.
 
 ## What you can explore
