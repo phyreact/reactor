@@ -1,0 +1,191 @@
+{
+  "model_sha256": "3ee7ebaa0288d361b9adc0cbeaa45c0e1c805c53080ca4c311468cbb80f96554",
+  "layout": {
+    "axis_center_mm": [
+      0,
+      2,
+      0
+    ],
+    "servo_tip_mm": [
+      19.289423062744753,
+      -10.526697805345623,
+      -43.5
+    ],
+    "servo_model": "STS3032-C001",
+    "supply_design_V": 5,
+    "supply_range_source_V": [
+      4.8,
+      6.0
+    ],
+    "servo_5V_load_and_current_tested": false,
+    "servo_envelope_from_drawing": true,
+    "mount_y_spacing_provisional_mm": 7,
+    "horn_hole_spacing_provisional_mm": 8.2,
+    "sun_teeth": 30,
+    "pinion_teeth": 16,
+    "ratio_servo_relative_to_body": 1.875,
+    "module_mm": 1,
+    "tooth_thinning_per_gear_mm": 0.08,
+    "gear_width_mm": 3.799999999999997,
+    "slipring": "Comidox CP164 B07H2SRMXP",
+    "slipring_body_diameter_mm": 12.5,
+    "slipring_flange_diameter_mm": 24,
+    "slipring_total_length_inferred_mm": 16.5,
+    "slipring_rated_current_per_circuit_A": 2,
+    "slipring_main_body_rotates": true,
+    "bearing": "6801 / 12x21x5",
+    "body_yaw_range_deg": [
+      0,
+      360
+    ],
+    "body_can_rotate_continuously_in_model": true,
+    "control_software_implemented": false,
+    "home_sensor_is_service_envelope_only": true,
+    "outer_shells_unchanged": true,
+    "base_height_increase_mm": 0,
+    "servo_power_source_url": "https://www.feetechrc.com/6v-45kg-magnetic-code-360-degree-serial-bus-steering-gear",
+    "observed_official_power_range": "Operating Voltage Range: 4.8-6V",
+    "power_spec_retrieved_date": "2026-10-25",
+    "control_interface": "Half-duplex TTL serial bus; PWM HAT does not control STS3032 directly"
+  },
+  "geometry": {
+    "neutral_intersections": [
+      [
+        "one_piece_core",
+        "pitch_servo_clamp_screws_reference",
+        0.140768
+      ],
+      [
+        "one_piece_core",
+        "radxa_mount_screws",
+        25.392796
+      ],
+      [
+        "one_piece_core",
+        "stack_spacers_11mm_reference",
+        25.402905
+      ],
+      [
+        "charge_wire_wire_black",
+        "fixed_charge_DC5521_reference",
+        2.543648
+      ],
+      [
+        "charge_wire_wire_red",
+        "fixed_charge_DC5521_reference",
+        0.160014
+      ],
+      [
+        "one_piece_core",
+        "slipring_mount_screws",
+        3.899073
+      ],
+      [
+        "one_piece_core",
+        "yaw_retainer_screws",
+        6.969357
+      ],
+      [
+        "fixed_base",
+        "yaw_service_cover_screws",
+        4.413926
+      ],
+      [
+        "fixed_base",
+        "charge_lead_clamp_screws",
+        4.824128
+      ],
+      [
+        "slipring_CP164_fixed_rotor",
+        "charge_wire_wire_black",
+        0.174519
+      ],
+      [
+        "slipring_CP164_fixed_rotor",
+        "charge_wire_wire_red",
+        0.174519
+      ]
+    ],
+    "yaw_intersections": [],
+    "pitch_intersections": [],
+    "yaw_sample_step_deg": 1,
+    "pitch_sample_step_deg": 0.5,
+    "max_gear_overlap_mm3": 0,
+    "conservative_envelopes": [
+      "Mic_A",
+      "Mic_B",
+      "Radxa_ZERO3W_reference__radxa_zero3w_reference.001"
+    ]
+  },
+  "combined_camera_poses": {
+    "pitch_samples_deg": [
+      -20,
+      0,
+      20
+    ],
+    "yaw_samples_deg": [
+      0,
+      360
+    ],
+    "yaw_step_deg": 1,
+    "camera_assembly_vs_new_fixed_parts_intersections": []
+  },
+  "native_driver_kinematics": [
+    {
+      "body_yaw_deg": 0,
+      "servo_relative_deg": 0.0,
+      "correct": true
+    },
+    {
+      "body_yaw_deg": 45,
+      "servo_relative_deg": 84.375,
+      "correct": true
+    },
+    {
+      "body_yaw_deg": 90,
+      "servo_relative_deg": 168.75,
+      "correct": true
+    },
+    {
+      "body_yaw_deg": 180,
+      "servo_relative_deg": 337.5,
+      "correct": true
+    },
+    {
+      "body_yaw_deg": 270,
+      "servo_relative_deg": 506.25,
+      "correct": true
+    },
+    {
+      "body_yaw_deg": 360,
+      "servo_relative_deg": 675.0,
+      "correct": true
+    },
+    {
+      "body_yaw_deg": 720,
+      "servo_relative_deg": 1350.0,
+      "correct": true
+    }
+  ],
+  "assembly_notes": "../assembly_notes.md",
+  "intersection_classification": {
+    "screw_and_pilot": "Intentional reference thread/pilot engagement; fit not physically qualified.",
+    "stack_spacers": "Legacy reference stems share threaded pilot volumes with screw references.",
+    "charge_wire_endpoints": "Schematic endpoints overlap DC contact and fixed slip-ring rotor; not a complete six-circuit cable model."
+  },
+  "limitations": [
+    "Rigid sampled geometry only; no tolerance stack, load, fatigue, cable-flex, acoustic or thermal validation.",
+    "Mic_A, Mic_B and Radxa reference contain non-manifold meshes; conservative boxes used. For legacy core conflicts only newly added core volume checked against those boxes.",
+    "STS3032 5V load performance and available supply current untested. TTL interface board and complete upper wiring not packaged.",
+    "Horn pattern and servo mounting Y hole spacing provisional. Home sensor is a service envelope, not a selected qualified circuit.",
+    "Continuous yaw and requested angle hardware control, homing, encoder unwrapping and power-cycle recovery not implemented."
+  ],
+  "manufacturing_release": false,
+  "top_access_check": "top_access_assembly.json",
+  "HAT_headers_and_screws_face_up": true,
+  "board_stack_order": [
+    "Radxa below",
+    "HAT above"
+  ],
+  "speaker_bridge_removable": true
+}

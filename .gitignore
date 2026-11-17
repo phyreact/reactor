@@ -11,10 +11,13 @@ __pycache__/
 *.sock
 *.blend1
 *.blend2
-# Publish STL meshes and only the two final integrated Blender assemblies.
+# Publish STL meshes and only the listed Blender deliverables.
 *.blend
 !donald-microduck/mechanical/duck.blend
 !mickeyhub/mickeyhub.blend
+!dolphin/dolphin.blend
+!xpen/cad/xpen-v55-assembly.blend
+!xpen/cad/xpen-v55-editable-shell.blend
 *.glb
 *.step
 *.stp

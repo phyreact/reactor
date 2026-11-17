@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-25",
+  "model": "dolphin.blend",
+  "model_sha256": "3ee7ebaa0288d361b9adc0cbeaa45c0e1c805c53080ca4c311468cbb80f96554",
+  "changes": [
+    "Moved GPIO-mated board stack together; HAT headers and screw heads now face +Z.",
+    "Rebuilt lowered 3mm board tray with four short supports, pitch-gear notch and board-component clearance.",
+    "Removed obsolete upper mounts and duplicate lower screw references.",
+    "Separated speaker bridge into one removable printed part; two rear screws outside PCB insertion corridor.",
+    "Cleared USB-side vertical insertion route and verified .5mm insertion samples."
+  ],
+  "core_components": 1,
+  "core_volume_mm3": 40721.50532292983,
+  "core_mesh": {
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0
+  },
+  "mount_supports": [
+    {
+      "center": [
+        -24.905665397644043,
+        -23.306540489196777
+      ],
+      "volume_mm3": 157.48157446981764,
+      "components": 1
+    },
+    {
+      "center": [
+        -24.905665397644043,
+        -0.40640735626220703
+      ],
+      "volume_mm3": 157.4815718152885,
+      "components": 1
+    },
+    {
+      "center": [
+        32.944358825683594,
+        -23.306540489196777
+      ],
+      "volume_mm3": 157.48156508886314,
+      "components": 1
+    },
+    {
+      "center": [
+        32.89432144165039,
+        -0.45644664764404297
+      ],
+      "volume_mm3": 157.48156626978695,
+      "components": 1
+    }
+  ],
+  "motion_checks": {
+    "yaw_range_deg": [
+      0,
+      360
+    ],
+    "yaw_sample_step_deg": 1,
+    "pitch_range_deg": [
+      -20,
+      20
+    ],
+    "pitch_sample_step_deg": 0.5,
+    "yaw_intersections": [],
+    "pitch_intersections": [],
+    "combined_camera_poses": {
+      "pitch_samples_deg": [
+        -20,
+        0,
+        20
+      ],
+      "yaw_samples_deg": [
+        0,
+        360
+      ],
+      "yaw_step_deg": 1,
+      "camera_assembly_vs_new_fixed_parts_intersections": []
+    },
+    "pass": true
+  },
+  "speaker_clearance": {
+    "direction": "+Z",
+    "rigid_intersections": 0,
+    "note": "Acoustic free volume and sound pressure were not simulated; supersedes older free-height estimate."
+  },
+  "neutral_intersections": [
+    [
+      "one_piece_core",
+      "pitch_servo_clamp_screws_reference",
+      0.14077
+    ],
+    [
+      "one_piece_core",
+      "slipring_mount_screws",
+      3.89907
+    ],
+    [
+      "one_piece_core",
+      "yaw_retainer_screws",
+      6.96936
+    ],
+    [
+      "servo_lead_plugs",
+      "straight_servo_headers",
+      11.5729
+    ],
+    [
+      "hat_stacked_screws",
+      "servo_hat_native_board",
+      0.56335
+    ],
+    [
+      "hat_stacked_screws",
+      "stack_spacers_11mm_reference",
+      25.48066
+    ],
+    [
+      "one_piece_core",
+      "speaker_bridge_screws",
+      12.07571
+    ],
+    [
+      "one_piece_core",
+      "stack_spacers_11mm_reference",
+      12.27959
+    ]
+  ],
+  "intersection_classification": {
+    "reference_screws": "Intentional screw/pilot engagements as recorded in continuous_yaw.json.",
+    "charge_wire_endpoints": "Intentional DC / rotor endpoint attachment. Structural wire-route overlaps in the superseded version have been removed."
+  },
+  "manufacturing_release": false,
+  "limitations": [
+    "Physical fits and bearing preload not qualified.",
+    "Only two schematic charge leads shown; real six-lead clamp and anti-rotation must be checked.",
+    "Screw length, horn fit, servo ear hole spacing and speaker hardware require actual component checks.",
+    "This layout does not implement control firmware or substantiate workpiece-localization accuracy."
+  ],
+  "base_components": 1,
+  "top_access_check": "top_access_assembly.json",
+  "HAT_headers_and_screws_face_up": true,
+  "board_stack_order": [
+    "Radxa below",
+    "HAT above"
+  ],
+  "speaker_bridge_removable": true
+}
