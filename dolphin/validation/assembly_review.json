@@ -1,0 +1,78 @@
+{
+  "outer_body_profile_unchanged": true,
+  "main_face_type": "Cylindrical arc: straight Y generator, circular XZ section",
+  "main_cover_XZ_radius_mm": 55.8,
+  "cover_thickness_mm": 2.2,
+  "cover_width_mm": 34.0,
+  "side_taper": false,
+  "transverse_curvature": false,
+  "ToF_integrated": false,
+  "camera_optical_axis": [
+    -0.9655357689970069,
+    -0.0,
+    0.26027039552618847
+  ],
+  "camera_front_center_mm": [
+    -53.87689591003298,
+    0.0,
+    14.523088070361316
+  ],
+  "camera_center_definition": "Centre of projected front aperture bounds",
+  "camera_radial_angle_deg": 15.08610705842922,
+  "front_projection_same_vertical_centerline": true,
+  "csi_exit_direction": [
+    -1,
+    0,
+    0
+  ],
+  "csi_evidence": "Original Radxa reference moved by a common X-axis stack flip. X/front exit retained; Y and Z changed. Flexible cable routing remains a physical-fit check.",
+  "front_window_width_mm": 34.0,
+  "front_window_upper_angle_deg": 94.0,
+  "front_window_lower_angle_deg": -30.896681578822434,
+  "pitch_deg": [
+    -20,
+    20
+  ],
+  "lamp_count": 0,
+  "photosensor_count": 0,
+  "model": "dolphin.blend",
+  "model_sha256": "3ee7ebaa0288d361b9adc0cbeaa45c0e1c805c53080ca4c311468cbb80f96554",
+  "configuration": "Dolphin 5V; upward HAT headers, top-access board fastening, removable speaker bridge; retained continuous-yaw base",
+  "mic_poses_unchanged": true,
+  "outer_shells_unchanged": true,
+  "changed_parts": [
+    "servo_hat_native_board",
+    "straight_servo_headers",
+    "servo_lead_plugs",
+    "hat_stacked_screws",
+    "one_piece_core",
+    "speaker_top_bridge",
+    "speaker_bridge_screws",
+    "stack_spacers_11mm_reference",
+    "upper_speaker",
+    "speaker_screw_references",
+    "CSI_FRONT_SERVICE_SPACE_NOT_CABLE",
+    "Radxa_ZERO3W_reference__radxa_zero3w_reference.001"
+  ],
+  "sampled_motion_pass": true,
+  "support_check": "support_cleanup.json",
+  "independent_native_check": "package_check.json",
+  "manufacturing_release": false,
+  "yaw_range_deg": [
+    0,
+    360
+  ],
+  "supply_design_V": 5,
+  "base_height_increase_mm": 0,
+  "added_shell_holes": 0,
+  "base_hidden_underside_service_hatch": true,
+  "continuous_control_implemented": false,
+  "continuous_yaw_check": "continuous_yaw.json",
+  "top_access_check": "top_access_assembly.json",
+  "HAT_headers_and_screws_face_up": true,
+  "board_stack_order": [
+    "Radxa below",
+    "HAT above"
+  ],
+  "speaker_bridge_removable": true
+}

@@ -1,0 +1,381 @@
+{
+  "model": "dolphin.blend",
+  "model_sha256": "3ee7ebaa0288d361b9adc0cbeaa45c0e1c805c53080ca4c311468cbb80f96554",
+  "relocation_reopen_and_export_pass": true,
+  "printed_STL_count": 15,
+  "STL_checks": {
+    "base_top_cover.stl": {
+      "sha256": "862e9f2d0cfcf97a96391f5fcc1e7b7e0a5f3fce1982183a787d7b0f2792f446",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 3060.43060389641,
+      "triangles": 1566,
+      "bounds_mm": [
+        [
+          -34.43648147583008,
+          -34.55810546875,
+          -59.599998474121094
+        ],
+        [
+          34.43648147583008,
+          34.55810546875,
+          -55.5
+        ]
+      ]
+    },
+    "camera_cover_cradle.stl": {
+      "sha256": "52bcb328d03d1b2458a36c14fe326ea87cbb503549c6a4d921134cf790510bea",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 17183.60766608708,
+      "triangles": 16504,
+      "bounds_mm": [
+        [
+          -55.79835891723633,
+          -18.649999618530273,
+          -45.14314651489258
+        ],
+        [
+          25.332670211791992,
+          18.649999618530273,
+          55.7993278503418
+        ]
+      ]
+    },
+    "charge_lead_clamp.stl": {
+      "sha256": "3fa95a1b9efddd19d438652c85c7dbf826e2627ecba5c16510cc48bb3bb5e5e1",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 117.35559105727121,
+      "triangles": 908,
+      "bounds_mm": [
+        [
+          -6.0,
+          10.0,
+          -68.0
+        ],
+        [
+          6.0,
+          16.0,
+          -65.5
+        ]
+      ]
+    },
+    "fixed_base.stl": {
+      "sha256": "c652ac28f250ade5fd2c92e7c0b11c35b40d624e5bc9b7e1ef277beccb4db429",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 22332.012543068893,
+      "triangles": 16878,
+      "bounds_mm": [
+        [
+          -38.0,
+          -36.5,
+          -72.9000015258789
+        ],
+        [
+          38.0,
+          36.5,
+          -51.79999923706055
+        ]
+      ]
+    },
+    "one_piece_core.stl": {
+      "sha256": "c43293b25cd15727a2712d3307f508dcf74c32850a94f78a2f997af8fc548136",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 40721.50532292983,
+      "triangles": 20876,
+      "bounds_mm": [
+        [
+          -52.999847412109375,
+          -27.5,
+          -57.900001525878906
+        ],
+        [
+          41.0,
+          26.5,
+          30.799999237060547
+        ]
+      ]
+    },
+    "pitch_pinion_40T.stl": {
+      "sha256": "cf1bc941fb2cea8c3b8a7d1862b9dff7f9b12bcd99857a19844fe006e16834a0",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 2925.583957384573,
+      "triangles": 4896,
+      "bounds_mm": [
+        [
+          -48.71049118041992,
+          -18.44999885559082,
+          -36.997676849365234
+        ],
+        [
+          -6.715134143829346,
+          -16.049999237060547,
+          4.997678756713867
+        ]
+      ]
+    },
+    "pitch_servo_clamp_pads.stl": {
+      "sha256": "4cc08e39913249039d2980763837e6e875fa87fab0c084d5214ba80e67ade1db",
+      "components": 4,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 119.40020147319956,
+      "triangles": 48,
+      "bounds_mm": [
+        [
+          -34.11281204223633,
+          6.700000286102295,
+          -33.70000076293945
+        ],
+        [
+          -21.31281280517578,
+          11.699999809265137,
+          -9.700000762939453
+        ]
+      ]
+    },
+    "pitch_servo_clamp_strap.stl": {
+      "sha256": "c7ae3e5106cb7bf01738b4dc39a8f8f0a0422da50955ab7cb50332c208138c62",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 274.17759263354674,
+      "triangles": 1028,
+      "bounds_mm": [
+        [
+          -35.71281433105469,
+          6.699999809265137,
+          -39.70000076293945
+        ],
+        [
+          -34.112815856933594,
+          11.699999809265137,
+          -3.700000047683716
+        ]
+      ]
+    },
+    "shell_A.stl": {
+      "sha256": "aacd35330adf126793a4f512d171af15c117e1e0f5c8e2c6b3ef3ab81ba82fb7",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 41891.04375079567,
+      "triangles": 31378,
+      "bounds_mm": [
+        [
+          -59.99927520751953,
+          -36.5,
+          -53.95000076293945
+        ],
+        [
+          60.0,
+          2.5,
+          59.98479461669922
+        ]
+      ]
+    },
+    "shell_B.stl": {
+      "sha256": "3a609de6c3f9e80976e229ceeb3547bf38e8fd38a9531fb8b664877d2db0ff4e",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 41842.65269090713,
+      "triangles": 31530,
+      "bounds_mm": [
+        [
+          -59.99927520751953,
+          0.10000000149011612,
+          -53.95000076293945
+        ],
+        [
+          60.0,
+          36.5,
+          59.98479461669922
+        ]
+      ]
+    },
+    "speaker_top_bridge.stl": {
+      "sha256": "2fe52dee079088a1ff9e56f882da40333a6cc5f1d1748fe598a981ee523fc198",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 5913.880670331818,
+      "triangles": 3006,
+      "bounds_mm": [
+        [
+          -20.299999237060547,
+          -26.299999237060547,
+          23.5
+        ],
+        [
+          44.20000076293945,
+          5.900000095367432,
+          43.5
+        ]
+      ]
+    },
+    "yaw_bearing_cap.stl": {
+      "sha256": "2d5129042851ef06da7ff0c91942163ecbfb55a40a85869150653eaa4a6fd687",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 653.8111515204099,
+      "triangles": 4022,
+      "bounds_mm": [
+        [
+          -14.5,
+          -12.5,
+          -53.0
+        ],
+        [
+          14.5,
+          16.5,
+          -50.29999923706055
+        ]
+      ]
+    },
+    "yaw_service_cover.stl": {
+      "sha256": "26761cc5a1678a5d086ddd0a2ebf36d03473c9c7dbdf26057a540a7a0f87b6cd",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 2796.9059754292934,
+      "triangles": 1924,
+      "bounds_mm": [
+        [
+          -19.0,
+          -17.0,
+          -72.9000015258789
+        ],
+        [
+          19.0,
+          21.0,
+          -70.4000015258789
+        ]
+      ]
+    },
+    "yaw_shaft_retainer.stl": {
+      "sha256": "5e7e64a9f738e9da354d44f69e626d59ef31b854b01b44041b8db67c495d9f2a",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 302.32733492243705,
+      "triangles": 2640,
+      "bounds_mm": [
+        [
+          -7.199999809265137,
+          -5.199999809265137,
+          -60.099998474121094
+        ],
+        [
+          7.199999809265137,
+          9.199999809265137,
+          -57.0
+        ]
+      ]
+    },
+    "yaw_spur_pinion_16T.stl": {
+      "sha256": "7a2cdc55848b0fe2367676ecae05e63fc5628c74233d049c42bfd12682a4806b",
+      "components": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 2339.647433395073,
+      "triangles": 5256,
+      "bounds_mm": [
+        [
+          10.289590835571289,
+          -19.526531219482422,
+          -60.400001525878906
+        ],
+        [
+          28.289255142211914,
+          -1.5268652439117432,
+          -40.79999923706055
+        ]
+      ]
+    }
+  },
+  "native_mesh_checks": {
+    "one_piece_core": {
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    "stack_spacers_11mm_reference": {
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    "speaker_top_bridge": {
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    "speaker_bridge_screws": {
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    },
+    "CSI_FRONT_SERVICE_SPACE_NOT_CABLE": {
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "retained_objects_unchanged": [
+    "base_soft_feet",
+    "base_top_cover",
+    "battery_65x50x18_provisional",
+    "camera_cover_cradle",
+    "camera_mount_screws",
+    "Camera_reference__camera_lens_reference.001",
+    "Camera_reference__camera_rear_fpc_connector_envelope.001",
+    "Camera_reference__radxa_camera_pcb_reference.001",
+    "charge_lead_clamp",
+    "charge_lead_clamp_screws",
+    "charge_wire_wire_black",
+    "charge_wire_wire_red",
+    "fan_mount_hardware",
+    "fixed_base",
+    "fixed_charge_DC5521_reference",
+    "Mic_A",
+    "Mic_B",
+    "pitch_pinion_40T",
+    "pitch_servo_case_reference",
+    "pitch_servo_clamp_pads",
+    "pitch_servo_clamp_screws_reference",
+    "pitch_servo_clamp_strap",
+    "pitch_servo_output_reference",
+    "Rear_fan_reference__noctua_frame_envelope.001",
+    "Rear_fan_reference__noctua_rotor_illustrative.001",
+    "shell_2xM3_reference",
+    "shell_A",
+    "shell_B",
+    "slipring_CP164_fixed_rotor",
+    "slipring_CP164_rotating_body",
+    "slipring_mount_screws",
+    "STUDIO_floor_display_only",
+    "yaw_bearing_cap",
+    "yaw_bearing_cap_screws",
+    "yaw_home_magnet_reference",
+    "yaw_home_sensor_envelope",
+    "yaw_main_bearing_12x21x5",
+    "yaw_retainer_screws",
+    "yaw_service_cover",
+    "yaw_service_cover_screws",
+    "yaw_servo_case",
+    "yaw_servo_horn_reference",
+    "yaw_servo_mount_screws",
+    "yaw_servo_output",
+    "yaw_shaft_retainer",
+    "yaw_spur_pinion_16T"
+  ],
+  "external_asset_paths": [],
+  "libraries": 0,
+  "manufacturing_release": false
+}

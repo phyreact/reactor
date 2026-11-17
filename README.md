@@ -23,12 +23,15 @@ to interact. Dolphin and XPen explore smaller form factors.
 | **Give listening a body.** A small robot with four microphones, a camera, a speaker and 15 smart servos. | **Bring perception together.** Four microphones, three radars, a camera, depth sensing, motion sensors and dual displays. |
 | [**Explore Donald Microduck →**](donald-microduck/) | [**Explore Mickey Hub →**](mickeyhub/) |
 
-**[Dolphin](dolphin/gallery.md)** is a desktop pan-and-tilt vision concept with
-a two-microphone layout. Assembled hardware and control have not been validated.
+**[Dolphin](dolphin/)** is a desktop pan-and-tilt vision concept with a
+two-microphone layout. The design package includes a Blender assembly, STL
+parts, assembly notes and previews. Assembled hardware and control have not
+been validated.
 
 **[XPen](xpen/)** is a handheld sensing enclosure prototype that packages a
-camera, audio hardware, and a display. The gallery shows the V49 exterior;
-the project note also includes a V55 camera-mount cutaway.
+camera, audio hardware, and a display. The gallery shows the V49 exterior.
+The project directory contains the newer V55 assembly, editable shell model,
+STL files and a camera-mount cutaway.
 
 Donald Microduck and Mickey Hub have their own guides, animated previews, STL parts,
 assembled Blender models, firmware, and build instructions. The GIFs above show the devices rotating, separating
@@ -60,12 +63,14 @@ hardware testing.
    ```
 
 3. **Open an editable assembly.** Start with
-   [Donald Microduck](donald-microduck/mechanical/duck.blend) or
-   [Mickey Hub](mickeyhub/mickeyhub.blend), then follow the project's build guide.
+   [Donald Microduck](donald-microduck/mechanical/duck.blend),
+   [Mickey Hub](mickeyhub/mickeyhub.blend),
+   [Dolphin](dolphin/dolphin.blend), or
+   [XPen V55](xpen/cad/xpen-v55-assembly.blend), then consult the project's notes.
 
 The repository includes firmware and application sources, native electronics,
-manufacturing files, STL exports, one final assembled Blender file per project,
-GIF previews and captions. Component GLBs, STEP references, intermediate design
+manufacturing files, STL exports, Blender assemblies, selected editable design
+sources, GIF previews and captions. Component GLBs, STEP references, intermediate design
 files, separate animation scenes and full MP4 renders stay in the local
 `memory_backups/` directory, alongside render caches and conversation history.
 They are excluded from commits and source archives.

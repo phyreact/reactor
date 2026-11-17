@@ -1,0 +1,63 @@
+{
+  "model_sha256": "3ee7ebaa0288d361b9adc0cbeaa45c0e1c805c53080ca4c311468cbb80f96554",
+  "reviewed": true,
+  "renderer": "Blender 5.1.2 Cycles",
+  "images": {
+    "board_installation.png": {
+      "sha256": "4e1c6795f1f369401c285799c6e5e6f9e50d70629485de679676f9774e58787f",
+      "width": 1500,
+      "height": 1300
+    },
+    "clean_core.png": {
+      "sha256": "5e0670314e5cf65346598bb45a3fc6d183db7fbb3edab91060a24e431a1267e9",
+      "width": 1500,
+      "height": 1300
+    },
+    "complete_enclosure.png": {
+      "sha256": "36426c27c9334e355fbb594438742a949dbbf1993728bd6523f957e7d03b387c",
+      "width": 1500,
+      "height": 1300
+    },
+    "continuous_yaw_detail.png": {
+      "sha256": "8270bd5cb96f288e1543b13f4ddf96e323d8fb7c8811348a7ae3519f02d36aff",
+      "width": 1500,
+      "height": 1300
+    },
+    "front_detail.png": {
+      "sha256": "68d2b6344704dc288e813a98a14e021896eb46f951993c85a63947d8365f613b",
+      "width": 1500,
+      "height": 1300
+    },
+    "hat_pins_up.png": {
+      "sha256": "af85eb17e552692879fd5f7a4cabaa82f519adcc11d87fe09d07758987b11d3b",
+      "width": 1500,
+      "height": 1300
+    },
+    "internal_section.png": {
+      "sha256": "b19fe135398d54f31e6ca129c7fcad74ffac773396baad39047dbebaf955a5be",
+      "width": 1500,
+      "height": 1300
+    },
+    "internal_speaker_up.png": {
+      "sha256": "1dcceb4a417d5c2e4c0fcbe270b7f02b8ba286441e43220f0e8521e1e8cfca08",
+      "width": 1500,
+      "height": 1300
+    },
+    "pitch_down_20.png": {
+      "sha256": "fcff67923c2e2668e04a1cf9d408d43baa0545f22ea2cafe8488e7c3d9bb63d2",
+      "width": 1500,
+      "height": 1300
+    },
+    "pitch_up_20.png": {
+      "sha256": "876c7a07133c0047605a89502c9c6868855e22b4445135ff3265265494a42705",
+      "width": 1500,
+      "height": 1300
+    }
+  },
+  "notes": {
+    "board_installation.png": "Exploded visual, not assembled pose.",
+    "hat_pins_up.png": "Speaker bridge removed to show headers, mounting and access.",
+    "internal_section.png": "Cutaway copies used only for preview.",
+    "continuous_yaw_detail.png": "Inherited image of unchanged lower mechanism; modified geometry starts above this detail view."
+  }
+}

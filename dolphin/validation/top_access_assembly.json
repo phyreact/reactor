@@ -1,0 +1,638 @@
+{
+  "model_sha256": "3ee7ebaa0288d361b9adc0cbeaa45c0e1c805c53080ca4c311468cbb80f96554",
+  "layout": {
+    "stack_flip_z": 18.0,
+    "stack_flip_y_translation": -23.713,
+    "roof_raise_mm": 14,
+    "speaker_translation_mm": [
+      -8,
+      0,
+      14
+    ],
+    "pcb_tray_z_mm": [
+      -0.3500000000000001,
+      2.65
+    ],
+    "pcb_boss_top_mm": 6.034051,
+    "pcb_tray_front_notch_mm": [
+      [
+        -29.1,
+        -19.3
+      ],
+      [
+        -11.0,
+        -15.2
+      ]
+    ],
+    "changed": [
+      "servo_hat_native_board",
+      "straight_servo_headers",
+      "servo_lead_plugs",
+      "hat_stacked_screws",
+      "one_piece_core",
+      "speaker_top_bridge",
+      "speaker_bridge_screws",
+      "stack_spacers_11mm_reference",
+      "upper_speaker",
+      "speaker_screw_references",
+      "CSI_FRONT_SERVICE_SPACE_NOT_CABLE"
+    ],
+    "removed": [
+      "radxa_mount_screws"
+    ],
+    "supply_V": 5,
+    "speaker_bridge_fasteners": "Two rear-facing M3 reference screws; speaker bridge removed during board installation"
+  },
+  "native": {
+    "unchanged_objects": [
+      "base_soft_feet",
+      "base_top_cover",
+      "battery_65x50x18_provisional",
+      "camera_cover_cradle",
+      "camera_mount_screws",
+      "Camera_reference__camera_lens_reference.001",
+      "Camera_reference__camera_rear_fpc_connector_envelope.001",
+      "Camera_reference__radxa_camera_pcb_reference.001",
+      "charge_lead_clamp",
+      "charge_lead_clamp_screws",
+      "charge_wire_wire_black",
+      "charge_wire_wire_red",
+      "fan_mount_hardware",
+      "fixed_base",
+      "fixed_charge_DC5521_reference",
+      "Mic_A",
+      "Mic_B",
+      "pitch_pinion_40T",
+      "pitch_servo_case_reference",
+      "pitch_servo_clamp_pads",
+      "pitch_servo_clamp_screws_reference",
+      "pitch_servo_clamp_strap",
+      "pitch_servo_output_reference",
+      "Rear_fan_reference__noctua_frame_envelope.001",
+      "Rear_fan_reference__noctua_rotor_illustrative.001",
+      "shell_2xM3_reference",
+      "shell_A",
+      "shell_B",
+      "slipring_CP164_fixed_rotor",
+      "slipring_CP164_rotating_body",
+      "slipring_mount_screws",
+      "STUDIO_floor_display_only",
+      "yaw_bearing_cap",
+      "yaw_bearing_cap_screws",
+      "yaw_home_magnet_reference",
+      "yaw_home_sensor_envelope",
+      "yaw_main_bearing_12x21x5",
+      "yaw_retainer_screws",
+      "yaw_service_cover",
+      "yaw_service_cover_screws",
+      "yaw_servo_case",
+      "yaw_servo_horn_reference",
+      "yaw_servo_mount_screws",
+      "yaw_servo_output",
+      "yaw_shaft_retainer",
+      "yaw_spur_pinion_16T"
+    ],
+    "mesh_checks": {
+      "one_piece_core": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      "stack_spacers_11mm_reference": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      "speaker_top_bridge": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      "speaker_bridge_screws": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      },
+      "CSI_FRONT_SERVICE_SPACE_NOT_CABLE": {
+        "nonmanifold_edges": 0,
+        "zero_area_faces": 0
+      }
+    },
+    "external_assets": [],
+    "libraries": 0,
+    "manufacturing_release": false
+  },
+  "assembly_checks": {
+    "reference_intersections": [],
+    "vertical_insertion_intersections": [],
+    "insertion_step_mm": 0.5,
+    "insertion_lift_range_mm": [
+      0,
+      40
+    ],
+    "top_driver_columns": [
+      [
+        -24.905665,
+        -0.4064600000000027,
+        0.0
+      ],
+      [
+        -24.905665,
+        -23.306593,
+        0.0
+      ],
+      [
+        32.944359,
+        -0.4064600000000027,
+        0.0
+      ],
+      [
+        32.894321,
+        -23.256553,
+        0.0
+      ]
+    ],
+    "driver_radius_mm": 3.3,
+    "speaker_bridge_removed_for_board_assembly": true,
+    "radxa_method": "Voxel diagnostic .10 mm + .02 mm simplification, original triangle keepout verified at 4 mounts; not manufacturing geometry",
+    "yaw_intersections": [],
+    "yaw_step_deg": 1
+  },
+  "pitch_checks": [],
+  "neutral_intersections": [
+    [
+      "one_piece_core",
+      "pitch_servo_clamp_screws_reference",
+      0.14077
+    ],
+    [
+      "one_piece_core",
+      "slipring_mount_screws",
+      3.89907
+    ],
+    [
+      "one_piece_core",
+      "yaw_retainer_screws",
+      6.96936
+    ],
+    [
+      "servo_lead_plugs",
+      "straight_servo_headers",
+      11.5729
+    ],
+    [
+      "hat_stacked_screws",
+      "servo_hat_native_board",
+      0.56335
+    ],
+    [
+      "hat_stacked_screws",
+      "stack_spacers_11mm_reference",
+      25.48066
+    ],
+    [
+      "one_piece_core",
+      "speaker_bridge_screws",
+      12.07571
+    ],
+    [
+      "one_piece_core",
+      "stack_spacers_11mm_reference",
+      12.27959
+    ]
+  ],
+  "interpretation": {
+    "reference_thread_interference": "Expected screw/pilot engagement in reference hardware; not a tapped-thread manufacturing model.",
+    "header_plug_overlap": "Mating connector envelope, not a detailed socket cavity.",
+    "Radxa_conservative_post_overlap": "Per-component convex approximation fills local mounting keepout. Original triangle-face distances and .10/.15 voxel copies distinguish this from real obstruction. Old crossbar along USB insertion path was removed."
+  },
+  "original_triangle_mount_proof": {
+    "method": "Original triangles clipped above each Z plane; exact distance from hole center to their XY polygon projection; not a vertex-only test. Radius-5 AABB culling cannot exclude a closer polygon when reported minima are under 5 mm.",
+    "scope": "Diagnostic only; original mesh has numerical PCB surface variation near Z=11.966. Components above Z=11.98 are separately assessed. Voxel diagnostics are needed to exclude containment and test full insertion paths.",
+    "rows": [
+      {
+        "old_world_center_mm": [
+          -24.905665,
+          -23.30654
+        ],
+        "support_radius_mm": 2.0,
+        "new_world_center_mm": [
+          -24.905665,
+          -0.4064600000000027
+        ],
+        "cuts": [
+          {
+            "raw_Z_cut_mm": 11.9661,
+            "minimum_projected_surface_distance_mm": 3.6193049928484444,
+            "radial_margin_to_R2_support_mm": 1.6193049928484444,
+            "closest_clipped_polygon_mm": [
+              [
+                -25.266632080078125,
+                -19.705280303955078,
+                12.536203384399414
+              ],
+              [
+                -25.270538330078125,
+                -19.70553207397461,
+                12.535951614379883
+              ],
+              [
+                -25.264686584472656,
+                -19.704959869384766,
+                12.535951614379883
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 11.98,
+            "minimum_projected_surface_distance_mm": 3.6193049928484444,
+            "radial_margin_to_R2_support_mm": 1.6193049928484444,
+            "closest_clipped_polygon_mm": [
+              [
+                -25.266632080078125,
+                -19.705280303955078,
+                12.536203384399414
+              ],
+              [
+                -25.270538330078125,
+                -19.70553207397461,
+                12.535951614379883
+              ],
+              [
+                -25.264686584472656,
+                -19.704959869384766,
+                12.535951614379883
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.016,
+            "minimum_projected_surface_distance_mm": 3.6193049928484444,
+            "radial_margin_to_R2_support_mm": 1.6193049928484444,
+            "closest_clipped_polygon_mm": [
+              [
+                -25.266632080078125,
+                -19.705280303955078,
+                12.536203384399414
+              ],
+              [
+                -25.270538330078125,
+                -19.70553207397461,
+                12.535951614379883
+              ],
+              [
+                -25.264686584472656,
+                -19.704959869384766,
+                12.535951614379883
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.066,
+            "minimum_projected_surface_distance_mm": 3.6193049928484444,
+            "radial_margin_to_R2_support_mm": 1.6193049928484444,
+            "closest_clipped_polygon_mm": [
+              [
+                -25.266632080078125,
+                -19.705280303955078,
+                12.536203384399414
+              ],
+              [
+                -25.270538330078125,
+                -19.70553207397461,
+                12.535951614379883
+              ],
+              [
+                -25.264686584472656,
+                -19.704959869384766,
+                12.535951614379883
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "old_world_center_mm": [
+          -24.905665,
+          -0.406407
+        ],
+        "support_radius_mm": 2.0,
+        "new_world_center_mm": [
+          -24.905665,
+          -23.306593
+        ],
+        "cuts": [
+          {
+            "raw_Z_cut_mm": 11.9661,
+            "minimum_projected_surface_distance_mm": 3.5983267637584486,
+            "radial_margin_to_R2_support_mm": 1.5983267637584486,
+            "closest_clipped_polygon_mm": [
+              [
+                -22.21933937072754,
+                -2.800485134124756,
+                12.448824882507324
+              ],
+              [
+                -22.1777400970459,
+                -4.075484752655029,
+                12.311988830566406
+              ],
+              [
+                -22.21933937072754,
+                -4.075484752655029,
+                12.44882583618164
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 11.98,
+            "minimum_projected_surface_distance_mm": 3.5983267637584486,
+            "radial_margin_to_R2_support_mm": 1.5983267637584486,
+            "closest_clipped_polygon_mm": [
+              [
+                -22.21933937072754,
+                -2.800485134124756,
+                12.448824882507324
+              ],
+              [
+                -22.1777400970459,
+                -4.075484752655029,
+                12.311988830566406
+              ],
+              [
+                -22.21933937072754,
+                -4.075484752655029,
+                12.44882583618164
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.016,
+            "minimum_projected_surface_distance_mm": 3.5983267637584486,
+            "radial_margin_to_R2_support_mm": 1.5983267637584486,
+            "closest_clipped_polygon_mm": [
+              [
+                -22.21933937072754,
+                -2.800485134124756,
+                12.448824882507324
+              ],
+              [
+                -22.1777400970459,
+                -4.075484752655029,
+                12.311988830566406
+              ],
+              [
+                -22.21933937072754,
+                -4.075484752655029,
+                12.44882583618164
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.066,
+            "minimum_projected_surface_distance_mm": 3.5983267637584486,
+            "radial_margin_to_R2_support_mm": 1.5983267637584486,
+            "closest_clipped_polygon_mm": [
+              [
+                -22.21933937072754,
+                -2.800485134124756,
+                12.448824882507324
+              ],
+              [
+                -22.1777400970459,
+                -4.075484752655029,
+                12.311988830566406
+              ],
+              [
+                -22.21933937072754,
+                -4.075484752655029,
+                12.44882583618164
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "old_world_center_mm": [
+          32.944359,
+          -23.30654
+        ],
+        "support_radius_mm": 2.0,
+        "new_world_center_mm": [
+          32.944359,
+          -0.4064600000000027
+        ],
+        "cuts": [
+          {
+            "raw_Z_cut_mm": 11.9661,
+            "minimum_projected_surface_distance_mm": 1.527264015576639,
+            "radial_margin_to_R2_support_mm": -0.47273598442336096,
+            "closest_clipped_polygon_mm": [
+              [
+                27.518665313720703,
+                -20.73248291015625,
+                11.970949172973633
+              ],
+              [
+                31.755302308703268,
+                -22.34370416526293,
+                11.9661
+              ],
+              [
+                31.809658585101342,
+                -22.284292309024814,
+                11.9661
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 11.98,
+            "minimum_projected_surface_distance_mm": 3.9741550216565766,
+            "radial_margin_to_R2_support_mm": 1.9741550216565766,
+            "closest_clipped_polygon_mm": [
+              [
+                33.75967025756836,
+                -19.416915893554688,
+                12.115945816040039
+              ],
+              [
+                33.768218994140625,
+                -19.418682098388672,
+                12.115945816040039
+              ],
+              [
+                33.79426574707031,
+                -19.420955657958984,
+                12.115945816040039
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.016,
+            "minimum_projected_surface_distance_mm": 3.9741550216565766,
+            "radial_margin_to_R2_support_mm": 1.9741550216565766,
+            "closest_clipped_polygon_mm": [
+              [
+                33.75967025756836,
+                -19.416915893554688,
+                12.115945816040039
+              ],
+              [
+                33.768218994140625,
+                -19.418682098388672,
+                12.115945816040039
+              ],
+              [
+                33.79426574707031,
+                -19.420955657958984,
+                12.115945816040039
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.066,
+            "minimum_projected_surface_distance_mm": 3.9741550216565766,
+            "radial_margin_to_R2_support_mm": 1.9741550216565766,
+            "closest_clipped_polygon_mm": [
+              [
+                33.75967025756836,
+                -19.416915893554688,
+                12.115945816040039
+              ],
+              [
+                33.768218994140625,
+                -19.418682098388672,
+                12.115945816040039
+              ],
+              [
+                33.79426574707031,
+                -19.420955657958984,
+                12.115945816040039
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "old_world_center_mm": [
+          32.894321,
+          -0.456447
+        ],
+        "support_radius_mm": 2.0,
+        "new_world_center_mm": [
+          32.894321,
+          -23.256553
+        ],
+        "cuts": [
+          {
+            "raw_Z_cut_mm": 11.9661,
+            "minimum_projected_surface_distance_mm": 3.9641561352937376,
+            "radial_margin_to_R2_support_mm": 1.9641561352937376,
+            "closest_clipped_polygon_mm": [
+              [
+                33.75967025756836,
+                -4.325000286102295,
+                12.115943908691406
+              ],
+              [
+                33.785545349121094,
+                -4.3212103843688965,
+                12.115943908691406
+              ],
+              [
+                33.768218994140625,
+                -4.3232340812683105,
+                12.115943908691406
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 11.98,
+            "minimum_projected_surface_distance_mm": 3.9641561352937376,
+            "radial_margin_to_R2_support_mm": 1.9641561352937376,
+            "closest_clipped_polygon_mm": [
+              [
+                33.75967025756836,
+                -4.325000286102295,
+                12.115943908691406
+              ],
+              [
+                33.785545349121094,
+                -4.3212103843688965,
+                12.115943908691406
+              ],
+              [
+                33.768218994140625,
+                -4.3232340812683105,
+                12.115943908691406
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.016,
+            "minimum_projected_surface_distance_mm": 3.9641561352937376,
+            "radial_margin_to_R2_support_mm": 1.9641561352937376,
+            "closest_clipped_polygon_mm": [
+              [
+                33.75967025756836,
+                -4.325000286102295,
+                12.115943908691406
+              ],
+              [
+                33.785545349121094,
+                -4.3212103843688965,
+                12.115943908691406
+              ],
+              [
+                33.768218994140625,
+                -4.3232340812683105,
+                12.115943908691406
+              ]
+            ]
+          },
+          {
+            "raw_Z_cut_mm": 12.066,
+            "minimum_projected_surface_distance_mm": 3.9641561352937376,
+            "radial_margin_to_R2_support_mm": 1.9641561352937376,
+            "closest_clipped_polygon_mm": [
+              [
+                33.75967025756836,
+                -4.325000286102295,
+                12.115943908691406
+              ],
+              [
+                33.785545349121094,
+                -4.3212103843688965,
+                12.115943908691406
+              ],
+              [
+                33.768218994140625,
+                -4.3232340812683105,
+                12.115943908691406
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "board_installation_sequence": [
+    "remove speaker_top_bridge and camera module",
+    "lower Radxa vertically onto supports",
+    "tighten four 11mm spacers from above",
+    "mate HAT from above, then tighten four upward-facing heads",
+    "connect servo and CSI leads",
+    "refit speaker_top_bridge, secure two rear-facing screws",
+    "install battery, camera module and exterior shells"
+  ],
+  "GPIO_pairing_preserved_by_common_rigid_transform": true,
+  "hat_servo_headers_direction": "+Z",
+  "HAT_screw_head_direction": "+Z",
+  "outer_shells_unchanged": true,
+  "microphones_unchanged": true,
+  "supply_V": 5,
+  "manufacturing_release": false,
+  "limitations": [
+    "Original Radxa reference is nonmanifold; diagnostic voxel .10mm and .02mm simplification approximates clearances. Original rendered mesh is retained unchanged.",
+    "Mic references use per-component conservative envelopes.",
+    "Insertion checked with speaker bridge and camera moving module removed.",
+    "PCB dimensions, hole coordinates, stud lengths, available drivers and actual connectors/lead bend radii require physical checks.",
+    "No control firmware or 5V load/precision qualification performed."
+  ]
+}

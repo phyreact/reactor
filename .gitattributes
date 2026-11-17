@@ -31,6 +31,9 @@ assets/reactor-family.png export-ignore
 *.blend export-ignore
 donald-microduck/mechanical/duck.blend -export-ignore
 mickeyhub/mickeyhub.blend -export-ignore
+dolphin/dolphin.blend -export-ignore
+xpen/cad/xpen-v55-assembly.blend -export-ignore
+xpen/cad/xpen-v55-editable-shell.blend -export-ignore
 *.glb export-ignore
 *.step export-ignore
 *.stp export-ignore

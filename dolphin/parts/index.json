@@ -1,0 +1,276 @@
+{
+  "units": "mm",
+  "coordinates": "neutral assembly",
+  "parts": [
+    {
+      "object": "shell_A",
+      "file": "shell_A.stl",
+      "bounds_mm": [
+        [
+          -59.99927520751953,
+          -36.5,
+          -53.95000076293945
+        ],
+        [
+          60.0,
+          2.5,
+          59.98479461669922
+        ]
+      ],
+      "triangles": 31378,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "shell_B",
+      "file": "shell_B.stl",
+      "bounds_mm": [
+        [
+          -59.99927520751953,
+          0.10000000149011612,
+          -53.95000076293945
+        ],
+        [
+          60.0,
+          36.5,
+          59.98479461669922
+        ]
+      ],
+      "triangles": 31530,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "one_piece_core",
+      "file": "one_piece_core.stl",
+      "bounds_mm": [
+        [
+          -52.999847412109375,
+          -27.5,
+          -57.900001525878906
+        ],
+        [
+          41.0,
+          26.5,
+          30.799999237060547
+        ]
+      ],
+      "triangles": 20876,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "camera_cover_cradle",
+      "file": "camera_cover_cradle.stl",
+      "bounds_mm": [
+        [
+          -55.79835891723633,
+          -18.649999618530273,
+          -45.14314651489258
+        ],
+        [
+          25.332670211791992,
+          18.649999618530273,
+          55.7993278503418
+        ]
+      ],
+      "triangles": 16504,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "fixed_base",
+      "file": "fixed_base.stl",
+      "bounds_mm": [
+        [
+          -38.0,
+          -36.5,
+          -72.9000015258789
+        ],
+        [
+          38.0,
+          36.5,
+          -51.79999923706055
+        ]
+      ],
+      "triangles": 16878,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "base_top_cover",
+      "file": "base_top_cover.stl",
+      "bounds_mm": [
+        [
+          -34.43648147583008,
+          -34.55810546875,
+          -59.599998474121094
+        ],
+        [
+          34.43648147583008,
+          34.55810546875,
+          -55.5
+        ]
+      ],
+      "triangles": 1566,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "pitch_pinion_40T",
+      "file": "pitch_pinion_40T.stl",
+      "bounds_mm": [
+        [
+          -48.71049118041992,
+          -18.44999885559082,
+          -36.997676849365234
+        ],
+        [
+          -6.715134143829346,
+          -16.049999237060547,
+          4.997678756713867
+        ]
+      ],
+      "triangles": 4896,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "pitch_servo_clamp_strap",
+      "file": "pitch_servo_clamp_strap.stl",
+      "bounds_mm": [
+        [
+          -35.71281433105469,
+          6.699999809265137,
+          -39.70000076293945
+        ],
+        [
+          -34.112815856933594,
+          11.699999809265137,
+          -3.700000047683716
+        ]
+      ],
+      "triangles": 1028,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "pitch_servo_clamp_pads",
+      "file": "pitch_servo_clamp_pads.stl",
+      "bounds_mm": [
+        [
+          -34.11281204223633,
+          6.700000286102295,
+          -33.70000076293945
+        ],
+        [
+          -21.31281280517578,
+          11.699999809265137,
+          -9.700000762939453
+        ]
+      ],
+      "triangles": 48,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "yaw_bearing_cap",
+      "file": "yaw_bearing_cap.stl",
+      "bounds_mm": [
+        [
+          -14.5,
+          -12.5,
+          -53.0
+        ],
+        [
+          14.5,
+          16.5,
+          -50.29999923706055
+        ]
+      ],
+      "triangles": 4022,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "yaw_spur_pinion_16T",
+      "file": "yaw_spur_pinion_16T.stl",
+      "bounds_mm": [
+        [
+          10.289590835571289,
+          -19.526531219482422,
+          -60.400001525878906
+        ],
+        [
+          28.289255142211914,
+          -1.5268652439117432,
+          -40.79999923706055
+        ]
+      ],
+      "triangles": 5256,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "yaw_shaft_retainer",
+      "file": "yaw_shaft_retainer.stl",
+      "bounds_mm": [
+        [
+          -7.199999809265137,
+          -5.199999809265137,
+          -60.099998474121094
+        ],
+        [
+          7.199999809265137,
+          9.199999809265137,
+          -57.0
+        ]
+      ],
+      "triangles": 2640,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "yaw_service_cover",
+      "file": "yaw_service_cover.stl",
+      "bounds_mm": [
+        [
+          -19.0,
+          -17.0,
+          -72.9000015258789
+        ],
+        [
+          19.0,
+          21.0,
+          -70.4000015258789
+        ]
+      ],
+      "triangles": 1924,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "charge_lead_clamp",
+      "file": "charge_lead_clamp.stl",
+      "bounds_mm": [
+        [
+          -6.0,
+          10.0,
+          -68.0
+        ],
+        [
+          6.0,
+          16.0,
+          -65.5
+        ]
+      ],
+      "triangles": 908,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    },
+    {
+      "object": "speaker_top_bridge",
+      "file": "speaker_top_bridge.stl",
+      "bounds_mm": [
+        [
+          -20.299999237060547,
+          -26.299999237060547,
+          23.5
+        ],
+        [
+          44.20000076293945,
+          5.900000095367432,
+          43.5
+        ]
+      ],
+      "triangles": 3006,
+      "status": "structural layout prototype; hardware and print fit unqualified"
+    }
+  ]
+}
